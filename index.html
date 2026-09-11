@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Science Companion — An Illustrated Book of Discovery</title>
+
+  <!-- High-legibility Literary Fonts: Newsreader (Body Book Serif) & Plus Jakarta Sans (Minimal UI) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['Newsreader', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', '-apple-system', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          colors: {
+            // Warm sepia paper palette (easy on eyes, zero glare)
+            paper: {
+              50: '#fdfbf7',
+              100: '#f7f3ea',
+              200: '#ede6d6',
+              300: '#ded4be',
+              700: '#524b3e',
+              800: '#3a3429',
+              900: '#231f18'
+            },
+            // Calm night paper (soft slate, not neon black)
+            night: {
+              950: '#131518',
+              900: '#181b20',
+              850: '#1e2229',
+              800: '#262c35',
+              200: '#d5d9e0',
+              300: '#9aa2b0'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    [x-cloak] { display: none !important; }
+
+    /* Drop-cap styling for timeless literary feel */
+    .book-dropcap::first-letter {
+      float: left;
+      font-size: 3.4em;
+      line-height: 0.82;
+      margin-top: 0.08em;
+      margin-right: 0.14em;
+      font-family: 'Newsreader', Georgia, serif;
+      font-weight: 600;
+      color: currentColor;
+    }
+
+    /* Elegant quiet scrollbars */
+    ::-webkit-scrollbar {
+      width: 5px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(140, 130, 115, 0.25);
+      border-radius: 9999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(140, 130, 115, 0.5);
+    }
+  </style>
+
+  <!-- Preloaded Data Script (Instant offline & file:// execution) -->
+  <script src="data/science_data.js"></script>
+
+  <!-- Application Logic -->
+  <script src="js/app.js"></script>
+
+  <!-- Alpine.js Core -->
+  <script defer src="https://unpkg.com/alpinejs@3.13.5/dist/cdn.min.js"></script>
+</head>
+
+<body 
+  x-data="scienceApp()" 
+  x-init="initApp()"
+  :class="{
+    'bg-paper-50 text-paper-900 selection:bg-amber-200 selection:text-paper-900': theme === 'sepia',
+    'bg-[#fcfcfc] text-[#242424] selection:bg-slate-200 selection:text-black': theme === 'light',
+    'bg-night-950 text-night-200 selection:bg-indigo-900 selection:text-white': theme === 'night'
+  }"
+  class="min-h-screen font-serif antialiased transition-colors duration-300 flex flex-col">
+
+  <!-- Minimalist Quiet Book Header -->
+  <header class="sticky top-0 z-30 backdrop-blur-md border-b transition-colors duration-200"
+          :class="{
+            'bg-paper-50/90 border-paper-200/80': theme === 'sepia',
+            'bg-white/90 border-neutral-200': theme === 'light',
+            'bg-night-950/90 border-night-850': theme === 'night'
+          }">
+    <div class="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 h-16 flex items-center justify-between">
+      
+      <!-- Table of Contents Toggle & Book Title -->
+      <div class="flex items-center space-x-3">
+        <button 
+          @click="drawerOpen = !drawerOpen" 
+          class="p-2 rounded-lg font-sans text-xs font-semibold flex items-center space-x-2 transition-colors border"
+          :class="{
+            'border-paper-200 text-paper-700 hover:bg-paper-100': theme === 'sepia',
+            'border-neutral-200 text-neutral-600 hover:bg-neutral-100': theme === 'light',
+            'border-night-800 text-night-300 hover:bg-night-900': theme === 'night'
+          }"
+          title="Open Chapters Table of Contents">
+          <span>📖</span>
+          <span class="hidden sm:inline">Chapters</span>
+        </button>
+
+        <div class="h-4 w-px opacity-30" :class="theme === 'night' ? 'bg-night-800' : 'bg-neutral-300'"></div>
+
+        <span class="font-sans text-xs font-semibold tracking-tight uppercase opacity-60"
+              x-text="currentChapter ? 'Chapter ' + currentChapter.number : 'Science Companion'"></span>
+      </div>
+
+      <!-- Navigation Views (Book Reader, Hall of Giants, Archive) -->
+      <nav class="hidden md:flex items-center space-x-1 font-sans text-xs font-medium">
+        <button 
+          @click="activeView = 'book'" 
+          class="px-3 py-1.5 rounded-lg transition-colors"
+          :class="activeView === 'book' ? (theme === 'night' ? 'bg-night-850 text-white font-semibold' : 'bg-paper-200/80 text-paper-900 font-semibold') : 'opacity-70 hover:opacity-100'">
+          Reading Room
+        </button>
+
+        <button 
+          @click="activeView = 'giants'" 
+          class="px-3 py-1.5 rounded-lg transition-colors flex items-center space-x-1"
+          :class="activeView === 'giants' ? (theme === 'night' ? 'bg-night-850 text-white font-semibold' : 'bg-paper-200/80 text-paper-900 font-semibold') : 'opacity-70 hover:opacity-100'">
+          <span>Pioneers</span>
+          <span class="text-[10px] opacity-75" x-text="'(' + (data.scientists ? data.scientists.length : 37) + ')'"></span>
+        </button>
+
+        <button 
+          @click="activeView = 'nobel'" 
+          class="px-3 py-1.5 rounded-lg transition-colors"
+          :class="activeView === 'nobel' ? (theme === 'night' ? 'bg-night-850 text-white font-semibold' : 'bg-paper-200/80 text-paper-900 font-semibold') : 'opacity-70 hover:opacity-100'">
+          Nobel Archive
+        </button>
+
+        <button 
+          @click="activeView = 'inventions'" 
+          class="px-3 py-1.5 rounded-lg transition-colors"
+          :class="activeView === 'inventions' ? (theme === 'night' ? 'bg-night-850 text-white font-semibold' : 'bg-paper-200/80 text-paper-900 font-semibold') : 'opacity-70 hover:opacity-100'">
+          Discoveries & Tools
+        </button>
+      </nav>
+
+      <!-- Reader Controls (Eye-care Themes & Font Size) -->
+      <div class="flex items-center space-x-2 font-sans">
+        <!-- Font Size Scaler -->
+        <button 
+          @click="cycleFontSize()" 
+          class="px-2.5 py-1 text-xs font-semibold rounded-lg border transition-colors"
+          :class="{
+            'border-paper-200 text-paper-800 hover:bg-paper-100': theme === 'sepia',
+            'border-neutral-200 text-neutral-800 hover:bg-neutral-100': theme === 'light',
+            'border-night-800 text-night-200 hover:bg-night-900': theme === 'night'
+          }"
+          title="Toggle font size">
+          <span class="opacity-60 text-[10px]">Font: </span>
+          <span x-text="fontSizeIndex === 0 ? 'Normal' : (fontSizeIndex === 1 ? 'Large' : 'Book')"></span>
+        </button>
+
+        <!-- Paper Palettes: Warm Sepia / Clean White / Night Slate -->
+        <div class="flex items-center p-1 rounded-xl border space-x-1"
+             :class="{
+               'border-paper-200 bg-paper-100/70': theme === 'sepia',
+               'border-neutral-200 bg-neutral-100': theme === 'light',
+               'border-night-800 bg-night-900': theme === 'night'
+             }">
+          <button 
+            @click="setTheme('sepia')" 
+            class="w-5 h-5 rounded-full bg-[#ede6d6] border transition-transform hover:scale-110"
+            :class="theme === 'sepia' ? 'ring-2 ring-amber-600 scale-105' : 'border-neutral-300 opacity-60'"
+            title="Warm Sepia Paper (Easy on Eyes)"></button>
+          
+          <button 
+            @click="setTheme('light')" 
+            class="w-5 h-5 rounded-full bg-white border transition-transform hover:scale-110"
+            :class="theme === 'light' ? 'ring-2 ring-neutral-800 scale-105' : 'border-neutral-300 opacity-60'"
+            title="Clean White Page"></button>
+
+          <button 
+            @click="setTheme('night')" 
+            class="w-5 h-5 rounded-full bg-[#181b20] border transition-transform hover:scale-110"
+            :class="theme === 'night' ? 'ring-2 ring-indigo-400 scale-105' : 'border-night-700 opacity-60'"
+            title="Calm Night Theme"></button>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Table of Contents Slideout Drawer -->
+  <div x-show="drawerOpen" x-cloak 
+       class="fixed inset-0 z-50 overflow-hidden bg-black/40 backdrop-blur-sm flex justify-start"
+       @keydown.escape.window="drawerOpen = false">
+    
+    <div @click.outside="drawerOpen = false"
+         class="w-80 max-w-full h-full p-6 shadow-2xl overflow-y-auto font-sans flex flex-col justify-between transition-all"
+         :class="{
+           'bg-paper-100 text-paper-900': theme === 'sepia',
+           'bg-white text-neutral-900 border-r border-neutral-200': theme === 'light',
+           'bg-night-900 text-night-200 border-r border-night-800': theme === 'night'
+         }">
+      
+      <div>
+        <div class="flex items-center justify-between pb-4 border-b"
+             :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
+          <span class="font-bold text-sm uppercase tracking-wider opacity-60">Table of Contents</span>
+          <button @click="drawerOpen = false" class="text-sm p-1 opacity-60 hover:opacity-100">✕</button>
+        </div>
+
+        <!-- Chapters List -->
+        <div class="py-4 space-y-2">
+          <template x-for="ch in (data.chapters || [])" :key="ch.id">
+            <div 
+              @click="selectChapter(ch.id)"
+              class="p-3 rounded-xl cursor-pointer transition-colors border text-left"
+              :class="selectedChapterId === ch.id ? (theme === 'night' ? 'bg-night-800 border-indigo-500/50' : 'bg-paper-200 border-amber-500/40') : 'border-transparent opacity-75 hover:opacity-100 hover:bg-black/5'">
+              <div class="text-[10px] font-mono opacity-60 uppercase mb-0.5" x-text="'Chapter ' + ch.number"></div>
+              <div class="text-sm font-semibold leading-tight font-serif" x-text="ch.title"></div>
+            </div>
+          </template>
+        </div>
+
+        <div class="pt-4 border-t space-y-1.5 text-xs font-semibold"
+             :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
+          <div class="text-[10px] font-mono opacity-50 uppercase mb-2">Appendices</div>
+          <button @click="activeView = 'giants'; drawerOpen = false" class="w-full text-left py-1.5 px-2 rounded hover:bg-black/5 flex items-center justify-between">
+            <span>🧑‍🔬 Hall of Pioneers (37 Scientists)</span>
+            <span class="text-[10px] opacity-60">→</span>
+          </button>
+          <button @click="activeView = 'nobel'; drawerOpen = false" class="w-full text-left py-1.5 px-2 rounded hover:bg-black/5 flex items-center justify-between">
+            <span>🏅 Nobel Prize Archive (1901–2024)</span>
+            <span class="text-[10px] opacity-60">→</span>
+          </button>
+          <button @click="activeView = 'inventions'; drawerOpen = false" class="w-full text-left py-1.5 px-2 rounded hover:bg-black/5 flex items-center justify-between">
+            <span>💡 Inventions & Discoveries</span>
+            <span class="text-[10px] opacity-60">→</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="text-[11px] opacity-50 font-mono text-center pt-6">
+        Science Companion • Calming Reading Edition
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ========================================================================= -->
+  <!-- MAIN READING CONTAINER (Spacious, Elegant Literary Layout) -->
+  <!-- ========================================================================= -->
+  <main class="flex-1 max-w-5xl w-full mx-auto px-6 sm:px-10 lg:px-12 py-12 md:py-16">
+
+    <!-- ======================================================================= -->
+    <!-- VIEW 1: THE BOOK CHAPTER READER -->
+    <!-- ======================================================================= -->
+    <div x-show="activeView === 'book'" class="space-y-12">
+
+      <!-- Chapter Title Page Header -->
+      <div class="text-center border-b pb-12 transition-colors"
+           :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
+        
+        <div class="font-sans text-xs font-mono uppercase tracking-widest opacity-60 mb-2"
+             x-text="currentChapter ? 'Chapter ' + currentChapter.number : 'Chapter 1'"></div>
+        
+        <h1 class="text-3xl sm:text-5xl font-medium tracking-tight leading-tight mb-4 font-serif"
+            x-text="currentChapter ? currentChapter.title : 'The Art of Asking Questions'"></h1>
+        
+        <p class="text-base sm:text-xl italic font-serif opacity-75 max-w-3xl mx-auto leading-relaxed"
+           x-text="currentChapter ? currentChapter.subtitle : 'The Philosophy of Science and the Scientific Method'"></p>
+
+        <!-- Chapter 1 Feynman Inscription -->
+        <template x-if="selectedChapterId === 'ch1'">
+          <div class="mt-8 max-w-2xl mx-auto pt-6 border-t border-dashed opacity-75"
+               :class="theme === 'night' ? 'border-night-800' : 'border-paper-300'">
+            <blockquote class="italic text-sm sm:text-base font-serif leading-relaxed">
+              "I would rather have questions that can't be answered than answers that can't be questioned."
+            </blockquote>
+            <cite class="font-sans text-xs not-italic font-semibold tracking-wide uppercase opacity-75 block mt-2">
+              — Richard Feynman
+            </cite>
+          </div>
+        </template>
+      </div>
+
+      <!-- Book Sections Reading Flow -->
+      <div class="space-y-16">
+        <template x-for="(sec, sIdx) in (currentChapter && currentChapter.bookSections ? currentChapter.bookSections : [])" :key="sec.id">
+          <section class="space-y-6">
+            
+            <!-- Section Roman Numeral & Title -->
+            <div class="pt-4">
+              <div class="font-sans text-xs uppercase tracking-widest font-semibold opacity-50 mb-1"
+                   x-text="'§ ' + (sIdx + 1) + '. ' + sec.subtitle"></div>
+              <h2 class="text-2xl sm:text-3xl font-serif font-semibold tracking-tight"
+                  x-text="sec.title"></h2>
+            </div>
+
+            <!-- Paragraphs with Literary Typesetting -->
+            <div class="space-y-6" :class="currentFontSizeClass">
+              <template x-for="(para, pIdx) in sec.paragraphs" :key="pIdx">
+                <div class="leading-relaxed">
+                  
+                  <!-- If it has bullet points or lists -->
+                  <template x-if="para.includes('•') || para.includes('1. ')">
+                    <div class="p-6 rounded-2xl border font-sans text-sm sm:text-base my-4 leading-relaxed"
+                         :class="{
+                           'bg-paper-100/60 border-paper-200 text-paper-900': theme === 'sepia',
+                           'bg-neutral-50 border-neutral-200 text-neutral-800': theme === 'light',
+                           'bg-night-900/60 border-night-800 text-night-200': theme === 'night'
+                         }">
+                      <div class="whitespace-pre-line" x-text="para"></div>
+                    </div>
+                  </template>
+
+                  <!-- Standard prose paragraph -->
+                  <template x-if="!para.includes('•') && !para.includes('1. ')">
+                    <p :class="pIdx === 0 && sIdx === 0 ? 'book-dropcap font-serif' : 'font-serif opacity-90'"
+                       x-text="para"></p>
+                  </template>
+
+                </div>
+              </template>
+            </div>
+
+            <!-- Gentle Divider between sections -->
+            <div class="flex items-center justify-center pt-8 opacity-30">
+              <span class="text-sm tracking-widest">❦</span>
+            </div>
+
+          </section>
+        </template>
+      </div>
+
+      <!-- Chapter Bottom Navigation (Next / Previous Chapter) -->
+      <div class="pt-12 border-t flex items-center justify-between font-sans text-xs font-semibold"
+           :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
+        <div>
+          <template x-if="selectedChapterId === 'ch2'">
+            <button @click="selectChapter('ch1')" class="hover:underline flex items-center space-x-1">
+              <span>← Chapter 1: The Art of Asking Questions</span>
+            </button>
+          </template>
+        </div>
+
+        <div>
+          <template x-if="selectedChapterId === 'ch1'">
+            <button @click="selectChapter('ch2')" class="hover:underline flex items-center space-x-1 font-bold">
+              <span>Chapter 2: The Language of the Universe →</span>
+            </button>
+          </template>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- ======================================================================= -->
+    <!-- VIEW 2: HALL OF GIANTS (Quiet Biographical Compendium) -->
+    <!-- ======================================================================= -->
+    <div x-show="activeView === 'giants'" class="space-y-8">
+      
+      <div class="border-b pb-6" :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
+        <h2 class="text-3xl font-serif font-medium tracking-tight mb-2">The Hall of Pioneers</h2>
+        <p class="font-serif text-base italic opacity-75">
+          "If I have seen further, it is by standing on the shoulders of giants." — Sir Isaac Newton
+        </p>
+
+        <!-- Filter bar -->
+        <div class="mt-6 flex flex-wrap items-center gap-3 font-sans text-xs">
+          <input 
+            type="text" 
+            x-model="searchQuery"
+            placeholder="Filter by name or discovery..." 
+            class="px-3 py-1.5 rounded-lg border focus:outline-none"
+            :class="{
+              'bg-paper-100 border-paper-300 text-paper-900': theme === 'sepia',
+              'bg-white border-neutral-300 text-neutral-900': theme === 'light',
+              'bg-night-900 border-night-800 text-night-200': theme === 'night'
+            }">
+
+          <select 
+            x-model="scientistFilter"
+            class="px-3 py-1.5 rounded-lg border focus:outline-none"
+            :class="{
+              'bg-paper-100 border-paper-300 text-paper-900': theme === 'sepia',
+              'bg-white border-neutral-300 text-neutral-900': theme === 'light',
+              'bg-night-900 border-night-800 text-night-200': theme === 'night'
+            }">
+            <option value="all">All Scientific Fields</option>
+            <option value="Physics">Physics</option>
+            <option value="Chemistry">Chemistry</option>
+            <option value="Astronomy">Astronomy</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="Medicine">Medicine / Biology</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Peaceful list of scientists -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10">
+        <template x-for="s in filteredScientists" :key="s.id">
+          <article class="border-b pb-8 transition-colors flex flex-col justify-between"
+                   :class="theme === 'night' ? 'border-night-800/80' : 'border-paper-200'">
+            
+            <div>
+              <div class="flex items-center justify-between font-sans text-xs opacity-60 mb-1.5">
+                <span x-text="s.era"></span>
+                <span x-show="s.nobelPrize" class="font-semibold text-amber-700 dark:text-amber-400">Nobel Laureate</span>
+              </div>
+
+              <h3 class="text-2xl font-serif font-semibold mb-1" x-text="s.name"></h3>
+              <div class="font-sans text-xs opacity-75 mb-3" x-text="s.country"></div>
+
+              <!-- Famous quote -->
+              <blockquote class="font-serif italic text-sm sm:text-base opacity-85 my-3 pl-4 border-l-2"
+                          :class="theme === 'night' ? 'border-night-700' : 'border-paper-300'"
+                          x-text="'“' + s.famousQuote + '”'">
+              </blockquote>
+
+              <p class="font-serif text-sm sm:text-base leading-relaxed opacity-90 mb-4" x-text="s.details"></p>
+            </div>
+
+            <div class="font-sans text-xs opacity-80 pt-3 border-t border-dashed"
+                 :class="theme === 'night' ? 'border-night-850' : 'border-paper-200'">
+              <strong>Crown Discovery:</strong> <span x-text="s.majorDiscovery"></span>
+            </div>
+          </article>
+        </template>
+      </div>
+
+    </div>
+
+
+    <!-- ======================================================================= -->
+    <!-- VIEW 3: NOBEL ARCHIVE -->
+    <!-- ======================================================================= -->
+    <div x-show="activeView === 'nobel'" class="space-y-8">
+      
+      <div class="border-b pb-6" :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
+        <h2 class="text-3xl font-serif font-medium tracking-tight mb-2">The Nobel Archive</h2>
+        <p class="font-serif text-base italic opacity-75">
+          Major scientific landmarks in Physics, Chemistry, and Medicine since 1901.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
+        <template x-for="p in (data.nobelPrizes || [])" :key="p.year + p.category + p.laureates.join('')">
+          <div class="border-b pb-6 font-serif flex flex-col justify-between"
+               :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
+            <div>
+              <div class="flex items-center space-x-2 font-sans text-xs font-semibold opacity-60 mb-1">
+                <span x-text="p.year"></span>
+                <span>•</span>
+                <span x-text="p.category"></span>
+                <span>•</span>
+                <span x-text="p.country"></span>
+              </div>
+
+              <h3 class="text-xl font-semibold mb-2" x-text="p.laureates.join(', ')"></h3>
+            </div>
+            <p class="text-sm sm:text-base italic opacity-85 leading-relaxed mt-1" x-text="'“' + p.citation + '”'"></p>
+          </div>
+        </template>
+      </div>
+
+    </div>
+
+
+    <!-- ======================================================================= -->
+    <!-- VIEW 4: INVENTIONS & DISCOVERIES -->
+    <!-- ======================================================================= -->
+    <div x-show="activeView === 'inventions'" class="space-y-8">
+      
+      <div class="border-b pb-6" :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
+        <h2 class="text-3xl font-serif font-medium tracking-tight mb-2">Discoveries and Inventions</h2>
+        <p class="font-serif text-base italic opacity-75">
+          A quiet catalog of tools humanity invented and eternal laws of nature we uncovered.
+        </p>
+      </div>
+
+      <!-- Discoveries -->
+      <div>
+        <h3 class="font-sans text-xs font-bold uppercase tracking-wider opacity-60 mb-6">Fundamental Discoveries</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
+          <template x-for="d in (data.discoveries || [])" :key="d.id">
+            <div class="border-b pb-5 font-serif flex flex-col justify-between" :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
+              <div>
+                <div class="font-sans text-xs opacity-60 mb-0.5" x-text="d.period + ' • ' + d.field"></div>
+                <h4 class="text-lg font-semibold mb-1" x-text="d.name"></h4>
+                <div class="font-sans text-xs opacity-75 mb-1.5">Pioneered by: <strong x-text="d.discoverer"></strong></div>
+              </div>
+              <p class="text-sm sm:text-base opacity-85 leading-relaxed mt-2" x-text="d.impact"></p>
+            </div>
+          </template>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- Quiet Literary Footer -->
+  <footer class="border-t py-12 transition-colors font-serif text-center text-xs opacity-60 mt-auto"
+          :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
+    <div class="max-w-xl mx-auto px-6 space-y-2">
+      <div>Science Companion — Designed for Calm, Thoughtful Learning</div>
+      <div class="font-sans text-[11px]">No distractions • Pure typography • Completely offline</div>
+    </div>
+  </footer>
+
+</body>
+</html>
