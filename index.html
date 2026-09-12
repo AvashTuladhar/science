@@ -398,17 +398,17 @@
       <div class="pt-12 border-t flex items-center justify-between font-sans text-xs font-semibold"
            :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
         <div>
-          <template x-if="selectedChapterId === 'ch2'">
-            <button @click="selectChapter('ch1')" class="hover:underline flex items-center space-x-1">
-              <span>← Chapter 1: The Art of Asking Questions</span>
+          <template x-if="previousChapter">
+            <button @click="selectChapter(previousChapter.id)" class="hover:underline flex items-center space-x-1 py-2">
+              <span x-text="'← Chapter ' + previousChapter.number + ': ' + previousChapter.title"></span>
             </button>
           </template>
         </div>
 
         <div>
-          <template x-if="selectedChapterId === 'ch1'">
-            <button @click="selectChapter('ch2')" class="hover:underline flex items-center space-x-1 font-bold">
-              <span>Chapter 2: The Language of the Universe →</span>
+          <template x-if="nextChapter">
+            <button @click="selectChapter(nextChapter.id)" class="hover:underline flex items-center space-x-1 font-bold py-2">
+              <span x-text="'Chapter ' + nextChapter.number + ': ' + nextChapter.title + ' →'"></span>
             </button>
           </template>
         </div>
@@ -522,6 +522,9 @@
               <h3 class="text-xl font-semibold mb-2" x-text="p.laureates.join(', ')"></h3>
             </div>
             <p class="text-sm sm:text-base italic opacity-85 leading-relaxed mt-1" x-text="'“' + p.citation + '”'"></p>
+            <p x-show="p.story" class="text-xs sm:text-sm font-sans opacity-75 mt-3 pt-2 border-t border-dashed leading-relaxed"
+               :class="theme === 'night' ? 'border-night-850' : 'border-paper-200'"
+               x-text="p.story"></p>
           </div>
         </template>
       </div>
@@ -553,6 +556,23 @@
                 <div class="font-sans text-xs opacity-75 mb-1.5">Pioneered by: <strong x-text="d.discoverer"></strong></div>
               </div>
               <p class="text-sm sm:text-base opacity-85 leading-relaxed mt-2" x-text="d.impact"></p>
+            </div>
+          </template>
+        </div>
+      </div>
+
+      <!-- Inventions -->
+      <div class="pt-8 border-t" :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
+        <h3 class="font-sans text-xs font-bold uppercase tracking-wider opacity-60 mb-6">Epoch-Making Inventions</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
+          <template x-for="inv in (data.inventions || [])" :key="inv.id">
+            <div class="border-b pb-5 font-serif flex flex-col justify-between" :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
+              <div>
+                <div class="font-sans text-xs opacity-60 mb-0.5" x-text="inv.year + ' • ' + inv.category"></div>
+                <h4 class="text-lg font-semibold mb-1" x-text="inv.name"></h4>
+                <div class="font-sans text-xs opacity-75 mb-1.5">Invented by: <strong x-text="inv.inventor"></strong></div>
+              </div>
+              <p class="text-sm sm:text-base opacity-85 leading-relaxed mt-2" x-text="inv.significance"></p>
             </div>
           </template>
         </div>

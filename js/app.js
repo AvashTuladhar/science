@@ -61,6 +61,18 @@ function scienceApp() {
       return this.data.chapters.find(c => c.id === this.selectedChapterId) || this.data.chapters[0];
     },
 
+    get previousChapter() {
+      if (!this.data.chapters || this.data.chapters.length === 0) return null;
+      const idx = this.data.chapters.findIndex(c => c.id === this.selectedChapterId);
+      return idx > 0 ? this.data.chapters[idx - 1] : null;
+    },
+
+    get nextChapter() {
+      if (!this.data.chapters || this.data.chapters.length === 0) return null;
+      const idx = this.data.chapters.findIndex(c => c.id === this.selectedChapterId);
+      return (idx >= 0 && idx < this.data.chapters.length - 1) ? this.data.chapters[idx + 1] : null;
+    },
+
     selectChapter(chapterId) {
       this.selectedChapterId = chapterId;
       this.activeView = 'book';
