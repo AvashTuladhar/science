@@ -6,6 +6,7 @@ window.SCIENCE_MANIFEST = {
   "totalScientists": 37,
   "totalDiscoveries": 20,
   "totalInventions": 18,
+  "totalNobelPrizes": 35,
   "chapters": [
     {
       "id": "ch1",

@@ -32,6 +32,15 @@ function scienceApp() {
     milestoneTimelineFilter: 'all', // 'all', 'discovery', 'invention'
     milestoneViewMode: 'story', // 'story' (timeline + deep reading) or 'catalog' (compact list)
     milestoneSearchQuery: '',
+
+    // =========================================================================
+    // NOBEL ARCHIVE TIMELINE & DEEP READER STATE
+    // =========================================================================
+    selectedNobelId: 'nobel_1901_rontgen',
+    nobelTimelineFilter: 'all', // 'all', 'early_20th', 'interwar_quantum', 'postwar_molecular', 'late_20th', '21st_century'
+    nobelCategoryFilter: 'all', // 'all', 'Physics', 'Chemistry', 'Physiology or Medicine'
+    nobelViewMode: 'story', // 'story' (timeline + deep reading) or 'archive' (compact list)
+    nobelSearchQuery: '',
     
     // Data store loaded immediately from window.SCIENCE_MANIFEST / window.SCIENCE_DATA
     data: {
@@ -297,6 +306,67 @@ function scienceApp() {
     },
 
     // =========================================================================
+    // NOBEL ARCHIVE LOGIC & COMPUTED PROPERTIES
+    // =========================================================================
+    get nobelTimelineList() {
+      const list = (this.data.nobelPrizes || []).slice();
+      return list.sort((a, b) => (a.year || 0) - (b.year || 0));
+    },
+
+    get filteredNobelPrizes() {
+      let list = this.nobelTimelineList;
+      if (this.nobelCategoryFilter !== 'all') {
+        list = list.filter(p => p.category === this.nobelCategoryFilter);
+      }
+      if (this.nobelTimelineFilter !== 'all') {
+        list = list.filter(p => p.periodGroup === this.nobelTimelineFilter);
+      }
+      const q = this.nobelSearchQuery.toLowerCase().trim();
+      if (q) {
+        list = list.filter(p =>
+          (p.title && p.title.toLowerCase().includes(q)) ||
+          p.laureates.some(l => l.toLowerCase().includes(q)) ||
+          (p.citation && p.citation.toLowerCase().includes(q)) ||
+          (p.category && p.category.toLowerCase().includes(q)) ||
+          (p.country && p.country.toLowerCase().includes(q)) ||
+          String(p.year).includes(q)
+        );
+      }
+      return list;
+    },
+
+    get selectedNobel() {
+      const list = this.data.nobelPrizes || [];
+      if (list.length === 0) return null;
+      return list.find(p => p.id === this.selectedNobelId) || list[0];
+    },
+
+    selectNobel(id) {
+      this.selectedNobelId = id;
+      this.nobelViewMode = 'story';
+      const el = document.getElementById('nobel-reader-anchor');
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    },
+
+    selectPreviousNobel() {
+      const list = this.filteredNobelPrizes;
+      if (!list || list.length === 0) return;
+      const idx = list.findIndex(p => p.id === this.selectedNobelId);
+      if (idx > 0) {
+        this.selectNobel(list[idx - 1].id);
+      }
+    },
+
+    selectNextNobel() {
+      const list = this.filteredNobelPrizes;
+      if (!list || list.length === 0) return;
+      const idx = list.findIndex(p => p.id === this.selectedNobelId);
+      if (idx >= 0 && idx < list.length - 1) {
+        this.selectNobel(list[idx + 1].id);
+      }
+    },
+
+    // =========================================================================
     // AUDIO VOICE OVER / NARRATOR (Web Speech API)
     // =========================================================================
     isNarrating: false,
@@ -491,6 +561,50 @@ function scienceApp() {
       this.synth.speak(utterance);
     },
 
+    toggleNarrateNobel(p) {
+      if (!this.synth) {
+        alert('Your browser does not support text-to-speech audio.');
+        return;
+      }
+
+      const key = 'nobel_' + p.id;
+      if (this.isNarrating && this.currentNarratingSection === key) {
+        this.stopNarration();
+        return;
+      }
+
+      this.stopNarration();
+      this.currentNarratingSection = key;
+      this.isNarrating = true;
+      this.isPaused = false;
+
+      const textToRead = p.year + ' Nobel Prize in ' + p.category + ', awarded to ' + p.laureates.join(', ') + '. ' +
+        (p.title || '') + '. Citation: ' + p.citation + '. ' +
+        'The World Before: ' + (p.theWorldBefore || '') + ' ' +
+        'The Breakthrough Moment: ' + (p.theBreakthroughMoment || '') + ' ' +
+        'How It Works: ' + (p.howItActuallyWorks || '') + ' ' +
+        'Lasting Wonder: ' + (p.lastingWonderAndLegacy || p.story || '');
+
+      const utterance = new SpeechSynthesisUtterance(textToRead);
+      if (this.selectedVoice) utterance.voice = this.selectedVoice;
+      utterance.rate = this.speechRate;
+      utterance.pitch = 1.0;
+
+      utterance.onend = () => {
+        this.isNarrating = false;
+        this.isPaused = false;
+        this.currentNarratingSection = null;
+      };
+
+      utterance.onerror = () => {
+        this.isNarrating = false;
+        this.isPaused = false;
+        this.currentNarratingSection = null;
+      };
+
+      this.synth.speak(utterance);
+    },
+
     stopNarration() {
       if (this.synth) {
         this.synth.cancel();
@@ -512,6 +626,8 @@ function scienceApp() {
           if (this.selectedScientist) this.toggleNarrateScientist(this.selectedScientist);
         } else if (activeId && activeId.startsWith('milestone_')) {
           if (this.selectedMilestone) this.toggleNarrateMilestone(this.selectedMilestone);
+        } else if (activeId && activeId.startsWith('nobel_')) {
+          if (this.selectedNobel) this.toggleNarrateNobel(this.selectedNobel);
         } else {
           const sec = (this.currentChapter?.bookSections || []).find(s => s.id === activeId);
           if (sec) this.toggleNarrateSection(sec);

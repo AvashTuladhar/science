@@ -664,38 +664,329 @@
 
     </div>
 
-<!-- ======================================================================= -->
-    <!-- VIEW 3: NOBEL ARCHIVE -->
+    <!-- ======================================================================= -->
+    <!-- VIEW 3: NOBEL ARCHIVE (Chronological Timeline & Deep Story Reader) -->
     <!-- ======================================================================= -->
     <div x-show="activeView === 'nobel'" class="space-y-8">
       
+      <!-- Header & Controls -->
       <div class="border-b pb-6" :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
-        <h2 class="text-3xl font-serif font-medium tracking-tight mb-2">The Nobel Archive</h2>
-        <p class="font-serif text-base italic opacity-75">
-          Major scientific landmarks in Physics, Chemistry, and Medicine since 1901.
-        </p>
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+          <div>
+            <h2 class="text-3xl sm:text-4xl font-serif font-medium tracking-tight mb-2">The Nobel Archive</h2>
+            <p class="font-serif text-base italic opacity-75">
+              Landmark discoveries, fundamental insights, and civilizational leaps honored in Stockholm since 1901.
+            </p>
+          </div>
+
+          <!-- View Mode Toggle -->
+          <div class="flex items-center p-1 rounded-xl border self-start sm:self-auto font-sans text-xs"
+               :class="theme === 'night' ? 'border-night-800 bg-night-900/80' : 'border-paper-200 bg-paper-100/70'">
+            <button 
+              @click="nobelViewMode = 'story'" 
+              class="px-3 py-1.5 rounded-lg transition-colors flex items-center space-x-1.5"
+              :class="nobelViewMode === 'story' ? (theme === 'night' ? 'bg-night-800 text-white font-semibold shadow-sm' : 'bg-white text-paper-900 font-semibold shadow-sm') : 'opacity-70 hover:opacity-100'">
+              <span>📖</span>
+              <span>Timeline & Story</span>
+            </button>
+            <button 
+              @click="nobelViewMode = 'archive'" 
+              class="px-3 py-1.5 rounded-lg transition-colors flex items-center space-x-1.5"
+              :class="nobelViewMode === 'archive' ? (theme === 'night' ? 'bg-night-800 text-white font-semibold shadow-sm' : 'bg-white text-paper-900 font-semibold shadow-sm') : 'opacity-70 hover:opacity-100'">
+              <span>🏅</span>
+              <span x-text="'Complete Archive (' + (data.nobelPrizes ? data.nobelPrizes.length : 35) + ')'"></span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Filter Bar (Discipline, Era, Search) -->
+        <div class="mt-6 flex flex-wrap items-center gap-3 font-sans text-xs">
+          <!-- Discipline Pills -->
+          <div class="flex flex-wrap items-center gap-1.5">
+            <button 
+              @click="nobelCategoryFilter = 'all'"
+              class="px-3 py-1 rounded-full border transition-colors text-[11px]"
+              :class="nobelCategoryFilter === 'all' ? (theme === 'night' ? 'bg-night-800 border-indigo-500 text-white font-semibold' : 'bg-paper-200 border-amber-600 text-paper-900 font-semibold') : (theme === 'night' ? 'border-night-800 text-night-300' : 'border-paper-200 text-paper-700')">
+              All Disciplines
+            </button>
+            <button 
+              @click="nobelCategoryFilter = 'Physics'"
+              class="px-3 py-1 rounded-full border transition-colors text-[11px]"
+              :class="nobelCategoryFilter === 'Physics' ? (theme === 'night' ? 'bg-night-800 border-indigo-500 text-white font-semibold' : 'bg-paper-200 border-amber-600 text-paper-900 font-semibold') : (theme === 'night' ? 'border-night-800 text-night-300' : 'border-paper-200 text-paper-700')">
+              ⚛ Physics
+            </button>
+            <button 
+              @click="nobelCategoryFilter = 'Chemistry'"
+              class="px-3 py-1 rounded-full border transition-colors text-[11px]"
+              :class="nobelCategoryFilter === 'Chemistry' ? (theme === 'night' ? 'bg-night-800 border-indigo-500 text-white font-semibold' : 'bg-paper-200 border-amber-600 text-paper-900 font-semibold') : (theme === 'night' ? 'border-night-800 text-night-300' : 'border-paper-200 text-paper-700')">
+              🧪 Chemistry
+            </button>
+            <button 
+              @click="nobelCategoryFilter = 'Physiology or Medicine'"
+              class="px-3 py-1 rounded-full border transition-colors text-[11px]"
+              :class="nobelCategoryFilter === 'Physiology or Medicine' ? (theme === 'night' ? 'bg-night-800 border-indigo-500 text-white font-semibold' : 'bg-paper-200 border-amber-600 text-paper-900 font-semibold') : (theme === 'night' ? 'border-night-800 text-night-300' : 'border-paper-200 text-paper-700')">
+              🧬 Medicine
+            </button>
+          </div>
+
+          <!-- Era Pills -->
+          <div class="flex flex-wrap items-center gap-1.5 sm:border-l sm:pl-3"
+               :class="theme === 'night' ? 'sm:border-night-800' : 'sm:border-paper-200'">
+            <button 
+              @click="nobelTimelineFilter = 'all'"
+              class="px-2.5 py-1 rounded-full border transition-colors text-[11px]"
+              :class="nobelTimelineFilter === 'all' ? (theme === 'night' ? 'bg-night-800 border-indigo-500 text-white font-semibold' : 'bg-paper-200 border-amber-600 text-paper-900 font-semibold') : (theme === 'night' ? 'border-night-800 text-night-300' : 'border-paper-200 text-paper-700')">
+              All Eras
+            </button>
+            <button 
+              @click="nobelTimelineFilter = 'early_20th'"
+              class="px-2.5 py-1 rounded-full border transition-colors text-[11px]"
+              :class="nobelTimelineFilter === 'early_20th' ? (theme === 'night' ? 'bg-night-800 border-indigo-500 text-white font-semibold' : 'bg-paper-200 border-amber-600 text-paper-900 font-semibold') : (theme === 'night' ? 'border-night-800 text-night-300' : 'border-paper-200 text-paper-700')">
+              1901–1918
+            </button>
+            <button 
+              @click="nobelTimelineFilter = 'interwar_quantum'"
+              class="px-2.5 py-1 rounded-full border transition-colors text-[11px]"
+              :class="nobelTimelineFilter === 'interwar_quantum' ? (theme === 'night' ? 'bg-night-800 border-indigo-500 text-white font-semibold' : 'bg-paper-200 border-amber-600 text-paper-900 font-semibold') : (theme === 'night' ? 'border-night-800 text-night-300' : 'border-paper-200 text-paper-700')">
+              1919–1939
+            </button>
+            <button 
+              @click="nobelTimelineFilter = 'postwar_molecular'"
+              class="px-2.5 py-1 rounded-full border transition-colors text-[11px]"
+              :class="nobelTimelineFilter === 'postwar_molecular' ? (theme === 'night' ? 'bg-night-800 border-indigo-500 text-white font-semibold' : 'bg-paper-200 border-amber-600 text-paper-900 font-semibold') : (theme === 'night' ? 'border-night-800 text-night-300' : 'border-paper-200 text-paper-700')">
+              1940–1969
+            </button>
+            <button 
+              @click="nobelTimelineFilter = 'late_20th'"
+              class="px-2.5 py-1 rounded-full border transition-colors text-[11px]"
+              :class="nobelTimelineFilter === 'late_20th' ? (theme === 'night' ? 'bg-night-800 border-indigo-500 text-white font-semibold' : 'bg-paper-200 border-amber-600 text-paper-900 font-semibold') : (theme === 'night' ? 'border-night-800 text-night-300' : 'border-paper-200 text-paper-700')">
+              1970–1999
+            </button>
+            <button 
+              @click="nobelTimelineFilter = '21st_century'"
+              class="px-2.5 py-1 rounded-full border transition-colors text-[11px]"
+              :class="nobelTimelineFilter === '21st_century' ? (theme === 'night' ? 'bg-night-800 border-indigo-500 text-white font-semibold' : 'bg-paper-200 border-amber-600 text-paper-900 font-semibold') : (theme === 'night' ? 'border-night-800 text-night-300' : 'border-paper-200 text-paper-700')">
+              2000–Present
+            </button>
+          </div>
+
+          <!-- Search Input -->
+          <input 
+            id="nobel-search"
+            name="nobelSearch"
+            aria-label="Search Nobel archive"
+            type="text" 
+            x-model="nobelSearchQuery"
+            placeholder="Search laureate, breakthrough, or year..." 
+            class="px-3 py-1 rounded-lg border focus:outline-none flex-1 min-w-[150px]"
+            :class="{
+              'bg-paper-100 border-paper-300 text-paper-900': theme === 'sepia',
+              'bg-white border-neutral-300 text-neutral-900': theme === 'light',
+              'bg-night-900 border-night-800 text-night-200': theme === 'night'
+            }">
+        </div>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
-        <template x-for="p in (data.nobelPrizes || [])" :key="p.year + p.category + p.laureates.join('')">
-          <div class="border-b pb-6 font-serif flex flex-col justify-between"
-               :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
-            <div>
-              <div class="flex items-center space-x-2 font-sans text-xs font-semibold opacity-60 mb-1">
-                <span x-text="p.year"></span>
-                <span>•</span>
-                <span x-text="p.category"></span>
-                <span>•</span>
-                <span x-text="p.country"></span>
+      <!-- TOP INTERACTIVE NOBEL CHRONOLOGICAL SCROLLER -->
+      <div class="relative py-2">
+        <div class="flex items-center justify-between text-xs font-sans opacity-60 mb-2">
+          <span class="tracking-wide uppercase font-semibold text-[10px]">Chronological Nobel Track</span>
+          <span x-text="'Showing ' + filteredNobelPrizes.length + ' Laureate Landmarks'"></span>
+        </div>
+
+        <!-- Horizontal scroll track -->
+        <div class="flex space-x-3 overflow-x-auto pb-4 pt-1 snap-x scrollbar-thin scroll-smooth"
+             :class="theme === 'night' ? 'scrollbar-thumb-night-800' : 'scrollbar-thumb-paper-300'">
+          <template x-for="p in filteredNobelPrizes" :key="p.id">
+            <button 
+              @click="selectNobel(p.id)"
+              class="flex-shrink-0 text-left p-3.5 rounded-xl border transition-all duration-200 w-60 snap-start flex flex-col justify-between"
+              :class="selectedNobelId === p.id ? (theme === 'night' ? 'bg-night-850 border-indigo-400 ring-2 ring-indigo-400/30' : 'bg-paper-100 border-amber-600 ring-2 ring-amber-600/30 shadow-sm') : (theme === 'night' ? 'border-night-800/80 hover:bg-night-900/60 bg-night-950/40' : 'border-paper-200 hover:bg-paper-100/60 bg-paper-50/50')">
+              
+              <div>
+                <div class="flex items-center justify-between text-[10px] font-sans opacity-70 mb-1">
+                  <span class="font-mono font-bold" x-text="p.yearDisplay || p.year"></span>
+                  <span class="px-1.5 py-0.5 rounded text-[9px] uppercase font-bold"
+                        :class="p.category === 'Physics' ? 'text-indigo-600 dark:text-indigo-400 bg-indigo-500/10' : (p.category === 'Chemistry' ? 'text-emerald-600 dark:text-emerald-400 bg-emerald-500/10' : 'text-rose-600 dark:text-rose-400 bg-rose-500/10')"
+                        x-text="p.category === 'Physiology or Medicine' ? 'Medicine' : p.category"></span>
+                </div>
+                <div class="font-serif font-bold text-base leading-tight truncate" x-text="p.title || (p.category + ' Prize')"></div>
+                <div class="font-sans text-[11px] opacity-75 truncate mt-0.5" x-text="p.laureates.join(', ')"></div>
               </div>
 
-              <h3 class="text-xl font-semibold mb-2" x-text="p.laureates.join(', ')"></h3>
+              <div class="font-sans text-[10px] opacity-60 pt-2 border-t border-dashed mt-2 flex items-center justify-between"
+                   :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
+                <span class="truncate" x-text="p.country"></span>
+                <span class="font-mono text-[9px]" x-text="p.eraLabel ? p.eraLabel.split('(')[0].trim() : ''"></span>
+              </div>
+            </button>
+          </template>
+        </div>
+      </div>
+
+      <!-- NOBEL VIEW MODE 1: FEATURED DEEP STORY READER -->
+      <div x-show="nobelViewMode === 'story' && selectedNobel" id="nobel-reader-anchor" class="pt-2">
+        <template x-if="selectedNobel">
+          <article class="p-6 sm:p-10 rounded-2xl border transition-colors relative space-y-8"
+                   :class="theme === 'night' ? 'bg-night-900/40 border-night-800' : 'bg-paper-100/40 border-paper-200'">
+            
+            <!-- Top Controls Bar -->
+            <div class="flex flex-wrap items-center justify-between gap-4 border-b pb-4"
+                 :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
+              
+              <div class="flex flex-wrap items-center gap-2 font-sans text-xs">
+                <span class="px-2.5 py-0.5 rounded-full font-mono font-bold border"
+                      :class="theme === 'night' ? 'border-night-700 bg-night-800 text-night-200' : 'border-paper-300 bg-paper-200 text-paper-800'"
+                      x-text="selectedNobel.yearDisplay || selectedNobel.year"></span>
+                <span class="px-2.5 py-0.5 rounded-full font-sans text-[10px] font-bold uppercase tracking-wider border"
+                      :class="selectedNobel.category === 'Physics' ? 'bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 border-indigo-500/30' : (selectedNobel.category === 'Chemistry' ? 'bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border-emerald-500/30' : 'bg-rose-500/10 text-rose-600 dark:text-rose-400 border-rose-500/30')"
+                      x-text="selectedNobel.category"></span>
+                <span class="opacity-70 font-sans" x-text="selectedNobel.country"></span>
+              </div>
+
+              <!-- Audio Narration & Prev/Next -->
+              <div class="flex items-center space-x-2 font-sans text-xs">
+                <button 
+                  @click="toggleNarrateNobel(selectedNobel)"
+                  class="px-3 py-1.5 rounded-lg border font-semibold flex items-center space-x-1.5 transition-all"
+                  :class="isNarrating && currentNarratingSection === ('nobel_' + selectedNobel.id) ? 'bg-amber-600 text-white border-amber-600 shadow-sm animate-pulse' : (theme === 'night' ? 'border-night-700 text-night-200 hover:bg-night-800' : 'border-paper-300 text-paper-800 hover:bg-paper-200')">
+                  <span x-text="isNarrating && currentNarratingSection === ('nobel_' + selectedNobel.id) ? '⏹' : '🔊'"></span>
+                  <span x-text="isNarrating && currentNarratingSection === ('nobel_' + selectedNobel.id) ? 'Stop Voice' : 'Read Nobel Chronicle'"></span>
+                </button>
+
+                <div class="flex items-center space-x-1">
+                  <button 
+                    @click="selectPreviousNobel()"
+                    class="p-1.5 rounded-lg border transition-colors hover:opacity-100 opacity-70"
+                    :class="theme === 'night' ? 'border-night-700 text-night-200 hover:bg-night-800' : 'border-paper-300 text-paper-800 hover:bg-paper-200'"
+                    title="Previous Landmark">
+                    <span>←</span>
+                  </button>
+                  <button 
+                    @click="selectNextNobel()"
+                    class="p-1.5 rounded-lg border transition-colors hover:opacity-100 opacity-70"
+                    :class="theme === 'night' ? 'border-night-700 text-night-200 hover:bg-night-800' : 'border-paper-300 text-paper-800 hover:bg-paper-200'"
+                    title="Next Landmark">
+                    <span>→</span>
+                  </button>
+                </div>
+              </div>
             </div>
-            <p class="text-sm sm:text-base italic opacity-85 leading-relaxed mt-1" x-text="'“' + p.citation + '”'"></p>
-            <p x-show="p.story" class="text-xs sm:text-sm font-sans opacity-75 mt-3 pt-2 border-t border-dashed leading-relaxed"
-               :class="theme === 'night' ? 'border-night-850' : 'border-paper-200'"
-               x-text="p.story"></p>
-          </div>
+
+            <!-- Title & Official Citation -->
+            <div>
+              <h3 class="text-3xl sm:text-5xl font-serif font-bold tracking-tight mb-3" x-text="selectedNobel.title || (selectedNobel.category + ' Prize ' + selectedNobel.year)"></h3>
+              <div class="font-sans text-sm sm:text-base font-semibold opacity-80 mb-4" x-text="'Laureates: ' + selectedNobel.laureates.join(', ')"></div>
+
+              <blockquote class="font-serif italic text-lg sm:text-xl opacity-90 pl-5 border-l-4 my-6 py-1"
+                          :class="theme === 'night' ? 'border-indigo-400' : 'border-amber-600'"
+                          x-text="'“' + selectedNobel.citation + '”'">
+              </blockquote>
+            </div>
+
+            <!-- Four Deep Narrative Chapters -->
+            <div class="space-y-8 font-serif leading-relaxed text-base sm:text-lg opacity-90">
+              
+              <!-- 1. The World Before -->
+              <div class="space-y-2">
+                <div class="flex items-center space-x-2 font-sans text-xs font-bold uppercase tracking-wider text-amber-700 dark:text-amber-400">
+                  <span>🌑</span>
+                  <span>The World Before: The Pre-Discovery Darkness & Mystery</span>
+                </div>
+                <p class="pl-0 sm:pl-6 leading-[1.85]" x-text="selectedNobel.theWorldBefore"></p>
+              </div>
+
+              <div class="flex justify-center opacity-25 text-xs">❦</div>
+
+              <!-- 2. The Breakthrough Moment -->
+              <div class="space-y-2">
+                <div class="flex items-center space-x-2 font-sans text-xs font-bold uppercase tracking-wider text-amber-700 dark:text-amber-400">
+                  <span>⚡</span>
+                  <span>The Breakthrough Moment: Spark, Apparatus & Serendipity</span>
+                </div>
+                <p class="pl-0 sm:pl-6 leading-[1.85]" x-text="selectedNobel.theBreakthroughMoment"></p>
+              </div>
+
+              <div class="flex justify-center opacity-25 text-xs">❦</div>
+
+              <!-- 3. How It Actually Works -->
+              <div class="space-y-2">
+                <div class="flex items-center space-x-2 font-sans text-xs font-bold uppercase tracking-wider text-amber-700 dark:text-amber-400">
+                  <span>🔬</span>
+                  <span>How It Actually Works: First Principles & Natural Law</span>
+                </div>
+                <p class="pl-0 sm:pl-6 leading-[1.85]" x-text="selectedNobel.howItActuallyWorks"></p>
+              </div>
+
+              <div class="flex justify-center opacity-25 text-xs">❦</div>
+
+              <!-- 4. Lasting Wonder & Cosmic Legacy -->
+              <div class="space-y-2">
+                <div class="flex items-center space-x-2 font-sans text-xs font-bold uppercase tracking-wider text-amber-700 dark:text-amber-400">
+                  <span>🌌</span>
+                  <span>Lasting Wonder: Civilizational Leap & The Cosmic Legacy</span>
+                </div>
+                <p class="pl-0 sm:pl-6 leading-[1.85]" x-text="selectedNobel.lastingWonderAndLegacy || selectedNobel.story"></p>
+              </div>
+
+            </div>
+
+            <!-- Footer Navigation -->
+            <div class="pt-6 border-t flex items-center justify-between font-sans text-xs font-semibold"
+                 :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
+              <button 
+                @click="selectPreviousNobel()"
+                class="hover:underline flex items-center space-x-1 py-1">
+                <span>← Previous Landmark</span>
+              </button>
+
+              <button 
+                @click="selectNextNobel()"
+                class="hover:underline flex items-center space-x-1 py-1">
+                <span>Next Landmark →</span>
+              </button>
+            </div>
+
+          </article>
+        </template>
+      </div>
+
+      <!-- NOBEL VIEW MODE 2: COMPLETE ARCHIVE GRID -->
+      <div x-show="nobelViewMode === 'archive'" class="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-8 pt-4">
+        <template x-for="p in filteredNobelPrizes" :key="p.id">
+          <article 
+            @click="selectNobel(p.id)"
+            class="p-6 rounded-xl border transition-all cursor-pointer flex flex-col justify-between hover:shadow-md"
+            :class="theme === 'night' ? 'border-night-800/80 bg-night-900/30 hover:border-indigo-400/50' : 'border-paper-200 bg-paper-100/30 hover:border-amber-600/50'">
+            
+            <div>
+              <div class="flex items-center justify-between font-sans text-xs opacity-60 mb-1.5">
+                <div class="flex items-center space-x-2 font-mono font-medium">
+                  <span x-text="p.yearDisplay || p.year"></span>
+                  <span>•</span>
+                  <span x-text="p.country"></span>
+                </div>
+                <span class="px-2 py-0.5 rounded text-[10px] uppercase font-bold"
+                      :class="p.category === 'Physics' ? 'text-indigo-600 dark:text-indigo-400 bg-indigo-500/10' : (p.category === 'Chemistry' ? 'text-emerald-600 dark:text-emerald-400 bg-emerald-500/10' : 'text-rose-600 dark:text-rose-400 bg-rose-500/10')"
+                      x-text="p.category === 'Physiology or Medicine' ? 'Medicine' : p.category"></span>
+              </div>
+
+              <h3 class="text-2xl font-serif font-bold mb-1" x-text="p.title || (p.category + ' ' + p.year)"></h3>
+              <div class="font-sans text-xs font-semibold opacity-75 mb-3" x-text="p.laureates.join(', ')"></div>
+
+              <blockquote class="font-serif italic text-sm opacity-85 leading-relaxed pl-3 border-l-2 mb-4"
+                          :class="theme === 'night' ? 'border-indigo-500/40' : 'border-amber-600/40'"
+                          x-text="'“' + p.citation + '”'"></blockquote>
+
+              <p class="font-serif text-sm leading-relaxed opacity-80 line-clamp-3 mb-4" x-text="p.theBreakthroughMoment || p.story"></p>
+            </div>
+
+            <div class="pt-3 border-t border-dashed flex items-center justify-between font-sans text-xs"
+                 :class="theme === 'night' ? 'border-night-850' : 'border-paper-200'">
+              <span class="text-[11px] opacity-65 truncate" x-text="p.eraLabel"></span>
+              <span class="text-amber-700 dark:text-amber-400 font-semibold hover:underline flex-shrink-0 ml-2">Read Chronicle →</span>
+            </div>
+          </article>
         </template>
       </div>
 

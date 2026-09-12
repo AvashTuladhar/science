@@ -1,4 +1,4 @@
-// Auto-generated Science Companion Data store
+// Science Companion — Complete Compendium Data Store
 window.SCIENCE_DATA = {
   "chapters": [
     {
@@ -12,65 +12,65 @@ window.SCIENCE_DATA = {
           "id": "method",
           "title": "The Philosophy & Scientific Method",
           "summary": "How science works: observation, hypothesis, experiment, falsifiability, and reproducibility.",
-          "content": "Science is not a dusty list of facts, formulas, or Latin names locked inside heavy textbooks. Science is a candle in the dark—a step-by-step way of looking at the universe, asking honest questions, and figuring out what is real.\n\n### The Detective at Work\n1. **Observation:** Noticing an anomaly or curiosity in nature.\n2. **Question:** Asking why or how it happens.\n3. **Hypothesis:** Formulating a testable explanation.\n4. **Prediction:** Deducing logical consequences if the hypothesis holds.\n5. **Experiment:** Rigorous testing against nature.\n6. **Conclusion & Peer Review:** Nature is the ultimate judge.\n\n### The Three Golden Rules\n- **Nature is the Ultimate Judge:** No authority or beauty of theory overrides experiment.\n- **Falsifiability:** A scientific statement must be capable of being proven false.\n- **Reproducibility:** Anyone anywhere running the exact experiment must obtain the identical result."
+          "content": "Science is not a dusty list of facts, formulas, or Latin names locked inside heavy textbooks. Science is a candle in the dark\u2014a step-by-step way of looking at the universe, asking honest questions, and figuring out what is real.\n\n### The Detective at Work\n1. **Observation:** Noticing an anomaly or curiosity in nature.\n2. **Question:** Asking why or how it happens.\n3. **Hypothesis:** Formulating a testable explanation.\n4. **Prediction:** Deducing logical consequences if the hypothesis holds.\n5. **Experiment:** Rigorous testing against nature.\n6. **Conclusion & Peer Review:** Nature is the ultimate judge.\n\n### The Three Golden Rules\n- **Nature is the Ultimate Judge:** No authority or beauty of theory overrides experiment.\n- **Falsifiability:** A scientific statement must be capable of being proven false.\n- **Reproducibility:** Anyone anywhere running the exact experiment must obtain the identical result."
         },
         {
           "id": "eratosthenes",
           "title": "Measuring the Earth with a Stick",
           "summary": "How Eratosthenes used shadows, basic trigonometry, and curiosity in 240 BCE to measure planet Earth.",
-          "content": "Around 240 BCE in Alexandria, Eratosthenes learned that in Syene during the summer solstice noon, the sun shone directly down water wells casting no shadow. Measuring a 7.2° shadow in Alexandria at the identical moment, he deduced that Earth's surface must be curved. Measuring the distance between the cities, he calculated Earth's circumference to within a few percentage points of modern satellites—using only curiosity, sunlight, and a stick."
+          "content": "Around 240 BCE in Alexandria, Eratosthenes learned that in Syene during the summer solstice noon, the sun shone directly down water wells casting no shadow. Measuring a 7.2\u00b0 shadow in Alexandria at the identical moment, he deduced that Earth's surface must be curved. Measuring the distance between the cities, he calculated Earth's circumference to within a few percentage points of modern satellites\u2014using only curiosity, sunlight, and a stick."
         }
       ],
-      "fullMarkdown": "# Chapter 1: The Art of Asking Questions\n## *The Philosophy of Science and the Scientific Method*\n\n---\n\n> *\"I would rather have questions that can't be answered than answers that can't be questioned.\"*  \n> — **Richard Feynman**\n\n---\n\n### Introduction: What is Science, Really?\n\nImagine you wake up on an unfamiliar island with no map, no compass, and no manual. \n\nYou see strange plants, hear sounds in the trees, and notice that every morning the tide washes up colourful shells, only to swallow them back up by afternoon. How do you make sense of this world? \n\nYou wouldn't just sit down and memorize names someone else made up. You would **look**, you would **touch**, you would **test**, and you would **learn**.\n\n```\n   [ Notice something curious ]\n               │\n               ▼\n       [ Ask \"Why?\" ]\n               │\n               ▼\n    [ Make a Guess (Hypothesis) ]\n               │\n               ▼\n       [ Test it (Experiment) ]\n               │\n               ▼\n   [ See what Nature actually does! ]\n```\n\nThat is all **Science** is. \n\nScience is not a dusty list of facts, formulas, or Latin names locked inside heavy textbooks. Science is a **candle in the dark**—a step-by-step way of looking at the universe, asking honest questions, and figuring out what is real.\n\n---\n\n### Part 1: The Detective at Work (Everyday Science)\n\nYou already act like a scientist every single day without realizing it.\n\nThink about what happens when you press the power button on your TV remote and nothing happens:\n\n1. **The Observation:** The TV screen stays black.\n2. **The Question:** Why didn't the TV turn on?\n3. **The Hypothesis (Educated Guess):** Maybe the batteries in the remote are dead.\n4. **The Prediction:** If I swap in fresh batteries, the remote will send a signal, and the TV will turn on.\n5. **The Experiment:** You put fresh batteries into the remote and press the button again.\n6. **The Result:** \n   - *Case A:* The TV turns on! Your hypothesis was supported.\n   - *Case B:* The TV still stays black. Your hypothesis was wrong—time to test a new idea (Is the TV unplugged? Did the fuse blow?).\n\n```\n   +--------------------------------------------------------+\n   |                  THE SCIENTIFIC METHOD                 |\n   +--------------------------------------------------------+\n   | 1. Observation  --> \"The remote isn't working.\"        |\n   | 2. Question     --> \"Why?\"                             |\n   | 3. Hypothesis   --> \"The batteries might be dead.\"     |\n   | 4. Prediction   --> \"New batteries will fix it.\"       |\n   | 5. Experiment   --> Swap batteries and click power.    |\n   | 6. Conclusion   --> Check if it worked or try next!    |\n   +--------------------------------------------------------+\n```\n\nNotice something crucial here: **Finding out you were wrong is NOT a failure.** If the new batteries didn't work, you didn't fail—you just ruled out one possibility and moved one step closer to the real answer.\n\n---\n\n### Part 2: The Three Golden Rules of Science\n\nTo keep ourselves from being fooled, scientists follow three simple yet profound principles:\n\n#### 1. Nature is the Ultimate Judge\nIt does not matter how smart someone is, how famous they are, or how beautiful their idea sounds. If their idea disagrees with what we actually observe in an honest experiment, **the idea is wrong**. \n\n#### 2. Falsifiability (It Must Be Testable)\nFor an idea to be scientific, there must be some imaginable observation that could prove it wrong. \n\n* **Example of a scientific statement:** *\"All swans are white.\"*  \n  *(Why is it scientific? Because you can go searching for birds, and finding a single black swan proves the statement wrong.)*\n* **Example of a non-scientific statement:** *\"There is an invisible, intangible dragon in my room that cannot be touched, heard, or detected by any instrument.\"*  \n  *(Why is this not science? Because there is no possible test you could perform to verify or disprove it.)*\n\n#### 3. Reproducibility (Anyone Can Check)\nIf a scientist in London mixes two clear liquids and turns them bright blue, a student in Tokyo or Kathmandu following the exact same recipe should get the exact same bright blue liquid. Science belongs to everyone; it has no trade secrets.\n\n---\n\n### Part 3: A Real-World Wonder — Measuring the Earth with a Stick\n\nAround 240 BCE—over **2,200 years ago**—a librarian named **Eratosthenes** lived in Alexandria, Egypt. He heard a curious piece of news:\n\nIn a southern city called Syene, at noon on the longest day of the year (the Summer Solstice), the sun shone directly down to the bottom of a deep water well without casting any shadow. The sun was directly overhead.\n\nEratosthenes wondered: *What happens at the exact same moment in Alexandria, hundreds of miles to the north?*\n\n```\n   Sunlight rays (Parallel)\n   ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓\n   \n       Alexandria                 Syene\n        | (Stick)                 | (Well)\n        |  \\                     |\n        |   \\ Shadow             | (No shadow!\n        |    \\                   |  Sun shines straight down)\n   ═══════════════════════════════════════ (Curved Earth)\n```\n\nAt noon on that day in Alexandria, Eratosthenes planted a vertical stick in the ground. Unlike Syene, the stick **did cast a shadow**.\n\nHe reasoned from first principles:\n- The sun is so far away that its rays hit the Earth parallel to each other.\n- If the Earth were flat like a table, both sticks would cast either no shadow or identical shadows.\n- Because one stick cast a shadow while the other did not, **the surface of the Earth must be curved!**\n\nBy simply measuring the angle of that shadow (about $7.2^\\circ$, which is $\\frac{1}{50}\\text{th}$ of a full $360^\\circ$ circle) and calculating the distance between the two cities, he found the circumference of the entire planet to within a few percent of its modern value.\n\nWith nothing more than **curiosity, a wooden stick, sunlight, and basic arithmetic**, human beings measured our planet.\n\n---\n\n### Part 4: The Hall of Giants — Inspiring Pioneers Across Human History\n\nScience is not the invention of one person, one nation, or one era. It is a shared human journey across thousands of years. Whenever someone dared to ask *\"How does this actually work?\"* rather than settling for superstition, humanity took a step forward.\n\nHere are some of the most inspiring minds who lit the way:\n\n```\n  ANCIENT ROOTS               ISLAMIC GOLDEN AGE          SCIENTIFIC REVOLUTION\n  • Archimedes (Greece)       • Alhazen (Iraq/Egypt)      • Galileo Galilei (Italy)\n  • Zhang Heng (China)        • Al-Khwarizmi (Persia)     • Isaac Newton (England)\n  • Aryabhata (India)         • Ibn Sina (Central Asia)   • Leeuwenhoek (Netherlands)\n            │                           │                           │\n            └───────────────────────────┼───────────────────────────┘\n                                        ▼\n                         MODERN DAWN & GLOBAL AGE\n                         • Dmitri Mendeleev (Russia)\n                         • Marie Curie (Poland/France)\n                         • Albert Einstein (Germany/USA)\n                         • Rosalind Franklin (UK)\n                         • S. Chandrasekhar (India/USA)\n                         • Tu Youyou (China)\n                         • Stephen Hawking (UK)\n```\n\n---\n\n#### 🌟 1. The Ancient Inquirers (250 BCE – 600 CE)\n\n* **Archimedes of Syracuse (c. 287–212 BCE, Ancient Greece)**  \n  *The Master of Levers and Floating.* When tasked with proving whether a king's crown was pure gold without melting it, he noticed water spilling over his bathtub when he stepped in. He realized that an object displaces its exact volume of water—leaping out shouting *\"Eureka!\"* (\"I have found it!\"). He proved the power of physics: *\"Give me a place to stand, and I will move the Earth.\"*\n\n* **Zhang Heng (78–139 CE, Ancient China)**  \n  *The Man Who Listened to the Earth.* A brilliant astronomer and mathematician who invented the world's first **seismometer**—an ornate bronze vessel with dragon heads that dropped bronze balls into the mouths of toads to indicate the direction of distant earthquakes hundreds of miles away before anyone felt them.\n\n* **Aryabhata (476–550 CE, Ancient India)**  \n  *The Stargazer of the East.* Without telescopes, he correctly deduced that the Earth rotates on its own axis daily, that the apparent motion of the stars is an optical illusion caused by Earth's spin, and that the Moon and planets shine by reflecting sunlight.\n\n---\n\n#### 🔭 2. The Birth of the True Experiment (900 – 1100 CE)\n\n* **Alhazen / Ibn al-Haytham (965–1040 CE, Iraq & Egypt)**  \n  *The Father of Modern Optics and Experimental Science.* Before Alhazen, philosophers argued about vision by sitting in chairs debating opinions. Alhazen said: *We must test it.* He built dark rooms (*camera obscura*), bounced light rays off mirrors, and proved that light travels into our eyes, not out of them. He famously wrote:  \n  > *\"The seeker after the truth is not one who studies the writings of the ancients and puts his trust in them, but rather the one who suspects his faith in them and questions what he gathers from them.\"*\n\n---\n\n#### 🌍 3. The Scientific Revolution (1500s – 1700s)\n\n* **Galileo Galilei (1564–1642, Italy)**  \n  *The Rebel with a Telescope.* Galileo built his own telescope and pointed it at the night sky. He saw craters on the Moon and discovered four moons orbiting Jupiter—proving that Earth was not the center of all motion. He dropped balls of different weights to show that all objects accelerate at the exact same rate under gravity.\n\n* **Sir Isaac Newton (1643–1727, England)**  \n  *The Architect of Universal Laws.* Sitting in an orchard and watching an apple fall, Newton asked a radical question: *Does the force pulling this apple down reach all the way to the Moon?* He discovered the **Laws of Motion** and the **Law of Universal Gravitation**, proving that the same mathematics governs a falling fruit and the dance of the planets.\n\n* **Antonie van Leeuwenhoek (1632–1723, Netherlands)**  \n  *The Explorer of the Invisible.* A fabric merchant with no university degree, he ground tiny glass beads into magnifying lenses of unbelievable precision. Looking at a single drop of pond water, he discovered an entire invisible universe teeming with microscopic life—he called them \"animalcules\" (bacteria and protozoa).\n\n---\n\n#### 💡 4. The Unravelers of Matter and Life (1800s – 1900s)\n\n* **Charles Darwin (1809–1882, England)**  \n  *The Chronicler of Life's Unity.* After a five-year voyage on the HMS Beagle observing finches, tortoises, and fossils, he realized that all living organisms share a common ancestor and evolve through a process called **Natural Selection**.\n\n* **Dmitri Mendeleev (1834–1907, Russia)**  \n  *The Master of the Elements.* He wrote each known element on a card and arranged them by weight and properties. When patterns emerged, he found empty spots and boldly predicted the existence and properties of undiscovered elements (like Gallium and Germanium)—and years later, nature proved him exactly right.\n\n* **Marie Skłodowska-Curie (1867–1934, Poland / France)**  \n  *The Fearless Pioneer of Radiation.* Working in a cold, leaky shed, she processed tons of pitchblende ore with bare hands to isolate two new elements: **Polonium** and **Radium**. She coined the term *radioactivity* and remains the **only person in history to win Nobel Prizes in two different scientific fields** (Physics in 1903 and Chemistry in 1911).\n\n* **Albert Einstein (1879–1955, Germany / Switzerland / USA)**  \n  *The Daydreamer Who Bent Spacetime.* As a clerk in a patent office, he ran \"thought experiments\" in his mind: *What would the world look like if I rode alongside a beam of light?* He revealed that space and time are woven together, that mass is energy ($E = mc^2$), and that gravity is the bending of spacetime by matter.\n\n---\n\n#### 🚀 5. Modern Voyagers of the Mind (20th Century – Present)\n\n* **Rosalind Franklin (1920–1958, UK)**  \n  *The Secret of the Double Helix.* An expert X-ray crystallographer whose famous \"Photo 51\" revealed the twisted-ladder structure of DNA—the chemical software of all life on Earth.\n\n* **Subrahmanyan Chandrasekhar (1910–1995, India / USA)**  \n  *The Master of Collapsing Stars.* At just 19 years old, on a steamship journey from India to England, he calculated that dying stars above a certain mass (the *Chandrasekhar Limit*) cannot resist their own gravity and must collapse into black holes.\n\n* **Tu Youyou (1930–Present, China)**  \n  *The Savior of Millions.* A pharmacologist who combined ancient herbal wisdom with modern scientific extraction methods to discover **Artemisinin**, an anti-malarial medicine that has saved millions of human lives around the globe.\n\n* **Stephen Hawking (1942–2018, UK)**  \n  *The Mind Beyond Horizons.* Despite losing almost all physical movement to ALS, his mind journeyed to the edge of black holes, discovering that they slowly glow and evaporate (*Hawking Radiation*) and proving that human curiosity has no physical limits.\n\n---\n\n### Part 5: The Spark Within You\n\nNone of these scientists were born with superpowers. They were ordinary human beings who did something extraordinary: **they refused to stop asking questions.**\n\nWhenever you look at a cloud and wonder why it doesn't fall, or wonder why ice floats in water, you are standing in the very same shoes that Archimedes, Marie Curie, and Newton stood in.\n\n---\n\n### Part 6: Your Turn to Think (Puzzles for the Mind)\n\nHere are three thought experiments for you to ponder. There are no trick questions—just exercise your curiosity!\n\n1. **The Plant Puzzle:** You have two identical green houseplants. You place Plant A on a sunny windowsill and Plant B inside a dark closet. You give both plants the same amount of water. After two weeks, Plant A is thriving and Plant B has turned pale and wilted.  \n   - *What was the single variable that changed?*  \n   - *Can you formulate a simple hypothesis based on this result?*\n\n2. **The \"Lucky\" Socks:** A basketball player wears red socks during a game and scores a career-high 30 points. She concludes: *\"Wearing these red socks causes me to score more points.\"*  \n   - *How would you design a fair test to check if the socks really give her basketball superpowers?*\n\n3. **Curiosity Check:** Look around the room you are currently sitting in. Pick one everyday object (a lamp, a cup of water, a window, a wooden table).  \n   - *What is one question you have about how it works, what it's made of, or why it behaves the way it does?*\n\n---\n\n### What's Next?\nWhen you've finished reading this chapter, hop back into the chat. Tell me which scientist's story inspired you the most, share your thoughts on the three puzzles, or ask any questions that came to mind! \n\nOnce we discuss these, we will venture into **Chapter 2: The Language of the Universe (Finding Patterns with Numbers and Shapes)**.\n",
+      "fullMarkdown": "# Chapter 1: The Art of Asking Questions\n## *The Philosophy of Science and the Scientific Method*\n\n---\n\n> *\"I would rather have questions that can't be answered than answers that can't be questioned.\"*  \n> \u2014 **Richard Feynman**\n\n---\n\n### Introduction: What is Science, Really?\n\nImagine you wake up on an unfamiliar island with no map, no compass, and no manual. \n\nYou see strange plants, hear sounds in the trees, and notice that every morning the tide washes up colourful shells, only to swallow them back up by afternoon. How do you make sense of this world? \n\nYou wouldn't just sit down and memorize names someone else made up. You would **look**, you would **touch**, you would **test**, and you would **learn**.\n\n```\n   [ Notice something curious ]\n               \u2502\n               \u25bc\n       [ Ask \"Why?\" ]\n               \u2502\n               \u25bc\n    [ Make a Guess (Hypothesis) ]\n               \u2502\n               \u25bc\n       [ Test it (Experiment) ]\n               \u2502\n               \u25bc\n   [ See what Nature actually does! ]\n```\n\nThat is all **Science** is. \n\nScience is not a dusty list of facts, formulas, or Latin names locked inside heavy textbooks. Science is a **candle in the dark**\u2014a step-by-step way of looking at the universe, asking honest questions, and figuring out what is real.\n\n---\n\n### Part 1: The Detective at Work (Everyday Science)\n\nYou already act like a scientist every single day without realizing it.\n\nThink about what happens when you press the power button on your TV remote and nothing happens:\n\n1. **The Observation:** The TV screen stays black.\n2. **The Question:** Why didn't the TV turn on?\n3. **The Hypothesis (Educated Guess):** Maybe the batteries in the remote are dead.\n4. **The Prediction:** If I swap in fresh batteries, the remote will send a signal, and the TV will turn on.\n5. **The Experiment:** You put fresh batteries into the remote and press the button again.\n6. **The Result:** \n   - *Case A:* The TV turns on! Your hypothesis was supported.\n   - *Case B:* The TV still stays black. Your hypothesis was wrong\u2014time to test a new idea (Is the TV unplugged? Did the fuse blow?).\n\n```\n   +--------------------------------------------------------+\n   |                  THE SCIENTIFIC METHOD                 |\n   +--------------------------------------------------------+\n   | 1. Observation  --> \"The remote isn't working.\"        |\n   | 2. Question     --> \"Why?\"                             |\n   | 3. Hypothesis   --> \"The batteries might be dead.\"     |\n   | 4. Prediction   --> \"New batteries will fix it.\"       |\n   | 5. Experiment   --> Swap batteries and click power.    |\n   | 6. Conclusion   --> Check if it worked or try next!    |\n   +--------------------------------------------------------+\n```\n\nNotice something crucial here: **Finding out you were wrong is NOT a failure.** If the new batteries didn't work, you didn't fail\u2014you just ruled out one possibility and moved one step closer to the real answer.\n\n---\n\n### Part 2: The Three Golden Rules of Science\n\nTo keep ourselves from being fooled, scientists follow three simple yet profound principles:\n\n#### 1. Nature is the Ultimate Judge\nIt does not matter how smart someone is, how famous they are, or how beautiful their idea sounds. If their idea disagrees with what we actually observe in an honest experiment, **the idea is wrong**. \n\n#### 2. Falsifiability (It Must Be Testable)\nFor an idea to be scientific, there must be some imaginable observation that could prove it wrong. \n\n* **Example of a scientific statement:** *\"All swans are white.\"*  \n  *(Why is it scientific? Because you can go searching for birds, and finding a single black swan proves the statement wrong.)*\n* **Example of a non-scientific statement:** *\"There is an invisible, intangible dragon in my room that cannot be touched, heard, or detected by any instrument.\"*  \n  *(Why is this not science? Because there is no possible test you could perform to verify or disprove it.)*\n\n#### 3. Reproducibility (Anyone Can Check)\nIf a scientist in London mixes two clear liquids and turns them bright blue, a student in Tokyo or Kathmandu following the exact same recipe should get the exact same bright blue liquid. Science belongs to everyone; it has no trade secrets.\n\n---\n\n### Part 3: A Real-World Wonder \u2014 Measuring the Earth with a Stick\n\nAround 240 BCE\u2014over **2,200 years ago**\u2014a librarian named **Eratosthenes** lived in Alexandria, Egypt. He heard a curious piece of news:\n\nIn a southern city called Syene, at noon on the longest day of the year (the Summer Solstice), the sun shone directly down to the bottom of a deep water well without casting any shadow. The sun was directly overhead.\n\nEratosthenes wondered: *What happens at the exact same moment in Alexandria, hundreds of miles to the north?*\n\n```\n   Sunlight rays (Parallel)\n   \u2193\u2193\u2193\u2193\u2193\u2193\u2193\u2193\u2193\u2193\u2193\u2193\u2193\u2193\u2193\u2193\u2193\u2193\u2193\u2193\u2193\u2193\u2193\u2193\u2193\u2193\n   \n       Alexandria                 Syene\n        | (Stick)                 | (Well)\n        |  \\                     |\n        |   \\ Shadow             | (No shadow!\n        |    \\                   |  Sun shines straight down)\n   \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550 (Curved Earth)\n```\n\nAt noon on that day in Alexandria, Eratosthenes planted a vertical stick in the ground. Unlike Syene, the stick **did cast a shadow**.\n\nHe reasoned from first principles:\n- The sun is so far away that its rays hit the Earth parallel to each other.\n- If the Earth were flat like a table, both sticks would cast either no shadow or identical shadows.\n- Because one stick cast a shadow while the other did not, **the surface of the Earth must be curved!**\n\nBy simply measuring the angle of that shadow (about $7.2^\\circ$, which is $\\frac{1}{50}\\text{th}$ of a full $360^\\circ$ circle) and calculating the distance between the two cities, he found the circumference of the entire planet to within a few percent of its modern value.\n\nWith nothing more than **curiosity, a wooden stick, sunlight, and basic arithmetic**, human beings measured our planet.\n\n---\n\n### Part 4: The Hall of Giants \u2014 Inspiring Pioneers Across Human History\n\nScience is not the invention of one person, one nation, or one era. It is a shared human journey across thousands of years. Whenever someone dared to ask *\"How does this actually work?\"* rather than settling for superstition, humanity took a step forward.\n\nHere are some of the most inspiring minds who lit the way:\n\n```\n  ANCIENT ROOTS               ISLAMIC GOLDEN AGE          SCIENTIFIC REVOLUTION\n  \u2022 Archimedes (Greece)       \u2022 Alhazen (Iraq/Egypt)      \u2022 Galileo Galilei (Italy)\n  \u2022 Zhang Heng (China)        \u2022 Al-Khwarizmi (Persia)     \u2022 Isaac Newton (England)\n  \u2022 Aryabhata (India)         \u2022 Ibn Sina (Central Asia)   \u2022 Leeuwenhoek (Netherlands)\n            \u2502                           \u2502                           \u2502\n            \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n                                        \u25bc\n                         MODERN DAWN & GLOBAL AGE\n                         \u2022 Dmitri Mendeleev (Russia)\n                         \u2022 Marie Curie (Poland/France)\n                         \u2022 Albert Einstein (Germany/USA)\n                         \u2022 Rosalind Franklin (UK)\n                         \u2022 S. Chandrasekhar (India/USA)\n                         \u2022 Tu Youyou (China)\n                         \u2022 Stephen Hawking (UK)\n```\n\n---\n\n#### \ud83c\udf1f 1. The Ancient Inquirers (250 BCE \u2013 600 CE)\n\n* **Archimedes of Syracuse (c. 287\u2013212 BCE, Ancient Greece)**  \n  *The Master of Levers and Floating.* When tasked with proving whether a king's crown was pure gold without melting it, he noticed water spilling over his bathtub when he stepped in. He realized that an object displaces its exact volume of water\u2014leaping out shouting *\"Eureka!\"* (\"I have found it!\"). He proved the power of physics: *\"Give me a place to stand, and I will move the Earth.\"*\n\n* **Zhang Heng (78\u2013139 CE, Ancient China)**  \n  *The Man Who Listened to the Earth.* A brilliant astronomer and mathematician who invented the world's first **seismometer**\u2014an ornate bronze vessel with dragon heads that dropped bronze balls into the mouths of toads to indicate the direction of distant earthquakes hundreds of miles away before anyone felt them.\n\n* **Aryabhata (476\u2013550 CE, Ancient India)**  \n  *The Stargazer of the East.* Without telescopes, he correctly deduced that the Earth rotates on its own axis daily, that the apparent motion of the stars is an optical illusion caused by Earth's spin, and that the Moon and planets shine by reflecting sunlight.\n\n---\n\n#### \ud83d\udd2d 2. The Birth of the True Experiment (900 \u2013 1100 CE)\n\n* **Alhazen / Ibn al-Haytham (965\u20131040 CE, Iraq & Egypt)**  \n  *The Father of Modern Optics and Experimental Science.* Before Alhazen, philosophers argued about vision by sitting in chairs debating opinions. Alhazen said: *We must test it.* He built dark rooms (*camera obscura*), bounced light rays off mirrors, and proved that light travels into our eyes, not out of them. He famously wrote:  \n  > *\"The seeker after the truth is not one who studies the writings of the ancients and puts his trust in them, but rather the one who suspects his faith in them and questions what he gathers from them.\"*\n\n---\n\n#### \ud83c\udf0d 3. The Scientific Revolution (1500s \u2013 1700s)\n\n* **Galileo Galilei (1564\u20131642, Italy)**  \n  *The Rebel with a Telescope.* Galileo built his own telescope and pointed it at the night sky. He saw craters on the Moon and discovered four moons orbiting Jupiter\u2014proving that Earth was not the center of all motion. He dropped balls of different weights to show that all objects accelerate at the exact same rate under gravity.\n\n* **Sir Isaac Newton (1643\u20131727, England)**  \n  *The Architect of Universal Laws.* Sitting in an orchard and watching an apple fall, Newton asked a radical question: *Does the force pulling this apple down reach all the way to the Moon?* He discovered the **Laws of Motion** and the **Law of Universal Gravitation**, proving that the same mathematics governs a falling fruit and the dance of the planets.\n\n* **Antonie van Leeuwenhoek (1632\u20131723, Netherlands)**  \n  *The Explorer of the Invisible.* A fabric merchant with no university degree, he ground tiny glass beads into magnifying lenses of unbelievable precision. Looking at a single drop of pond water, he discovered an entire invisible universe teeming with microscopic life\u2014he called them \"animalcules\" (bacteria and protozoa).\n\n---\n\n#### \ud83d\udca1 4. The Unravelers of Matter and Life (1800s \u2013 1900s)\n\n* **Charles Darwin (1809\u20131882, England)**  \n  *The Chronicler of Life's Unity.* After a five-year voyage on the HMS Beagle observing finches, tortoises, and fossils, he realized that all living organisms share a common ancestor and evolve through a process called **Natural Selection**.\n\n* **Dmitri Mendeleev (1834\u20131907, Russia)**  \n  *The Master of the Elements.* He wrote each known element on a card and arranged them by weight and properties. When patterns emerged, he found empty spots and boldly predicted the existence and properties of undiscovered elements (like Gallium and Germanium)\u2014and years later, nature proved him exactly right.\n\n* **Marie Sk\u0142odowska-Curie (1867\u20131934, Poland / France)**  \n  *The Fearless Pioneer of Radiation.* Working in a cold, leaky shed, she processed tons of pitchblende ore with bare hands to isolate two new elements: **Polonium** and **Radium**. She coined the term *radioactivity* and remains the **only person in history to win Nobel Prizes in two different scientific fields** (Physics in 1903 and Chemistry in 1911).\n\n* **Albert Einstein (1879\u20131955, Germany / Switzerland / USA)**  \n  *The Daydreamer Who Bent Spacetime.* As a clerk in a patent office, he ran \"thought experiments\" in his mind: *What would the world look like if I rode alongside a beam of light?* He revealed that space and time are woven together, that mass is energy ($E = mc^2$), and that gravity is the bending of spacetime by matter.\n\n---\n\n#### \ud83d\ude80 5. Modern Voyagers of the Mind (20th Century \u2013 Present)\n\n* **Rosalind Franklin (1920\u20131958, UK)**  \n  *The Secret of the Double Helix.* An expert X-ray crystallographer whose famous \"Photo 51\" revealed the twisted-ladder structure of DNA\u2014the chemical software of all life on Earth.\n\n* **Subrahmanyan Chandrasekhar (1910\u20131995, India / USA)**  \n  *The Master of Collapsing Stars.* At just 19 years old, on a steamship journey from India to England, he calculated that dying stars above a certain mass (the *Chandrasekhar Limit*) cannot resist their own gravity and must collapse into black holes.\n\n* **Tu Youyou (1930\u2013Present, China)**  \n  *The Savior of Millions.* A pharmacologist who combined ancient herbal wisdom with modern scientific extraction methods to discover **Artemisinin**, an anti-malarial medicine that has saved millions of human lives around the globe.\n\n* **Stephen Hawking (1942\u20132018, UK)**  \n  *The Mind Beyond Horizons.* Despite losing almost all physical movement to ALS, his mind journeyed to the edge of black holes, discovering that they slowly glow and evaporate (*Hawking Radiation*) and proving that human curiosity has no physical limits.\n\n---\n\n### Part 5: The Spark Within You\n\nNone of these scientists were born with superpowers. They were ordinary human beings who did something extraordinary: **they refused to stop asking questions.**\n\nWhenever you look at a cloud and wonder why it doesn't fall, or wonder why ice floats in water, you are standing in the very same shoes that Archimedes, Marie Curie, and Newton stood in.\n\n---\n\n### Part 6: Your Turn to Think (Puzzles for the Mind)\n\nHere are three thought experiments for you to ponder. There are no trick questions\u2014just exercise your curiosity!\n\n1. **The Plant Puzzle:** You have two identical green houseplants. You place Plant A on a sunny windowsill and Plant B inside a dark closet. You give both plants the same amount of water. After two weeks, Plant A is thriving and Plant B has turned pale and wilted.  \n   - *What was the single variable that changed?*  \n   - *Can you formulate a simple hypothesis based on this result?*\n\n2. **The \"Lucky\" Socks:** A basketball player wears red socks during a game and scores a career-high 30 points. She concludes: *\"Wearing these red socks causes me to score more points.\"*  \n   - *How would you design a fair test to check if the socks really give her basketball superpowers?*\n\n3. **Curiosity Check:** Look around the room you are currently sitting in. Pick one everyday object (a lamp, a cup of water, a window, a wooden table).  \n   - *What is one question you have about how it works, what it's made of, or why it behaves the way it does?*\n\n---\n\n### What's Next?\nWhen you've finished reading this chapter, hop back into the chat. Tell me which scientist's story inspired you the most, share your thoughts on the three puzzles, or ask any questions that came to mind! \n\nOnce we discuss these, we will venture into **Chapter 2: The Language of the Universe (Finding Patterns with Numbers and Shapes)**.\n",
       "readingParts": [
         {
           "id": "intro",
           "title": "The Cosmic Detective: What is Science, Really?",
-          "emoji": "🏝️",
+          "emoji": "\ud83c\udfdd\ufe0f",
           "readingTime": "3 min",
           "badge": "FOUNDATIONS",
           "lead": "Imagine waking up on an alien island with no map, no compass, and no manual.",
-          "content": "You look around. Curious bioluminescent plants pulse in the twilight. Strange birds chime in the canopy. Every morning, the high tide deposits iridescent shells onto the black sand, only to sweep them away by three in the afternoon.\n\nWhat do you do?\n\nYou wouldn’t sit on a rock memorizing arbitrary names that somebody else invented hundreds of years ago. You would wander. You would observe. You would touch the water, track the sunlight, make wild guesses, test them with your own two hands, and discover what this strange world actually does.\n\nThat is all Science is.\n\nScience is not a dusty monument of stale facts, Latin nomenclature, or dry exam questions. Science is a roaring campfire in the pitch-black wilderness—an honest, courageous human technique for asking: What is actually happening here?",
-          "highlight": "Science is a candle in the dark—not a list of answers someone told you to memorize, but the freedom to ask why.",
+          "content": "You look around. Curious bioluminescent plants pulse in the twilight. Strange birds chime in the canopy. Every morning, the high tide deposits iridescent shells onto the black sand, only to sweep them away by three in the afternoon.\n\nWhat do you do?\n\nYou wouldn\u2019t sit on a rock memorizing arbitrary names that somebody else invented hundreds of years ago. You would wander. You would observe. You would touch the water, track the sunlight, make wild guesses, test them with your own two hands, and discover what this strange world actually does.\n\nThat is all Science is.\n\nScience is not a dusty monument of stale facts, Latin nomenclature, or dry exam questions. Science is a roaring campfire in the pitch-black wilderness\u2014an honest, courageous human technique for asking: What is actually happening here?",
+          "highlight": "Science is a candle in the dark\u2014not a list of answers someone told you to memorize, but the freedom to ask why.",
           "interactivePrompt": "If you landed on an uncharted planet right now, what is the very first physical test you would perform?"
         },
         {
           "id": "detective",
           "title": "The TV Remote & The Secret Scientific Method",
-          "emoji": "📺",
+          "emoji": "\ud83d\udcfa",
           "readingTime": "4 min",
           "badge": "EVERYDAY LOGIC",
           "lead": "You are already a practicing experimental physicist every single morning.",
-          "content": "Think about what happens when you settle onto your couch, click the power button on the TV remote, and... complete silence. The screen stays pitch black.\n\nDo you throw your hands up in mystical despair? No! Your brain immediately spins through the Scientific Method:\n\n1. Observation: The TV refused to turn on.\n2. Question: Why is the screen dark?\n3. Hypothesis (Educated Guess): The AAA batteries are depleted.\n4. Prediction: If I pop in fresh batteries, the infrared LED will send a signal, and the TV will spring to life.\n5. Controlled Experiment: You rummage through the drawer, grab two fresh alkaline batteries, click the button.\n6. Conclusion:\n   • Case A: It powers on! Hypothesis validated.\n   • Case B: Nothing happens. Your hypothesis was wrong! Time to test whether the wall cable was tripped by the cat.\n\nNotice the golden principle here: FINDING OUT YOU WERE WRONG IS NOT A FAILURE. In science, ruling out a false idea is a victory because it brings you one step closer to reality.",
-          "highlight": "A failed experiment is never a failure—it is nature crossing out a wrong guess for you.",
+          "content": "Think about what happens when you settle onto your couch, click the power button on the TV remote, and... complete silence. The screen stays pitch black.\n\nDo you throw your hands up in mystical despair? No! Your brain immediately spins through the Scientific Method:\n\n1. Observation: The TV refused to turn on.\n2. Question: Why is the screen dark?\n3. Hypothesis (Educated Guess): The AAA batteries are depleted.\n4. Prediction: If I pop in fresh batteries, the infrared LED will send a signal, and the TV will spring to life.\n5. Controlled Experiment: You rummage through the drawer, grab two fresh alkaline batteries, click the button.\n6. Conclusion:\n   \u2022 Case A: It powers on! Hypothesis validated.\n   \u2022 Case B: Nothing happens. Your hypothesis was wrong! Time to test whether the wall cable was tripped by the cat.\n\nNotice the golden principle here: FINDING OUT YOU WERE WRONG IS NOT A FAILURE. In science, ruling out a false idea is a victory because it brings you one step closer to reality.",
+          "highlight": "A failed experiment is never a failure\u2014it is nature crossing out a wrong guess for you.",
           "interactivePrompt": "Think of a mystery you solved this week. What was your hypothesis?"
         },
         {
           "id": "rules",
           "title": "The Three Golden Rules: How Not to Fool Yourself",
-          "emoji": "⚖️",
+          "emoji": "\u2696\ufe0f",
           "readingTime": "5 min",
           "badge": "CORE PRINCIPLES",
           "lead": "Human beings are extraordinarily gifted at fooling themselves. Science is the antidote.",
-          "content": "Richard Feynman famously said: \"The first principle is that you must not fool yourself—and you are the easiest person to fool.\"\n\nTo protect ourselves from our own biases, science relies on three sacred rules:\n\n1. Nature is the Supreme Judge: It doesn’t matter how wealthy, famous, powerful, or eloquent a speaker is. It doesn’t matter if their mathematics is gorgeous. If the idea contradicts honest, controlled experiments in nature, the idea is dead.\n\n2. Falsifiability (It Must Be Testable): A scientific claim MUST specify what evidence could prove it wrong. \"All swans are white\" is a scientific claim, because discovering just one black swan destroys it. \"An invisible, weightless unicorn lives under my bed and vanishes whenever instruments measure it\" is NOT science, because no physical observation could ever refute it.\n\n3. Universal Reproducibility: Science has no state secrets or private magic. If a chemist in London mixes two liquids to turn them luminous indigo, an inquisitive teenager in Kathmandu or Nairobi following the exact same steps must witness the exact same indigo glow.",
+          "content": "Richard Feynman famously said: \"The first principle is that you must not fool yourself\u2014and you are the easiest person to fool.\"\n\nTo protect ourselves from our own biases, science relies on three sacred rules:\n\n1. Nature is the Supreme Judge: It doesn\u2019t matter how wealthy, famous, powerful, or eloquent a speaker is. It doesn\u2019t matter if their mathematics is gorgeous. If the idea contradicts honest, controlled experiments in nature, the idea is dead.\n\n2. Falsifiability (It Must Be Testable): A scientific claim MUST specify what evidence could prove it wrong. \"All swans are white\" is a scientific claim, because discovering just one black swan destroys it. \"An invisible, weightless unicorn lives under my bed and vanishes whenever instruments measure it\" is NOT science, because no physical observation could ever refute it.\n\n3. Universal Reproducibility: Science has no state secrets or private magic. If a chemist in London mixes two liquids to turn them luminous indigo, an inquisitive teenager in Kathmandu or Nairobi following the exact same steps must witness the exact same indigo glow.",
           "highlight": "Authority has zero weight against nature. If nature disagrees with your theory, write a better theory.",
           "interactivePrompt": "Can you think of a popular superstition? Is it testable or unfalsifiable?"
         },
         {
           "id": "eratosthenes_story",
           "title": "The 2,200-Year-Old Wonder: Measuring Earth with a Stick",
-          "emoji": "🌍",
+          "emoji": "\ud83c\udf0d",
           "readingTime": "5 min",
           "badge": "EPIC BREAKTHROUGH",
           "lead": "In 240 BCE, without a telescope or a satellite, an ancient librarian measured our entire planet.",
-          "content": "His name was Eratosthenes, and he was the chief librarian at the Great Library of Alexandria in Ptolemaic Egypt.\n\nHe caught wind of an astonishing rumor from travelers coming from Syene (modern-day Aswan): On noon of the Summer Solstice, the longest day of the year, vertical pillars cast zero shadow, and sunlight reached all the way to the watery bottom of the deepest vertical wells. The Sun was directly overhead.\n\nEratosthenes stopped and asked: \"What happens in Alexandria at that exact same minute?\"\n\nAt noon on the Solstice, he planted a vertical wooden stick in the ground in Alexandria. Unlike Syene, the stick DID cast a shadow! He measured the shadow angle: 7.2 degrees.\n\nHe reasoned with sheer genius:\n• The Sun is millions of miles away, so its rays hit Earth parallel to each other.\n• If the Earth were flat like a kitchen table, both sticks would cast identical shadows.\n• Because one stick had no shadow while the other cast a 7.2° shadow, the crust of the Earth must curve!\n\n7.2 degrees is 1/50th of a full 360-degree sphere. He hired a surveyor to pace the distance between Alexandria and Syene (5,000 stadia, ~800 km). Multiplying 800 km by 50 gave 40,000 km.\n\nModern NASA satellites measuring Earth’s equatorial circumference arrived at 40,075 km. Eratosthenes was accurate to within 1-2% using nothing more than curiosity, sunlight, and a wooden stick.",
+          "content": "His name was Eratosthenes, and he was the chief librarian at the Great Library of Alexandria in Ptolemaic Egypt.\n\nHe caught wind of an astonishing rumor from travelers coming from Syene (modern-day Aswan): On noon of the Summer Solstice, the longest day of the year, vertical pillars cast zero shadow, and sunlight reached all the way to the watery bottom of the deepest vertical wells. The Sun was directly overhead.\n\nEratosthenes stopped and asked: \"What happens in Alexandria at that exact same minute?\"\n\nAt noon on the Solstice, he planted a vertical wooden stick in the ground in Alexandria. Unlike Syene, the stick DID cast a shadow! He measured the shadow angle: 7.2 degrees.\n\nHe reasoned with sheer genius:\n\u2022 The Sun is millions of miles away, so its rays hit Earth parallel to each other.\n\u2022 If the Earth were flat like a kitchen table, both sticks would cast identical shadows.\n\u2022 Because one stick had no shadow while the other cast a 7.2\u00b0 shadow, the crust of the Earth must curve!\n\n7.2 degrees is 1/50th of a full 360-degree sphere. He hired a surveyor to pace the distance between Alexandria and Syene (5,000 stadia, ~800 km). Multiplying 800 km by 50 gave 40,000 km.\n\nModern NASA satellites measuring Earth\u2019s equatorial circumference arrived at 40,075 km. Eratosthenes was accurate to within 1-2% using nothing more than curiosity, sunlight, and a wooden stick.",
           "highlight": "With nothing more than a wooden stick, sunlight, and geometry, human beings measured the planet.",
           "interactivePrompt": "Test this in our Eratosthenes Simulator slider below and see the angle geometry unfold!"
         },
         {
           "id": "giants_summary",
           "title": "The Hall of Giants: 2,500 Years of Human Courage",
-          "emoji": "🚀",
+          "emoji": "\ud83d\ude80",
           "readingTime": "6 min",
           "badge": "THE TRAILBLAZERS",
           "lead": "Science is not the property of one nation or one century. It is a baton passed across thousands of years.",
@@ -90,8 +90,8 @@ window.SCIENCE_DATA = {
             "How do you make sense of this new world? How do you survive, thrive, and uncover the truth of where you are?",
             "You would not just sit under a palm tree and wait for someone to tell you what to believe. You would not invent a fairy tale to explain away the tide. Instead, you would walk down to the water. You would touch the sand. You would place a wooden stake at the water line and mark how high the tide rises each morning. You would wait until nightfall to see if the clicking sounds correspond to nocturnal insects or roosting bats. You would taste the sap of the purple flower with the very tip of your tongue to check if it burns.",
             "In that single afternoon of curiosity and observation, you have become a scientist.",
-            "Notice something curious → Ask \"Why does this happen?\" → Formulate an educated guess (Hypothesis) → Devise a clever test (Experiment) → Observe what Nature actually reveals!",
-            "That is all science is. Science is not a dusty monument of Latin vocabulary words or rigid equations printed in heavy textbooks. Science is a living candle in the dark—a stubborn, joyful, and deeply honest way of looking at reality, asking fearless questions, and letting Nature tell us what is true."
+            "Notice something curious \u2192 Ask \"Why does this happen?\" \u2192 Formulate an educated guess (Hypothesis) \u2192 Devise a clever test (Experiment) \u2192 Observe what Nature actually reveals!",
+            "That is all science is. Science is not a dusty monument of Latin vocabulary words or rigid equations printed in heavy textbooks. Science is a living candle in the dark\u2014a stubborn, joyful, and deeply honest way of looking at reality, asking fearless questions, and letting Nature tell us what is true."
           ]
         },
         {
@@ -102,7 +102,7 @@ window.SCIENCE_DATA = {
             "Many people believe that science only happens inside multi-million-dollar laboratories staffed by specialists wearing spotless white coats. The truth is far more delightful: you already act as a rigorous scientist almost every week of your life without realizing it.",
             "Consider an everyday puzzle: You collapse onto your living room sofa on a Friday evening, point your television remote at the screen, and press the power button. Nothing happens. The screen remains completely black.",
             "Without even thinking about formal textbooks, your brain instantly spins through the six classical steps of the Scientific Method:",
-            "1. Observation: The television fails to respond when the power button is pressed.\n2. Question: Why is the TV not turning on?\n3. Hypothesis: Perhaps the two AA batteries inside the remote have run out of electrical charge.\n4. Prediction: If I replace the old batteries with a pair of fresh ones from the drawer, the remote will emit an infrared signal and the television will power on.\n5. Experiment: You slide open the plastic battery compartment, discard the depleted cells, snap in two fresh alkaline batteries, aim carefully, and press power again.\n6. Conclusion:\n   • Case A: The screen glows brightly. Your hypothesis was supported by experimental evidence!\n   • Case B: The TV screen stays completely dark. Your hypothesis was wrong.",
+            "1. Observation: The television fails to respond when the power button is pressed.\n2. Question: Why is the TV not turning on?\n3. Hypothesis: Perhaps the two AA batteries inside the remote have run out of electrical charge.\n4. Prediction: If I replace the old batteries with a pair of fresh ones from the drawer, the remote will emit an infrared signal and the television will power on.\n5. Experiment: You slide open the plastic battery compartment, discard the depleted cells, snap in two fresh alkaline batteries, aim carefully, and press power again.\n6. Conclusion:\n   \u2022 Case A: The screen glows brightly. Your hypothesis was supported by experimental evidence!\n   \u2022 Case B: The TV screen stays completely dark. Your hypothesis was wrong.",
             "Now, reflect on Case B. Did you fail? Did you throw your hands up in shame because your first idea was incorrect?",
             "Of course not! Finding out that your hypothesis was wrong is not a failure; it is one of the greatest victories in the scientific process. By discovering that fresh batteries did not solve the issue, you have definitively ruled out dead batteries. You can now move forward to test the next logical hypothesis: Is the power cord loose? Did the living room wall fuse trip? Is the infrared receiver blocked by a book?",
             "Every eliminated wrong guess leaves you with fewer places for the truth to hide. Science progresses not by proving itself right on the first try, but by ruthlessly and cheerfully discarding ideas that fail to match reality."
@@ -113,11 +113,11 @@ window.SCIENCE_DATA = {
           "title": "The Three Golden Rules of Science",
           "subtitle": "The Intellectual Armor Humanity Built to Avoid Fooling Itself",
           "paragraphs": [
-            "The great 20th-century physicist Richard Feynman once said: \"The first principle is that you must not fool yourself—and you are the easiest person to fool.\"",
+            "The great 20th-century physicist Richard Feynman once said: \"The first principle is that you must not fool yourself\u2014and you are the easiest person to fool.\"",
             "Human beings are extraordinary storytellers, but our brains are wired with cognitive biases. We love ideas that make us feel important, we love believing what authority figures tell us, and we cling stubbornly to traditions even when they make no sense. To protect ourselves from self-deception, humanity forged three sacred principles that separate genuine science from superstition, dogma, and wishful thinking:",
             "Rule 1: Nature is the Supreme and Final Judge\nIt does not matter how brilliant someone is, how many prestigious titles they hold, how wealthy they are, or how poetically elegant their theory sounds. If an idea contradicts the repeatable results of an honest experiment, the idea is wrong. Period. In science, the humblest experiment performed by a student in a garage overrules the opinion of the most famous professor on Earth.",
-            "Rule 2: Falsifiability — It Must Dare to Be Proven Wrong\nFor any claim to qualify as a scientific hypothesis, there must exist some conceivable real-world observation that could prove it false. Consider the statement: \"All swans are white.\" That is a legitimate scientific claim because you can travel the world observing birds, and the moment you spot a single black swan in Australia, the claim is falsified.\n\nNow consider this counter-claim: \"There is an invisible, intangible, silent, odorless dragon floating in my kitchen that passes through solid walls and cannot be detected by thermometers, radar, or any physical sensor.\" Is that science? No. Because there is no possible test in the physical universe that could ever disprove it. If an idea cannot be tested against reality, it cannot teach us anything about the real world.",
-            "Rule 3: Reproducibility — No Trade Secrets in the Cosmos\nScience is an open, global conversation. If a chemist in London mixes two transparent liquids at 25°C and watches them turn emerald green with a sudden drop in temperature, a researcher in Kathmandu, a student in São Paulo, or an engineer in Tokyo following the exact same procedure must obtain the exact same green liquid and temperature drop.\n\nScience has no private revelations, no secret incantations, and no privileged prophets. If an experiment cannot be independently repeated by others under the same conditions, it is not yet considered scientific fact."
+            "Rule 2: Falsifiability \u2014 It Must Dare to Be Proven Wrong\nFor any claim to qualify as a scientific hypothesis, there must exist some conceivable real-world observation that could prove it false. Consider the statement: \"All swans are white.\" That is a legitimate scientific claim because you can travel the world observing birds, and the moment you spot a single black swan in Australia, the claim is falsified.\n\nNow consider this counter-claim: \"There is an invisible, intangible, silent, odorless dragon floating in my kitchen that passes through solid walls and cannot be detected by thermometers, radar, or any physical sensor.\" Is that science? No. Because there is no possible test in the physical universe that could ever disprove it. If an idea cannot be tested against reality, it cannot teach us anything about the real world.",
+            "Rule 3: Reproducibility \u2014 No Trade Secrets in the Cosmos\nScience is an open, global conversation. If a chemist in London mixes two transparent liquids at 25\u00b0C and watches them turn emerald green with a sudden drop in temperature, a researcher in Kathmandu, a student in S\u00e3o Paulo, or an engineer in Tokyo following the exact same procedure must obtain the exact same green liquid and temperature drop.\n\nScience has no private revelations, no secret incantations, and no privileged prophets. If an experiment cannot be independently repeated by others under the same conditions, it is not yet considered scientific fact."
           ]
         },
         {
@@ -125,8 +125,8 @@ window.SCIENCE_DATA = {
           "title": "Measuring the Entire Earth with a Wooden Stick",
           "subtitle": "Alexandria, 240 BCE: The Triumph of First Principles",
           "paragraphs": [
-            "More than 2,200 years ago—long before satellites, airplanes, GPS, or even accurate clocks—a brilliant scholar named Eratosthenes served as the chief librarian of the Great Library of Alexandria in Egypt.",
-            "One afternoon, while reading ancient scrolls, Eratosthenes came across a curious traveler’s report from the southern frontier town of Syene (modern-day Aswan, roughly 800 kilometers south of Alexandria). The scroll noted something extraordinary:",
+            "More than 2,200 years ago\u2014long before satellites, airplanes, GPS, or even accurate clocks\u2014a brilliant scholar named Eratosthenes served as the chief librarian of the Great Library of Alexandria in Egypt.",
+            "One afternoon, while reading ancient scrolls, Eratosthenes came across a curious traveler\u2019s report from the southern frontier town of Syene (modern-day Aswan, roughly 800 kilometers south of Alexandria). The scroll noted something extraordinary:",
             "On the day of the Summer Solstice (the longest day of the year, around June 21st), at precisely high noon, the columns of temple buildings cast zero shadow. If you peered down into the deepest vertical water well in Syene, the sun shone directly onto the water at the very bottom. The sun was sitting at absolute zenith, directly overhead.",
             "Most people would have shrugged, said \"That is neat,\" and rolled the scroll back up. But Eratosthenes was a scientist. A question ignited in his mind: What happens at that exact same moment in Alexandria, hundreds of miles to the north?",
             "On the following Summer Solstice, at precisely 12:00 noon, Eratosthenes stepped out into the Alexandria courtyard and planted a simple, straight wooden stick (known as a gnomon) perfectly vertical into the ground. He looked at the base.",
@@ -134,14 +134,14 @@ window.SCIENCE_DATA = {
             "Eratosthenes sat down and reasoned through the geometry from pure first principles:",
             "1. The sun is immensely far away from Earth, meaning its incoming rays strike the Earth virtually parallel to each other.\n2. If the Earth were completely flat like a table top, vertical sticks in both Syene and Alexandria would receive parallel rays at the exact same angle. Both sticks would cast either no shadow or identical shadows!\n3. The fact that the stick in Syene cast no shadow while the stick in Alexandria cast a substantial shadow proved, beyond any shadow of a doubt, that the surface of the Earth between the two cities was CURVED!",
             "Eratosthenes measured the angle between the vertical stick and the tip of its shadow. It measured approximately 7.2 degrees. He knew that a complete circle contains 360 degrees. Dividing 360 by 7.2 yields 50: the distance between Alexandria and Syene was exactly one-fiftieth (1/50) of the circumference of the entire globe!",
-            "He hired professional pacing surveyors (called bematists) to walk the distance between the two cities, which came out to roughly 5,000 stadia (about 800 kilometers). Multiplying 800 km by 50, he calculated Earth’s circumference to be roughly 40,000 kilometers.",
+            "He hired professional pacing surveyors (called bematists) to walk the distance between the two cities, which came out to roughly 5,000 stadia (about 800 kilometers). Multiplying 800 km by 50, he calculated Earth\u2019s circumference to be roughly 40,000 kilometers.",
             "Modern orbital satellites with lasers measure Earth's polar circumference at 40,008 kilometers. A man living two centuries before the birth of Christ, armed with nothing more than a wooden stick, sunlight, a pair of sandals, and basic geometry, calculated the size of our home planet with an error of less than one percent.",
             "That is the sheer, electrifying power of scientific reasoning."
           ],
           "illustration": {
             "type": "svg",
-            "caption": "Fig 1.1 — Eratosthenes' Geometric Measurement of the Earth's Curvature (Alexandria & Syene, 240 BCE)",
-            "svg": "<svg viewBox=\"0 0 600 280\" class=\"w-full max-w-lg h-auto stroke-current opacity-90 fill-none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Sun Rays (Parallel, dashed vintage style) -->\n  <g stroke-dasharray=\"4,4\" stroke-width=\"1.2\">\n    <line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"150\" />\n    <line x1=\"200\" y1=\"20\" x2=\"200\" y2=\"150\" />\n    <line x1=\"320\" y1=\"20\" x2=\"320\" y2=\"150\" />\n    <line x1=\"440\" y1=\"20\" x2=\"440\" y2=\"150\" />\n  </g>\n  <text x=\"260\" y=\"25\" font-family=\"Newsreader, Georgia, serif\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">Parallel Rays of Sunlight from Distant Sun</text>\n  \n  <!-- Earth's Curved Surface (Woodcut Arc) -->\n  <path d=\"M 60 250 A 420 420 0 0 1 540 250\" stroke-width=\"2.5\" />\n  <path d=\"M 60 254 A 420 420 0 0 1 540 254\" stroke-width=\"0.8\" opacity=\"0.6\" />\n  \n  <!-- Syene Well (Directly overhead, no shadow) -->\n  <line x1=\"420\" y1=\"172\" x2=\"420\" y2=\"245\" stroke-width=\"2\" stroke-linecap=\"round\" />\n  <circle cx=\"420\" cy=\"245\" r=\"4\" fill=\"currentColor\" />\n  <text x=\"420\" y=\"265\" font-family=\"Plus Jakarta Sans, sans-serif\" font-size=\"10\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">SYENE (No Shadow at Noon)</text>\n\n  <!-- Alexandria Stick & Shadow (Angled) -->\n  <!-- Radial line to center -->\n  <line x1=\"180\" y1=\"150\" x2=\"180\" y2=\"230\" stroke-width=\"2\" stroke-linecap=\"round\" />\n  <!-- Shadow cast on ground -->\n  <line x1=\"180\" y1=\"230\" x2=\"150\" y2=\"236\" stroke-width=\"3\" stroke-linecap=\"round\" />\n  <!-- Angle arc 7.2 deg -->\n  <path d=\"M 180 180 A 30 30 0 0 0 168 185\" stroke-width=\"1.2\" />\n  <text x=\"145\" y=\"185\" font-family=\"Newsreader, serif\" font-size=\"12\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">7.2°</text>\n  <text x=\"175\" y=\"265\" font-family=\"Plus Jakarta Sans, sans-serif\" font-size=\"10\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">ALEXANDRIA (7.2° Shadow)</text>\n\n  <!-- Center of Earth & Convergence Angle -->\n  <line x1=\"180\" y1=\"230\" x2=\"300\" y2=\"390\" stroke-dasharray=\"2,3\" stroke-width=\"1\" opacity=\"0.5\" />\n  <line x1=\"420\" y1=\"245\" x2=\"300\" y2=\"390\" stroke-dasharray=\"2,3\" stroke-width=\"1\" opacity=\"0.5\" />\n  \n  <text x=\"300\" y=\"215\" font-family=\"Newsreader, serif\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">Distance ≈ 5,000 Stadia (800 km) = 1/50th of Circumference</text>\n</svg>"
+            "caption": "Fig 1.1 \u2014 Eratosthenes' Geometric Measurement of the Earth's Curvature (Alexandria & Syene, 240 BCE)",
+            "svg": "<svg viewBox=\"0 0 600 280\" class=\"w-full max-w-lg h-auto stroke-current opacity-90 fill-none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Sun Rays (Parallel, dashed vintage style) -->\n  <g stroke-dasharray=\"4,4\" stroke-width=\"1.2\">\n    <line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"150\" />\n    <line x1=\"200\" y1=\"20\" x2=\"200\" y2=\"150\" />\n    <line x1=\"320\" y1=\"20\" x2=\"320\" y2=\"150\" />\n    <line x1=\"440\" y1=\"20\" x2=\"440\" y2=\"150\" />\n  </g>\n  <text x=\"260\" y=\"25\" font-family=\"Newsreader, Georgia, serif\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">Parallel Rays of Sunlight from Distant Sun</text>\n  \n  <!-- Earth's Curved Surface (Woodcut Arc) -->\n  <path d=\"M 60 250 A 420 420 0 0 1 540 250\" stroke-width=\"2.5\" />\n  <path d=\"M 60 254 A 420 420 0 0 1 540 254\" stroke-width=\"0.8\" opacity=\"0.6\" />\n  \n  <!-- Syene Well (Directly overhead, no shadow) -->\n  <line x1=\"420\" y1=\"172\" x2=\"420\" y2=\"245\" stroke-width=\"2\" stroke-linecap=\"round\" />\n  <circle cx=\"420\" cy=\"245\" r=\"4\" fill=\"currentColor\" />\n  <text x=\"420\" y=\"265\" font-family=\"Plus Jakarta Sans, sans-serif\" font-size=\"10\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">SYENE (No Shadow at Noon)</text>\n\n  <!-- Alexandria Stick & Shadow (Angled) -->\n  <!-- Radial line to center -->\n  <line x1=\"180\" y1=\"150\" x2=\"180\" y2=\"230\" stroke-width=\"2\" stroke-linecap=\"round\" />\n  <!-- Shadow cast on ground -->\n  <line x1=\"180\" y1=\"230\" x2=\"150\" y2=\"236\" stroke-width=\"3\" stroke-linecap=\"round\" />\n  <!-- Angle arc 7.2 deg -->\n  <path d=\"M 180 180 A 30 30 0 0 0 168 185\" stroke-width=\"1.2\" />\n  <text x=\"145\" y=\"185\" font-family=\"Newsreader, serif\" font-size=\"12\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">7.2\u00b0</text>\n  <text x=\"175\" y=\"265\" font-family=\"Plus Jakarta Sans, sans-serif\" font-size=\"10\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">ALEXANDRIA (7.2\u00b0 Shadow)</text>\n\n  <!-- Center of Earth & Convergence Angle -->\n  <line x1=\"180\" y1=\"230\" x2=\"300\" y2=\"390\" stroke-dasharray=\"2,3\" stroke-width=\"1\" opacity=\"0.5\" />\n  <line x1=\"420\" y1=\"245\" x2=\"300\" y2=\"390\" stroke-dasharray=\"2,3\" stroke-width=\"1\" opacity=\"0.5\" />\n  \n  <text x=\"300\" y=\"215\" font-family=\"Newsreader, serif\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">Distance \u2248 5,000 Stadia (800 km) = 1/50th of Circumference</text>\n</svg>"
           }
         },
         {
@@ -152,7 +152,7 @@ window.SCIENCE_DATA = {
             "One of the most comforting and exciting aspects of science is that our knowledge is never carved into stone. Scientific understanding is a living, breathing tapestry that deepens and sharpens with every new generation.",
             "For over a thousand years, humanity believed that the Earth stood motionless at the dead center of creation, while the sun, planets, and celestial spheres danced around us in pristine crystal circles. It matched human intuition: after all, when you wake up in the morning, the ground under your feet feels solid, and the sun appears to arc across the sky.",
             "Then in the early 1600s, Galileo Galilei ground glass lenses, mounted them in a wooden tube, and pointed his homemade telescope at Jupiter. He did not see crystal spheres; he saw four tiny points of light dancing in orbit around Jupiter! If other worlds had moons orbiting them, then Earth was not the unique center of all celestial motion.",
-            "Science does not view changes in theory as a sign of weakness; it views them as our greatest strength. When Isaac Newton formulated the laws of gravity in 1687, his equations were so accurate they could predict the paths of comets centuries into the future. Yet two centuries later, Albert Einstein showed that in extreme conditions—near black holes or at near-light speeds—Newton’s picture was incomplete. Einstein did not discard Newton; he expanded him into General Relativity.",
+            "Science does not view changes in theory as a sign of weakness; it views them as our greatest strength. When Isaac Newton formulated the laws of gravity in 1687, his equations were so accurate they could predict the paths of comets centuries into the future. Yet two centuries later, Albert Einstein showed that in extreme conditions\u2014near black holes or at near-light speeds\u2014Newton\u2019s picture was incomplete. Einstein did not discard Newton; he expanded him into General Relativity.",
             "To study science is to accept that there is always more to discover, more to challenge, and more to wonder at. The frontier of human knowledge has no finish line."
           ]
         },
@@ -161,10 +161,10 @@ window.SCIENCE_DATA = {
           "title": "Puzzles for the Aspiring Detective",
           "subtitle": "Four Mental Experiments to Test Your Powers of Deduction",
           "paragraphs": [
-            "Here are four classic thought experiments designed to sharpen your scientific intuition. You do not need calculators or laboratory glassware—just your own honest reasoning:",
-            "1. The Mystery of the Wilted Fern:\nYou purchase two identical, healthy green fern plants from a nursery. You place Plant A on a bright windowsill in the kitchen, and Plant B in a closed wardrobe closet. You water both plants with exactly 200 milliliters of water every Tuesday and Friday. After three weeks, Plant A has sprouted vibrant new fronds, while Plant B has turned pale yellow and wilted.\n• What was the independent variable (the one factor you deliberately changed)?\n• What were the controlled variables (factors kept strictly identical)?\n• What is the most precise hypothesis this test supports?",
-            "2. The \"Lucky\" Basketball Shoes:\nA high school basketball player buys a pair of neon green sneakers. In her next two games, she scores 28 and 34 points—far above her season average of 14 points. She announces: \"These neon green shoes cause me to shoot better!\"\n• How would you design a rigorous experiment to test whether the shoes actually enhance performance, or if this was simply coincidence or psychological confidence (a placebo effect)?",
-            "3. Galileo's Cannonball and Feather:\nAristotle believed that heavier objects fall faster than lighter objects because they have an innate desire to return to the Earth. Galileo famously argued that in a true vacuum (with all air removed), a 10-kilogram iron cannonball and a 1-gram bird feather will hit the ground at the exact same millisecond.\n• Why does a feather fall slower than a cannonball in your living room?\n• What physical force is interfering with the pure acceleration of gravity?",
+            "Here are four classic thought experiments designed to sharpen your scientific intuition. You do not need calculators or laboratory glassware\u2014just your own honest reasoning:",
+            "1. The Mystery of the Wilted Fern:\nYou purchase two identical, healthy green fern plants from a nursery. You place Plant A on a bright windowsill in the kitchen, and Plant B in a closed wardrobe closet. You water both plants with exactly 200 milliliters of water every Tuesday and Friday. After three weeks, Plant A has sprouted vibrant new fronds, while Plant B has turned pale yellow and wilted.\n\u2022 What was the independent variable (the one factor you deliberately changed)?\n\u2022 What were the controlled variables (factors kept strictly identical)?\n\u2022 What is the most precise hypothesis this test supports?",
+            "2. The \"Lucky\" Basketball Shoes:\nA high school basketball player buys a pair of neon green sneakers. In her next two games, she scores 28 and 34 points\u2014far above her season average of 14 points. She announces: \"These neon green shoes cause me to shoot better!\"\n\u2022 How would you design a rigorous experiment to test whether the shoes actually enhance performance, or if this was simply coincidence or psychological confidence (a placebo effect)?",
+            "3. Galileo's Cannonball and Feather:\nAristotle believed that heavier objects fall faster than lighter objects because they have an innate desire to return to the Earth. Galileo famously argued that in a true vacuum (with all air removed), a 10-kilogram iron cannonball and a 1-gram bird feather will hit the ground at the exact same millisecond.\n\u2022 Why does a feather fall slower than a cannonball in your living room?\n\u2022 What physical force is interfering with the pure acceleration of gravity?",
             "4. The Question You Have Never Asked:\nLook at the device you are reading this on, or look out the nearest window at the sky. Choose one ordinary thing that you take for granted (e.g., Why is glass transparent while wood is opaque? Why is the sky blue during the day but red at sunset?). Take two minutes to wonder about it before looking up the answer. The moment you ask \"Why?\", you have joined the 2,500-year human adventure of science."
           ]
         }
@@ -192,18 +192,18 @@ window.SCIENCE_DATA = {
         {
           "id": "ch2_math_code",
           "title": "The Secret Code: Why the Universe Speaks Math",
-          "emoji": "📐",
+          "emoji": "\ud83d\udcd0",
           "readingTime": "4 min",
           "badge": "THE COSMIC GRAMMAR",
           "lead": "Why does a falling apple and the orbit of Neptune obey the exact same equation?",
-          "content": "Galileo wrote in 1623: \"Philosophy is written in this grand book—I mean the universe—which stands continually open to our gaze. But the book cannot be understood unless one first learns to comprehend the language and read the letters in which it is composed. It is written in the language of mathematics.\"\n\nNature didn't have to be mathematical. The universe could have been chaotic, unpredictable, and capricious. Yet whether you calculate the trajectory of an artillery shell, the resonance of a violin string, or the electromagnetic frequency of Wi-Fi, mathematics fits the reality with eerie, unreasonable perfection.",
+          "content": "Galileo wrote in 1623: \"Philosophy is written in this grand book\u2014I mean the universe\u2014which stands continually open to our gaze. But the book cannot be understood unless one first learns to comprehend the language and read the letters in which it is composed. It is written in the language of mathematics.\"\n\nNature didn't have to be mathematical. The universe could have been chaotic, unpredictable, and capricious. Yet whether you calculate the trajectory of an artillery shell, the resonance of a violin string, or the electromagnetic frequency of Wi-Fi, mathematics fits the reality with eerie, unreasonable perfection.",
           "highlight": "Mathematics is not numbers on a chalkboard; it is the universal architecture of reality.",
           "interactivePrompt": "Why do you think nature obeys mathematical symmetry instead of pure chaos?"
         },
         {
           "id": "ch2_patterns",
           "title": "Fibonacci Spirals, Pinecones, and Galactic Arms",
-          "emoji": "🌻",
+          "emoji": "\ud83c\udf3b",
           "readingTime": "5 min",
           "badge": "PATTERNS IN LIFE",
           "lead": "Look at the seeds inside a sunflower or the swirl of a hurricane: math is alive.",
@@ -214,12 +214,12 @@ window.SCIENCE_DATA = {
         {
           "id": "ch2_inverse_square",
           "title": "The Cosmic Dilution: The Inverse-Square Law",
-          "emoji": "💡",
+          "emoji": "\ud83d\udca1",
           "readingTime": "4 min",
           "badge": "PHYSICAL LAWS",
-          "lead": "Double the distance, and the force doesn't halve—it drops by four. Why?",
-          "content": "If you stand 1 meter from a campfire, you feel a certain warmth. Step back to 2 meters, and the heat drops not to half, but to one-fourth (1/4). Step back to 3 meters, and it drops to one-ninth (1/9).\n\nThis is the famous Inverse-Square Law (1/r²). It governs:\n• Gravity between planets\n• Electrostatic repulsion between electrons\n• Brightness of distant stars\n• Intensity of sound and Wi-Fi signals\n\nWhy does nature do this? Because in 3-dimensional space, any energy radiating outward spreads over the surface area of an expanding sphere ( = 4\\pi r^2$). As the radius doubles, the sphere's area quadruples, diluting the energy over four times the surface!",
-          "highlight": "The geometry of 3D space dictates that all radiant forces dilute according to 1/r².",
+          "lead": "Double the distance, and the force doesn't halve\u2014it drops by four. Why?",
+          "content": "If you stand 1 meter from a campfire, you feel a certain warmth. Step back to 2 meters, and the heat drops not to half, but to one-fourth (1/4). Step back to 3 meters, and it drops to one-ninth (1/9).\n\nThis is the famous Inverse-Square Law (1/r\u00b2). It governs:\n\u2022 Gravity between planets\n\u2022 Electrostatic repulsion between electrons\n\u2022 Brightness of distant stars\n\u2022 Intensity of sound and Wi-Fi signals\n\nWhy does nature do this? Because in 3-dimensional space, any energy radiating outward spreads over the surface area of an expanding sphere ( = 4\\pi r^2$). As the radius doubles, the sphere's area quadruples, diluting the energy over four times the surface!",
+          "highlight": "The geometry of 3D space dictates that all radiant forces dilute according to 1/r\u00b2.",
           "interactivePrompt": "Imagine a 4-dimensional universe. How would gravity dilute with distance?"
         }
       ],
@@ -232,8 +232,8 @@ window.SCIENCE_DATA = {
             "Imagine you are an astronomer working late at night in a radio telescope observatory nestled deep inside a mountain valley. You are listening to the faint hiss of static from interstellar space.",
             "Suddenly, rising above the cosmic white noise, a crisp, artificial sequence breaks through your headphones:\nBeep... beep beep... beep beep beep... beep beep beep beep beep... beep beep beep beep beep beep beep.\nTwo. Three. Five. Seven. Eleven. Thirteen. Seventeen. Prime numbers.",
             "Without seeing who transmitted that signal, without knowing their biological form, and without understanding a single syllable of their spoken tongue, you would know one truth with 100% mathematical certainty: on the other end of that transmission is an intelligent mind.",
-            "Why? Because mathematics is not an arbitrary cultural invention like the English alphabet, the rules of cricket, or driving on the left side of the road. If an alien civilization exists around the star Proxima Centauri, their astronomers will still find that the ratio of a circle's circumference to its diameter is π (3.14159...). Their physicists will still discover that the hypotenuse of a right triangle squared equals the sum of the squares of the other two sides (^2 + b^2 = c^2$). Their chemists will still find that water consists of two parts hydrogen to one part oxygen.",
-            "In 1623, Galileo Galilei penned one of the most famous passages in the history of ideas: \"Philosophy is written in this grand book—I mean the universe—which stands continually open to our gaze. But the book cannot be understood unless one first learns to comprehend the language and read the letters in which it is composed. It is written in the language of mathematics.\"",
+            "Why? Because mathematics is not an arbitrary cultural invention like the English alphabet, the rules of cricket, or driving on the left side of the road. If an alien civilization exists around the star Proxima Centauri, their astronomers will still find that the ratio of a circle's circumference to its diameter is \u03c0 (3.14159...). Their physicists will still discover that the hypotenuse of a right triangle squared equals the sum of the squares of the other two sides (^2 + b^2 = c^2$). Their chemists will still find that water consists of two parts hydrogen to one part oxygen.",
+            "In 1623, Galileo Galilei penned one of the most famous passages in the history of ideas: \"Philosophy is written in this grand book\u2014I mean the universe\u2014which stands continually open to our gaze. But the book cannot be understood unless one first learns to comprehend the language and read the letters in which it is composed. It is written in the language of mathematics.\"",
             "Nature did not have to be mathematical. The cosmos could easily have been a capricious, lawless dream where gravity changes its mind every hour and water freezes on hot afternoons. Instead, reality sings in numbers, ratios, and geometric harmonies of unbelievable elegance."
           ]
         },
@@ -243,21 +243,21 @@ window.SCIENCE_DATA = {
           "subtitle": "Fibonacci Numbers, Pinecones & The Living Geometry of Growth",
           "paragraphs": [
             "Go outside into a park or forest, pick up a fallen pinecone, and inspect the base where the stem attached. Look closely at the spiraling arrangement of wooden scales.",
-            "You will notice that the scales do not grow in straight rows. Instead, they form two distinct families of intersecting spirals winding outward—one family curving clockwise, and the other family curving counter-clockwise.",
+            "You will notice that the scales do not grow in straight rows. Instead, they form two distinct families of intersecting spirals winding outward\u2014one family curving clockwise, and the other family curving counter-clockwise.",
             "Count the spirals. If you count patiently, you will almost invariably find that there are 8 spirals curling to the right and 13 spirals curling to the left. If you find a larger pinecone, you might count 13 and 21.",
             "Now examine the face of a giant sunflower. The seeds in the circular disk spiral outward in two directions: count them, and you will almost always find 34 spirals going clockwise and 55 counter-clockwise; or 55 and 89; or on massive prize-winning sunflowers, 89 and 144! Examine the diamond-shaped facets on the skin of a pineapple: you will count 8, 13, and 21 spirals.",
             "These are not coincidences. These numbers belong to the world-famous Fibonacci Sequence:\n0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377...",
             "Every number in this sequence is formed by adding together the two numbers immediately preceding it (e.g., 5 + 8 = 13; 8 + 13 = 21; 13 + 21 = 34; 21 + 34 = 55).",
             "How on Earth does a brainless pinecone, a pineapple, or a sunflower seed know how to calculate Fibonacci numbers? Did plants attend college trigonometry courses?",
             "The answer is an awe-inspiring triumph of evolutionary optimization. A sunflower grows from a tiny cluster of dividing cells in its center called the meristem. As new seeds form, they push older seeds outward toward the rim. The plant must decide: At what angle should I turn before producing the next seed?",
-            "• If the plant turns by a neat fraction like 1/2 (180 degrees), the seeds will form just two straight lines, leaving enormous gaps of wasted space.\n• If it turns by 1/4 (90 degrees), it forms a cross with four arms—again, leaving massive empty quadrants where sunlight and seeds are wasted.\n• If it turns by any simple rational fraction, the seeds quickly line up into radial spokes.",
-            "To pack the absolute maximum number of seeds into a circular space without wasting a single square millimeter, the plant must rotate by the most mathematically \"irrational\" number in existence—the Golden Ratio (φ ≈ 1.6180339887...). In circular geometry, this corresponds to an angle of roughly 137.5 degrees, known to mathematicians as the Golden Angle!",
-            "Because the ratios between consecutive Fibonacci numbers (55/34 ≈ 1.6176, 89/55 ≈ 1.6181) provide the closest fractional approximations to the Golden Ratio, the emerging spiral geometry naturally displays Fibonacci numbers! Over 400 million years of natural selection, plants discovered the exact geometric packing efficiency that human mathematicians only proved with calculus."
+            "\u2022 If the plant turns by a neat fraction like 1/2 (180 degrees), the seeds will form just two straight lines, leaving enormous gaps of wasted space.\n\u2022 If it turns by 1/4 (90 degrees), it forms a cross with four arms\u2014again, leaving massive empty quadrants where sunlight and seeds are wasted.\n\u2022 If it turns by any simple rational fraction, the seeds quickly line up into radial spokes.",
+            "To pack the absolute maximum number of seeds into a circular space without wasting a single square millimeter, the plant must rotate by the most mathematically \"irrational\" number in existence\u2014the Golden Ratio (\u03c6 \u2248 1.6180339887...). In circular geometry, this corresponds to an angle of roughly 137.5 degrees, known to mathematicians as the Golden Angle!",
+            "Because the ratios between consecutive Fibonacci numbers (55/34 \u2248 1.6176, 89/55 \u2248 1.6181) provide the closest fractional approximations to the Golden Ratio, the emerging spiral geometry naturally displays Fibonacci numbers! Over 400 million years of natural selection, plants discovered the exact geometric packing efficiency that human mathematicians only proved with calculus."
           ],
           "illustration": {
             "type": "svg",
-            "caption": "Fig 2.1 — The Golden Spiral & Successive Fibonacci Tessellation (1, 1, 2, 3, 5, 8, 13, 21)",
-            "svg": "<svg viewBox=\"0 0 550 340\" class=\"w-full max-w-lg h-auto stroke-current opacity-90 fill-none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Outer 21x13 Box -->\n  <rect x=\"30\" y=\"20\" width=\"490\" height=\"302.8\" stroke-width=\"1.8\" />\n  \n  <!-- 13x13 Square -->\n  <rect x=\"30\" y=\"20\" width=\"302.8\" height=\"302.8\" stroke-width=\"1.2\" />\n  <text x=\"180\" y=\"175\" font-family=\"Newsreader, serif\" font-size=\"16\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">13</text>\n  \n  <!-- 8x8 Square -->\n  <rect x=\"332.8\" y=\"136.8\" width=\"186.2\" height=\"186.2\" stroke-width=\"1.2\" />\n  <text x=\"425\" y=\"235\" font-family=\"Newsreader, serif\" font-size=\"15\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">8</text>\n  \n  <!-- 5x5 Square -->\n  <rect x=\"332.8\" y=\"20\" width=\"115.2\" height=\"116.8\" stroke-width=\"1.2\" />\n  <text x=\"390\" y=\"85\" font-family=\"Newsreader, serif\" font-size=\"14\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">5</text>\n  \n  <!-- 3x3 Square -->\n  <rect x=\"448\" y=\"20\" width=\"74.8\" height=\"71.8\" stroke-width=\"1\" />\n  <text x=\"485\" y=\"60\" font-family=\"Newsreader, serif\" font-size=\"12\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">3</text>\n  \n  <!-- 2x2 and 1x1 Squares -->\n  <rect x=\"448\" y=\"91.8\" width=\"45\" height=\"45\" stroke-width=\"0.8\" />\n  <rect x=\"493\" y=\"91.8\" width=\"27\" height=\"27\" stroke-width=\"0.8\" />\n  \n  <!-- The Logarithmic Golden Spiral (Smooth Golden Arc) -->\n  <path d=\"M 30 322.8 A 302.8 302.8 0 0 1 332.8 20 A 186.2 186.2 0 0 1 519 136.8 A 115.2 115.2 0 0 1 448 91.8 A 45 45 0 0 1 493 118\" \n        stroke-width=\"2.5\" stroke-linecap=\"round\" />\n        \n  <text x=\"275\" y=\"335\" font-family=\"Plus Jakarta Sans, sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">THE GOLDEN SPIRAL: φ ≈ 1.618033... & THE FIBONACCI GROWTH RATIO</text>\n</svg>"
+            "caption": "Fig 2.1 \u2014 The Golden Spiral & Successive Fibonacci Tessellation (1, 1, 2, 3, 5, 8, 13, 21)",
+            "svg": "<svg viewBox=\"0 0 550 340\" class=\"w-full max-w-lg h-auto stroke-current opacity-90 fill-none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Outer 21x13 Box -->\n  <rect x=\"30\" y=\"20\" width=\"490\" height=\"302.8\" stroke-width=\"1.8\" />\n  \n  <!-- 13x13 Square -->\n  <rect x=\"30\" y=\"20\" width=\"302.8\" height=\"302.8\" stroke-width=\"1.2\" />\n  <text x=\"180\" y=\"175\" font-family=\"Newsreader, serif\" font-size=\"16\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">13</text>\n  \n  <!-- 8x8 Square -->\n  <rect x=\"332.8\" y=\"136.8\" width=\"186.2\" height=\"186.2\" stroke-width=\"1.2\" />\n  <text x=\"425\" y=\"235\" font-family=\"Newsreader, serif\" font-size=\"15\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">8</text>\n  \n  <!-- 5x5 Square -->\n  <rect x=\"332.8\" y=\"20\" width=\"115.2\" height=\"116.8\" stroke-width=\"1.2\" />\n  <text x=\"390\" y=\"85\" font-family=\"Newsreader, serif\" font-size=\"14\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">5</text>\n  \n  <!-- 3x3 Square -->\n  <rect x=\"448\" y=\"20\" width=\"74.8\" height=\"71.8\" stroke-width=\"1\" />\n  <text x=\"485\" y=\"60\" font-family=\"Newsreader, serif\" font-size=\"12\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">3</text>\n  \n  <!-- 2x2 and 1x1 Squares -->\n  <rect x=\"448\" y=\"91.8\" width=\"45\" height=\"45\" stroke-width=\"0.8\" />\n  <rect x=\"493\" y=\"91.8\" width=\"27\" height=\"27\" stroke-width=\"0.8\" />\n  \n  <!-- The Logarithmic Golden Spiral (Smooth Golden Arc) -->\n  <path d=\"M 30 322.8 A 302.8 302.8 0 0 1 332.8 20 A 186.2 186.2 0 0 1 519 136.8 A 115.2 115.2 0 0 1 448 91.8 A 45 45 0 0 1 493 118\" \n        stroke-width=\"2.5\" stroke-linecap=\"round\" />\n        \n  <text x=\"275\" y=\"335\" font-family=\"Plus Jakarta Sans, sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">THE GOLDEN SPIRAL: \u03c6 \u2248 1.618033... & THE FIBONACCI GROWTH RATIO</text>\n</svg>"
           }
         },
         {
@@ -268,10 +268,10 @@ window.SCIENCE_DATA = {
             "In Hollywood cinema and comic books, gigantic creatures are a thrilling staple: King Kong scaling skyscrapers, a radioactive 50-meter ant terrorizing Nevada, or a 100-meter-tall Godzilla smashing through Tokyo bridges with a roar.",
             "Could a monster of that scale actually walk upon our planet? The laws of mathematics and mechanical engineering give a definitive, merciless answer: Not for a single second. The instant Godzilla materialized, his bones would shatter like dry ceramic tiles, his muscles would tear, and he would collapse into a heap under his own weight.",
             "The reason is a fundamental geometric principle first proven by Galileo Galilei in 1638: The Square-Cube Law.",
-            "Imagine an ordinary human being who stands 1.8 meters tall and weighs 75 kilograms. Now imagine scaling that human up by a factor of 10 in every linear dimension (making them 18 meters tall—about as tall as a 6-story building). What happens to their strength versus their weight?",
-            "• Cross-sectional area scales by the SQUARE of the dimension (10² = 100). The thickness of your leg bones and the cross-sectional area of your muscles increase by a factor of 100.\n• BUT volume and mass scale by the CUBE of the dimension (10³ = 1,000)! Because mass depends on volume, the scaled-up human now weighs 75,000 kilograms (75 metric tons)—a 1,000-fold increase!",
-            "Think about what this means: The giant’s weight has multiplied by 1,000, but the bones supporting that weight are only 100 times thicker. Each square centimeter of their femur bone must now support TEN TIMES more mechanical pressure than in a normal human body! The bones would snap simply under the static force of standing still.",
-            "This explains the entire architectural blueprint of the animal kingdom:\n• An ant can lift 50 times its body weight and survive a fall from an airplane without injury because its mass is nearly negligible compared to its surface area and exoskeleton thickness.\n• An elephant, by contrast, cannot jump even an inch off the ground. Its legs are shaped like thick, vertical pillars of bone to withstand its multi-ton weight.\n• The blue whale can grow to 150 tons only because the buoyant force of water supports its immense bulk; if washed ashore, a whale suffocates under the crushing weight of its own rib cage.",
+            "Imagine an ordinary human being who stands 1.8 meters tall and weighs 75 kilograms. Now imagine scaling that human up by a factor of 10 in every linear dimension (making them 18 meters tall\u2014about as tall as a 6-story building). What happens to their strength versus their weight?",
+            "\u2022 Cross-sectional area scales by the SQUARE of the dimension (10\u00b2 = 100). The thickness of your leg bones and the cross-sectional area of your muscles increase by a factor of 100.\n\u2022 BUT volume and mass scale by the CUBE of the dimension (10\u00b3 = 1,000)! Because mass depends on volume, the scaled-up human now weighs 75,000 kilograms (75 metric tons)\u2014a 1,000-fold increase!",
+            "Think about what this means: The giant\u2019s weight has multiplied by 1,000, but the bones supporting that weight are only 100 times thicker. Each square centimeter of their femur bone must now support TEN TIMES more mechanical pressure than in a normal human body! The bones would snap simply under the static force of standing still.",
+            "This explains the entire architectural blueprint of the animal kingdom:\n\u2022 An ant can lift 50 times its body weight and survive a fall from an airplane without injury because its mass is nearly negligible compared to its surface area and exoskeleton thickness.\n\u2022 An elephant, by contrast, cannot jump even an inch off the ground. Its legs are shaped like thick, vertical pillars of bone to withstand its multi-ton weight.\n\u2022 The blue whale can grow to 150 tons only because the buoyant force of water supports its immense bulk; if washed ashore, a whale suffocates under the crushing weight of its own rib cage.",
             "Geometry is the silent architect that dictates what life can and cannot be."
           ]
         },
@@ -284,9 +284,9 @@ window.SCIENCE_DATA = {
             "Now, take two steps backward so that your distance from the fire doubles to 2 meters. How much warmth do you feel?",
             "Intuition might whisper that doubling your distance cuts the heat in half. But your skin tells you something very different: you suddenly feel remarkably cold. The heat did not drop to 1/2; it dropped to ONE-FOURTH (1/4) of its original intensity!",
             "Step back to 3 meters, and the heat drops to one-ninth (1/9). Step back to 10 meters, and the warmth is just one-hundredth (1/100th) of what you felt up close.",
-            "This is the famous Inverse-Square Law (/r^2$), and it is one of the most universal mathematical truths in all of nature. It governs:\n• The gravitational attraction between the Earth, Moon, and orbiting satellites\n• The electrostatic attraction that tethers electrons to atomic nuclei\n• The apparent brightness of stars shining across billions of light-years\n• The signal strength of your home Wi-Fi router and mobile phone antennas",
+            "This is the famous Inverse-Square Law (/r^2$), and it is one of the most universal mathematical truths in all of nature. It governs:\n\u2022 The gravitational attraction between the Earth, Moon, and orbiting satellites\n\u2022 The electrostatic attraction that tethers electrons to atomic nuclei\n\u2022 The apparent brightness of stars shining across billions of light-years\n\u2022 The signal strength of your home Wi-Fi router and mobile phone antennas",
             "Why does the universe insist on dividing by the SQUARE of the distance (^2$)? Why not simply $, or ^3$, or some awkward decimal like ^{2.7}0",
-            "The answer is pure, breathtaking geometry. We live in a universe with three spatial dimensions (length, width, height). When energy radiates outward equally in all directions from a point source—whether it is light photons, gravitational flux, or sound waves—it expands as the surface of a growing three-dimensional sphere.",
+            "The answer is pure, breathtaking geometry. We live in a universe with three spatial dimensions (length, width, height). When energy radiates outward equally in all directions from a point source\u2014whether it is light photons, gravitational flux, or sound waves\u2014it expands as the surface of a growing three-dimensional sphere.",
             "The geometric formula for the surface area of a sphere is  = 4\\pi r^2$. Notice the exponent: ^20 As that sphere expands, the exact same fixed amount of energy emitted by the source must stretch across four times the surface area every single time the radius doubles. The dilution of starlight and gravity across empty space is simply the geometric shadow cast by living in a three-dimensional world."
           ]
         },
@@ -296,12 +296,12 @@ window.SCIENCE_DATA = {
           "subtitle": "The Fundamental Physical Constants that Hold the Universe Together",
           "paragraphs": [
             "If you peer beneath the surface of chemistry, astronomy, and subatomic physics, you find a collection of strange numbers that appear everywhere in nature and never change. Physicists call them the Fundamental Constants:",
-            "1. $ (The Speed of Light in Vacuum) ≈ 299,792,458 meters per second.\nThe universal cosmic speed limit. No information, signal, or mass can travel faster through spacetime.",
-            "2. $ (Newton’s Gravitational Constant) ≈ 6.674 × 10⁻¹¹ N·m²/kg².\nThe precise strength of gravity’s invisible grip pulling masses together across empty space.",
-            "3. $ (Planck’s Constant) ≈ 6.626 × 10⁻³⁴ Joule·seconds.\nThe fundamental graininess or \"quantum pixel size\" of energy and momentum in the subatomic world.",
-            "4. $\u0007lpha$ (The Fine-Structure Constant) ≈ 1/137.035999...\nA dimensionless ratio that dictates how strongly photons of light interact with charged particles like electrons.",
+            "1. $ (The Speed of Light in Vacuum) \u2248 299,792,458 meters per second.\nThe universal cosmic speed limit. No information, signal, or mass can travel faster through spacetime.",
+            "2. $ (Newton\u2019s Gravitational Constant) \u2248 6.674 \u00d7 10\u207b\u00b9\u00b9 N\u00b7m\u00b2/kg\u00b2.\nThe precise strength of gravity\u2019s invisible grip pulling masses together across empty space.",
+            "3. $ (Planck\u2019s Constant) \u2248 6.626 \u00d7 10\u207b\u00b3\u2074 Joule\u00b7seconds.\nThe fundamental graininess or \"quantum pixel size\" of energy and momentum in the subatomic world.",
+            "4. $\u0007lpha$ (The Fine-Structure Constant) \u2248 1/137.035999...\nA dimensionless ratio that dictates how strongly photons of light interact with charged particles like electrons.",
             "Here is the deepest mystery in modern physics: Nobody knows where these numbers come from. No equation predicts their exact values; we simply measure them in experiments.",
-            "Yet our very existence hangs on their razor-sharp calibration:\n• If gravity ($) were slightly stronger, stars would burn through their thermonuclear fuel so fast that complex life would never have time to evolve. If it were slightly weaker, matter could never condense to ignite stars in the first place.\n• If the strong nuclear force were just 2% weaker, two protons could not bind to form deuterium, and the entire universe would be composed of lone hydrogen atoms—no water, no carbon, no oxygen, no DNA, and no human beings to ask questions.",
+            "Yet our very existence hangs on their razor-sharp calibration:\n\u2022 If gravity ($) were slightly stronger, stars would burn through their thermonuclear fuel so fast that complex life would never have time to evolve. If it were slightly weaker, matter could never condense to ignite stars in the first place.\n\u2022 If the strong nuclear force were just 2% weaker, two protons could not bind to form deuterium, and the entire universe would be composed of lone hydrogen atoms\u2014no water, no carbon, no oxygen, no DNA, and no human beings to ask questions.",
             "The universe we inhabit is a symphony of mathematical constants tuned to allow complexity, stars, planets, and consciousness to exist."
           ]
         },
@@ -334,7 +334,7 @@ window.SCIENCE_DATA = {
           "id": "atomic_journey",
           "title": "From Democritus to Quantum Orbitals",
           "summary": "How our model of the atom evolved from solid spheres to probabilistic electron clouds.",
-          "content": "Starting with Democritus's indivisible \"atomos\", to Dalton's billiard ball model, Thomson's plum pudding, Rutherford's nuclear core, Bohr's quantized energy levels, and Schrödinger's probabilistic electron clouds—the atom reveals the strange quantum fabric of our reality."
+          "content": "Starting with Democritus's indivisible \"atomos\", to Dalton's billiard ball model, Thomson's plum pudding, Rutherford's nuclear core, Bohr's quantized energy levels, and Schr\u00f6dinger's probabilistic electron clouds\u2014the atom reveals the strange quantum fabric of our reality."
         }
       ],
       "bookSections": [
@@ -346,9 +346,9 @@ window.SCIENCE_DATA = {
             "Around 430 BCE, in the sun-drenched Greek coastal town of Abdera, a philosopher named Democritus sat holding a fresh loaf of crusty bread.",
             "Democritus held a sharp knife and posed a seemingly childlike question: If I slice this loaf of bread in half, I have two smaller pieces of bread. If I slice one of those pieces in half again, I have a smaller piece still. Can I continue this process forever into infinity? Or do I eventually reach a fundamental grain of matter so small, so indestructible, and so indivisible that no knife on Earth can cut it any further?",
             "Democritus reasoned that you CANNOT divide matter forever into infinity. If you could, matter would eventually dissolve into nothingness (or zero-dimensional points), meaning you could never assemble real, solid physical things out of it!",
-            "Therefore, he concluded, there must exist tiny, indivisible, unchangeable building blocks that constitute all physical reality. He called them *atomos*—a Greek word meaning \"uncuttable\" or \"indivisible\".",
+            "Therefore, he concluded, there must exist tiny, indivisible, unchangeable building blocks that constitute all physical reality. He called them *atomos*\u2014a Greek word meaning \"uncuttable\" or \"indivisible\".",
             "Democritus imagined atoms bouncing endlessly through an infinite empty void (*the void*), colliding, hooking together like tiny velcro burrs, and drifting apart. Sweet things like honey were made of smooth, rounded atoms; bitter things like vinegar were made of sharp, hook-shaped atoms; hard rocks were made of tightly interlocking, jagged atoms.",
-            "For over two thousand years, his brilliant insight was dismissed. The famous philosopher Aristotle argued instead that everything was composed of four continuous elements: Earth, Air, Fire, and Water. It took until 1803—twenty-two centuries later—for an English schoolmaster named John Dalton to prove with chemical measurements that Democritus had been right all along: matter is made of discrete, indestructible atoms."
+            "For over two thousand years, his brilliant insight was dismissed. The famous philosopher Aristotle argued instead that everything was composed of four continuous elements: Earth, Air, Fire, and Water. It took until 1803\u2014twenty-two centuries later\u2014for an English schoolmaster named John Dalton to prove with chemical measurements that Democritus had been right all along: matter is made of discrete, indestructible atoms."
           ]
         },
         {
@@ -361,7 +361,7 @@ window.SCIENCE_DATA = {
             "In 1909, at the University of Manchester, New Zealand physicist Ernest Rutherford decided to test this model with an audacious experiment.",
             "Rutherford, along with young researchers Hans Geiger and Ernest Marsden, took a sheet of pure gold beaten so thin it was only about 400 atoms thick (so fragile that a gentle breath would tear it). They surrounded the gold leaf with a fluorescent zinc sulfide screen that flashed tiny sparks of light whenever hit by subatomic particles. Then, they aimed a beam of fast, heavy, positively charged alpha particles directly at the gold foil.",
             "As expected, 99.9% of the particles flew straight through the gold foil as if nothing was there. But then, the impossible happened.",
-            "Roughly once in every 8,000 particles, an alpha particle slammed into the foil and ricocheted backwards at wild angles—some bouncing almost directly back toward the gun!",
+            "Roughly once in every 8,000 particles, an alpha particle slammed into the foil and ricocheted backwards at wild angles\u2014some bouncing almost directly back toward the gun!",
             "Rutherford later recalled the shock with famous words: \"It was quite the most incredible event that has ever happened to me in my life. It was almost as incredible as if you fired a 15-inch artillery shell at a piece of tissue paper and it bounced back and hit you!\"",
             "How could a piece of \"tissue paper\" bounce a heavy artillery shell? Rutherford realized there was only one mathematical explanation: The atom is NOT a soft pudding of positive charge.",
             "Almost all the mass of the atom, along with all of its positive charge, is compressed into a microscopic, ultra-dense kernel at the dead center: the Atomic Nucleus! The electrons orbit far away in a vast expanse of empty space.",
@@ -370,8 +370,8 @@ window.SCIENCE_DATA = {
           ],
           "illustration": {
             "type": "svg",
-            "caption": "Fig 3.1 — Rutherford's Gold Foil Experiment (1909): Proving Matter is 99.9999999% Empty Space",
-            "svg": "<svg viewBox=\"0 0 580 280\" class=\"w-full max-w-lg h-auto stroke-current opacity-90 fill-none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Alpha Particle Source -->\n  <rect x=\"20\" y=\"115\" width=\"70\" height=\"50\" stroke-width=\"1.5\" />\n  <circle cx=\"55\" cy=\"140\" r=\"10\" stroke-width=\"1.2\" />\n  <text x=\"55\" y=\"144\" font-family=\"Plus Jakarta Sans, sans-serif\" font-size=\"10\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">α</text>\n  <text x=\"55\" y=\"185\" font-family=\"Plus Jakarta Sans, sans-serif\" font-size=\"9\" opacity=\"0.75\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">Radium Source</text>\n  \n  <!-- Slit Collimator -->\n  <line x1=\"120\" y1=\"80\" x2=\"120\" y2=\"125\" stroke-width=\"2.5\" />\n  <line x1=\"120\" y1=\"155\" x2=\"120\" y2=\"200\" stroke-width=\"2.5\" />\n  \n  <!-- Gold Foil Sheet -->\n  <line x1=\"280\" y1=\"60\" x2=\"280\" y2=\"220\" stroke-width=\"4\" />\n  <text x=\"280\" y=\"45\" font-family=\"Newsreader, serif\" font-size=\"12\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">Gold Foil (400 atoms thick)</text>\n  \n  <!-- Circular Scintillation Zinc Sulfide Screen -->\n  <path d=\"M 230 70 A 150 150 0 1 1 230 210\" stroke-dasharray=\"3,3\" stroke-width=\"1.5\" />\n  <text x=\"450\" y=\"145\" font-family=\"Plus Jakarta Sans, sans-serif\" font-size=\"9\" opacity=\"0.75\" fill=\"currentColor\" stroke=\"none\">Zinc Sulfide Detector Screen</text>\n\n  <!-- Un-deflected Alpha Beams (99.9% straight through) -->\n  <line x1=\"90\" y1=\"140\" x2=\"420\" y2=\"140\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\" />\n  <line x1=\"90\" y1=\"138\" x2=\"420\" y2=\"125\" stroke-width=\"1\" opacity=\"0.6\" />\n  <line x1=\"90\" y1=\"142\" x2=\"420\" y2=\"155\" stroke-width=\"1\" opacity=\"0.6\" />\n  <circle cx=\"420\" cy=\"140\" r=\"3\" fill=\"currentColor\" />\n  <text x=\"430\" y=\"130\" font-family=\"Newsreader, serif\" font-size=\"10\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">99.9% Pass Undeflected</text>\n\n  <!-- The 1 in 8,000 Back-Scattered Particle -->\n  <path d=\"M 90 140 L 280 140 L 160 85\" stroke-width=\"2\" stroke-linecap=\"round\" />\n  <circle cx=\"160\" cy=\"85\" r=\"4\" fill=\"currentColor\" />\n  <text x=\"170\" y=\"75\" font-family=\"Newsreader, serif\" font-size=\"11\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\">1 in 8,000 Bounces Back!</text>\n\n  <text x=\"290\" y=\"255\" font-family=\"Newsreader, serif\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\"Like firing a 15-inch shell at tissue paper and having it bounce back\" — Rutherford</text>\n</svg>"
+            "caption": "Fig 3.1 \u2014 Rutherford's Gold Foil Experiment (1909): Proving Matter is 99.9999999% Empty Space",
+            "svg": "<svg viewBox=\"0 0 580 280\" class=\"w-full max-w-lg h-auto stroke-current opacity-90 fill-none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Alpha Particle Source -->\n  <rect x=\"20\" y=\"115\" width=\"70\" height=\"50\" stroke-width=\"1.5\" />\n  <circle cx=\"55\" cy=\"140\" r=\"10\" stroke-width=\"1.2\" />\n  <text x=\"55\" y=\"144\" font-family=\"Plus Jakarta Sans, sans-serif\" font-size=\"10\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\u03b1</text>\n  <text x=\"55\" y=\"185\" font-family=\"Plus Jakarta Sans, sans-serif\" font-size=\"9\" opacity=\"0.75\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">Radium Source</text>\n  \n  <!-- Slit Collimator -->\n  <line x1=\"120\" y1=\"80\" x2=\"120\" y2=\"125\" stroke-width=\"2.5\" />\n  <line x1=\"120\" y1=\"155\" x2=\"120\" y2=\"200\" stroke-width=\"2.5\" />\n  \n  <!-- Gold Foil Sheet -->\n  <line x1=\"280\" y1=\"60\" x2=\"280\" y2=\"220\" stroke-width=\"4\" />\n  <text x=\"280\" y=\"45\" font-family=\"Newsreader, serif\" font-size=\"12\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">Gold Foil (400 atoms thick)</text>\n  \n  <!-- Circular Scintillation Zinc Sulfide Screen -->\n  <path d=\"M 230 70 A 150 150 0 1 1 230 210\" stroke-dasharray=\"3,3\" stroke-width=\"1.5\" />\n  <text x=\"450\" y=\"145\" font-family=\"Plus Jakarta Sans, sans-serif\" font-size=\"9\" opacity=\"0.75\" fill=\"currentColor\" stroke=\"none\">Zinc Sulfide Detector Screen</text>\n\n  <!-- Un-deflected Alpha Beams (99.9% straight through) -->\n  <line x1=\"90\" y1=\"140\" x2=\"420\" y2=\"140\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\" />\n  <line x1=\"90\" y1=\"138\" x2=\"420\" y2=\"125\" stroke-width=\"1\" opacity=\"0.6\" />\n  <line x1=\"90\" y1=\"142\" x2=\"420\" y2=\"155\" stroke-width=\"1\" opacity=\"0.6\" />\n  <circle cx=\"420\" cy=\"140\" r=\"3\" fill=\"currentColor\" />\n  <text x=\"430\" y=\"130\" font-family=\"Newsreader, serif\" font-size=\"10\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">99.9% Pass Undeflected</text>\n\n  <!-- The 1 in 8,000 Back-Scattered Particle -->\n  <path d=\"M 90 140 L 280 140 L 160 85\" stroke-width=\"2\" stroke-linecap=\"round\" />\n  <circle cx=\"160\" cy=\"85\" r=\"4\" fill=\"currentColor\" />\n  <text x=\"170\" y=\"75\" font-family=\"Newsreader, serif\" font-size=\"11\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\">1 in 8,000 Bounces Back!</text>\n\n  <text x=\"290\" y=\"255\" font-family=\"Newsreader, serif\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\"Like firing a 15-inch shell at tissue paper and having it bounce back\" \u2014 Rutherford</text>\n</svg>"
           }
         },
         {
@@ -380,11 +380,11 @@ window.SCIENCE_DATA = {
           "subtitle": "Dmitri Mendeleev & The Periodic Table of Elements",
           "paragraphs": [
             "In the winter of 1869, a wild-haired, bearded Russian chemistry professor named Dmitri Mendeleev was facing a frantic publisher's deadline in St. Petersburg to write a textbook.",
-            "By 1869, chemists had discovered 63 distinct chemical elements—copper, gold, sulfur, oxygen, iron, uranium. But chemistry was a chaotic mess. There was no system, no master catalog, and no logic. Elements seemed to have completely random properties: some were shiny metals, some were suffocating gases, some exploded in water.",
+            "By 1869, chemists had discovered 63 distinct chemical elements\u2014copper, gold, sulfur, oxygen, iron, uranium. But chemistry was a chaotic mess. There was no system, no master catalog, and no logic. Elements seemed to have completely random properties: some were shiny metals, some were suffocating gases, some exploded in water.",
             "Mendeleev, who had grown up in the frozen wastes of Siberia and loved playing card games like patience and solitaire, came up with an ingenious idea.",
             "He took 63 blank index cards. On each card, he wrote the name of an element, its atomic weight, and its known chemical quirks (e.g., \"Sodium: explodes in water, forms salt with chlorine\"). Then, he began laying the cards out on his desk like a deck of playing cards, shifting them around by atomic weight and chemical personality.",
             "He carried the cards onto trains, shuffling them obsessively. Exhausted after three days without sleep, he collapsed onto his sofa and drifted off. When he woke up, he grabbed a pen: \"In a dream I saw a table where all the elements fell into place as required. Upon awakening, I immediately wrote it down on a piece of paper.\"",
-            "Mendeleev discovered that when elements are arranged in order of ascending weight, their chemical traits repeat in regular, rhythmic cycles—a phenomenon known as Periodicity!",
+            "Mendeleev discovered that when elements are arranged in order of ascending weight, their chemical traits repeat in regular, rhythmic cycles\u2014a phenomenon known as Periodicity!",
             "Here is the moment of true scientific courage: In several places in his table, the pattern broke because an element seemed to be missing. A timid person would have thrown the table away or fudged the numbers. Mendeleev did the exact opposite.",
             "He boldly left empty gaps in the table and made a daring announcement to the scientific world: \"These empty spots do not mean my table is wrong. They mean Nature has elements that human chemists have not discovered yet!\"",
             "He even predicted the exact atomic weights, densities, boiling points, and chemical behaviors of these undiscovered elements, naming them *eka-aluminum*, *eka-boron*, and *eka-silicon*.",
@@ -396,14 +396,14 @@ window.SCIENCE_DATA = {
           "title": "The Glow in the Leaky Shed",
           "subtitle": "Marie Curie & The Radioactivity Revolution",
           "paragraphs": [
-            "In late 19th-century Paris, in an abandoned, drafty wooden shed that had once been used as a medical dissection room, worked a young Polish woman named Maria Skłodowska—known to history as Marie Curie.",
+            "In late 19th-century Paris, in an abandoned, drafty wooden shed that had once been used as a medical dissection room, worked a young Polish woman named Maria Sk\u0142odowska\u2014known to history as Marie Curie.",
             "The shed had a skylight that leaked rain, no heating in winter, and asphalt floors that turned into mud. Yet inside this cold room, Marie and her husband Pierre Curie initiated one of the greatest scientific revolutions in human history.",
             "Shortly before, Henri Becquerel had discovered that uranium salts emitted strange, invisible rays that could expose photographic plates in pitch-black drawers. Marie wondered: Is uranium the only material that does this? What is the source of this ceaseless energy?",
             "She began testing mineral ores with an electrometer invented by Pierre. She discovered that a dark, heavy, tar-like mineral called pitchblende was vastly more active than pure uranium itself! She deduced that pitchblende must contain an unknown, unimaginably active new element hiding in trace quantities.",
             "To prove it, she needed to isolate it. Marie arranged for sacks of pitchblende tailings from mines in Bohemia to be dumped outside her shed. For four grueling years, wearing heavy boots and a dust-covered smock, she boiled and stirred 20-kilogram cauldrons of toxic, smoking pitchblende over iron burners with a heavy iron rod, breathing in sulfur fumes and acid vapor.",
             "From tons of black rock, she isolated less than a tenth of a gram of two brand-new elements: **Polonium** (named after her beloved, occupied homeland of Poland) and **Radium** (from the Latin word for ray).",
             "At night, exhausted and aching, the Curies would walk back to their silent, dark shed to look at their glassware. Marie wrote in her journal: \"One of our joys was to go into our workroom at night; we perceived on all sides the luminous silhouettes of the bottles of capsules containing our products. It was really a lovely sight and one always new to us. The glowing tubes looked like faint, fairy lights.\"",
-            "Radium was glowing with an internal fire that violated classical physics. Where was the energy coming from? Marie coined the word **Radioactivity**. She realized that radioactivity is an *atomic* property—the atom was not an indivisible, immortal billiard ball as the Greeks had believed, but a dynamic, energetic structure that could spontaneously break apart, transmuting one element into another!",
+            "Radium was glowing with an internal fire that violated classical physics. Where was the energy coming from? Marie coined the word **Radioactivity**. She realized that radioactivity is an *atomic* property\u2014the atom was not an indivisible, immortal billiard ball as the Greeks had believed, but a dynamic, energetic structure that could spontaneously break apart, transmuting one element into another!",
             "Marie Curie became the first woman to win a Nobel Prize (Physics, 1903) and remains the only individual in human history to win Nobel Prizes in two distinct sciences (Chemistry, 1911). Despite handling radioactive vials with bare hands and suffering severe radiation damage, she gave away her research freely, refusing to patent radium so that doctors worldwide could use it to treat cancer."
           ]
         },
@@ -412,9 +412,9 @@ window.SCIENCE_DATA = {
           "title": "The Secret of the Twisted Ladder",
           "subtitle": "Rosalind Franklin & The Chemical Blueprint of Life",
           "paragraphs": [
-            "Every living organism on Earth—a microscopic amoeba, a 100-meter redwood tree, a Bengal tiger, and you—starts out as a single cell. What chemical software tells that cell how to construct eyeballs, beating hearts, leaf veins, or tiger stripes?",
+            "Every living organism on Earth\u2014a microscopic amoeba, a 100-meter redwood tree, a Bengal tiger, and you\u2014starts out as a single cell. What chemical software tells that cell how to construct eyeballs, beating hearts, leaf veins, or tiger stripes?",
             "For decades, biologists knew that chromosomes contained a long, thread-like molecule called Deoxyribonucleic Acid (DNA). But nobody knew its three-dimensional molecular architecture, which held the secret of how genetic information was copied and passed across generations.",
-            "In 1951, at King’s College London, an extraordinarily meticulous 31-year-old chemist and X-ray crystallographer named Rosalind Franklin took on the challenge.",
+            "In 1951, at King\u2019s College London, an extraordinarily meticulous 31-year-old chemist and X-ray crystallographer named Rosalind Franklin took on the challenge.",
             "Franklin was a master of X-ray diffraction. She pulled gossamer-thin fibers of pure DNA (thinner than a spider's silk thread), mounted them in a humidity-controlled chamber, and bombarded them with fine beams of X-rays for up to 100 continuous hours.",
             "In May 1952, after days of careful alignment, Franklin captured **Photo 51**. When developed in the darkroom, the photographic plate revealed an unmistakable, crystal-clear 'X'-shaped diffraction pattern surrounded by geometric diamonds.",
             "To anyone trained in mathematical crystallography, that distinct 'X' shouted a single, unambiguous word: **Helix**! The mathematical spacing of the dark spots proved that DNA consisted of two complementary helical strands twisting around each other with phosphate backbones on the outside and chemical base pairs on the inside.",
@@ -429,8 +429,8 @@ window.SCIENCE_DATA = {
           "subtitle": "Four Atomic Mysteries to Contemplate",
           "paragraphs": [
             "1. The Empty Desk Paradox:\nIf you and your wooden desk are both composed of atoms that are 99.999999999% empty space, why doesn't your laptop fall through the desk onto the floor, and why can't you walk through solid concrete walls?\n(Hint: Think about what happens when you try to push the north poles of two powerful magnets together, and how the Pauli Exclusion Principle forbids electrons from occupying the same quantum state!).",
-            "2. The Ancient Breath of Caesar:\nWhen Julius Caesar took his dying breath in 44 BCE, he exhaled approximately one liter of air (about 2.5 × 10²² gas molecules). Over the past two millennia, those gas molecules have mixed thoroughly throughout Earth's atmosphere. Mathematically, with every single breath you take right now, are you inhaling at least one molecule that was once inside Caesar's lungs?",
-            "3. The Miracle of Table Salt:\nSodium (Na) is a soft, shiny metal that bursts into violent flames when it touches water. Chlorine (Cl) is a toxic, choking greenish-yellow gas used as a chemical weapon. Yet when they exchange a single electron, they form Sodium Chloride (NaCl)—ordinary table salt, which you sprinkle on food and which your heart requires to beat. How can two lethal elements become harmless and vital to life simply by trading an electron?",
+            "2. The Ancient Breath of Caesar:\nWhen Julius Caesar took his dying breath in 44 BCE, he exhaled approximately one liter of air (about 2.5 \u00d7 10\u00b2\u00b2 gas molecules). Over the past two millennia, those gas molecules have mixed thoroughly throughout Earth's atmosphere. Mathematically, with every single breath you take right now, are you inhaling at least one molecule that was once inside Caesar's lungs?",
+            "3. The Miracle of Table Salt:\nSodium (Na) is a soft, shiny metal that bursts into violent flames when it touches water. Chlorine (Cl) is a toxic, choking greenish-yellow gas used as a chemical weapon. Yet when they exchange a single electron, they form Sodium Chloride (NaCl)\u2014ordinary table salt, which you sprinkle on food and which your heart requires to beat. How can two lethal elements become harmless and vital to life simply by trading an electron?",
             "4. The Stardust Connection:\nHydrogen and helium were created in the Big Bang. But every single atom of carbon in your muscles, calcium in your teeth, and iron in your blood could only be forged in one place: deep inside the crushing, multi-million-degree thermonuclear cores of massive stars that exploded billions of years ago. How does it feel to know that your body is made of ancient star dust?"
           ]
         }
@@ -461,9 +461,9 @@ window.SCIENCE_DATA = {
           "subtitle": "From the Pale Blue Dot to the Laniakea Supercluster",
           "paragraphs": [
             "If you were to send a letter from the other side of the universe, what would your full return address look like?",
-            "• Avash / Reader\n• Planet Earth (Third rock from the Sun)\n• The Solar System\n• The Oort Cloud / Local Interstellar Cloud\n• The Orion–Cygnus Spiral Arm\n• The Milky Way Galaxy (a barred spiral of 200 billion stars, 100,000 light-years across)\n• The Local Group (milky Way, Andromeda, Triangulum, and 50 dwarf galaxies)\n• The Virgo Supercluster\n• The Laniakea Supercluster (meaning \"Immeasurable Heaven\" in Hawaiian—a gravitational web of 100,000 galaxies spanning 520 million light-years)\n• The Observable Universe (a sphere 93 billion light-years in diameter containing over two trillion galaxies).",
+            "\u2022 Avash / Reader\n\u2022 Planet Earth (Third rock from the Sun)\n\u2022 The Solar System\n\u2022 The Oort Cloud / Local Interstellar Cloud\n\u2022 The Orion\u2013Cygnus Spiral Arm\n\u2022 The Milky Way Galaxy (a barred spiral of 200 billion stars, 100,000 light-years across)\n\u2022 The Local Group (milky Way, Andromeda, Triangulum, and 50 dwarf galaxies)\n\u2022 The Virgo Supercluster\n\u2022 The Laniakea Supercluster (meaning \"Immeasurable Heaven\" in Hawaiian\u2014a gravitational web of 100,000 galaxies spanning 520 million light-years)\n\u2022 The Observable Universe (a sphere 93 billion light-years in diameter containing over two trillion galaxies).",
             "On February 14, 1990, as the robotic space probe *Voyager 1* prepared to leave the solar system after completing its primary mission, astronomer Carl Sagan convinced NASA to turn the spacecraft's camera backward one final time.",
-            "From a staggering distance of 6 billion kilometers (beyond the orbit of Neptune), Voyager 1 snapped a photograph of Earth. In the frame, amidst sunbeams bouncing off the camera lens, Earth appears as a single, tiny, luminous blue speck—just 0.12 pixels in size.",
+            "From a staggering distance of 6 billion kilometers (beyond the orbit of Neptune), Voyager 1 snapped a photograph of Earth. In the frame, amidst sunbeams bouncing off the camera lens, Earth appears as a single, tiny, luminous blue speck\u2014just 0.12 pixels in size.",
             "Carl Sagan reflected on this image with timeless poetry:\n\"Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love... on a mote of dust suspended in a sunbeam.\"",
             "Science does not diminish our significance by showing how vast the cosmos is; it elevates our wonder. In this immense cosmic ocean, we are the cosmos waking up, looking at itself, and daring to understand where it came from."
           ]
@@ -479,8 +479,8 @@ window.SCIENCE_DATA = {
             "James Clerk Maxwell had already proven that light is an electromagnetic wave traveling at a fixed speed: $c \\approx 300,000$ kilometers per second. Einstein realized something radical: The speed of light is CONSTANT for all observers, no matter how fast you or the light source are moving!",
             "Think about how strange this is. If you are on a train moving at 100 km/h and throw a baseball forward at 20 km/h, someone on the platform sees the ball travel at 120 km/h. Velocities add up.\n\nNow imagine you are on a spaceship traveling at 99% of the speed of light, and you shine a flashlight forward. Common sense says the light should travel at 1.99 times the speed of light. But Nature says: NO! Someone on the ground measures that flashlight beam traveling at exactly $c$ (300,000 km/s). And you on the spaceship ALSO measure that same beam traveling away from you at exactly $c$!",
             "How can two people moving at completely different speeds measure the exact same speed for the same beam of light? Speed is defined as Distance divided by Time ($v = d / t$). If the speed ($c$) is strictly locked in place by Nature, then Distance and Time CANNOT be absolute!",
-            "Space and time must bend, stretch, and warp to keep the speed of light identical for everyone:\n• **Time Dilation**: Moving clocks tick slower! The faster you move through space, the slower you move through time relative to a stationary observer. At the speed of light, time stops completely!\n• **Length Contraction**: Moving objects physically shrink in the direction of their motion!\n• **$E = mc^2$**: Mass and energy are two interchangeable forms of the same underlying essence. A tiny speck of mass contains colossal, explosive reservoirs of energy.",
-            "This is not science fiction. Your smartphone's GPS navigation system has to adjust its satellite clocks by 38 microseconds every single day to correct for relativistic time dilation—otherwise, Google Maps would drift by 11 kilometers each day!"
+            "Space and time must bend, stretch, and warp to keep the speed of light identical for everyone:\n\u2022 **Time Dilation**: Moving clocks tick slower! The faster you move through space, the slower you move through time relative to a stationary observer. At the speed of light, time stops completely!\n\u2022 **Length Contraction**: Moving objects physically shrink in the direction of their motion!\n\u2022 **$E = mc^2$**: Mass and energy are two interchangeable forms of the same underlying essence. A tiny speck of mass contains colossal, explosive reservoirs of energy.",
+            "This is not science fiction. Your smartphone's GPS navigation system has to adjust its satellite clocks by 38 microseconds every single day to correct for relativistic time dilation\u2014otherwise, Google Maps would drift by 11 kilometers each day!"
           ]
         },
         {
@@ -488,7 +488,7 @@ window.SCIENCE_DATA = {
           "title": "Gravity is Not a Tug",
           "subtitle": "General Relativity & The Trampoline of Spacetime",
           "paragraphs": [
-            "For two hundred and thirty years, scientists accepted Sir Isaac Newton’s brilliant view of gravity: Every mass in the universe exerts an invisible, magical gravitational tractor-beam that pulls instantaneously on every other mass across empty space.",
+            "For two hundred and thirty years, scientists accepted Sir Isaac Newton\u2019s brilliant view of gravity: Every mass in the universe exerts an invisible, magical gravitational tractor-beam that pulls instantaneously on every other mass across empty space.",
             "Newton himself was troubled by this. How could the Sun, across 150 million kilometers of empty vacuum, reach out its invisible hand and grab the Earth without touching anything?",
             "In 1915, Albert Einstein delivered his masterpiece: **General Relativity**.",
             "Einstein revealed that space and time are not a static, passive stage on which events happen. Space and time are woven together into a dynamic, four-dimensional fabric called **Spacetime**.",
@@ -496,11 +496,11 @@ window.SCIENCE_DATA = {
             "Picture a heavy bowling ball placed in the center of a stretched rubber trampoline. The bowling ball creates a deep, curving dip in the rubber sheet. Now, roll a small marble across the trampoline. The marble does not travel in a straight line; it rolls around the depression created by the bowling ball.",
             "The bowling ball is not casting an invisible spell on the marble; the marble is simply following the natural curved path through the contoured rubber sheet! As physicist John Archibald Wheeler famously summarized:\n\"Matter tells spacetime how to curve, and curved spacetime tells matter how to move.\"",
             "The Earth does not orbit the Sun because of a mysterious tether; the Earth is traveling in the straightest possible path (a geodesic) through the four-dimensional valley carved into spacetime by the Sun's colossal mass.",
-            "On May 29, 1919, British astronomer Arthur Eddington traveled to the tropical island of Príncipe during a total solar eclipse. He photographed stars whose light passed right grazing the edge of the darkened Sun. The positions of the stars were deflected by the exact mathematical angle Einstein's curvature equations predicted! When the results were published, the London Times ran the headline: \"Revolution in Science — New Theory of the Universe — Newtonian Ideas Overthrown.\""
+            "On May 29, 1919, British astronomer Arthur Eddington traveled to the tropical island of Pr\u00edncipe during a total solar eclipse. He photographed stars whose light passed right grazing the edge of the darkened Sun. The positions of the stars were deflected by the exact mathematical angle Einstein's curvature equations predicted! When the results were published, the London Times ran the headline: \"Revolution in Science \u2014 New Theory of the Universe \u2014 Newtonian Ideas Overthrown.\""
           ],
           "illustration": {
             "type": "svg",
-            "caption": "Fig 4.1 — General Relativity: Curvature of the Spacetime Trampoline & Deflection of Starlight (Eddington, 1919)",
+            "caption": "Fig 4.1 \u2014 General Relativity: Curvature of the Spacetime Trampoline & Deflection of Starlight (Eddington, 1919)",
             "svg": "<svg viewBox=\"0 0 600 280\" class=\"w-full max-w-lg h-auto stroke-current opacity-90 fill-none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Warped Spacetime Grid Lines (Perspective Trampoline) -->\n  <g stroke-width=\"0.8\" opacity=\"0.5\">\n    <!-- Horizontal contours dipping in the center -->\n    <path d=\"M 40 100 Q 300 130 560 100\" />\n    <path d=\"M 40 140 Q 300 190 560 140\" />\n    <path d=\"M 40 180 Q 300 240 560 180\" />\n    <path d=\"M 40 220 Q 300 270 560 220\" />\n    \n    <!-- Vertical grid lines pinching inward -->\n    <path d=\"M 120 70 Q 150 170 180 250\" />\n    <path d=\"M 220 70 Q 250 175 260 250\" />\n    <path d=\"M 380 70 Q 350 175 340 250\" />\n    <path d=\"M 480 70 Q 450 170 420 250\" />\n  </g>\n  \n  <!-- Massive Central Celestial Body (The Sun) -->\n  <circle cx=\"300\" cy=\"180\" r=\"32\" stroke-width=\"2\" fill=\"none\" />\n  <circle cx=\"300\" cy=\"180\" r=\"3\" fill=\"currentColor\" />\n  <text x=\"300\" y=\"185\" font-family=\"Plus Jakarta Sans, sans-serif\" font-size=\"10\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">MASS</text>\n\n  <!-- Deflected Starlight Path (Einstein's 1919 Prediction) -->\n  <!-- Distant Star actual position -->\n  <circle cx=\"80\" cy=\"50\" r=\"3\" fill=\"currentColor\" />\n  <text x=\"80\" y=\"40\" font-family=\"Newsreader, serif\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">True Star Position</text>\n  \n  <!-- Light Ray bending around Mass -->\n  <path d=\"M 80 50 Q 280 140 520 80\" stroke-width=\"2\" stroke-linecap=\"round\" />\n  \n  <!-- Apparent Star line of sight (dashed straight line) -->\n  <line x1=\"520\" y1=\"80\" x2=\"120\" y2=\"25\" stroke-dasharray=\"3,3\" stroke-width=\"1\" opacity=\"0.6\" />\n  <circle cx=\"120\" cy=\"25\" r=\"3\" stroke-width=\"1.5\" />\n  <text x=\"130\" y=\"20\" font-family=\"Newsreader, serif\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">Apparent Star Position</text>\n  \n  <text x=\"520\" y=\"100\" font-family=\"Plus Jakarta Sans, sans-serif\" font-size=\"10\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\">Observer (Earth)</text>\n  \n  <text x=\"300\" y=\"270\" font-family=\"Newsreader, serif\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">\"Matter tells spacetime how to curve, and curved spacetime tells matter how to move.\"</text>\n</svg>"
           }
         },
@@ -512,12 +512,12 @@ window.SCIENCE_DATA = {
             "Until the early 1920s, the greatest minds in astronomy believed with absolute certainty that our Milky Way galaxy was the ENTIRE universe. Beyond the outer edges of our star-swarms lay an infinite, dark, empty void. The cosmos was assumed to be eternal, motionless, and static.",
             "That cozy, small universe was shattered by two brilliant astronomers.",
             "First came **Henrietta Swan Leavitt**, working as a human \"computer\" at Harvard College Observatory. While painstakingly cataloging pulsating stars called Cepheid variables, Leavitt discovered an extraordinary mathematical secret in 1912: The brighter the Cepheid star was, the slower its brightness pulsed. By measuring the pulse rate of a star, you knew its true intrinsic wattage. Compare that with how faint it looks in your telescope, and you can calculate its exact distance! Leavitt had handed humanity the first true \"standard candle\" measuring tape to map the deep cosmos.",
-            "A decade later, astronomer **Edwin Hubble** pointed the newly built 100-inch Hooker telescope at Mount Wilson—then the largest telescope in the world—toward a faint, fuzzy spiral cloud known as the Andromeda Nebula.",
+            "A decade later, astronomer **Edwin Hubble** pointed the newly built 100-inch Hooker telescope at Mount Wilson\u2014then the largest telescope in the world\u2014toward a faint, fuzzy spiral cloud known as the Andromeda Nebula.",
             "Using Leavitt's method, Hubble found a Cepheid variable star in Andromeda. When he calculated the distance, the numbers left him breathless: Andromeda was not a cloud inside our Milky Way. It was nearly a million light-years away (modern measurements: 2.5 million light-years)! It was a colossal, independent island galaxy containing hundreds of billions of stars of its own. In a single night, the universe expanded in human imagination by a factor of millions.",
             "Then Hubble made an even more astonishing discovery. He analyzed the light from dozens of distant galaxies and noticed that their spectral lines were all shifted toward the red end of the spectrum (**Redshift**).",
-            "According to the Doppler effect, redshift means the galaxies are speeding away from us! What’s more, the further away a galaxy was, the faster it was receding. The entire fabric of the universe is expanding!",
+            "According to the Doppler effect, redshift means the galaxies are speeding away from us! What\u2019s more, the further away a galaxy was, the faster it was receding. The entire fabric of the universe is expanding!",
             "Think about what this means: If you play a movie of an expanding universe backward in time, all the galaxies, stars, gas, and energy must rush closer and closer together until, approximately 13.8 billion years ago, the entire observable universe was compressed into a point of unimaginable temperature and density.",
-            "That was the **Big Bang**—the moment spacetime itself burst into existence. The static, motionless universe was gone forever; we live in an evolving, expanding cosmic epic."
+            "That was the **Big Bang**\u2014the moment spacetime itself burst into existence. The static, motionless universe was gone forever; we live in an evolving, expanding cosmic epic."
           ]
         },
         {
@@ -527,12 +527,12 @@ window.SCIENCE_DATA = {
           "paragraphs": [
             "What happens when a massive star, twenty or thirty times heavier than our Sun, burns through its last reserve of nuclear fuel?",
             "For millions of years, the outward explosive pressure of thermonuclear fusion at the star's core fought against the relentless inward crush of gravity, keeping the star stable. But when the fuel runs out, fusion dies. In less than a fraction of a second, gravity wins completely.",
-            "The outer layers of the star blast apart in a supernova explosion so bright it outshines an entire galaxy. But the central core collapses inward under its own titanic gravitational weight. Nothing in physics can stop the collapse—not electron repulsion, not neutron pressure. The matter collapses down to a point of zero volume and infinite density: a **Gravitational Singularity**.",
+            "The outer layers of the star blast apart in a supernova explosion so bright it outshines an entire galaxy. But the central core collapses inward under its own titanic gravitational weight. Nothing in physics can stop the collapse\u2014not electron repulsion, not neutron pressure. The matter collapses down to a point of zero volume and infinite density: a **Gravitational Singularity**.",
             "A **Black Hole** has been born.",
             "Surrounding the singularity is an invisible spherical boundary known as the **Event Horizon**. The event horizon is the cosmic point of no return. Within this boundary, the escape velocity exceeds the speed of light ($300,000$ km/s). Since nothing in the universe can exceed the speed of light, not even a single photon of light, radio wave, or particle can ever escape. It is a one-way trapdoor out of our universe.",
             "If an astronaut were to fall toward a stellar-mass black hole feet-first, they would experience **Spaghettification**: because gravitational force scales inversely with the square of distance, the gravity pulling on the astronaut's feet would be thousands of times stronger than the gravity pulling on their head! The astronaut's body would be stretched into a string of atoms before crossing the horizon.",
             "To a friend watching safely through a telescope from far away, another relativistic miracle occurs: because time slows down near immense gravity, the friend would see the falling astronaut move slower and slower, their watch ticking ever more sluggishly, freezing at the edge of the event horizon forever, slowly fading to black!",
-            "In 1974, a young British physicist in a wheelchair named **Stephen Hawking** combined Einstein’s general relativity with quantum mechanics and discovered something that shocked the world: Black holes are not completely black!",
+            "In 1974, a young British physicist in a wheelchair named **Stephen Hawking** combined Einstein\u2019s general relativity with quantum mechanics and discovered something that shocked the world: Black holes are not completely black!",
             "At the quantum edge of the event horizon, pairs of virtual particles constantly pop into existence and annihilate. Occasionally, one particle falls into the black hole while its partner escapes into space as thermal radiation (**Hawking Radiation**). This means black holes slowly lose mass, radiate heat, and over trillions of years, eventually evaporate into a final burst of light. Even the greatest monsters in the cosmos are mortal."
           ]
         },
@@ -542,9 +542,9 @@ window.SCIENCE_DATA = {
           "subtitle": "Four Mind-Bending Riddles of Spacetime",
           "paragraphs": [
             "1. Olbers' Paradox (The Darkness of the Night Sky):\nIf the universe has existed forever and is populated with an infinite number of shining stars in every direction, every line of sight should eventually hit the surface of a star. Why is the night sky black between the stars instead of blazing with blinding white light? (Hint: Think about the finite age of the universe and the speed of light!).",
-            "2. The Cosmic Calendar:\nCarl Sagan compressed the entire 13.8-billion-year history of the universe into a single 12-month calendar year, where the Big Bang happens at midnight on January 1st:\n• January 1: The Big Bang\n• May 1: The Milky Way forms\n• September 1: Our Sun and Earth form\n• September 21: First microscopic life emerges in oceans\n• December 26: Dinosaurs roam the Earth\n• December 30: Dinosaurs wiped out by an asteroid\n• December 31, 11:52 PM (8 minutes to midnight): First anatomically modern humans walk the Earth\n• December 31, 11:59:45 PM (15 seconds to midnight): All recorded human history, from the pyramids to modern times!\nHow does realizing that all of human civilization occurred in the final 15 seconds of cosmic time reshape your perspective on daily human squabbles?",
+            "2. The Cosmic Calendar:\nCarl Sagan compressed the entire 13.8-billion-year history of the universe into a single 12-month calendar year, where the Big Bang happens at midnight on January 1st:\n\u2022 January 1: The Big Bang\n\u2022 May 1: The Milky Way forms\n\u2022 September 1: Our Sun and Earth form\n\u2022 September 21: First microscopic life emerges in oceans\n\u2022 December 26: Dinosaurs roam the Earth\n\u2022 December 30: Dinosaurs wiped out by an asteroid\n\u2022 December 31, 11:52 PM (8 minutes to midnight): First anatomically modern humans walk the Earth\n\u2022 December 31, 11:59:45 PM (15 seconds to midnight): All recorded human history, from the pyramids to modern times!\nHow does realizing that all of human civilization occurred in the final 15 seconds of cosmic time reshape your perspective on daily human squabbles?",
             "3. The Black Hole Flashlight Dilemma:\nIf you are falling backward through the event horizon of a supermassive black hole and point a powerful flashlight directly away from the center toward the outside universe, what does the light beam do? Does it travel outward, stand still, or fall backward toward the singularity?",
-            "4. The Time Travel Machine You Own:\nEvery time you look up at the Andromeda Galaxy through binoculars on an autumn evening, the photons of light striking your retina left their stars 2.5 million years ago—when early human ancestors were first learning to chip stones into scrapers in East Africa. In what sense are all telescopes time machines?"
+            "4. The Time Travel Machine You Own:\nEvery time you look up at the Andromeda Galaxy through binoculars on an autumn evening, the photons of light striking your retina left their stars 2.5 million years ago\u2014when early human ancestors were first learning to chip stones into scrapers in East Africa. In what sense are all telescopes time machines?"
           ]
         }
       ],
@@ -558,7 +558,7 @@ window.SCIENCE_DATA = {
     {
       "id": "archimedes",
       "name": "Archimedes of Syracuse",
-      "era": "Ancient (c. 287 – 212 BCE)",
+      "era": "Ancient (c. 287 \u2013 212 BCE)",
       "periodGroup": "ancient",
       "country": "Ancient Greece (Syracuse, Sicily)",
       "fields": [
@@ -571,10 +571,10 @@ window.SCIENCE_DATA = {
       "famousQuote": "Give me a lever long enough and a fulcrum on which to place it, and I shall move the world.",
       "nobelPrize": null,
       "majorDiscovery": "Hydrostatic buoyancy ('Eureka!'), geometrical calculus foundations, lever mechanics",
-      "details": "The greatest mathematician and mechanical engineer of antiquity. When King Hiero II of Syracuse suspected a goldsmith had stolen gold from a votive crown and replaced it with cheaper silver, he asked Archimedes to prove it without damaging the crown. While stepping into a brimful public bath, Archimedes noticed water sloshing over the sides. He realized that an object displaces its exact volume of water—enabling him to measure the crown's density against pure gold. He famously leaped out and ran naked through Syracuse shouting 'Eureka!' ('I have found it!'). He proved the law of the lever ('Give me a lever long enough, and I will move the world'), calculated pi with polygons, and built defensive siege cranes that lifted Roman warships out of the sea.",
+      "details": "The greatest mathematician and mechanical engineer of antiquity. When King Hiero II of Syracuse suspected a goldsmith had stolen gold from a votive crown and replaced it with cheaper silver, he asked Archimedes to prove it without damaging the crown. While stepping into a brimful public bath, Archimedes noticed water sloshing over the sides. He realized that an object displaces its exact volume of water\u2014enabling him to measure the crown's density against pure gold. He famously leaped out and ran naked through Syracuse shouting 'Eureka!' ('I have found it!'). He proved the law of the lever ('Give me a lever long enough, and I will move the world'), calculated pi with polygons, and built defensive siege cranes that lifted Roman warships out of the sea.",
       "curiosityStory": "Growing up in Syracuse, Sicily, Archimedes was so captivated by geometry that he would forget to eat or bathe for days. Legend says he would trace circles with a stick in the fireplace ashes and draw geometric proofs on his olive-oil-anointed skin with his fingernails. He possessed a relentless instinct to test whether nature's physical laws could be pinned down with absolute mathematical certainty.",
       "inspirationMoment": "King Hiero II had provided a goldsmith with a weighed lump of pure gold to forge a votive crown for the gods. Suspecting the artisan had secretly pocketed gold and substituted cheaper silver, the king challenged Archimedes to detect the fraud without damaging the crown. The dilemma seemed insoluble until Archimedes stepped into a brimful public bath and noticed water sloshing over the stone rim. In a flash of sublime clarity, he realized that his submerged body displaced a volume of water exactly equal to its own bulk.",
-      "howTheyDidIt": "Screaming 'Eureka!' ('I have found it!'), he sprinted home naked through the streets of Syracuse. Archimedes submerged an equal weight of pure gold and measured the displaced water, then repeated the test with pure silver (which, being less dense, displaced more water). When he immersed King Hiero's crown, it displaced more water than pure gold—conclusively exposing the goldsmith's crime. He went on to formulate the mathematical law of buoyancy, the mechanics of the lever ('Give me a lever long enough and a fulcrum on which to place it, and I shall move the world'), and calculated pi using 96-sided inscribed polygons.",
+      "howTheyDidIt": "Screaming 'Eureka!' ('I have found it!'), he sprinted home naked through the streets of Syracuse. Archimedes submerged an equal weight of pure gold and measured the displaced water, then repeated the test with pure silver (which, being less dense, displaced more water). When he immersed King Hiero's crown, it displaced more water than pure gold\u2014conclusively exposing the goldsmith's crime. He went on to formulate the mathematical law of buoyancy, the mechanics of the lever ('Give me a lever long enough and a fulcrum on which to place it, and I shall move the world'), and calculated pi using 96-sided inscribed polygons.",
       "fascinatingImpact": "Archimedes showed that nature does not negotiate: its materials possess fixed physical densities and mathematical laws that cannot be forged by kings or artisans. His work laid the foundations for hydrostatics, calculus, and engineering 1,800 years before Newton.",
       "sortYear": -250,
       "yearDisplay": "c. 250 BCE"
@@ -582,7 +582,7 @@ window.SCIENCE_DATA = {
     {
       "id": "eratosthenes",
       "name": "Eratosthenes of Cyrene",
-      "era": "Ancient (c. 276 – 194 BCE)",
+      "era": "Ancient (c. 276 \u2013 194 BCE)",
       "periodGroup": "ancient",
       "country": "Ancient Greece / Ptolemaic Egypt",
       "fields": [
@@ -594,10 +594,10 @@ window.SCIENCE_DATA = {
       "famousQuote": "Curiosity and geometry together can measure a world.",
       "nobelPrize": null,
       "majorDiscovery": "Circumference and tilt of the Earth using sun shadows",
-      "details": "Chief librarian of the Great Library of Alexandria, mathematician, and geographer. Known to his peers as 'Beta' because he was second best in the world at almost everything. Hearing that sunlight shone directly down to the bottom of a deep water well in Syene (Aswan) on the summer solstice, he wondered what happened in Alexandria hundreds of miles to the north. Planting a simple vertical stick (gnomon), he measured a 7.2-degree shadow angle. Deducing that the Earth must be curved, he hired surveyors to pace the distance and calculated the planet's circumference to within 1% of modern satellite measurements—2,200 years before humanity entered space.",
+      "details": "Chief librarian of the Great Library of Alexandria, mathematician, and geographer. Known to his peers as 'Beta' because he was second best in the world at almost everything. Hearing that sunlight shone directly down to the bottom of a deep water well in Syene (Aswan) on the summer solstice, he wondered what happened in Alexandria hundreds of miles to the north. Planting a simple vertical stick (gnomon), he measured a 7.2-degree shadow angle. Deducing that the Earth must be curved, he hired surveyors to pace the distance and calculated the planet's circumference to within 1% of modern satellite measurements\u20142,200 years before humanity entered space.",
       "curiosityStory": "Serving as the third chief librarian of the Great Library of Alexandria, Eratosthenes had the entire recorded knowledge of the ancient Mediterranean at his fingertips. His peers called him 'Beta' (the second letter of the Greek alphabet) because he was second-best in the world at almost everything: astronomy, mathematics, poetry, geography, and philosophy. But his polymathic curiosity allowed him to connect dots that specialists missed.",
       "inspirationMoment": "While reading a papyrus scroll, he encountered a curious report from the southern outpost of Syene (modern Aswan): on the summer solstice at high noon, the sun shone straight down into the deepest water well without casting a shadow, and vertical pillars cast zero shade. Eratosthenes asked a deceptively simple question: If the sun is directly overhead in Syene, what happens at the exact same moment in Alexandria, 800 kilometers to the north?",
-      "howTheyDidIt": "On the next summer solstice at solar noon, he planted a simple vertical wooden stick (gnomon) in the ground in Alexandria. The stick cast a distinct shadow. Measuring the angle between the stick and the sun's rays, he found it was 7.2 degrees—exactly 1/50th of a complete 360-degree circle. Eratosthenes realized that if the Earth were flat, both sticks would cast identical shadows; the shadow difference proved the planet's surface was curved! He hired professional pacers (bematists) to measure the distance between Syene and Alexandria (approx. 5,000 stadia). Multiplying by 50, he calculated Earth's circumference to within 1% of modern satellite measurements—2,200 years before human spaceflight.",
+      "howTheyDidIt": "On the next summer solstice at solar noon, he planted a simple vertical wooden stick (gnomon) in the ground in Alexandria. The stick cast a distinct shadow. Measuring the angle between the stick and the sun's rays, he found it was 7.2 degrees\u2014exactly 1/50th of a complete 360-degree circle. Eratosthenes realized that if the Earth were flat, both sticks would cast identical shadows; the shadow difference proved the planet's surface was curved! He hired professional pacers (bematists) to measure the distance between Syene and Alexandria (approx. 5,000 stadia). Multiplying by 50, he calculated Earth's circumference to within 1% of modern satellite measurements\u20142,200 years before human spaceflight.",
       "fascinatingImpact": "With nothing more than a stick, a shadow, a camel pace count, and elementary high school geometry, a thinker in sandals measured the scale of an entire planet. It stands as one of the most stunning triumphs of pure human intellect in history.",
       "sortYear": -240,
       "yearDisplay": "c. 240 BCE"
@@ -605,7 +605,7 @@ window.SCIENCE_DATA = {
     {
       "id": "zhang_heng",
       "name": "Zhang Heng",
-      "era": "Classical China (78 – 139 CE)",
+      "era": "Classical China (78 \u2013 139 CE)",
       "periodGroup": "ancient",
       "country": "Han Dynasty China",
       "fields": [
@@ -618,7 +618,7 @@ window.SCIENCE_DATA = {
       "famousQuote": "The sky is like a hen's egg, and the earth is like the yolk.",
       "nobelPrize": null,
       "majorDiscovery": "Invention of the seismoscope (Houfeng Didong Yi) detecting earthquakes hundreds of kilometers away",
-      "details": "Han Dynasty polymath, astronomer, and chief astrologer. In 132 CE, Zhang Heng invented the Houfeng Didong Yi—the world's first seismometer. The bronze urn was decorated with eight dragons holding bronze balls in their mouths, facing the eight compass directions. When an earthquake occurred hundreds of miles away, an internal pendulum tripped a lever, dropping a bronze ball into the mouth of a bronze toad below with a loud clang. Once, when a ball dropped with no felt shaking in the capital, courtiers scoffed; days later, an exhausted rider arrived reporting an earthquake 400 miles away in Gansu.",
+      "details": "Han Dynasty polymath, astronomer, and chief astrologer. In 132 CE, Zhang Heng invented the Houfeng Didong Yi\u2014the world's first seismometer. The bronze urn was decorated with eight dragons holding bronze balls in their mouths, facing the eight compass directions. When an earthquake occurred hundreds of miles away, an internal pendulum tripped a lever, dropping a bronze ball into the mouth of a bronze toad below with a loud clang. Once, when a ball dropped with no felt shaking in the capital, courtiers scoffed; days later, an exhausted rider arrived reporting an earthquake 400 miles away in Gansu.",
       "curiosityStory": "A court astronomer, mathematician, and poet of the Eastern Han Dynasty, Zhang Heng possessed an engineering mind that sought mechanical order in heaven and earth. In an era when courtiers attributed natural disasters to the displeasure of ancestors or spirits, Zhang Heng observed earthquakes with cold, analytical objectivity, determined to map their physical origin.",
       "inspirationMoment": "China was plagued by devastating earthquakes that flattened distant provinces, but news traveled by horseback messengers taking weeks to reach the imperial capital in Luoyang. Zhang Heng wondered if the earth tremor itself could be harnessed to trigger an instant mechanical warning device before any human messenger could saddle a horse.",
       "howTheyDidIt": "In 132 CE, he invented the Houfeng Didong Yi ('instrument for measuring seasonal winds and earth tremors'). The device was a colossal bronze urn eight feet across, adorned with eight outward-facing dragons holding bronze balls in their jaws, positioned above eight bronze toads with open mouths. Inside the urn hung an inverted pendulum connected to eight internal levers. When an earthquake struck hundreds of miles away, the shockwave swung the pendulum, tripping a delicate lever that caused the corresponding dragon to drop its bronze ball into the toad's mouth with a loud clang! In 138 CE, a dragon dropped its ball facing west, though no one in the capital felt shaking. Days later, a courier arrived confirming a major earthquake in Longxi (modern Gansu), 500 kilometers away.",
@@ -629,7 +629,7 @@ window.SCIENCE_DATA = {
     {
       "id": "aryabhata",
       "name": "Aryabhata",
-      "era": "Classical India (476 – 550 CE)",
+      "era": "Classical India (476 \u2013 550 CE)",
       "periodGroup": "ancient",
       "country": "Ancient India (Pataliputra / Kusumapura)",
       "fields": [
@@ -651,7 +651,7 @@ window.SCIENCE_DATA = {
     {
       "id": "al_khwarizmi",
       "name": "Muhammad ibn Musa al-Khwarizmi",
-      "era": "Islamic Golden Age (c. 780 – 850 CE)",
+      "era": "Islamic Golden Age (c. 780 \u2013 850 CE)",
       "periodGroup": "medieval",
       "country": "Abbasid Caliphate (Persia / Baghdad)",
       "fields": [
@@ -663,9 +663,9 @@ window.SCIENCE_DATA = {
       "famousQuote": "Numbers are the keys to open the locks of the universe.",
       "nobelPrize": null,
       "majorDiscovery": "Systematic algebraic equation solving and algorithm foundations",
-      "details": "Persian polymath and chief astronomer at the House of Wisdom in 9th-century Baghdad. He synthesized Indian and Greek mathematics, introducing Hindu-Arabic numerals (0–9) to the Western world. His masterwork 'Al-Kitāb al-mukhtaṣar fī ḥisāb al-jabr wal-muqābala' gave humanity the word 'Algebra' (al-jabr, meaning 'reunion of broken parts'). His latinized name gave us the word 'Algorithm'. Without his systematization of symbolic calculation and zero, modern computing and physics would be impossible.",
+      "details": "Persian polymath and chief astronomer at the House of Wisdom in 9th-century Baghdad. He synthesized Indian and Greek mathematics, introducing Hindu-Arabic numerals (0\u20139) to the Western world. His masterwork 'Al-Kit\u0101b al-mukhta\u1e63ar f\u012b \u1e25is\u0101b al-jabr wal-muq\u0101bala' gave humanity the word 'Algebra' (al-jabr, meaning 'reunion of broken parts'). His latinized name gave us the word 'Algorithm'. Without his systematization of symbolic calculation and zero, modern computing and physics would be impossible.",
       "curiosityStory": "Working in the grand House of Wisdom (Bayt al-Hikma) in Baghdad under Caliph Al-Ma'mun, Al-Khwarizmi was surrounded by ancient Greek, Persian, and Sanskrit manuscripts. His driving passion was practical mathematics: how to resolve messy real-world dilemmas like Islamic inheritance shares, trade profits, land surveying, and canal construction without endless arithmetic confusion.",
-      "inspirationMoment": "He realized that all verbal math problems—no matter how tangled—could be treated as balance scales. If you have an unknown quantity, you can add or subtract equal amounts to both sides until the unknown stands alone in crystalline simplicity.",
+      "inspirationMoment": "He realized that all verbal math problems\u2014no matter how tangled\u2014could be treated as balance scales. If you have an unknown quantity, you can add or subtract equal amounts to both sides until the unknown stands alone in crystalline simplicity.",
       "howTheyDidIt": "He wrote 'Kitab al-Jabr wa-l-Muqabala' ('The Compendious Book on Calculation by Completion and Balancing'). The Arabic term 'al-jabr' (reunion of broken parts) gave humanity the word 'Algebra.' Furthermore, his Latinized name 'Algoritmi' gave us the word 'Algorithm.' He introduced the Hindu decimal numeral system (0 through 9) to the Islamic world and Europe, showing that zero wasn't just 'nothing', but a revolutionary placeholder that made complex calculation effortless.",
       "fascinatingImpact": "Al-Khwarizmi laid the structural foundation of modern symbolic mathematics and computer code. Every calculation performed by every smartphone, satellite, and supercomputer today traces directly back to his algorithms.",
       "sortYear": 820,
@@ -674,7 +674,7 @@ window.SCIENCE_DATA = {
     {
       "id": "alhazen",
       "name": "Ibn al-Haytham (Alhazen)",
-      "era": "Islamic Golden Age (965 – 1040 CE)",
+      "era": "Islamic Golden Age (965 \u2013 1040 CE)",
       "periodGroup": "medieval",
       "country": "Iraq (Basra) / Fatimid Egypt (Cairo)",
       "fields": [
@@ -690,7 +690,7 @@ window.SCIENCE_DATA = {
       "details": "Abu Ali al-Hasan ibn al-Haytham of Basra, pioneer of optics and father of the experimental method. Under house arrest in Cairo for a decade after feigning madness to escape a tyrannical Caliph, he darkened his room and cut a pinhole in the shutter (camera obscura). He proved through rigorous ray-tracing that light reflects off objects into our eyes, overturning the 1,500-year Greek dogma of emission theory. He declared that a true scientist must question all ancient writings and submit every hypothesis to physical experiment.",
       "curiosityStory": "Born in Basra, Ibn al-Haytham was a brilliant mathematician who boasted to the Fatimid Caliph Al-Hakim that he could build a dam across the Nile River to control its seasonal floods. Upon surveying the cataracts of Aswan, he realized the task was impossible with available technology. Terrified of the Caliph's wrath, he feigned madness to escape execution and was placed under house arrest in Cairo for a full decade.",
       "inspirationMoment": "Locked in a pitch-black room with only his thoughts, he noticed a tiny pinhole of sunlight passing through a crack in the shutter. On the opposite white wall, he was astonished to see an upside-down image of the brightly lit street outside: passing people, carts, and trees. He realized that the eye itself must work exactly like this dark room (camera obscura).",
-      "howTheyDidIt": "In his masterpiece 'Kitab al-Manazir' ('Book of Optics'), he dismantled the 1,500-year-old Greek dogma that eyes shoot out invisible rays to 'feel' objects. He pointed out that if you look directly at the Sun, your retinas burn—proving light enters the eye from the outside world! He devised meticulous experiments with light boxes, mirrors, spherical glass lenses, and water flasks, establishing the empirical scientific method: formulating hypotheses, constructing controlled experiments, and recording mathematical data.",
+      "howTheyDidIt": "In his masterpiece 'Kitab al-Manazir' ('Book of Optics'), he dismantled the 1,500-year-old Greek dogma that eyes shoot out invisible rays to 'feel' objects. He pointed out that if you look directly at the Sun, your retinas burn\u2014proving light enters the eye from the outside world! He devised meticulous experiments with light boxes, mirrors, spherical glass lenses, and water flasks, establishing the empirical scientific method: formulating hypotheses, constructing controlled experiments, and recording mathematical data.",
       "fascinatingImpact": "Ibn al-Haytham is the true father of modern optics and the pioneer of empirical experimental science, establishing that truth in nature must be verified through sensory experiment rather than philosophical debate.",
       "sortYear": 1021,
       "yearDisplay": "c. 1021 CE"
@@ -698,7 +698,7 @@ window.SCIENCE_DATA = {
     {
       "id": "ibn_sina",
       "name": "Ibn Sina (Avicenna)",
-      "era": "Islamic Golden Age (980 – 1037 CE)",
+      "era": "Islamic Golden Age (980 \u2013 1037 CE)",
       "periodGroup": "medieval",
       "country": "Persia (Bukhara / Hamadan)",
       "fields": [
@@ -722,7 +722,7 @@ window.SCIENCE_DATA = {
     {
       "id": "copernicus",
       "name": "Nicolaus Copernicus",
-      "era": "Early Modern (1473 – 1543)",
+      "era": "Early Modern (1473 \u2013 1543)",
       "periodGroup": "renaissance",
       "country": "Poland",
       "fields": [
@@ -744,7 +744,7 @@ window.SCIENCE_DATA = {
     {
       "id": "galileo",
       "name": "Galileo Galilei",
-      "era": "Scientific Revolution (1564 – 1642)",
+      "era": "Scientific Revolution (1564 \u2013 1642)",
       "periodGroup": "renaissance",
       "country": "Italy (Pisa / Florence)",
       "fields": [
@@ -760,7 +760,7 @@ window.SCIENCE_DATA = {
       "details": "Tuscan physicist, mathematician, and the father of modern observational astronomy. Hearing reports of a Dutch spyglass in 1609, Galileo ground his own lenses, pointed his telescope upward, and discovered craters on the Moon, four moons orbiting Jupiter, and the phases of Venus. His demonstration that objects of different weights fall with identical acceleration dismantled Aristotle's physics. Forced by the Roman Inquisition to recant heliocentrism, he lived his final years under house arrest, reportedly muttering 'Eppur si muove' ('And yet it moves').",
       "curiosityStory": "Born in Pisa, Galileo was a rebellious student who dropped out of university medicine to study mechanics. While sitting in Pisa Cathedral, he noticed an altar chandelier swinging in the draft; using his pulse as a stopwatch, he discovered that whether the swing was wide or narrow, the time taken for each cycle was identical (isochronism of the pendulum). He refused to accept Aristotle's assertions without hands-on proof.",
       "inspirationMoment": "In 1609, he heard rumors of a Dutch toy that made distant objects appear close. Without ever seeing one, he figured out the optical geometry, ground his own convex and concave lenses, and built a 30x magnification spyglass. Instead of selling it for military conquest, he pointed it at the night sky.",
-      "howTheyDidIt": "What he saw dismantled ancient cosmology in weeks. He saw that the Moon was not a smooth heavenly orb, but scarred with rugged craters and mountains like Earth. He saw sunspots creeping across the face of the Sun. Most dramatically, on January 7, 1610, he saw four tiny points of light dancing around Jupiter—moons orbiting another celestial world! He dropped unequal weights from heights to prove all bodies fall with equal acceleration regardless of mass. When hauled before the Roman Inquisition for defending Copernicanism, he was forced to recant, but legend says he muttered under his breath: 'Eppur si muove' ('And yet it moves').",
+      "howTheyDidIt": "What he saw dismantled ancient cosmology in weeks. He saw that the Moon was not a smooth heavenly orb, but scarred with rugged craters and mountains like Earth. He saw sunspots creeping across the face of the Sun. Most dramatically, on January 7, 1610, he saw four tiny points of light dancing around Jupiter\u2014moons orbiting another celestial world! He dropped unequal weights from heights to prove all bodies fall with equal acceleration regardless of mass. When hauled before the Roman Inquisition for defending Copernicanism, he was forced to recant, but legend says he muttered under his breath: 'Eppur si muove' ('And yet it moves').",
       "fascinatingImpact": "Galileo created modern observational astronomy and experimental physics, proving that human eyes aided by instruments could reveal secrets hidden from antiquity.",
       "sortYear": 1610,
       "yearDisplay": "1610"
@@ -768,7 +768,7 @@ window.SCIENCE_DATA = {
     {
       "id": "kepler",
       "name": "Johannes Kepler",
-      "era": "Scientific Revolution (1571 – 1630)",
+      "era": "Scientific Revolution (1571 \u2013 1630)",
       "periodGroup": "renaissance",
       "country": "Holy Roman Empire (Germany)",
       "fields": [
@@ -791,7 +791,7 @@ window.SCIENCE_DATA = {
     {
       "id": "newton",
       "name": "Sir Isaac Newton",
-      "era": "Scientific Revolution (1643 – 1727)",
+      "era": "Scientific Revolution (1643 \u2013 1727)",
       "periodGroup": "renaissance",
       "country": "England",
       "fields": [
@@ -804,7 +804,7 @@ window.SCIENCE_DATA = {
       "famousQuote": "If I have seen further, it is by standing on the shoulders of giants.",
       "nobelPrize": null,
       "majorDiscovery": "Universal Gravitation, Three Laws of Classical Mechanics, Calculus, Optical prism dispersion",
-      "details": "The colossal architect of modern physics and mathematics. During the Great Plague of London (1665–1666), isolated at Woolsthorpe Manor, 23-year-old Newton invented calculus, decomposed white light into colors with glass prisms, and wondered if the force pulling an apple down reached all the way to the Moon. In his 1687 masterpiece 'Philosophiæ Naturalis Principia Mathematica', he unified heaven and Earth with his Three Laws of Motion and the Universal Law of Gravitation.",
+      "details": "The colossal architect of modern physics and mathematics. During the Great Plague of London (1665\u20131666), isolated at Woolsthorpe Manor, 23-year-old Newton invented calculus, decomposed white light into colors with glass prisms, and wondered if the force pulling an apple down reached all the way to the Moon. In his 1687 masterpiece 'Philosophi\u00e6 Naturalis Principia Mathematica', he unified heaven and Earth with his Three Laws of Motion and the Universal Law of Gravitation.",
       "curiosityStory": "Born premature on Christmas Day in 1642, Newton grew up a quiet, solitary farm boy in Lincolnshire who built intricate wooden watermills, kites carrying lanterns to scare neighbors, and sundials. At Cambridge, he lived modestly as a sizar, filling notebooks with questions about light, color, and motion.",
       "inspirationMoment": "In 1665, the bubonic plague struck England, shutting down Cambridge University. Quarantined for eighteen months at his mother's farm in Woolsthorpe, Newton entered his 'Annus Mirabilis' (miraculous year). While sitting in the orchard, he watched an apple fall straight from a tree branch to the grass. He wondered: Does the gravitational pull of the Earth stop at the treetops, or does it reach all the way to the Moon?",
       "howTheyDidIt": "During that solitary quarantine, Newton invented the infinitesimal calculus, proved with glass prisms that white light is a compound of all spectral colors, and formulated his Three Laws of Motion. He calculated that the force pulling the apple down is the exact same mathematical force holding the Moon in orbit around the Earth, governed by the Inverse-Square Law. In 1687, encouraged by Edmond Halley, he published 'Philosophiae Naturalis Principia Mathematica', uniting heaven and earth under universal mathematical laws.",
@@ -815,7 +815,7 @@ window.SCIENCE_DATA = {
     {
       "id": "leeuwenhoek",
       "name": "Antonie van Leeuwenhoek",
-      "era": "Scientific Revolution (1632 – 1723)",
+      "era": "Scientific Revolution (1632 \u2013 1723)",
       "periodGroup": "renaissance",
       "country": "Dutch Republic (Netherlands)",
       "fields": [
@@ -838,7 +838,7 @@ window.SCIENCE_DATA = {
     {
       "id": "lavoisier",
       "name": "Antoine Lavoisier",
-      "era": "Enlightenment (1743 – 1794)",
+      "era": "Enlightenment (1743 \u2013 1794)",
       "periodGroup": "enlightenment",
       "country": "France",
       "fields": [
@@ -860,7 +860,7 @@ window.SCIENCE_DATA = {
     {
       "id": "faraday",
       "name": "Michael Faraday",
-      "era": "Industrial Era (1791 – 1867)",
+      "era": "Industrial Era (1791 \u2013 1867)",
       "periodGroup": "industrial",
       "country": "United Kingdom",
       "fields": [
@@ -883,7 +883,7 @@ window.SCIENCE_DATA = {
     {
       "id": "darwin",
       "name": "Charles Darwin",
-      "era": "Victorian Era (1809 – 1882)",
+      "era": "Victorian Era (1809 \u2013 1882)",
       "periodGroup": "industrial",
       "country": "United Kingdom",
       "fields": [
@@ -895,9 +895,9 @@ window.SCIENCE_DATA = {
       "famousQuote": "There is grandeur in this view of life... that whilst this planet has gone cycling on according to the fixed law of gravity, from so simple a beginning endless forms most beautiful and most wonderful have been, and are being, evolved.",
       "nobelPrize": null,
       "majorDiscovery": "Evolution of all biological life on Earth by Natural Selection",
-      "details": "English naturalist who revolutionized humanity's understanding of our place in nature. During a five-year voyage on the HMS Beagle, observing finches, tortoises, and fossils across the Galápagos Islands and South America, Darwin gathered evidence that all living species descend from common ancestors. In 1859, he published 'On the Origin of Species', introducing Natural Selection: the blind, beautiful mechanism by which life adapts to its environment.",
+      "details": "English naturalist who revolutionized humanity's understanding of our place in nature. During a five-year voyage on the HMS Beagle, observing finches, tortoises, and fossils across the Gal\u00e1pagos Islands and South America, Darwin gathered evidence that all living species descend from common ancestors. In 1859, he published 'On the Origin of Species', introducing Natural Selection: the blind, beautiful mechanism by which life adapts to its environment.",
       "curiosityStory": "As a boy in Shrewsbury, Charles Darwin was an obsessive beetle collector and bird watcher whose physician father scolded him: 'You care for nothing but shooting, dogs, and rat-catching, and you will be a disgrace to yourself and all your family.' At 22, he jumped at an unpaid invitation to sail as companion naturalist aboard the HMS Beagle on a five-year voyage around the globe.",
-      "inspirationMoment": "In the isolated volcanic Galápagos Islands in 1835, Darwin noticed that mockingbirds and giant tortoises varied slightly from one island to the next, adapted to their specific local environments. Back in England, reading Thomas Malthus' essay on human population growth and scarcity, a flash of insight struck him: In nature, more organisms are born than can survive; individuals with favorable variations are more likely to survive and reproduce, passing those traits to their offspring.",
+      "inspirationMoment": "In the isolated volcanic Gal\u00e1pagos Islands in 1835, Darwin noticed that mockingbirds and giant tortoises varied slightly from one island to the next, adapted to their specific local environments. Back in England, reading Thomas Malthus' essay on human population growth and scarcity, a flash of insight struck him: In nature, more organisms are born than can survive; individuals with favorable variations are more likely to survive and reproduce, passing those traits to their offspring.",
       "howTheyDidIt": "For twenty years, plagued by chronic illness, Darwin amassed overwhelming evidence in quiet secrecy at Down House: breeding fancy pigeons, dissecting barnacles, studying orchid fertilization, and corresponding with farmers worldwide. In 1858, a letter arrived from young naturalist Alfred Russel Wallace in Malaysia outlining the exact same theory! Galvanized, Darwin published 'On the Origin of Species' in 1859, laying out the mechanism of Evolution by Natural Selection.",
       "fascinatingImpact": "Darwin provided the grand unifying framework of the life sciences: all living creatures on Earth are branches of a single evolutionary family tree, sculpted over deep time.",
       "sortYear": 1859,
@@ -906,7 +906,7 @@ window.SCIENCE_DATA = {
     {
       "id": "maxwell",
       "name": "James Clerk Maxwell",
-      "era": "Victorian Era (1831 – 1879)",
+      "era": "Victorian Era (1831 \u2013 1879)",
       "periodGroup": "industrial",
       "country": "Scotland / United Kingdom",
       "fields": [
@@ -921,7 +921,7 @@ window.SCIENCE_DATA = {
       "details": "Scottish mathematical physicist who unified electricity, magnetism, and optics into four elegant equations. Maxwell's Equations demonstrated that electric and magnetic fields travel through space as waves at the speed of light, revealing that light itself is an electromagnetic wave. His work paved the way for radio, radar, television, and Einstein's theory of relativity.",
       "curiosityStory": "Born in Edinburgh, young James Clerk Maxwell had an insatiable desire to understand mechanisms, famously asking his parents 'What's the go o' that?' and demanding 'What's the particular go of it?' By age 14, he had written a mathematical paper on oval curves that was read before the Royal Society of Edinburgh.",
       "inspirationMoment": "Maxwell was deeply inspired by Michael Faraday's experiments. While mathematicians dismissed Faraday's qualitative 'lines of force' as mere mental crutches, Maxwell recognized that Faraday's physical intuition held the secret to a grand physical law. He set out to translate Faraday's invisible lines into rigorous mathematical calculus.",
-      "howTheyDidIt": "Between 1861 and 1865, Maxwell distilled all known electrical and magnetic behaviors into four elegant partial differential equations (Maxwell's Equations). When calculating the speed at which electromagnetic waves would ripple through space, he calculated a value of approximately 310,000 km/s—virtually identical to the measured speed of light! In an awe-inspiring moment of realization, Maxwell wrote: 'We can scarcely avoid the conclusion that light consists in the transverse undulations of the same medium which is the cause of electric and magnetic phenomena.'",
+      "howTheyDidIt": "Between 1861 and 1865, Maxwell distilled all known electrical and magnetic behaviors into four elegant partial differential equations (Maxwell's Equations). When calculating the speed at which electromagnetic waves would ripple through space, he calculated a value of approximately 310,000 km/s\u2014virtually identical to the measured speed of light! In an awe-inspiring moment of realization, Maxwell wrote: 'We can scarcely avoid the conclusion that light consists in the transverse undulations of the same medium which is the cause of electric and magnetic phenomena.'",
       "fascinatingImpact": "Maxwell achieved the second great unification in physics after Newton, proving that electricity, magnetism, and light are manifestations of the same force and paving the way for radio, radar, and relativity.",
       "sortYear": 1865,
       "yearDisplay": "1865"
@@ -929,7 +929,7 @@ window.SCIENCE_DATA = {
     {
       "id": "mendeleev",
       "name": "Dmitri Mendeleev",
-      "era": "19th Century (1834 – 1907)",
+      "era": "19th Century (1834 \u2013 1907)",
       "periodGroup": "industrial",
       "country": "Russia",
       "fields": [
@@ -943,15 +943,15 @@ window.SCIENCE_DATA = {
       "details": "Siberian chemist who organized the 63 known elements into the Periodic Table in 1869. Playing 'chemical solitaire' on trains with index cards, he noticed properties recurring in cycles. His stroke of genius was leaving blank spaces for undiscovered elements and predicting their precise atomic weights and physical properties (Gallium, Germanium, Scandium). When discovered years later, they matched his predictions down to the decimal point.",
       "curiosityStory": "Born in remote Tobolsk, Siberia, the youngest of up to 17 children, Mendeleev faced immense hardship. After his father went blind, his mother managed a glass factory to support the family. When it burned down, she rode horseback thousands of miles across the Ural mountains with teenage Dmitri to enroll him in a St. Petersburg university, dying shortly after. Mendeleev carried an unyielding devotion to honor her sacrifice.",
       "inspirationMoment": "In 1869, while writing a chemistry textbook, Mendeleev struggled to find a logical structure for the 63 known chemical elements. He wrote each element's name, atomic weight, and chemical properties on index cards and carried them everywhere, playing 'chemical solitaire' on train journeys across Russia.",
-      "howTheyDidIt": "After three sleepless days of shuffling cards, Mendeleev collapsed at his desk in February 1869 and fell into a deep slumber. 'I saw in a dream a table where all the elements fell into place as required. Awakening, I immediately wrote it down on a piece of paper.' When arranging elements by increasing atomic weight, their properties repeated in rhythmic intervals (periods). Where gaps appeared in the pattern, Mendeleev boldly predicted the existence and properties of undiscovered elements—such as Gallium, Germanium, and Scandium—specifying their weights, densities, and boiling points to the decimal place. Within two decades, all were discovered matching his exact predictions.",
+      "howTheyDidIt": "After three sleepless days of shuffling cards, Mendeleev collapsed at his desk in February 1869 and fell into a deep slumber. 'I saw in a dream a table where all the elements fell into place as required. Awakening, I immediately wrote it down on a piece of paper.' When arranging elements by increasing atomic weight, their properties repeated in rhythmic intervals (periods). Where gaps appeared in the pattern, Mendeleev boldly predicted the existence and properties of undiscovered elements\u2014such as Gallium, Germanium, and Scandium\u2014specifying their weights, densities, and boiling points to the decimal place. Within two decades, all were discovered matching his exact predictions.",
       "fascinatingImpact": "Mendeleev uncovered the fundamental periodic alphabet of matter, organizing the universe's building blocks into an eternal tabular masterpiece.",
       "sortYear": 1869,
       "yearDisplay": "1869"
     },
     {
       "id": "curie_marie",
-      "name": "Marie Skłodowska-Curie",
-      "era": "20th Century (1867 – 1934)",
+      "name": "Marie Sk\u0142odowska-Curie",
+      "era": "20th Century (1867 \u2013 1934)",
       "periodGroup": "modern",
       "country": "Poland / France",
       "fields": [
@@ -961,10 +961,10 @@ window.SCIENCE_DATA = {
       ],
       "keyContributions": "Discovered elements Polonium and Radium, coined 'radioactivity', pioneered mobile X-ray units during WWI.",
       "famousQuote": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
-      "nobelPrize": "Nobel Prize in Physics (1903) & Nobel Prize in Chemistry (1911) — Only person in history to win in two distinct scientific fields",
+      "nobelPrize": "Nobel Prize in Physics (1903) & Nobel Prize in Chemistry (1911) \u2014 Only person in history to win in two distinct scientific fields",
       "majorDiscovery": "Discovery of Polonium and Radium, nature and measurement of radioactivity",
       "details": "Extracted milligrams of radium chloride from tons of uranium pitchblende in an unheated shed. First female professor at Sorbonne and supreme pioneer of nuclear physics.",
-      "curiosityStory": "Born Maria Skłodowska in Warsaw under oppressive Russian imperial rule, her family was stripped of property and women were forbidden from attending university. Undeterred, Maria attended the underground 'Flying University' with changing secret locations. She worked six grueling years as a governess to finance her older sister's medical education in Paris, surviving on bread and tea in a drafty garret while mastering physics at the Sorbonne.",
+      "curiosityStory": "Born Maria Sk\u0142odowska in Warsaw under oppressive Russian imperial rule, her family was stripped of property and women were forbidden from attending university. Undeterred, Maria attended the underground 'Flying University' with changing secret locations. She worked six grueling years as a governess to finance her older sister's medical education in Paris, surviving on bread and tea in a drafty garret while mastering physics at the Sorbonne.",
       "inspirationMoment": "In 1896, Henri Becquerel discovered that uranium emitted mysterious rays without exposure to sunlight. While others ignored the finding, Marie chose it for her doctoral thesis. She measured various minerals with an electrometer built by her husband Pierre, and was shocked to find that pitchblende ore was four times more radioactive than pure uranium! She hypothesized that the ore must contain an undiscovered, intensely active element.",
       "howTheyDidIt": "Working in an abandoned, leaky wooden shed in Paris that had formerly been a medical dissection room, Marie and Pierre hand-processed tons of toxic pitchblende residue. For four years, Marie stirred 20-kilogram cauldrons of boiling chemical slurry with a heavy iron rod, breathing acrid fumes. In 1898, they discovered Polonium (named after her beloved Poland) and Radium. At night, they would return to the dark shed to gaze in wonder at test tubes glowing softly with luminescent green fairy light. Marie coined the term 'radioactivity', became the first woman to win a Nobel Prize, and remains the only person to win Nobel Prizes in two different scientific fields (Physics and Chemistry).",
       "fascinatingImpact": "Marie Curie shattered the belief that atoms were indivisible, ushered in nuclear physics, and pioneered medical radiation therapies, giving her life to scientific discovery.",
@@ -974,20 +974,20 @@ window.SCIENCE_DATA = {
     {
       "id": "einstein",
       "name": "Albert Einstein",
-      "era": "20th Century (1879 – 1955)",
+      "era": "20th Century (1879 \u2013 1955)",
       "periodGroup": "modern",
       "country": "Germany / Switzerland / USA",
       "fields": [
         "Theoretical Physics"
       ],
-      "keyContributions": "Special Relativity, General Relativity, Mass-Energy equivalence (E=mc²), Photoelectric Effect, Brownian Motion, Bose-Einstein statistics.",
+      "keyContributions": "Special Relativity, General Relativity, Mass-Energy equivalence (E=mc\u00b2), Photoelectric Effect, Brownian Motion, Bose-Einstein statistics.",
       "famousQuote": "Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world.",
       "nobelPrize": "Nobel Prize in Physics (1921) for explanation of the Photoelectric Effect",
-      "majorDiscovery": "General and Special Relativity, light quantum (photon), mass-energy equivalence E=mc²",
-      "details": "The gentle patent clerk who reimagined the cosmos. In his 1905 'miracle year' (Annus Mirabilis), working as an examiner in Bern, 26-year-old Einstein published four papers that changed human history: explaining the photoelectric effect (proving light is quantized into photons), proving the existence of atoms via Brownian motion, creating Special Relativity (unifying space and time), and deriving E=mc². In 1915, he added General Relativity, showing that gravity is the geometric warping of spacetime by matter.",
+      "majorDiscovery": "General and Special Relativity, light quantum (photon), mass-energy equivalence E=mc\u00b2",
+      "details": "The gentle patent clerk who reimagined the cosmos. In his 1905 'miracle year' (Annus Mirabilis), working as an examiner in Bern, 26-year-old Einstein published four papers that changed human history: explaining the photoelectric effect (proving light is quantized into photons), proving the existence of atoms via Brownian motion, creating Special Relativity (unifying space and time), and deriving E=mc\u00b2. In 1915, he added General Relativity, showing that gravity is the geometric warping of spacetime by matter.",
       "curiosityStory": "As a boy in Munich, Einstein was slow to speak, leading teachers to fear he was dull. When his father gave him a pocket compass at age five, young Albert was mesmerized by the needle's steadfast pull toward the north, sensing that 'something deeply hidden had to be behind things.' At 16, he engaged in a famous thought experiment: What would happen if you could run alongside a beam of light at the speed of light?",
-      "inspirationMoment": "In 1905, while working as a third-class patent clerk in Bern, Switzerland, Einstein realized that Maxwell's equations proved light always travels at the same speed (approx. 300,000 km/s) regardless of how fast its source is moving. If the speed of light is absolute, then time and space themselves cannot be absolute—they must bend and dilate depending on the observer's motion!",
-      "howTheyDidIt": "In his 1905 'miracle year', Einstein published four papers that revolutionized physics: explaining the photoelectric effect (quanta of light, earning his Nobel), proving the physical existence of atoms via Brownian motion, formulating Special Relativity, and deriving the world's most famous equation: E = mc². Ten years later, in 1915, he completed General Relativity, imagining a person falling freely who feels no weight; he realized gravity is not an invisible pulling force, but the geometrical curvature of four-dimensional spacetime warped by mass and energy.",
+      "inspirationMoment": "In 1905, while working as a third-class patent clerk in Bern, Switzerland, Einstein realized that Maxwell's equations proved light always travels at the same speed (approx. 300,000 km/s) regardless of how fast its source is moving. If the speed of light is absolute, then time and space themselves cannot be absolute\u2014they must bend and dilate depending on the observer's motion!",
+      "howTheyDidIt": "In his 1905 'miracle year', Einstein published four papers that revolutionized physics: explaining the photoelectric effect (quanta of light, earning his Nobel), proving the physical existence of atoms via Brownian motion, formulating Special Relativity, and deriving the world's most famous equation: E = mc\u00b2. Ten years later, in 1915, he completed General Relativity, imagining a person falling freely who feels no weight; he realized gravity is not an invisible pulling force, but the geometrical curvature of four-dimensional spacetime warped by mass and energy.",
       "fascinatingImpact": "Einstein fundamentally rebuilt our understanding of reality, showing that space and time are dynamic fabrics, predicting gravitational lensing, black holes, and gravitational waves.",
       "sortYear": 1905,
       "yearDisplay": "1905"
@@ -995,7 +995,7 @@ window.SCIENCE_DATA = {
     {
       "id": "bohr",
       "name": "Niels Bohr",
-      "era": "20th Century (1885 – 1962)",
+      "era": "20th Century (1885 \u2013 1962)",
       "periodGroup": "modern",
       "country": "Denmark",
       "fields": [
@@ -1017,21 +1017,21 @@ window.SCIENCE_DATA = {
     {
       "id": "planck",
       "name": "Max Planck",
-      "era": "20th Century (1858 – 1947)",
+      "era": "20th Century (1858 \u2013 1947)",
       "periodGroup": "modern",
       "country": "Germany",
       "fields": [
         "Theoretical Physics",
         "Thermodynamics"
       ],
-      "keyContributions": "Father of Quantum Theory, Planck's constant (h), Planck's law of blackbody radiation, E = hν.",
+      "keyContributions": "Father of Quantum Theory, Planck's constant (h), Planck's law of blackbody radiation, E = h\u03bd.",
       "famousQuote": "Science cannot solve the ultimate mystery of nature. And that is because, in the last analysis, we ourselves are a part of the mystery that we are trying to solve.",
       "nobelPrize": "Nobel Prize in Physics (1918) in recognition of his role in the advancement of physics by his discovery of energy quanta",
       "majorDiscovery": "Energy quantization (quanta) and Planck's constant",
       "details": "Solved the 'ultraviolet catastrophe' of classical physics by assuming radiant heat and light are emitted and absorbed in discrete packets called quanta.",
       "curiosityStory": "A deeply conservative, musically gifted scholar in Munich, Max Planck was advised by his physics professor Philipp von Jolly in 1874 not to go into physics because 'almost everything is already discovered, and all that remains is to fill a few unimportant holes.' Planck replied that he did not wish to discover new things, only to understand the fundamental foundations of the discipline.",
       "inspirationMoment": "In 1900, German lighting companies tasked Planck with calculating how to make lightbulbs produce maximum light with minimum heat. Physicists faced the 'ultraviolet catastrophe': classical electromagnetic theory predicted that an idealized blackbody furnace should emit infinite radiation at high frequencies, which was physically absurd.",
-      "howTheyDidIt": "In late 1900, in what he termed an 'act of despair,' Planck introduced a mathematical trick: what if energy is not absorbed or emitted continuously like water flowing from a tap, but rather in tiny discrete packets—'quanta'? He wrote the equation $E = h\nu$, where $h$ is a tiny fundamental constant of nature (Planck's constant: $6.626 \times 10^{-34}$ J·s). To Planck's amazement, the formula matched experimental blackbody radiation curves with flawless accuracy.",
+      "howTheyDidIt": "In late 1900, in what he termed an 'act of despair,' Planck introduced a mathematical trick: what if energy is not absorbed or emitted continuously like water flowing from a tap, but rather in tiny discrete packets\u2014'quanta'? He wrote the equation $E = h\nu$, where $h$ is a tiny fundamental constant of nature (Planck's constant: $6.626 \times 10^{-34}$ J\u00b7s). To Planck's amazement, the formula matched experimental blackbody radiation curves with flawless accuracy.",
       "fascinatingImpact": "Though Planck initially regarded his quantum as a temporary mathematical fudge, it ignited the quantum revolution, permanently overturning classical deterministic physics.",
       "sortYear": 1900,
       "yearDisplay": "1900"
@@ -1039,19 +1039,19 @@ window.SCIENCE_DATA = {
     {
       "id": "heisenberg",
       "name": "Werner Heisenberg",
-      "era": "20th Century (1901 – 1976)",
+      "era": "20th Century (1901 \u2013 1976)",
       "periodGroup": "modern",
       "country": "Germany",
       "fields": [
         "Quantum Physics",
         "Theoretical Physics"
       ],
-      "keyContributions": "Heisenberg Uncertainty Principle (Δx · Δp ≥ ℏ/2), Matrix Mechanics, quantum mechanics formulation.",
+      "keyContributions": "Heisenberg Uncertainty Principle (\u0394x \u00b7 \u0394p \u2265 \u210f/2), Matrix Mechanics, quantum mechanics formulation.",
       "famousQuote": "What we observe is not nature itself, but nature exposed to our method of questioning.",
       "nobelPrize": "Nobel Prize in Physics (1932) for the creation of quantum mechanics",
       "majorDiscovery": "Uncertainty Principle and matrix quantum mechanics",
-      "details": "German theoretical physicist who formulated quantum mechanics using matrix algebra at age 23. In 1927, he unveiled the Heisenberg Uncertainty Principle: it is physically impossible to simultaneously measure both the exact position and exact momentum of a subatomic particle. The more precisely you pin down where an electron is, the less you know about where it is going—proving that nature at the microscopic scale is fundamentally probabilistic.",
-      "curiosityStory": "A brilliant young German prodigy and avid hiker in the Bavarian mountains, Heisenberg was captivated by theoretical physics while studying under Sommerfeld and Bohr. In June 1925, suffering from an excruciating attack of hay fever that swelled his face, he fled to Helgoland—a barren, rocky, pollen-free island in the North Sea.",
+      "details": "German theoretical physicist who formulated quantum mechanics using matrix algebra at age 23. In 1927, he unveiled the Heisenberg Uncertainty Principle: it is physically impossible to simultaneously measure both the exact position and exact momentum of a subatomic particle. The more precisely you pin down where an electron is, the less you know about where it is going\u2014proving that nature at the microscopic scale is fundamentally probabilistic.",
+      "curiosityStory": "A brilliant young German prodigy and avid hiker in the Bavarian mountains, Heisenberg was captivated by theoretical physics while studying under Sommerfeld and Bohr. In June 1925, suffering from an excruciating attack of hay fever that swelled his face, he fled to Helgoland\u2014a barren, rocky, pollen-free island in the North Sea.",
       "inspirationMoment": "Alone on the windswept cliffs of Helgoland, Heisenberg resolved to discard all unobservable visual models of electron orbits, focusing solely on observable quantities: the frequencies and intensities of light emitted by atoms.",
       "howTheyDidIt": "Working through the night until 3 AM, he invented Matrix Mechanics. Two years later, in 1927, he formulated the Uncertainty Principle ($\\Delta x \\cdot \\Delta p \\ge \\hbar / 2$): you cannot simultaneously know both the precise position and precise momentum of a quantum particle. The more accurately you pin down where an electron is, the less you know about where it is going. Heisenberg proved that at the subatomic level, the observer inevitably interacts with and alters the observed reality.",
       "fascinatingImpact": "Heisenberg eradicated Newtonian clockwork certainty from physics, revealing that nature's deepest fabric is governed by intrinsic quantum probability.",
@@ -1060,30 +1060,30 @@ window.SCIENCE_DATA = {
     },
     {
       "id": "schrodinger",
-      "name": "Erwin Schrödinger",
-      "era": "20th Century (1887 – 1961)",
+      "name": "Erwin Schr\u00f6dinger",
+      "era": "20th Century (1887 \u2013 1961)",
       "periodGroup": "modern",
       "country": "Austria",
       "fields": [
         "Theoretical Physics",
         "Quantum Mechanics"
       ],
-      "keyContributions": "Schrödinger Wave Equation, wave mechanics, Schrödinger's Cat thought experiment, What is Life? (inspired DNA discovery).",
+      "keyContributions": "Schr\u00f6dinger Wave Equation, wave mechanics, Schr\u00f6dinger's Cat thought experiment, What is Life? (inspired DNA discovery).",
       "famousQuote": "The task is not so much to see what no one has yet seen; but to think what nobody has yet thought, about that which everybody sees.",
       "nobelPrize": "Nobel Prize in Physics (1933) with Paul Dirac for discovery of new productive forms of atomic theory",
       "majorDiscovery": "Wave equation governing quantum particle dynamics",
-      "details": "Austrian theoretical physicist who developed wave mechanics in 1926. His famous Schrödinger wave equation describes how the quantum wave function of a particle evolves over time. To illustrate the bizarre implications of quantum superposition, he formulated the famous thought experiment of 'Schrödinger's Cat'—a cat sealed in a box that is simultaneously alive and dead until an observer opens the box to look.",
-      "curiosityStory": "A cultured Viennese polymath with passions for Italian art, ancient Greek philosophy, Eastern Vedanta metaphysics, and poetry, Erwin Schrödinger was captivated by Louis de Broglie's hypothesis that particles of matter could behave like waves.",
-      "inspirationMoment": "While spending a snowy Christmas holiday at a remote alpine villa in Arosa, Switzerland, in 1925, Schrödinger set out to find a proper wave equation that could describe the quantum behavior of electrons in the same way Maxwell's equations described light waves.",
-      "howTheyDidIt": "Over two intense weeks, he derived the Schrödinger Wave Equation ($i\\hbar \frac{\\partial \\psi}{\\partial t} = \\hat{H}\\psi$). In this equation, an electron is represented by a wave function ($\\psi$), whose squared amplitude describes the probability of finding the particle at any given coordinate in space. In 1935, to illustrate the mind-bending implications of quantum superposition, he formulated the famous 'Schrödinger's Cat' paradox—where an unobserved feline in a box is simultaneously alive and dead until the box is opened.",
-      "fascinatingImpact": "Schrödinger's equation became the foundational working equation of modern quantum chemistry, semiconductor electronics, and materials science.",
+      "details": "Austrian theoretical physicist who developed wave mechanics in 1926. His famous Schr\u00f6dinger wave equation describes how the quantum wave function of a particle evolves over time. To illustrate the bizarre implications of quantum superposition, he formulated the famous thought experiment of 'Schr\u00f6dinger's Cat'\u2014a cat sealed in a box that is simultaneously alive and dead until an observer opens the box to look.",
+      "curiosityStory": "A cultured Viennese polymath with passions for Italian art, ancient Greek philosophy, Eastern Vedanta metaphysics, and poetry, Erwin Schr\u00f6dinger was captivated by Louis de Broglie's hypothesis that particles of matter could behave like waves.",
+      "inspirationMoment": "While spending a snowy Christmas holiday at a remote alpine villa in Arosa, Switzerland, in 1925, Schr\u00f6dinger set out to find a proper wave equation that could describe the quantum behavior of electrons in the same way Maxwell's equations described light waves.",
+      "howTheyDidIt": "Over two intense weeks, he derived the Schr\u00f6dinger Wave Equation ($i\\hbar \frac{\\partial \\psi}{\\partial t} = \\hat{H}\\psi$). In this equation, an electron is represented by a wave function ($\\psi$), whose squared amplitude describes the probability of finding the particle at any given coordinate in space. In 1935, to illustrate the mind-bending implications of quantum superposition, he formulated the famous 'Schr\u00f6dinger's Cat' paradox\u2014where an unobserved feline in a box is simultaneously alive and dead until the box is opened.",
+      "fascinatingImpact": "Schr\u00f6dinger's equation became the foundational working equation of modern quantum chemistry, semiconductor electronics, and materials science.",
       "sortYear": 1926,
       "yearDisplay": "1926"
     },
     {
       "id": "dirac",
       "name": "Paul Dirac",
-      "era": "20th Century (1902 – 1984)",
+      "era": "20th Century (1902 \u2013 1984)",
       "periodGroup": "modern",
       "country": "United Kingdom",
       "fields": [
@@ -1092,11 +1092,11 @@ window.SCIENCE_DATA = {
       ],
       "keyContributions": "Dirac Equation unifying quantum mechanics and special relativity, prediction of Antimatter (the positron), bra-ket notation, Fermi-Dirac statistics.",
       "famousQuote": "A physical law must possess mathematical beauty.",
-      "nobelPrize": "Nobel Prize in Physics (1933) with Erwin Schrödinger",
+      "nobelPrize": "Nobel Prize in Physics (1933) with Erwin Schr\u00f6dinger",
       "majorDiscovery": "Relativistic quantum wave equation and mathematical prediction of antimatter",
       "details": "His relativistic wave equation for the electron naturally produced negative energy solutions, leading to the theoretical prediction of antimatter (discovered experimentally in 1932 by Anderson).",
       "curiosityStory": "Raised in Bristol by a stern Swiss father who insisted on speaking only French at dinner, Paul Dirac grew up pathologically silent, speaking only when spoken to. Trained as an electrical engineer, he developed a profound aesthetic belief that theoretical physics must be guided by pure mathematical elegance: 'It is more important to have beauty in one's equations than to have them fit experiment.'",
-      "inspirationMoment": "By 1928, quantum mechanics and Einstein's Special Relativity were at war: Schrödinger's wave equation worked beautifully for slow particles, but broke down when particles approached the speed of light. Dirac sought a single, mathematically pure equation that could harmonize both worlds.",
+      "inspirationMoment": "By 1928, quantum mechanics and Einstein's Special Relativity were at war: Schr\u00f6dinger's wave equation worked beautifully for slow particles, but broke down when particles approached the speed of light. Dirac sought a single, mathematically pure equation that could harmonize both worlds.",
       "howTheyDidIt": "Using $4 \times 4$ matrices, he formulated the relativistic Dirac Equation for the electron. When solving the equation, it yielded two sets of energy solutions: positive energy for normal electrons, and mysterious negative energy states. Rather than discard the negative roots as mathematical artifacts, Dirac boldly postulated that space is an ocean of negative-energy states and that a hole in this ocean would act like an anti-electron: a particle with the mass of an electron but a positive charge! In 1932, Carl Anderson discovered this particle in cosmic rays: the Positron. Dirac had predicted Antimatter purely from mathematical symmetry.",
       "fascinatingImpact": "Dirac revealed that for every particle of matter in the universe, an identical anti-particle exists, co-founding quantum field theory.",
       "sortYear": 1928,
@@ -1105,7 +1105,7 @@ window.SCIENCE_DATA = {
     {
       "id": "fermi",
       "name": "Enrico Fermi",
-      "era": "20th Century (1901 – 1954)",
+      "era": "20th Century (1901 \u2013 1954)",
       "periodGroup": "modern",
       "country": "Italy / USA",
       "fields": [
@@ -1119,7 +1119,7 @@ window.SCIENCE_DATA = {
       "details": "Italian-American theoretical and experimental physicist known as the 'architect of the nuclear age'. Fermi had the unique ability to solve complex physics problems using simple back-of-the-envelope estimates. In 1942, beneath the abandoned football stands at the University of Chicago, he built Chicago Pile-1 and achieved the world's first self-sustaining, controlled nuclear chain reaction, ushering in nuclear power.",
       "curiosityStory": "A self-taught boy in Rome who scoured flea markets for 19th-century Latin mathematics treatises, Enrico Fermi possessed an extraordinary dual mastery of theoretical intuition and experimental precision. His peers called him 'The Pope' because his physical deductions were deemed infallible.",
       "inspirationMoment": "In 1934, following the discovery of the neutron, Fermi realized that while alpha particles are repelled by the positive charge of an atomic nucleus, uncharged neutrons could penetrate deep into the heart of any heavy nucleus without electrical resistance.",
-      "howTheyDidIt": "He bombarded element after element with neutrons. In a famous flash of intuition, he placed blocks of paraffin wax in front of the neutron source: the hydrogen atoms in the wax slowed the neutrons down, increasing their chances of nuclear capture by hundreds of times! Fleeing fascist Italy in 1938 after receiving his Nobel Prize (his wife Laura was Jewish), Fermi arrived in America. In December 1942, beneath the West Stands of Stagg Field at the University of Chicago, Fermi directed the construction of Chicago Pile-1—a 20-foot stack of graphite blocks and uranium. On December 2, Fermi withdrew the cadmium control rods and achieved humanity's first artificial, self-sustaining nuclear chain reaction.",
+      "howTheyDidIt": "He bombarded element after element with neutrons. In a famous flash of intuition, he placed blocks of paraffin wax in front of the neutron source: the hydrogen atoms in the wax slowed the neutrons down, increasing their chances of nuclear capture by hundreds of times! Fleeing fascist Italy in 1938 after receiving his Nobel Prize (his wife Laura was Jewish), Fermi arrived in America. In December 1942, beneath the West Stands of Stagg Field at the University of Chicago, Fermi directed the construction of Chicago Pile-1\u2014a 20-foot stack of graphite blocks and uranium. On December 2, Fermi withdrew the cadmium control rods and achieved humanity's first artificial, self-sustaining nuclear chain reaction.",
       "fascinatingImpact": "Fermi opened the Atomic Age, demonstrating how atomic nuclei could be split to unleash unimaginable energy for power or destruction.",
       "sortYear": 1942,
       "yearDisplay": "1942"
@@ -1127,7 +1127,7 @@ window.SCIENCE_DATA = {
     {
       "id": "feynman",
       "name": "Richard P. Feynman",
-      "era": "20th Century (1918 – 1988)",
+      "era": "20th Century (1918 \u2013 1988)",
       "periodGroup": "modern",
       "country": "USA",
       "fields": [
@@ -1139,10 +1139,10 @@ window.SCIENCE_DATA = {
       "famousQuote": "I would rather have questions that can't be answered than answers that can't be questioned.",
       "nobelPrize": "Nobel Prize in Physics (1965) with Schwinger and Tomonaga for fundamental work in quantum electrodynamics",
       "majorDiscovery": "Quantum Electrodynamics (QED) and intuitive Feynman diagrams",
-      "details": "Legendary American theoretical physicist celebrated for his infectious curiosity, bongo playing, and lock-picking escapades at Los Alamos. Feynman shared the 1965 Nobel Prize for Quantum Electrodynamics (QED), inventing 'Feynman Diagrams'—visual shorthand that transformed how physicists calculate particle interactions. He cracked the mystery of the Challenger space shuttle disaster by dropping an O-ring into ice water during a live television broadcast.",
+      "details": "Legendary American theoretical physicist celebrated for his infectious curiosity, bongo playing, and lock-picking escapades at Los Alamos. Feynman shared the 1965 Nobel Prize for Quantum Electrodynamics (QED), inventing 'Feynman Diagrams'\u2014visual shorthand that transformed how physicists calculate particle interactions. He cracked the mystery of the Challenger space shuttle disaster by dropping an O-ring into ice water during a live television broadcast.",
       "curiosityStory": "Growing up in Far Rockaway, Queens, Richard Feynman was encouraged by his father to question everything and take apart mechanical clocks and radios. He was irreverent, mischievous, and possessed a legendary refusal to accept authority, learning safe-cracking at Los Alamos while working on the Manhattan Project.",
       "inspirationMoment": "While sitting in the Cornell University cafeteria in 1947, a student tossed a dinner plate into the air. Feynman noticed that the Cornell red emblem on the rim spun around while the plate wobbled, and that the wobble frequency was twice the spin rate. Rather than dismissing it as trivial, Feynman decided to calculate the equations of wobbling just for the pure joy of it, leading him directly into quantum electrodynamics.",
-      "howTheyDidIt": "Quantum Electrodynamics (QED) was plagued by mathematical infinities. Feynman abandoned traditional algebraic thickets and invented visual diagrams—'Feynman Diagrams'—representing electron and photon interactions as simple intuitive trajectories. His path integral formulation showed that a quantum particle takes every possible path simultaneously. In 1986, serving on the Rogers Commission investigating the Challenger space shuttle disaster, he submerged an O-ring in a glass of ice water during a live televised hearing, proving rubber lost its elasticity in cold weather.",
+      "howTheyDidIt": "Quantum Electrodynamics (QED) was plagued by mathematical infinities. Feynman abandoned traditional algebraic thickets and invented visual diagrams\u2014'Feynman Diagrams'\u2014representing electron and photon interactions as simple intuitive trajectories. His path integral formulation showed that a quantum particle takes every possible path simultaneously. In 1986, serving on the Rogers Commission investigating the Challenger space shuttle disaster, he submerged an O-ring in a glass of ice water during a live televised hearing, proving rubber lost its elasticity in cold weather.",
       "fascinatingImpact": "Feynman made quantum electrodynamics calculable, envisioned quantum computing and nanotechnology, and inspired generations with his boundless joy for physics.",
       "sortYear": 1948,
       "yearDisplay": "1948"
@@ -1150,7 +1150,7 @@ window.SCIENCE_DATA = {
     {
       "id": "franklin_rosalind",
       "name": "Rosalind Franklin",
-      "era": "20th Century (1920 – 1958)",
+      "era": "20th Century (1920 \u2013 1958)",
       "periodGroup": "modern",
       "country": "United Kingdom",
       "fields": [
@@ -1164,7 +1164,7 @@ window.SCIENCE_DATA = {
       "majorDiscovery": "Photo 51 and experimental X-ray diffraction parameters of the DNA double helix",
       "details": "Her peerless mastery of X-ray diffraction at King's College London produced Photo 51, providing the critical geometric dimensions (helical pitch, helical diameter) essential for Watson and Crick's DNA model.",
       "curiosityStory": "Born in London to an influential Anglo-Jewish family, Rosalind Franklin decided at age 15 that she wanted to be a scientist. She was fiercely determined, possessing laser-sharp experimental rigor. During WWII, she studied the microscopic structure of coal and graphite, publishing foundational papers that helped design industrial carbon materials and gas masks.",
-      "inspirationMoment": "In Paris, she mastered the art of X-ray crystallography—firing X-rays at crystallized molecules and deducing their 3D shape from the diffracted pattern of spots. Recruited to King's College London in 1951, she applied her skills to the enigmatic, fragile fibers of DNA.",
+      "inspirationMoment": "In Paris, she mastered the art of X-ray crystallography\u2014firing X-rays at crystallized molecules and deducing their 3D shape from the diffracted pattern of spots. Recruited to King's College London in 1951, she applied her skills to the enigmatic, fragile fibers of DNA.",
       "howTheyDidIt": "Franklin realized earlier DNA samples were disordered mixtures. She meticulously built a micro-camera that controlled the relative humidity of the fiber chamber, discovering that DNA existed in two distinct structural states: the dry 'A' form and the hydrated 'B' form. In May 1952, after exposing a hair-thin B-form DNA fiber to an X-ray beam for over 100 continuous hours, she captured 'Photo 51.' The photograph displayed a striking cross of dark spots with an empty fourth diamond layer, providing unambiguous mathematical proof of a helical structure with the phosphate backbone located on the exterior. Her photo was shown to James Watson without her knowledge or consent, unlocking their double helix model.",
       "fascinatingImpact": "Franklin's meticulous experimental mastery provided the decisive physical evidence that unlocked the secret of life, though she died of ovarian cancer at age 37 before her contributions were fully acknowledged.",
       "sortYear": 1952,
@@ -1195,7 +1195,7 @@ window.SCIENCE_DATA = {
     {
       "id": "turing",
       "name": "Alan Turing",
-      "era": "20th Century (1912 – 1954)",
+      "era": "20th Century (1912 \u2013 1954)",
       "periodGroup": "modern",
       "country": "United Kingdom",
       "fields": [
@@ -1208,10 +1208,10 @@ window.SCIENCE_DATA = {
       "famousQuote": "Sometimes it is the people no one can imagine anything of who do the things no one can imagine.",
       "nobelPrize": null,
       "majorDiscovery": "Concept of universal computation (Turing Machine) and AI intelligence criteria (Turing Test)",
-      "details": "British mathematician, logician, and the father of computer science and artificial intelligence. In 1936, he invented the theoretical concept of the Universal Turing Machine—the blueprint for all programmable computers. During WWII at Bletchley Park, Turing designed the electromechanical 'Bombe' machine that broke Nazi Germany's Enigma ciphers, saving an estimated 14 million lives. Later, he pioneered mathematical biology (morphogenesis) and the 'Turing Test' for machine intelligence.",
+      "details": "British mathematician, logician, and the father of computer science and artificial intelligence. In 1936, he invented the theoretical concept of the Universal Turing Machine\u2014the blueprint for all programmable computers. During WWII at Bletchley Park, Turing designed the electromechanical 'Bombe' machine that broke Nazi Germany's Enigma ciphers, saving an estimated 14 million lives. Later, he pioneered mathematical biology (morphogenesis) and the 'Turing Test' for machine intelligence.",
       "curiosityStory": "A brilliant, socially unconventional English schoolboy who ran marathons and tinkered with chemical concoctions, Alan Turing questioned whether human thought could be reduced to formal mathematical operations.",
       "inspirationMoment": "In 1936, wrestling with David Hilbert's 'Entscheidungsproblem' (whether an algorithm could determine if any mathematical assertion is provable), Turing imagined an idealized machine with an infinite strip of paper tape divided into squares and a read/write head scanning one symbol at a time.",
-      "howTheyDidIt": "He proved that this simple machine—the 'Universal Turing Machine'—could simulate any algorithmic calculation imaginable, laying the theoretical foundation of modern programmable computers. During WWII, at Bletchley Park, Turing designed the electromechanical 'Bombe' machine, breaking the German Enigma cipher and saving millions of lives. In 1950, he proposed the 'Turing Test' for machine intelligence. Tragically persecuted for his homosexuality by British authorities, he died by cyanide poisoning in 1954 at age 41.",
+      "howTheyDidIt": "He proved that this simple machine\u2014the 'Universal Turing Machine'\u2014could simulate any algorithmic calculation imaginable, laying the theoretical foundation of modern programmable computers. During WWII, at Bletchley Park, Turing designed the electromechanical 'Bombe' machine, breaking the German Enigma cipher and saving millions of lives. In 1950, he proposed the 'Turing Test' for machine intelligence. Tragically persecuted for his homosexuality by British authorities, he died by cyanide poisoning in 1954 at age 41.",
       "fascinatingImpact": "Turing is the father of computer science and artificial intelligence, showing that logic and physical machines could calculate the universe.",
       "sortYear": 1936,
       "yearDisplay": "1936"
@@ -1219,7 +1219,7 @@ window.SCIENCE_DATA = {
     {
       "id": "chandrasekhar",
       "name": "Subrahmanyan Chandrasekhar",
-      "era": "20th Century (1910 – 1995)",
+      "era": "20th Century (1910 \u2013 1995)",
       "periodGroup": "modern",
       "country": "India / USA",
       "fields": [
@@ -1241,7 +1241,7 @@ window.SCIENCE_DATA = {
     {
       "id": "tu_youyou",
       "name": "Tu Youyou",
-      "era": "Contemporary (1930 – Present)",
+      "era": "Contemporary (1930 \u2013 Present)",
       "periodGroup": "contemporary",
       "country": "China",
       "fields": [
@@ -1263,7 +1263,7 @@ window.SCIENCE_DATA = {
     {
       "id": "hawking",
       "name": "Stephen Hawking",
-      "era": "Contemporary (1942 – 2018)",
+      "era": "Contemporary (1942 \u2013 2018)",
       "periodGroup": "contemporary",
       "country": "United Kingdom",
       "fields": [
@@ -1278,7 +1278,7 @@ window.SCIENCE_DATA = {
       "details": "British theoretical physicist who unraveled the deepest secrets of gravity, spacetime, and black holes. Diagnosed with ALS at age 21 and given just two years to live, Hawking defied medical expectations for over half a century. In 1974, he proved that black holes are not completely black: quantum fluctuations at the event horizon cause them to emit thermal radiation ('Hawking Radiation') and slowly evaporate. His book 'A Brief History of Time' became an international sensation.",
       "curiosityStory": "As an undergraduate at Oxford, Stephen Hawking was an easygoing young man who rowed on the college crew and did barely an hour of study per day. But at age 21, while starting his PhD at Cambridge, he was diagnosed with amyotrophic lateral sclerosis (ALS) and given just two years to live.",
       "inspirationMoment": "Confronting his mortality, Hawking found fierce purpose: 'Before my condition was diagnosed, I had been very bored with life. Now, every new day became a bonus.' He turned his mind to the greatest mystery in cosmology: black holes.",
-      "howTheyDidIt": "With Roger Penrose, Hawking proved that general relativity requires the universe to have begun in a gravitational singularity at the Big Bang. In 1974, he applied quantum field theory to the edge of a black hole's event horizon. He discovered that virtual particle pairs spontaneously pop into existence near the horizon; occasionally, one particle falls into the black hole while the other escapes into deep space! This meant black holes are not completely black—they radiate thermal energy ('Hawking Radiation') and will eventually evaporate over cosmic epochs. Despite losing speech and mobility, he authored 'A Brief History of Time', inspiring millions worldwide.",
+      "howTheyDidIt": "With Roger Penrose, Hawking proved that general relativity requires the universe to have begun in a gravitational singularity at the Big Bang. In 1974, he applied quantum field theory to the edge of a black hole's event horizon. He discovered that virtual particle pairs spontaneously pop into existence near the horizon; occasionally, one particle falls into the black hole while the other escapes into deep space! This meant black holes are not completely black\u2014they radiate thermal energy ('Hawking Radiation') and will eventually evaporate over cosmic epochs. Despite losing speech and mobility, he authored 'A Brief History of Time', inspiring millions worldwide.",
       "fascinatingImpact": "Hawking forged the first theoretical bridge uniting general relativity, quantum mechanics, and thermodynamics at the edge of the cosmic abyss.",
       "sortYear": 1974,
       "yearDisplay": "1974"
@@ -1286,7 +1286,7 @@ window.SCIENCE_DATA = {
     {
       "id": "doudna_charpentier",
       "name": "Jennifer Doudna & Emmanuelle Charpentier",
-      "era": "21st Century (2012 – Present)",
+      "era": "21st Century (2012 \u2013 Present)",
       "periodGroup": "contemporary",
       "country": "USA / France",
       "fields": [
@@ -1298,7 +1298,7 @@ window.SCIENCE_DATA = {
       "famousQuote": "We have entered an era where human beings can rewrite the code of life itself.",
       "nobelPrize": "Nobel Prize in Chemistry (2020) for the development of a method for genome editing",
       "majorDiscovery": "CRISPR-Cas9 targeted genome editing tool",
-      "details": "Biochemists Jennifer Doudna (USA) and Emmanuelle Charpentier (France) who adapted a bacterial immune defense system into CRISPR-Cas9—a programmable molecular scissor capable of editing genes in living organisms with pinpoint precision. Their discovery won the 2020 Nobel Prize in Chemistry and has revolutionized medicine, agriculture, and gene therapy for genetic disorders.",
+      "details": "Biochemists Jennifer Doudna (USA) and Emmanuelle Charpentier (France) who adapted a bacterial immune defense system into CRISPR-Cas9\u2014a programmable molecular scissor capable of editing genes in living organisms with pinpoint precision. Their discovery won the 2020 Nobel Prize in Chemistry and has revolutionized medicine, agriculture, and gene therapy for genetic disorders.",
       "curiosityStory": "Growing up in Hilo, Hawaii, Jennifer Doudna was mesmerized by island flora and James Watson's book The Double Helix. In France, Emmanuelle Charpentier was a microbiologist fascinated by how single-celled bacteria survive relentless viral attacks.",
       "inspirationMoment": "In 2011, while attending a microbiology conference in San Juan, Puerto Rico, Doudna and Charpentier met during a walk through Old San Juan. Charpentier had discovered that Streptococcus bacteria possessed an adaptive immune system called CRISPR-Cas9, and the two scientists decided to join forces.",
       "howTheyDidIt": "They unraveled how bacteria record snippets of invading viral DNA between repetitive genetic spacers, using them to guide a molecular scissor protein (Cas9) to snip viral genomes. In 2012, Doudna and Charpentier engineered a single guide RNA (sgRNA) that could be programmed to target and cut any exact DNA sequence in any living organism. It turned genetic editing from a clumsy, million-dollar guessing game into a precise molecular word processor.",
@@ -1309,7 +1309,7 @@ window.SCIENCE_DATA = {
     {
       "id": "penrose",
       "name": "Sir Roger Penrose",
-      "era": "Contemporary (1931 – Present)",
+      "era": "Contemporary (1931 \u2013 Present)",
       "periodGroup": "contemporary",
       "country": "United Kingdom",
       "fields": [
@@ -1331,8 +1331,8 @@ window.SCIENCE_DATA = {
     },
     {
       "id": "kariko_weissman",
-      "name": "Katalin Karikó & Drew Weissman",
-      "era": "21st Century (2005 – Present)",
+      "name": "Katalin Karik\u00f3 & Drew Weissman",
+      "era": "21st Century (2005 \u2013 Present)",
       "periodGroup": "contemporary",
       "country": "Hungary/USA & USA",
       "fields": [
@@ -1345,17 +1345,17 @@ window.SCIENCE_DATA = {
       "nobelPrize": "Nobel Prize in Physiology or Medicine (2023) for discoveries concerning nucleoside base modifications that enabled the development of effective mRNA vaccines against COVID-19",
       "majorDiscovery": "Modified nucleosides enabling therapeutic and prophylactic mRNA translation without lethal immune attack",
       "details": "Overcame decades of institutional skepticism and demotions, demonstrating that substituting pseudouridine into mRNA stops innate immune destruction.",
-      "curiosityStory": "The daughter of a butcher in post-war communist Hungary, Katalin Karikó grew up in a one-room adobe house without running water. In 1985, after losing her university research post, she moved to America with her husband and two-year-old daughter, sewing their life savings of £900 inside a teddy bear. For decades at the University of Pennsylvania, she faced grant rejections, salary cuts, and demotions for persisting with a molecule everyone deemed a dead end: mRNA.",
-      "inspirationMoment": "In 1997, Karikó met immunologist Drew Weissman by chance while waiting in line at an office photocopy machine. They began talking about using messenger RNA to instruct human cells to manufacture therapeutic proteins, but ran into a deadly hurdle: synthetic mRNA triggered catastrophic immune storms in laboratory mice.",
-      "howTheyDidIt": "Karikó noticed that natural transfer RNA (tRNA) in human cells did not trigger inflammation. In 2005, after painstaking biochemical experiments, Karikó and Weissman discovered the secret: substituting a single nucleoside base—replacing uridine with pseudouridine ($\\Psi$)—allowed synthetic mRNA to slip past mammalian immune sensors undetected and produce target antigens safely. In 2020, when the COVID-19 pandemic struck, their technology enabled Pfizer-BioNTech and Moderna to develop vaccines in record time, saving tens of millions of lives and winning the 2023 Nobel Prize in Medicine.",
-      "fascinatingImpact": "Karikó and Weissman proved that stubborn persistence in basic science can rescue civilization, launching the era of programmable mRNA therapeutics for cancer, malaria, and autoimmune diseases.",
+      "curiosityStory": "The daughter of a butcher in post-war communist Hungary, Katalin Karik\u00f3 grew up in a one-room adobe house without running water. In 1985, after losing her university research post, she moved to America with her husband and two-year-old daughter, sewing their life savings of \u00a3900 inside a teddy bear. For decades at the University of Pennsylvania, she faced grant rejections, salary cuts, and demotions for persisting with a molecule everyone deemed a dead end: mRNA.",
+      "inspirationMoment": "In 1997, Karik\u00f3 met immunologist Drew Weissman by chance while waiting in line at an office photocopy machine. They began talking about using messenger RNA to instruct human cells to manufacture therapeutic proteins, but ran into a deadly hurdle: synthetic mRNA triggered catastrophic immune storms in laboratory mice.",
+      "howTheyDidIt": "Karik\u00f3 noticed that natural transfer RNA (tRNA) in human cells did not trigger inflammation. In 2005, after painstaking biochemical experiments, Karik\u00f3 and Weissman discovered the secret: substituting a single nucleoside base\u2014replacing uridine with pseudouridine ($\\Psi$)\u2014allowed synthetic mRNA to slip past mammalian immune sensors undetected and produce target antigens safely. In 2020, when the COVID-19 pandemic struck, their technology enabled Pfizer-BioNTech and Moderna to develop vaccines in record time, saving tens of millions of lives and winning the 2023 Nobel Prize in Medicine.",
+      "fascinatingImpact": "Karik\u00f3 and Weissman proved that stubborn persistence in basic science can rescue civilization, launching the era of programmable mRNA therapeutics for cancer, malaria, and autoimmune diseases.",
       "sortYear": 2005,
       "yearDisplay": "2005"
     },
     {
       "id": "hopfield_hinton",
       "name": "John J. Hopfield & Geoffrey E. Hinton",
-      "era": "21st Century (1982 – Present)",
+      "era": "21st Century (1982 \u2013 Present)",
       "periodGroup": "contemporary",
       "country": "USA & UK / Canada",
       "fields": [
@@ -1378,7 +1378,7 @@ window.SCIENCE_DATA = {
     {
       "id": "hassabis_jumper_baker",
       "name": "Demis Hassabis, John Jumper & David Baker",
-      "era": "21st Century (2020 – Present)",
+      "era": "21st Century (2020 \u2013 Present)",
       "periodGroup": "contemporary",
       "country": "UK & USA",
       "fields": [
@@ -1388,12 +1388,12 @@ window.SCIENCE_DATA = {
       ],
       "keyContributions": "AlphaFold 2 (solving the 50-year-old protein folding problem) and computational de novo protein design (Baker).",
       "famousQuote": "AI has given biology the lens to see all 200 million proteins of known life.",
-      "nobelPrize": "Nobel Prize in Chemistry (2024) — Baker for computational protein design; Hassabis and Jumper for protein structure prediction",
+      "nobelPrize": "Nobel Prize in Chemistry (2024) \u2014 Baker for computational protein design; Hassabis and Jumper for protein structure prediction",
       "majorDiscovery": "Computational prediction of 3D protein structures from amino acid sequences using deep learning",
       "details": "Predicted atomic-level 3D conformations for virtually every known protein sequence, unleashing leaps in drug design, enzyme engineering, and synthetic biology.",
       "curiosityStory": "Demis Hassabis was a child chess prodigy and computer game designer who co-founded DeepMind with the vision of solving intelligence to solve everything else. John Jumper was a theoretical biophysicist, and David Baker was an American biochemist at the University of Washington who dedicated decades to computational protein design.",
       "inspirationMoment": "For 50 years, structural biology was paralyzed by the 'protein folding problem': Christian Anfinsen had proven that a protein's 1D amino acid sequence dictates its 3D shape, but calculating that shape required astronomical permutations. Determining a single protein structure in the lab took years of grueling crystallography.",
-      "howTheyDidIt": "In 2020, Jumper and Hassabis engineered AlphaFold 2, combining attention neural networks with evolutionary co-variance to predict 3D protein structures with atomic accuracy within minutes. DeepMind mapped virtually all 200 million known proteins across the tree of life. Meanwhile, David Baker created Rosetta and Topiary, pioneering 'de novo' protein design—crafting synthetic proteins never before seen in nature to neutralize toxins and fight disease. In 2024, they were awarded the Nobel Prize in Chemistry.",
+      "howTheyDidIt": "In 2020, Jumper and Hassabis engineered AlphaFold 2, combining attention neural networks with evolutionary co-variance to predict 3D protein structures with atomic accuracy within minutes. DeepMind mapped virtually all 200 million known proteins across the tree of life. Meanwhile, David Baker created Rosetta and Topiary, pioneering 'de novo' protein design\u2014crafting synthetic proteins never before seen in nature to neutralize toxins and fight disease. In 2024, they were awarded the Nobel Prize in Chemistry.",
       "fascinatingImpact": "By conquering the protein folding problem with AI, they ignited a revolution in molecular biology, drug discovery, plastic-eating enzyme design, and synthetic medicine.",
       "sortYear": 2020,
       "yearDisplay": "2020"
@@ -1404,11 +1404,21 @@ window.SCIENCE_DATA = {
       "year": 1901,
       "category": "Physics",
       "laureates": [
-        "Wilhelm Conrad Röntgen"
+        "Wilhelm Conrad R\u00f6ntgen"
       ],
       "country": "Germany",
       "citation": "In recognition of the extraordinary services he has rendered by the discovery of the remarkable rays subsequently named after him (X-rays).",
-      "story": "Röntgen refused to patent X-rays or even name them after himself (calling them 'X' for unknown). He donated his entire Nobel prize money to the University of Würzburg, believing discoveries belong to all humankind."
+      "story": "R\u00f6ntgen refused to patent X-rays or even name them after himself (calling them 'X' for unknown). He donated his entire Nobel prize money to the University of W\u00fcrzburg, believing discoveries belong to all humankind.",
+      "id": "nobel_1901_rontgen",
+      "title": "The Invisible Rays That Pierced Living Flesh",
+      "eraLabel": "Early Dawn (1901\u20131920)",
+      "periodGroup": "early_20th",
+      "theWorldBefore": "For all of recorded human history, the interior of the living human body was an impenetrable secret. If a soldier had a musket ball lodged in his thigh or a child swallowed a pin, physicians could only probe blindly with metal forceps or slice through healthy muscle with scalpel blades, causing agony and fatal sepsis. Bones set crookedly in the dark, and lung diseases festered invisibly behind the rib cage.",
+      "theBreakthroughMoment": "On the evening of November 8, 1895, in W\u00fcrzburg, Germany, physicist Wilhelm R\u00f6ntgen was experimenting with a high-voltage Crookes cathode ray tube. To observe weak fluorescent effects, he had shrouded the glass tube in thick black cardboard and plunged his laboratory into complete pitch blackness. Suddenly, a yard away, his eye caught a ghostly, shimmering greenish-yellow glimmer on a small paper screen coated with barium platinocyanide. He knew cathode rays could only travel two inches in air; something entirely new, invisible, and penetrating was escaping the cardboard shroud. In an obsession lasting seven weeks, he ate and slept in his laboratory. One afternoon, he held a small lead disk in the path of the beam\u2014and was horrified to see the dark silhouette of his own living skeletal fingers projected on the screen. He famously called his wife Bertha into the lab and placed her hand on a photographic glass plate for fifteen minutes: when developed, her wedding ring hovered eerily around the white bones of her fingers. She gasped in horror: 'I have seen my own death!'",
+      "howItActuallyWorks": "When high-speed electrons in a vacuum tube violently slam into a heavy metal anode, their sudden deceleration converts kinetic energy into high-energy electromagnetic radiation (Bremsstrahlung or 'braking radiation'), alongside inner-shell electronic transitions. These 'X-rays' have wavelengths ten thousand times shorter than visible light, allowing them to pass directly through the loose electronic electron clouds of soft organic tissues (water, muscle, fat). However, when X-rays encounter the dense calcium nuclei of bones (atomic number Z=20) or heavy metals like lead, they are absorbed via the photoelectric effect, casting a stark, high-contrast skeletal shadow on photographic film.",
+      "lastingWonderAndLegacy": "R\u00f6ntgen refused to patent his discovery or attach his name to it (insisting on 'X' for mathematical unknown), and donated his entire Nobel Prize money to the University of W\u00fcrzburg, declaring that discoveries belonged to all humanity. Within weeks of his publication, military field hospitals used X-rays to locate bullets without exploratory surgery. X-rays went on to reveal the crystal lattices of solids, expose the double-helix geometry of DNA, image dying stars in X-ray astronomy, and form the basis of modern medical CT scans.",
+      "sortYear": 1901,
+      "yearDisplay": "1901"
     },
     {
       "year": 1901,
@@ -1417,7 +1427,17 @@ window.SCIENCE_DATA = {
         "Jacobus Henricus van 't Hoff"
       ],
       "country": "Netherlands",
-      "citation": "In recognition of the extraordinary services he has rendered by the discovery of the laws of chemical dynamics and osmotic pressure in solutions."
+      "citation": "In recognition of the extraordinary services he has rendered by the discovery of the laws of chemical dynamics and osmotic pressure in solutions.",
+      "id": "nobel_1901_vanthoff",
+      "title": "The Pressure of Life: Osmosis & Chemical Equilibrium",
+      "eraLabel": "Early Dawn (1901\u20131920)",
+      "periodGroup": "early_20th",
+      "theWorldBefore": "In the nineteenth century, chemistry and physics seemed separated by an unbridgeable chasm. Chemistry was treated as a qualitative art of mixing pungent powders in flasks, while physics reigned over mathematical mechanics and thermodynamics. Nobody understood the physical forces that drove chemical reactions to stall in dynamic equilibrium, nor why a withered carrot placed in water puffed back to crisp life, nor what generated the colossal pressure inside plant cells that enabled tiny tree roots to crack solid stone sidewalks.",
+      "theBreakthroughMoment": "Jacobus Henricus van 't Hoff, a brilliant Dutch visionary who had already introduced the revolutionary concept that carbon bonds point to the corners of a three-dimensional tetrahedron, turned his attention to plant physiology. Looking at botanical experiments on plant cell membranes by Wilhelm Pfeffer, Van 't Hoff had a sudden, transcendent insight: sugar molecules dissolved in water behave identically to gas molecules trapped in a closed vessel. The solvent was merely empty space for the solute!",
+      "howItActuallyWorks": "Van 't Hoff formulated the fundamental law of osmotic pressure: $\\Pi V = nRT$, which is formally identical to the ideal gas law $PV = nRT$. When a semipermeable membrane separates pure water from a sugar solution, water molecules easily pass through the microscopic pores, while large sugar molecules cannot. Because pure water has higher chemical potential (free energy) than the solution, water rushes through the membrane to dilute the solute, creating an upward hydrostatic pressure ($\\\\Pi$) proportional to temperature and molar concentration. He mathematically linked this osmotic drive to chemical reaction rates and thermodynamic equilibrium through the legendary Van 't Hoff equation: $\\frac{d \\ln K}{dT} = \\frac{\\Delta H^{\\circ}}{R T^2}$.",
+      "lastingWonderAndLegacy": "Van 't Hoff created the entire discipline of modern physical chemistry. His osmotic laws explain how freshwater fish maintain cellular integrity, how human kidneys filter toxins from blood, and how giant Californian redwoods pump hundreds of gallons of water hundreds of feet into the sky against gravity. Today, reverse osmosis desalination plants built upon his formulas supply drinking water to millions of arid coastal communities across the globe.",
+      "sortYear": 1901,
+      "yearDisplay": "1901"
     },
     {
       "year": 1901,
@@ -1426,7 +1446,17 @@ window.SCIENCE_DATA = {
         "Emil Adolf von Behring"
       ],
       "country": "Germany",
-      "citation": "For his work on serum therapy, especially its application against diphtheria, by which he has opened a new road in the domain of medical science."
+      "citation": "For his work on serum therapy, especially its application against diphtheria, by which he has opened a new road in the domain of medical science.",
+      "id": "nobel_1901_vonbehring",
+      "title": "The Golden Serum: Taming the Strangling Angel of Children",
+      "eraLabel": "Early Dawn (1901\u20131920)",
+      "periodGroup": "early_20th",
+      "theWorldBefore": "Throughout the nineteenth century, diphtheria was terrorized as the 'Strangling Angel of Children.' Epidemics would strike a village and wipe out entire families in days. A leathery, gray pseudomembrane of dead tissue and bacterial toxin would grow across a child's throat, slowly choking them to death while parents watched in helpless agony. Doctors could only attempt tracheotomies\u2014cutting a slit into the windpipe with a knife\u2014which usually failed as the poison paralyzed the heart and nervous system.",
+      "theBreakthroughMoment": "Working in Robert Koch's laboratory in Berlin alongside Japanese bacteriologist Kitasato Shibasabur\u014d, Emil von Behring realized that diphtheria bacteria did not need to invade organs to kill; they secreted a soluble poison\u2014a toxin. Von Behring asked a radical question: Could an animal's body produce a specific neutralizing agent in its blood that could be transferred into another sick creature?",
+      "howItActuallyWorks": "Von Behring injected non-lethal, attenuated doses of diphtheria toxin into guinea pigs, sheep, and eventually horses. The horses' immune systems responded by producing specific neutralizing proteins\u2014which he termed 'antitoxins' (now known as antibodies). When blood was drawn from these immunized horses and centrifuged to isolate the golden liquid serum, the serum contained millions of Y-shaped antibodies that bound directly to the active sites of the bacterial toxin, neutralizing its lethality before it could destroy human tissues. On Christmas night in 1891, a dying child in a Berlin clinic received the first injection of horse serum; within hours, the child's fever broke, the throat membrane shrank, and the child breathed freely.",
+      "lastingWonderAndLegacy": "Von Behring's discovery inaugurated the field of serum therapy and modern immunology. For the first time in human history, doctors were not merely applying antiseptics or comforting the dying\u2014they were deploying biological weapons crafted by living immune systems. His antitoxin saved hundreds of thousands of children within a single decade and established the principles behind tetanus antitoxin, antivenoms for snakebites, and modern monoclonal antibody therapies for cancer.",
+      "sortYear": 1901,
+      "yearDisplay": "1901"
     },
     {
       "year": 1903,
@@ -1434,11 +1464,21 @@ window.SCIENCE_DATA = {
       "laureates": [
         "Antoine Henri Becquerel",
         "Pierre Curie",
-        "Marie Skłodowska-Curie"
+        "Marie Sk\u0142odowska-Curie"
       ],
       "country": "France / Poland",
       "citation": "Becquerel for discovery of spontaneous radioactivity; the Curies for joint researches on the radiation phenomena discovered by Professor Henri Becquerel.",
-      "story": "The French Academy initially nominated only Becquerel and Pierre Curie. Pierre wrote back refusing to accept unless Marie was included, ensuring she became the first woman to win a Nobel Prize."
+      "story": "The French Academy initially nominated only Becquerel and Pierre Curie. Pierre wrote back refusing to accept unless Marie was included, ensuring she became the first woman to win a Nobel Prize.",
+      "id": "nobel_1903_curies",
+      "title": "Radioactivity: The Unquenchable Embers of the Atom",
+      "eraLabel": "Early Dawn (1901\u20131920)",
+      "periodGroup": "early_20th",
+      "theWorldBefore": "At the close of the Victorian era, physics believed the universe was an orderly, finished clockwork. Atoms were defined by their Greek namesake\u2014'atomos' (uncuttable)\u2014eternal, immutable spheres of billiard-ball matter that could never change, decay, or break apart. Energy was conserved, matter was indestructible, and the cosmos had settled into rigid Newtonian certainty.",
+      "theBreakthroughMoment": "In 1896, Henri Becquerel accidentally placed uranium salts in a dark desk drawer on top of an unexposed photographic plate wrapped in black paper, discovering that uranium emitted rays spontaneously without sunlight. But while Becquerel moved on, a brilliant young Polish immigrant in Paris, Marie Sk\u0142odowska-Curie, chose this mystery for her doctoral thesis. Pierre Curie dropped his own crystals research to build a sensitive piezoelectric electrometer. Marie discovered that raw pitchblende ore emitted radiation far more intense than pure uranium\u2014meaning an unknown element was hiding in trace amounts. Working in an abandoned wooden shed that leaked rain and froze in winter, Marie spent four brutal years boiling and stirring 20-kilogram cauldrons of toxic pitchblende with a heavy iron rod, breathing noxious acid fumes until she isolated two brand new elements: Polonium (named after her oppressed homeland Poland) and Radium, which glowed with an eerie, unquenchable pale-blue light in the dark.",
+      "howItActuallyWorks": "Radioactivity revealed that atomic nuclei are not eternal. Heavy, unstable nuclei like Uranium and Radium have an excess of protons and neutrons. To seek stability, they spontaneously undergo radioactive decay: firing out alpha particles (helium nuclei), beta particles (electrons), or gamma rays (ultra-high-energy photons). In doing so, one chemical element literally transmutes into another\u2014fulfilling the medieval alchemist's dream. The immense energy released originates directly from Einstein's mass-energy equivalence ($E=mc^2$), where a tiny fraction of the nuclear mass is converted into raw kinetic energy.",
+      "lastingWonderAndLegacy": "Marie Curie became the first woman in history to win a Nobel Prize (and later the only person to win in two distinct scientific fields). When the French Academy initially nominated only Becquerel and Pierre, Pierre wrote a blistering letter refusing to accept unless Marie was recognized as the principal investigator. Their discovery overturned the immutability of matter, illuminated the age of the Earth (radiometric dating), and opened the gateway to nuclear physics, cancer radiation therapy, and the Atomic Age.",
+      "sortYear": 1903,
+      "yearDisplay": "1903"
     },
     {
       "year": 1905,
@@ -1448,7 +1488,17 @@ window.SCIENCE_DATA = {
       ],
       "country": "Germany",
       "citation": "For his investigations and discoveries in relation to tuberculosis, identifying Mycobacterium tuberculosis.",
-      "story": "Koch established the famous 'Koch's Postulates' to prove that a specific microbe causes a specific disease, identifying the bacteria responsible for tuberculosis, cholera, and anthrax."
+      "story": "Koch established the famous 'Koch's Postulates' to prove that a specific microbe causes a specific disease, identifying the bacteria responsible for tuberculosis, cholera, and anthrax.",
+      "id": "nobel_1905_koch",
+      "title": "Koch's Postulates: Unmasking the White Plague",
+      "eraLabel": "Early Dawn (1901\u20131920)",
+      "periodGroup": "early_20th",
+      "theWorldBefore": "For centuries, tuberculosis (the 'White Plague') was humanity's deadliest stalker, responsible for one out of every seven human deaths on Earth. Because it killed slowly over months or years, causing coughing of blood, pallor, and wasting away, society romanticized it as a hereditary curse, a disease of passionate artists, or the result of 'bad air' (miasma) and moral weakness. Nobody believed an invisible creature could be passed through the air from one breath to another.",
+      "theBreakthroughMoment": "Robert Koch, a meticulous German country physician gifted a simple microscope by his wife Emmy for his 28th birthday, refused to accept vague folklore. In a makeshift laboratory behind his doctor's office, he invented the method of culturing bacteria on solid gelatin and agar plates (invented with Julius Petri), allowing individual bacteria to multiply into distinct, isolated colonies. Using a complex, multi-stage aniline dye staining technique, Koch peered through the microscope lens on March 24, 1882, and saw tiny, brilliant blue, rod-shaped bacilli packed inside diseased lung tissue.",
+      "howItActuallyWorks": "Koch did not just see the microbe; he established the iron-clad scientific protocol known as **Koch's Postulates** to conclusively prove causality: (1) The microorganism must be found in abundance in all organisms suffering from the disease, but not in healthy organisms. (2) The microorganism must be isolated from a diseased organism and grown in pure culture. (3) The cultured microorganism should cause disease when introduced into a healthy organism. (4) The microorganism must be re-isolated from the inoculated, diseased experimental host and identified as being identical to the original specific causative agent.",
+      "lastingWonderAndLegacy": "Koch's postulates transformed medicine from speculative bedside guesswork into an exact, reproducible laboratory science. By identifying *Mycobacterium tuberculosis*, *Vibrio cholerae*, and *Bacillus anthracis*, Koch gave humanity the precise targets needed for modern public health sanitation, clean water filtration, quarantine, diagnostic skin tests, and eventually antibiotic cures that spared hundreds of millions of lives.",
+      "sortYear": 1905,
+      "yearDisplay": "1905"
     },
     {
       "year": 1908,
@@ -1457,17 +1507,37 @@ window.SCIENCE_DATA = {
         "Ernest Rutherford"
       ],
       "country": "New Zealand / UK",
-      "citation": "For his investigations into the disintegration of the elements, and the chemistry of radioactive substances (alpha/beta rays)."
+      "citation": "For his investigations into the disintegration of the elements, and the chemistry of radioactive substances (alpha/beta rays).",
+      "id": "nobel_1908_rutherford",
+      "title": "Transmutation: Peeling the Layers of the Nuclear Onion",
+      "eraLabel": "Early Dawn (1901\u20131920)",
+      "periodGroup": "early_20th",
+      "theWorldBefore": "Nineteenth-century chemistry was founded upon John Dalton's rock-solid axiom: elements are immutable building blocks. Gold is gold, lead is lead, and uranium is uranium. Chemical reactions could reshuffle how atoms formed molecules, but an atom itself was a permanent, unbreakable ball of matter.",
+      "theBreakthroughMoment": "Ernest Rutherford, an exuberant New Zealand farm boy with a booming voice and unmatched laboratory intuition, was working at McGill University in Montreal with Frederick Soddy. They noticed that radioactive thorium gave off a gas that was itself radioactive. Measuring its activity meticulously, they realized the radiation decayed in a precise geometric progression\u2014the discovery of half-life. Soddy famously cried: 'Rutherford, this is transmutation: the thorium is disintegrating and turning into an argon gas!' Rutherford barked back: 'For Mike's sake, Soddy, don't call it transmutation! They'll have our heads off as alchemists!'",
+      "howItActuallyWorks": "Rutherford identified and named alpha particles (positively charged, heavy) and beta particles (negatively charged, fast). He proved that radioactive elements are unstable atomic systems that continuously blow off subatomic shards. When a thorium atom ejects an alpha particle, its nuclear charge decreases by two units, transforming it into an entirely different element with distinct chemical properties. The rate of decay is governed by the universal exponential radioactive half-life equation: $N(t) = N_0 e^{-\\lambda t}$.",
+      "lastingWonderAndLegacy": "Awarded the 1908 Nobel Prize in Chemistry (which Rutherford jokingly called his quickest transformation: 'I have dealt with many different transformations with various time-periods, but none quite as rapid as my own transformation from a physicist to a chemist!'), his work led directly to the discovery of the atomic nucleus, the proton, and artificial transmutation\u2014smashing nitrogen atoms with alpha particles in 1919 to deliberately create oxygen.",
+      "sortYear": 1908,
+      "yearDisplay": "1908"
     },
     {
       "year": 1911,
       "category": "Chemistry",
       "laureates": [
-        "Marie Skłodowska-Curie"
+        "Marie Sk\u0142odowska-Curie"
       ],
       "country": "Poland / France",
       "citation": "In recognition of her services to the advancement of chemistry by the discovery of the elements radium and polonium, by the isolation of radium.",
-      "story": "Marie Curie remains the only person in history to win Nobel Prizes in two different scientific fields (Physics & Chemistry), successfully isolating pure metallic radium and polonium."
+      "story": "Marie Curie remains the only person in history to win Nobel Prizes in two different scientific fields (Physics & Chemistry), successfully isolating pure metallic radium and polonium.",
+      "id": "nobel_1911_curie",
+      "title": "Pure Radium: The Triumph of Will Against the Elements",
+      "eraLabel": "Early Dawn (1901\u20131920)",
+      "periodGroup": "early_20th",
+      "theWorldBefore": "Following her 1903 Physics Nobel, skeptics whispered that Marie Curie had merely acted as an assistant to her husband Pierre and Henri Becquerel. When Pierre was tragically killed in 1906, his skull crushed by the wheels of a heavy horse-drawn wagon on a rain-slicked Paris street, Marie was left a grieving 38-year-old widow with two young daughters. Many in the male-dominated French scientific establishment assumed her career was over.",
+      "theBreakthroughMoment": "Refusing despair, Marie assumed Pierre's professorship at the Sorbonne\u2014becoming the first female professor in the university's 650-year history. She set herself an audacious challenge: to prove beyond any shadow of doubt that Radium was a real chemical element, she had to isolate it as a pure, glittering metallic substance and determine its exact atomic weight.",
+      "howItActuallyWorks": "Working with metric tons of radioactive pitchblende residue donated by the Austrian government, Marie conducted thousands of tedious fractional crystallizations. Barium and Radium have almost identical chemical properties; they could only be separated because Radium chloride is slightly less soluble than Barium chloride in boiling water. Through infinite patience, boiling, cooling, filtering, and crystal scraping, she painstakingly isolated one-tenth of a single gram of pure Radium chloride, and in 1910, electrolyzed it on a mercury cathode to produce pure, shiny metallic Radium (atomic weight 226).",
+      "lastingWonderAndLegacy": "Marie Curie became the first person ever to win two Nobel Prizes, and remains the only individual honored across two different natural sciences. During World War I, she mobilized a fleet of 20 mobile X-ray vehicles ('Petites Curies') and 200 radiological installations, personally driving them to frontline trenches to locate shrapnel in over a million wounded soldiers. Her notebook papers are so radioactive to this day that they are kept in lead-lined boxes at the Biblioth\u00e8que Nationale in Paris and can only be viewed in protective hazmat suits.",
+      "sortYear": 1911,
+      "yearDisplay": "1911"
     },
     {
       "year": 1918,
@@ -1477,7 +1547,17 @@ window.SCIENCE_DATA = {
       ],
       "country": "Germany",
       "citation": "In recognition of the services he rendered to the advancement of Physics by his discovery of energy quanta.",
-      "story": "Planck reluctantly launched quantum mechanics by proposing that energy is emitted in discrete packets ('quanta', E=hν) to resolve the blackbody radiation ultraviolet catastrophe."
+      "story": "Planck reluctantly launched quantum mechanics by proposing that energy is emitted in discrete packets ('quanta', E=h\u03bd) to resolve the blackbody radiation ultraviolet catastrophe.",
+      "id": "nobel_1918_planck",
+      "title": "The Ultraviolet Catastrophe & The Birth of the Quantum",
+      "eraLabel": "Early Dawn (1901\u20131920)",
+      "periodGroup": "early_20th",
+      "theWorldBefore": "By the late 1890s, classical physics was believed to be nearly complete. Light was a continuous electromagnetic wave governed by Maxwell's equations; heat was continuous kinetic energy governed by Boltzmann's thermodynamics. But when physicists applied these flawless laws to calculate how a heated hollow sphere ('blackbody') should glow, classical theory predicted that as frequencies approached the ultraviolet, energy emission should skyrocket to infinity. Every kitchen oven would blast the universe with lethal ultraviolet death\u2014a glaring mathematical failure known as the 'Ultraviolet Catastrophe.'",
+      "theBreakthroughMoment": "Max Planck, a conservative 42-year-old Prussian theoretical physicist who deeply revered continuous thermodynamics, spent years trying to solve the problem using standard classical physics. On Sunday evening, October 7, 1900, after dinner with experimentalist Heinrich Rubens, Planck sat down at his desk and performed what he later called 'an act of pure mathematical desperation.' To prevent the energy from blowing up to infinity at high frequencies, he forced the math to assume that atomic resonators could not emit heat in smooth, continuous streams, but only in discrete, indivisible packets\u2014'quanta.'",
+      "howItActuallyWorks": "Planck introduced a brand new fundamental constant of nature\u2014**Planck's constant** ($h = 6.626 \\times 10^{-34} \\text{ J}\\cdot\\text{s}$). The energy of any packet of radiation is directly proportional to its frequency: $E = h\\nu$. Because ultraviolet and X-ray light have extremely high frequencies ($\\\\nu$), a single quantum requires a massive package of energy to create. At ordinary temperatures, vibrating atoms simply do not possess enough thermal energy to emit high-frequency quanta, gracefully choking off the emission and resolving the ultraviolet catastrophe.",
+      "lastingWonderAndLegacy": "Planck thought his equation was merely a clever mathematical trick; he spent the next decade attempting to restore classical continuity. But his reluctant discovery cracked open the doorway to quantum mechanics. It proved that nature is not smooth like a river, but granular like sand. Planck's constant is now recognized as one of the three foundational pillars of the universe (alongside the speed of light $c$ and gravitational constant $G$).",
+      "sortYear": 1918,
+      "yearDisplay": "1918"
     },
     {
       "year": 1921,
@@ -1487,7 +1567,17 @@ window.SCIENCE_DATA = {
       ],
       "country": "Germany / Switzerland",
       "citation": "For his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect.",
-      "story": "Einstein did not win for his famous Theory of Relativity (which committee members deemed too radical and unproven), but for his discovery of the law of the photoelectric effect, proving light is made of particles (photons)."
+      "story": "Einstein did not win for his famous Theory of Relativity (which committee members deemed too radical and unproven), but for his discovery of the law of the photoelectric effect, proving light is made of particles (photons).",
+      "id": "nobel_1921_einstein",
+      "title": "The Photoelectric Effect: Light is Made of Bullets",
+      "eraLabel": "Quantum Golden Age (1921\u20131945)",
+      "periodGroup": "interwar_quantum",
+      "theWorldBefore": "For over a century, Thomas Young's double-slit experiment had settled the debate: light was unquestionably a continuous wave, rippling through space like ripples across a pond. Yet a puzzling laboratory experiment baffled physicists: when ultraviolet light was shone on a clean metal plate, electrons jumped off (the photoelectric effect). Classical wave theory predicted that dim light would take hours to build up enough energy to shake an electron loose, and that brightening the light would kick electrons out with higher speed. In reality, dim ultraviolet light kicked electrons out *instantly*, while blindingly bright red light knocked out zero electrons.",
+      "theBreakthroughMoment": "In 1905, while working eight hours a day as a third-class patent examiner at the Swiss Patent Office in Bern, 26-year-old Albert Einstein took Max Planck's mathematical trick and took it deadly seriously. Einstein proposed a breathtaking, radical heresy: light does not merely *interact* in quanta; light itself *is* composed of localized, indivisible packets of localized energy\u2014bullet-like particles that we now call **photons**.",
+      "howItActuallyWorks": "Einstein formulated the photoelectric equation: $E_k = h\\nu - \\Phi$. An incoming photon collides with an electron on the metal surface in a one-on-one atomic collision. If the photon's frequency ($\\\\nu$) is too low, its individual energy is less than the metal's 'work function' ($\\Phi$), and it bounces off harmlessly, no matter how many billions of red photons you shine. But if the photon has high frequency (like ultraviolet), it delivers its entire payload in an instant, ejecting the electron with kinetic energy equal to $h\\nu - \\Phi$.",
+      "lastingWonderAndLegacy": "Einstein was not awarded his Nobel Prize for General or Special Relativity (which the Nobel committee found too controversial and unproven at the time), but for this paper on the photoelectric effect. His insight proved wave-particle duality: light is both a wave and a bullet. Today, the photoelectric effect powers every solar panel on Earth, night-vision goggles, digital camera sensors (CCD/CMOS), and laser telecommunications.",
+      "sortYear": 1921,
+      "yearDisplay": "1921"
     },
     {
       "year": 1922,
@@ -1497,7 +1587,17 @@ window.SCIENCE_DATA = {
       ],
       "country": "Denmark",
       "citation": "For his services in the investigation of the structure of atoms and of the radiation emanating from them.",
-      "story": "Bohr introduced the quantum model of the atom, showing electrons occupy discrete orbits and release photons when jumping between levels, revolutionizing atomic spectroscopy."
+      "story": "Bohr introduced the quantum model of the atom, showing electrons occupy discrete orbits and release photons when jumping between levels, revolutionizing atomic spectroscopy.",
+      "id": "nobel_1922_bohr",
+      "title": "The Quantum Atom: The Rungs of the Atomic Ladder",
+      "eraLabel": "Quantum Golden Age (1921\u20131945)",
+      "periodGroup": "interwar_quantum",
+      "theWorldBefore": "Ernest Rutherford had proved that an atom was mostly empty space with a tiny, dense positive nucleus orbited by negative electrons, like a miniature solar system. But classical electromagnetism had a fatal flaw: accelerating electric charges *must* radiate electromagnetic waves. As orbiting electrons radiated energy, they should spiral inward in less than a billionth of a second and crash into the nucleus. Classical physics insisted that every atom in the universe should instantly collapse!",
+      "theBreakthroughMoment": "Niels Bohr, a gentle Danish soccer-playing physicist working in Manchester, looked at the spectroscopic mystery of hydrogen: when hydrogen gas is heated, it does not glow across the full rainbow, but only emits sharp, narrow colored lines (the Balmer series). Bohr had an epiphany: What if electrons are forbidden from orbiting wherever they please? What if they can only live on discrete, quantized steps of a cosmic ladder?",
+      "howItActuallyWorks": "Bohr postulating that an electron's orbital angular momentum is quantized in integer multiples of Planck's constant: $L = n \\frac{h}{2\\pi}$ (where $n=1, 2, 3...$). In these 'stationary states', electrons are magically exempt from radiating energy. An electron only emits or absorbs light when it makes a instantaneous **quantum leap** between orbits: $\\Delta E = E_2 - E_1 = h\\nu$. This single equation reproduced the exact frequencies of hydrogen's spectral lines to four decimal places.",
+      "lastingWonderAndLegacy": "Bohr's model was the first quantum picture of the atom. It demystified the entire periodic table, explained chemical valence bonds, and founded atomic spectroscopy\u2014allowing astronomers to look at light from stars billions of light-years away and determine exactly what elements make up their burning cores.",
+      "sortYear": 1922,
+      "yearDisplay": "1922"
     },
     {
       "year": 1923,
@@ -1507,7 +1607,17 @@ window.SCIENCE_DATA = {
         "John Macleod"
       ],
       "country": "Canada",
-      "citation": "For the discovery of insulin and its therapeutic extraction for diabetic patients."
+      "citation": "For the discovery of insulin and its therapeutic extraction for diabetic patients.",
+      "id": "nobel_1923_insulin",
+      "title": "Insulin: Resurrecting Children from the Jaws of Death",
+      "eraLabel": "Quantum Golden Age (1921\u20131945)",
+      "periodGroup": "interwar_quantum",
+      "theWorldBefore": "Before 1922, a diagnosis of Type 1 diabetes was a swift and agonizing death sentence. In young children, the pancreas mysteriously ceased producing the hormone that allows cells to absorb glucose. With their blood flooded with unusable sugar, their bodies literally starved while drowning in food. Physicians had only one gruesome treatment: the Allen 'starvation diet', restricting children to 400 calories a day to postpone diabetic coma. Wards in Toronto and Boston were filled with skeletal children in comas, waiting for death while their helpless parents wept.",
+      "theBreakthroughMoment": "Frederick Banting, a young Canadian surgeon and veteran wounded in WWI, was preparing a lecture on the pancreas late at night. At 2:00 AM on October 31, 1920, unable to sleep, he jotted a fateful 25-word note in his journal: 'Ligate pancreatic ducts of dogs. Keep dogs alive till acini degenerate leaving Islets. Try to isolate internal secretion to relieve glycosurea.' He convinced Professor John Macleod at the University of Toronto to give him a dingy laboratory, an assistant named Charles Best, and experimental dogs.",
+      "howItActuallyWorks": "Previous researchers had ground up the entire pancreas, but the organ's digestive enzymes (trypsin) immediately chewed up the delicate hormone. By tying off the pancreatic ducts, Banting caused the digestive tissue to atrophy while leaving the hormone-producing Islets of Langerhans intact. With biochemist James Collip, they purified the extract using alcohol. In January 1922, they injected the clear extract into 14-year-old Leonard Thompson, dying in Toronto General Hospital. Within 24 hours, his soaring blood sugar plummeted to normal. In an unforgettable scene, the researchers walked down hospital wards injecting dozens of children in comas; before they reached the last bed, the first children were waking up, smiling at their mothers.",
+      "lastingWonderAndLegacy": "Banting and Best famously refused to profit from the breakthrough, selling the patent to the University of Toronto for $1.00, with Banting declaring: 'Insulin does not belong to me, it belongs to the world.' When Banting and Macleod were awarded the 1923 Nobel Prize, Banting immediately split half his prize money with Charles Best, and Macleod split his with James Collip. Insulin remains one of the fastest clinical translations and greatest therapeutic miracles in medical history, saving over 100 million lives to date.",
+      "sortYear": 1923,
+      "yearDisplay": "1923"
     },
     {
       "year": 1928,
@@ -1516,7 +1626,17 @@ window.SCIENCE_DATA = {
         "Charles Nicolle"
       ],
       "country": "France",
-      "citation": "For his work on typhus and identifying body lice as the transmission vector."
+      "citation": "For his work on typhus and identifying body lice as the transmission vector.",
+      "id": "nobel_1928_nicolle",
+      "title": "Typhus and the Body Louse: Breaking the Cycle of Epidemic Scourges",
+      "eraLabel": "Quantum Golden Age (1921\u20131945)",
+      "periodGroup": "interwar_quantum",
+      "theWorldBefore": "Epidemic typhus was one of the great slaughterers of human armies and populations. Throughout the Napoleonic Wars, Crimean War, and across crowded refugee camps and prisons, typhus tore through human beings, causing high delirium, blackened skin lesions, and death rates exceeding 40%. The cause was completely unknown; physicians blamed foul swamp air, dirt, or bad water.",
+      "theBreakthroughMoment": "Charles Nicolle, director of the Pasteur Institute of Tunis, noticed a curious daily anomaly at the Sadiki Hospital. In the waiting rooms and streets outside, typhus raged uncontrollably. But the moment patients were admitted through the doors, stripped of their clothes, washed in warm soap and water, and shaved, they completely stopped transmitting typhus to doctors, nurses, or other patients! Nicolle realized: the contagious agent was not inside their bodies or on their skin\u2014it lived in their clothes!",
+      "howItActuallyWorks": "Nicolle experimentally proved that epidemic typhus (*Rickettsia prowazekii*) is transmitted exclusively by the human body louse (*Pediculus humanus corporis*). The louse feeds on infected blood, but it does not transmit the disease through its bite; rather, the louse defecates infected feces on the host's skin. When the human scratches the itchy bite, they rub the microscopic bacteria into the abraded skin. Once inside the bloodstream, *Rickettsia* invades the endothelial cells lining blood vessels, causing microvascular collapse.",
+      "lastingWonderAndLegacy": "Nicolle's insight revolutionized military hygiene, civilian refugee camps, and sanitation. Simple protocols\u2014boiling uniforms, hot water laundering, shaving hair, and delousing\u2014saved millions of lives during World War I and stopped European typhus outbreaks in their tracks. It demonstrated that conquering an ancient plague does not always require high-tech pharmaceuticals; sometimes it requires unmasking nature's microscopic vector.",
+      "sortYear": 1928,
+      "yearDisplay": "1928"
     },
     {
       "year": 1930,
@@ -1525,7 +1645,17 @@ window.SCIENCE_DATA = {
         "Sir Chandrasekhara Venkata Raman"
       ],
       "country": "India",
-      "citation": "For his work on the scattering of light and for the discovery of the effect named after him (Raman Effect)."
+      "citation": "For his work on the scattering of light and for the discovery of the effect named after him (Raman Effect).",
+      "id": "nobel_1930_raman",
+      "title": "The Raman Effect: The Fingerprints of Inelastic Light",
+      "eraLabel": "Quantum Golden Age (1921\u20131945)",
+      "periodGroup": "interwar_quantum",
+      "theWorldBefore": "In the summer of 1921, Indian physicist Chandrasekhara Venkata Raman was sailing across the Mediterranean Sea on the steamship *S.S. Narkunda*. Looking out at the breathtaking, deep cobalt-blue water, he rejected Lord Rayleigh's conventional explanation that the sea merely reflected the blue sky. Using a pocket pocket-prism spectroscope, Raman proved that water itself scattered sunlight.",
+      "theBreakthroughMoment": "Returning to the Indian Association for the Cultivation of Science in Calcutta, working with his brilliant colleague K.S. Krishnan on an absurdly meager budget (utilizing a mercury arc lamp, glass flasks, and optical filters), Raman spent seven years studying light scattering through pure liquids. On February 28, 1928, he observed that when intense monochromatic light struck liquids, a minuscule fraction of the scattered light emerged with completely altered frequencies\u2014an unmistakable shift in color.",
+      "howItActuallyWorks": "When a photon collides with a molecule, most collisions are elastic (Rayleigh scattering)\u2014the photon bounces off with its energy unchanged. However, roughly one in ten million collisions is inelastic (**Raman scattering**). The incoming photon either gives up a portion of its vibrational energy to the molecule's chemical bonds (Stokes shift) or absorbs a vibrational phonon from the molecule (anti-Stokes shift). Because every chemical compound has distinct vibrational energy levels, the frequency shifts of scattered light act as a unique, non-destructive **molecular optical fingerprint**.",
+      "lastingWonderAndLegacy": "Raman was the first Asian and first non-white scientist to win a Nobel Prize in science. Today, **Raman Spectroscopy** is an indispensable tool across the globe: pharmaceutical labs verify counterfeit drugs through blister packs, forensic investigators analyze explosive residues without touching them, NASA's Perseverance Rover uses Raman laser spectrometers (SHERLOC) to hunt for ancient organic signatures on Mars, and cancer surgeons use Raman probes to detect tumor margins in real time during brain surgery.",
+      "sortYear": 1930,
+      "yearDisplay": "1930"
     },
     {
       "year": 1932,
@@ -1535,18 +1665,38 @@ window.SCIENCE_DATA = {
       ],
       "country": "Germany",
       "citation": "For the creation of quantum mechanics, the application of which has, inter alia, led to the discovery of the allotropic forms of hydrogen.",
-      "story": "Heisenberg showed that at subatomic scales, the act of observing changes reality: one cannot simultaneously measure a particle's exact position and momentum."
+      "story": "Heisenberg showed that at subatomic scales, the act of observing changes reality: one cannot simultaneously measure a particle's exact position and momentum.",
+      "id": "nobel_1932_heisenberg",
+      "title": "The Uncertainty Principle: The Veil at the Edge of Knowledge",
+      "eraLabel": "Quantum Golden Age (1921\u20131945)",
+      "periodGroup": "interwar_quantum",
+      "theWorldBefore": "Classical physics rested upon Pierre-Simon Laplace's grand dream of total determinism: if an intellect could know the exact position and velocity of every particle in the universe at one moment, the entire future and past could be calculated with flawless certainty. The universe was an intricate, predictable machine.",
+      "theBreakthroughMoment": "In June 1925, 23-year-old Werner Heisenberg fled to the rocky, pollen-free North Sea island of Helgoland to escape crippling hay fever. Sitting on a high cliff overlooking the crashing waves, working until 3 AM on matrix mathematics, Heisenberg abandoned the idea of visualizing electron orbits. Two years later in Copenhagen, arguing fiercely with Niels Bohr, he tried to imagine measuring an electron's position with a gamma-ray microscope: to see the electron, you must bounce a high-energy photon off it; but the instant the photon strikes, its momentum kicks the electron away!",
+      "howItActuallyWorks": "Heisenberg formulated the monumental **Uncertainty Principle**: $\\Delta x \\cdot \\Delta p \\ge \\frac{\\hbar}{2}$. The uncertainty in position ($\\Delta x$) and the uncertainty in momentum ($\\Delta p$) cannot simultaneously be zero. This is not a limitation of imperfect laboratory instruments; it is an intrinsic geometric property of quantum wave mechanics. A localized particle is a wave packet made of many superimposed wavelengths (momenta); to know where it is with absolute precision, you must lose all knowledge of how fast it is moving.",
+      "lastingWonderAndLegacy": "The Uncertainty Principle shattered the clockwork universe and proved that nature at its deepest foundation is fundamentally probabilistic. It explains why atoms do not collapse (electrons cannot be trapped at zero radius without infinite momentum), permits quantum tunneling (the mechanism powering nuclear fusion inside the Sun), and gives rise to vacuum fluctuations that seeded the galaxies in the Big Bang.",
+      "sortYear": 1932,
+      "yearDisplay": "1932"
     },
     {
       "year": 1933,
       "category": "Physics",
       "laureates": [
-        "Erwin Schrödinger",
+        "Erwin Schr\u00f6dinger",
         "Paul Dirac"
       ],
       "country": "Austria & UK",
       "citation": "For the discovery of new productive forms of atomic theory (wave mechanics and relativistic quantum mechanics).",
-      "story": "Schrödinger and Dirac unified quantum mechanics with wave mechanics and special relativity, with Dirac predicting the existence of antimatter before it was observed."
+      "story": "Schr\u00f6dinger and Dirac unified quantum mechanics with wave mechanics and special relativity, with Dirac predicting the existence of antimatter before it was observed.",
+      "id": "nobel_1933_schrodinger_dirac",
+      "title": "Wave Mechanics & The Mirror Universe of Antimatter",
+      "eraLabel": "Quantum Golden Age (1921\u20131945)",
+      "periodGroup": "interwar_quantum",
+      "theWorldBefore": "Heisenberg's matrix mechanics was mathematically abstract and devoid of visual physical intuition. Meanwhile, Einstein's Special Relativity and quantum mechanics spoke two incompatible languages: relativity demanded space and time be treated symmetrically, while quantum mechanics treated time as a classical parameter.",
+      "theBreakthroughMoment": "During a winter holiday in the Swiss Alps in 1925, Erwin Schr\u00f6dinger formulated wave mechanics: treating particles as undulating waves of probability governed by the Schr\u00f6dinger wave equation: $i\\hbar \\frac{\\partial \\Psi}{\\partial t} = \\hat{H}\\Psi$. Two years later in Cambridge, the quiet, ascetic 25-year-old mathematical genius Paul Dirac sought an equation that could describe electrons moving at near-light speed. By demanding that the equation be linear in both time and space derivatives, Dirac was forced into a set of four-component matrices\u2014and discovered that his equation yielded two sets of solutions: one for positive energy, and an unavoidable set of solutions with negative energy!",
+      "howItActuallyWorks": "Dirac dared to make an astonishing prediction: negative energy states represented holes in the cosmic vacuum\u2014an exact mirror twin of the electron with identical mass but opposite positive electrical charge: **Antimatter** (the positron). When a particle meets its antiparticle, their entire mass is converted into pure energy according to $E=mc^2$. In 1932, Carl Anderson confirmed Dirac's prediction experimentally, discovering the positron in cosmic rays.",
+      "lastingWonderAndLegacy": "Schr\u00f6dinger's wave function $\\Psi$ became the universal lingua franca of quantum chemistry, semiconductor engineering, and nanotechnology. Dirac's unification of relativity with quantum field theory proved that for every particle in the universe, an antiparticle must exist. Today, antimatter is routinely used in hospitals worldwide for Positron Emission Tomography (PET scans) to detect cancer metastases.",
+      "sortYear": 1933,
+      "yearDisplay": "1933"
     },
     {
       "year": 1935,
@@ -1555,7 +1705,17 @@ window.SCIENCE_DATA = {
         "James Chadwick"
       ],
       "country": "UK",
-      "citation": "For the discovery of the neutron."
+      "citation": "For the discovery of the neutron.",
+      "id": "nobel_1935_chadwick",
+      "title": "The Discovery of the Neutron: The Master Key to the Nucleus",
+      "eraLabel": "Quantum Golden Age (1921\u20131945)",
+      "periodGroup": "interwar_quantum",
+      "theWorldBefore": "In the 1920s, physicists believed the atomic nucleus consisted solely of positive protons bound with nuclear electrons. But this model led to catastrophic theoretical contradictions: nuclear spins were wrong, and the Heisenberg uncertainty principle proved that light electrons could never be confined inside a tiny nucleus without having energies millions of times higher than observed. Furthermore, an atom of helium had twice the positive charge of hydrogen, but four times its mass\u2014leaving half the nuclear mass unaccounted for.",
+      "theBreakthroughMoment": "James Chadwick, working under Ernest Rutherford at the Cavendish Laboratory in Cambridge, spent a decade searching for a hypothetical neutral particle Rutherford had proposed in 1920. In 1931, Ir\u00e8ne Joliot-Curie and Fr\u00e9d\u00e9ric Joliot in Paris reported that polonium alpha particles striking beryllium produced penetrating rays that knocked high-energy protons out of paraffin wax. They assumed it was gamma rays. Chadwick read their paper and immediately realized: high-energy photons could never knock heavy protons out of paraffin like billiard balls\u2014only an uncharged particle with the mass of a proton could do that!",
+      "howItActuallyWorks": "Chadwick set up the experiment and worked day and night for three frantic weeks. Measuring the recoil speeds of protons and nitrogen nuclei kicked out by the mysterious radiation, he applied the conservation of momentum and energy. He proved that the radiation consisted of neutral particles with a mass almost identical to the proton (0.1% heavier): the **Neutron**. Because neutrons carry zero electric charge, they are not repelled by the intense positive Coulomb barrier of atomic nuclei.",
+      "lastingWonderAndLegacy": "The neutron completed the fundamental trio of the atom (proton, neutron, electron). Because it carries no charge, the neutron became the ultimate atomic projectile, capable of slipping effortlessly into heavy nuclei. Within seven years, Otto Hahn, Lise Meitner, and Fritz Strassmann used Chadwick's neutrons to split the uranium nucleus, unleashing nuclear fission and inaugurating the Nuclear Age.",
+      "sortYear": 1935,
+      "yearDisplay": "1935"
     },
     {
       "year": 1938,
@@ -1564,7 +1724,17 @@ window.SCIENCE_DATA = {
         "Enrico Fermi"
       ],
       "country": "Italy",
-      "citation": "For demonstrations of the existence of new radioactive elements produced by neutron irradiation, and related discovery of nuclear reactions brought about by slow neutrons."
+      "citation": "For demonstrations of the existence of new radioactive elements produced by neutron irradiation, and related discovery of nuclear reactions brought about by slow neutrons.",
+      "id": "nobel_1938_fermi",
+      "title": "Slow Neutrons & The Taming of Nuclear Fission",
+      "eraLabel": "Quantum Golden Age (1921\u20131945)",
+      "periodGroup": "interwar_quantum",
+      "theWorldBefore": "Following the discovery of the neutron, physicists around the world attempted to induce artificial radioactivity by bombarding elements with high-speed neutrons. But fast neutrons often blasted straight through atoms without interacting, yielding weak and erratic reactions.",
+      "theBreakthroughMoment": "In Rome, Enrico Fermi and his young team of physicists ('the Via Panisperna boys') methodically bombarded every element on the periodic table with neutrons. On the morning of October 22, 1934, on an intuitive whim, Fermi substituted a wedge of paraffin wax for a lead shield. To their utter astonishment, the radioactivity of the target element surged by a factor of a hundred! Fermi rushed his team to the garden fish pond behind the physics institute to repeat the test with ordinary water; the results were identical.",
+      "howItActuallyWorks": "Fermi understood the first principles instantly: fast neutrons collide with the light hydrogen protons in paraffin or water, bouncing like billiard balls and shedding kinetic energy until they reach thermal equilibrium with room temperature (**thermal or slow neutrons**). Because quantum mechanics dictates that a slow particle has a much larger de Broglie wavelength ($\\lambda = h/p$), the neutron's effective target area ('cross-section') increases exponentially. The slow neutron lingers near the nucleus, giving the strong nuclear force time to capture it.",
+      "lastingWonderAndLegacy": "Fermi used the Nobel ceremony in Stockholm in December 1938 to flee Mussolini's fascist Italy with his Jewish wife Laura, emigrating directly to the United States. In 1942, in a squash court beneath the University of Chicago's Stagg Field, Fermi constructed Chicago Pile-1\u2014the world's first artificial nuclear reactor\u2014achieving the first controlled, self-sustaining nuclear chain reaction in human history.",
+      "sortYear": 1938,
+      "yearDisplay": "1938"
     },
     {
       "year": 1945,
@@ -1576,7 +1746,17 @@ window.SCIENCE_DATA = {
       ],
       "country": "UK / Australia",
       "citation": "For the discovery of penicillin and its curative effect in various infectious diseases.",
-      "story": "Fleming discovered penicillin mold by accident in 1928, but Florey and Chain turned it into a mass-produced injectable miracle drug just in time to save tens of thousands of Allied soldiers in WWII."
+      "story": "Fleming discovered penicillin mold by accident in 1928, but Florey and Chain turned it into a mass-produced injectable miracle drug just in time to save tens of thousands of Allied soldiers in WWII.",
+      "id": "nobel_1945_penicillin",
+      "title": "Penicillin: The Miracle Mold That Ended the Age of Infection",
+      "eraLabel": "Quantum Golden Age (1921\u20131945)",
+      "periodGroup": "interwar_quantum",
+      "theWorldBefore": "For all of human history, the smallest scrape or splinter could mean a agonizing death sentence. A scratch from a rose thorn, a blister on a heel, or a minor dental extraction frequently led to streptococcal blood poisoning (septicemia) or gangrene. Hospitals were helpless holding pens where doctors watched patients' limbs turn black and amputated legs in a desperate bid to outrun rampant bacterial invasion.",
+      "theBreakthroughMoment": "In September 1928, Scottish bacteriologist Alexander Fleming returned from a family vacation to his cluttered, unkempt laboratory at St. Mary's Hospital in London. Sorting through a stack of discarded Petri dishes smeared with *Staphylococcus*, he noticed a fluffy blue-green mold growing in one dish. But around the mold colony, the bacterial colonies had dissolved into clear, dead ghost zones! Fleming realized the mold was secreting a substance that killed bacteria without harming human cells: **Penicillin**.",
+      "howItActuallyWorks": "Fleming published his findings in 1929, but could not chemically isolate or stabilize the fragile molecule. A decade later in Oxford, Australian pathologist Howard Florey, German refugee biochemist Ernst Chain, and Norman Heatley took up the quest. Penicillin works by mimicking the D-alanyl-D-alanine peptide that bacteria use to build their peptidoglycan cell walls. Penicillin irreversibly binds to and inactivates bacterial transpeptidase enzymes; when the multiplying bacteria attempt to divide, their weakened cell walls burst under internal osmotic pressure. Because human animal cells have cell membranes without cell walls, penicillin is totally non-toxic to human cells.",
+      "lastingWonderAndLegacy": "Florey and Heatley traveled to Peoria, Illinois, where they perfected deep-tank fermentation using corn steep liquor and a hyper-productive mold strain found on a moldy cantaloupe. By D-Day in June 1944, Allied pharmaceutical plants were producing billions of units of penicillin, slashing wartime infection deaths from 18% (in WWI) to less than 1%. Penicillin lengthened human life expectancy by more than twenty years and created the entire multi-trillion-dollar antibiotic industry.",
+      "sortYear": 1945,
+      "yearDisplay": "1945"
     },
     {
       "year": 1954,
@@ -1586,7 +1766,17 @@ window.SCIENCE_DATA = {
         "Walther Bothe"
       ],
       "country": "Germany / UK",
-      "citation": "Born for fundamental research in quantum mechanics, especially for statistical interpretation of the wave function."
+      "citation": "Born for fundamental research in quantum mechanics, especially for statistical interpretation of the wave function.",
+      "id": "nobel_1954_born_bothe",
+      "title": "The Probability Interpretation: God Playing Cosmic Dice",
+      "eraLabel": "Molecular & Transistor (1946\u20131975)",
+      "periodGroup": "postwar_molecular",
+      "theWorldBefore": "When Erwin Schr\u00f6dinger formulated his famous wave equation, he interpreted the wave function $\\Psi$ as a literal, continuous smear of electric charge density. Even Einstein and Planck hoped that wave mechanics had banished quantum randomness and restored smooth classical continuity to physics.",
+      "theBreakthroughMoment": "Max Born, working in G\u00f6ttingen in 1926, studied atomic collision experiments. He realized that after an electron collides with an atom, the scattered wave function spreads out into all directions, yet whenever you place an electron detector, you never register a partial fraction of an electron\u2014you always detect a whole, localized particle. In a flash of profound insight, Born realized that $\\Psi$ is not a physical wave of matter; it is a **probability amplitude**.",
+      "howItActuallyWorks": "The **Born Rule** states that the probability density $P$ of finding a particle at position $x$ at time $t$ is equal to the square of the absolute value of the complex wave function: $P(x, t) = |\\Psi(x, t)|^2$. The wave function itself evolves deterministically according to Schr\u00f6dinger's equation, but the moment an observation occurs, the probabilities collapse into an actuality.",
+      "lastingWonderAndLegacy": "Born's statistical interpretation outraged Einstein, prompting his famous protest: 'Quantum mechanics is very impressive. But an inner voice tells me that it is not yet the real thing... I, at any rate, am convinced that He [God] does not throw dice.' Born replied gently: 'Stop telling God what to do with His dice.' Today, the Born Rule is an irreducible axiom of quantum mechanics, underpinning all quantum computing, solid-state physics, and atomic technology.",
+      "sortYear": 1954,
+      "yearDisplay": "1954"
     },
     {
       "year": 1956,
@@ -1597,7 +1787,17 @@ window.SCIENCE_DATA = {
         "Walter Brattain"
       ],
       "country": "USA",
-      "citation": "For researches on semiconductors and discovery of the transistor effect."
+      "citation": "For researches on semiconductors and discovery of the transistor effect.",
+      "id": "nobel_1956_transistor",
+      "title": "The Transistor: The Microscopic Valve of the Information Age",
+      "eraLabel": "Molecular & Transistor (1946\u20131975)",
+      "periodGroup": "postwar_molecular",
+      "theWorldBefore": "In the 1940s, all telecommunications and computing relied on vacuum tubes: glowing, fragile glass light bulbs that generated immense heat, consumed vast electricity, and burned out continuously. The ENIAC computer contained 18,000 vacuum tubes, weighed 30 tons, consumed 150 kilowatts of power, and stopped working every couple of days as tubes blew. Computing could never scale to handheld devices or spaceflight on glass tubes.",
+      "theBreakthroughMoment": "In December 1947 at Bell Laboratories in Murray Hill, New Jersey, physicists John Bardeen and Walter Brattain were experimenting with high-purity crystals of germanium. Brattain pressed two sharp gold-foil contacts barely 50 microns apart onto the crystal surface while an electric current flowed through. On December 16, they noticed that a tiny signal applied to one contact was amplified eighteen-fold at the second contact. Their supervisor, William Shockley, went home in a jealous fury and spent a solitary month designing the superior, solid-state **junction transistor**.",
+      "howItActuallyWorks": "A transistor is a solid-state semiconductor sandwich (p-n-p or n-p-n). In pure silicon or germanium, electrons are tightly bound in crystal lattices. By 'doping' the crystal with trace impurities (like phosphorus for extra conduction electrons or boron for electron holes), semiconductors can be manipulated with tiny voltage biases. Applying a minute electric voltage to the central 'base' allows a massive current to surge between the 'emitter' and 'collector'\u2014acting as an instantaneous amplifier or binary ON/OFF electronic switch with zero moving parts, zero vacuum, and near-zero heat.",
+      "lastingWonderAndLegacy": "The transistor is universally hailed as the greatest invention of the 20th century. It replaced mechanical switches and glowing tubes with silicon. Today, a modern smartphone chip packs over **15 billion microscopic transistors** into a square of silicon smaller than a postage stamp, powering every computer, the Internet, artificial intelligence, and space exploration.",
+      "sortYear": 1956,
+      "yearDisplay": "1956"
     },
     {
       "year": 1962,
@@ -1609,7 +1809,17 @@ window.SCIENCE_DATA = {
       ],
       "country": "UK & USA",
       "citation": "For their discoveries concerning the molecular structure of nucleic acids and its significance for information transfer in living material.",
-      "story": "Watson, Crick, and Wilkins received the prize for the DNA double helix. Sadly, Rosalind Franklin, whose Photo 51 was the critical breakthrough, had died of cancer in 1958 and Nobel prizes are not awarded posthumously."
+      "story": "Watson, Crick, and Wilkins received the prize for the DNA double helix. Sadly, Rosalind Franklin, whose Photo 51 was the critical breakthrough, had died of cancer in 1958 and Nobel prizes are not awarded posthumously.",
+      "id": "nobel_1962_dna",
+      "title": "The Double Helix: Unraveling the Twisted Ladder of Life",
+      "eraLabel": "Molecular & Transistor (1946\u20131975)",
+      "periodGroup": "postwar_molecular",
+      "theWorldBefore": "For centuries, naturalists knew that traits were inherited\u2014blue eyes, curly hair, resistance to plague. Gregor Mendel had tracked pea plants, and Oswald Avery had proved in 1944 that DNA was the transforming molecule of genetics. But how could a string of four simple chemical letters (A, T, C, G) store the instructions to build a human brain, and copy itself flawlessly across billions of generations?",
+      "theBreakthroughMoment": "In the Cavendish Laboratory in Cambridge, 24-year-old American prodigy James Watson and 36-year-old British biophysicist Francis Crick cut out cardboard templates of the four nucleotide bases. Down in London at King's College, brilliant crystallographer Rosalind Franklin spent 100 continuous hours aligning an ultra-fine X-ray beam to capture **Photo 51**\u2014a stunning X-ray diffraction pattern displaying an unmistakable helical cross. When Maurice Wilkins showed Photo 51 to Watson without Franklin's knowledge, Watson later wrote: 'The instant I saw the picture my mouth fell open and my pulse began to race.'",
+      "howItActuallyWorks": "Watson and Crick realized that DNA consists of two antiparallel sugar-phosphate backbones spiraling around a central axis in a **double helix**. The four bases pair strictly in the interior via specific hydrogen bonds: Adenine (A) always pairs with Thymine (T), and Cytosine (C) always pairs with Guanine (G). This base-pairing rule ($A=T, C\\equiv G$) immediately explained self-replication: if you unzip the two strands, each single strand serves as a template to synthesize an identical copy of its partner. They famously wrote: 'It has not escaped our notice that the specific pairing we have postulated immediately suggests a possible copying mechanism for the genetic material.'",
+      "lastingWonderAndLegacy": "The discovery of the double helix inaugurated the molecular biology revolution. Sadly, Rosalind Franklin died of ovarian cancer in 1958 at age 37, and because Nobel Prizes are strictly not awarded posthumously, she was not included in the 1962 prize. The double helix enabled forensic DNA testing, the Human Genome Project, recombinant insulin, and modern CRISPR gene editing.",
+      "sortYear": 1962,
+      "yearDisplay": "1962"
     },
     {
       "year": 1965,
@@ -1621,7 +1831,17 @@ window.SCIENCE_DATA = {
       ],
       "country": "Japan & USA",
       "citation": "For fundamental work in quantum electrodynamics, with deep-ploughing consequences for physics of elementary particles.",
-      "story": "Feynman, Schwinger, and Tomonaga formulated Quantum Electrodynamics (QED), the most precise theory in all of physics, matching experimental measurements to over ten decimal places."
+      "story": "Feynman, Schwinger, and Tomonaga formulated Quantum Electrodynamics (QED), the most precise theory in all of physics, matching experimental measurements to over ten decimal places.",
+      "id": "nobel_1965_qed",
+      "title": "Quantum Electrodynamics: The Most Precise Theory in Human History",
+      "eraLabel": "Molecular & Transistor (1946\u20131975)",
+      "periodGroup": "postwar_molecular",
+      "theWorldBefore": "In the 1930s, when physicists attempted to merge quantum mechanics with Maxwell's electromagnetism, every calculation of electron self-energy yielded impossible infinities. The math broke down; the probability of basic electron-photon interactions kept summing to infinity, paralyzing physics.",
+      "theBreakthroughMoment": "Working in complete isolation during WWII in war-torn Tokyo, Sin-Itiro Tomonaga developed a relativistic quantum formulation. In the US, child prodigy Julian Schwinger developed an intricate, algebraic mathematical apparatus. Meanwhile, charismatic bongo-playing Cornell physicist Richard Feynman sketched intuitive spacetime cartoons\u2014**Feynman diagrams**\u2014depicting particles and antiparticles exchanging virtual photons.",
+      "howItActuallyWorks": "Tomonaga, Schwinger, and Feynman discovered **renormalization**: a rigorous mathematical procedure to systematically absorb the unmeasurable 'bare' infinities into the observed physical mass and charge of the electron. In Quantum Electrodynamics (QED), the force of electromagnetism is simply the exchange of virtual photons between charged particles. Feynman diagrams allowed physicists to calculate higher-order loop corrections with astonishing precision.",
+      "lastingWonderAndLegacy": "QED is the crown jewel of theoretical physics. It predicts the anomalous magnetic dipole moment of the electron to **twelve decimal places**, matching experimental measurements with the precision of measuring the distance from New York to Los Angeles to the thickness of a human hair. Feynman's diagrams became the universal pictorial language of all particle physics.",
+      "sortYear": 1965,
+      "yearDisplay": "1965"
     },
     {
       "year": 1979,
@@ -1632,7 +1852,17 @@ window.SCIENCE_DATA = {
         "Steven Weinberg"
       ],
       "country": "USA & Pakistan",
-      "citation": "For contributions to the theory of the unified weak and electromagnetic interaction between elementary particles, including the prediction of the weak neutral current."
+      "citation": "For contributions to the theory of the unified weak and electromagnetic interaction between elementary particles, including the prediction of the weak neutral current.",
+      "id": "nobel_1979_electroweak",
+      "title": "The Electroweak Force: Unifying Light and Nuclear Decay",
+      "eraLabel": "Modern Frontier (1976\u20131999)",
+      "periodGroup": "late_20th",
+      "theWorldBefore": "Since the dawn of modern physics, nature was believed to be governed by four distinct, fundamental forces: Gravity (holding planets), Electromagnetism (holding atoms), the Strong Nuclear Force (holding nuclei), and the Weak Nuclear Force (governing radioactive beta decay). Electromagnetism had an infinite range and massless carrier (the photon), while the weak force operated only inside subatomic distances and had massive carriers.",
+      "theBreakthroughMoment": "Sheldon Glashow, Abdus Salam (Pakistan's first Nobel laureate), and Steven Weinberg independently formulated a gauge theory based on symmetry groups $SU(2) \\times U(1)$. They proposed that at ultra-high temperatures during the first picosecond of the Big Bang, electromagnetism and the weak force were one single, unified **electroweak force**.",
+      "howItActuallyWorks": "As the universe cooled, the Higgs mechanism spontaneously broke the electroweak symmetry. The photon remained massless (giving electromagnetism infinite reach), while the weak force carriers acquired enormous masses: the $W^+$, $W^-$, and neutral $Z^0$ bosons (weighing nearly 100 times the proton). Weinberg predicted that this unification required a new form of subatomic interaction\u2014'neutral weak currents'\u2014which were experimentally confirmed at CERN in 1973.",
+      "lastingWonderAndLegacy": "The electroweak unification was the first successful unification of natural forces since James Clerk Maxwell united electricity and magnetism in the 1860s. It formed the central pillar of the **Standard Model of Particle Physics**, bringing humanity one step closer to Albert Einstein's dream of a single Grand Unified Theory.",
+      "sortYear": 1979,
+      "yearDisplay": "1979"
     },
     {
       "year": 1983,
@@ -1642,7 +1872,17 @@ window.SCIENCE_DATA = {
         "William A. Fowler"
       ],
       "country": "India/USA & USA",
-      "citation": "Chandrasekhar for theoretical studies of the physical processes of importance to the structure and evolution of the stars."
+      "citation": "Chandrasekhar for theoretical studies of the physical processes of importance to the structure and evolution of the stars.",
+      "id": "nobel_1983_chandrasekhar",
+      "title": "The Chandrasekhar Limit & The Fiery Forge of the Elements",
+      "eraLabel": "Modern Frontier (1976\u20131999)",
+      "periodGroup": "late_20th",
+      "theWorldBefore": "In 1930, astronomers believed that all dying stars cooled peacefully into faint, planet-sized cinders called white dwarfs, stabilized forever by quantum electron degeneracy pressure. No one believed a star could collapse into nothingness.",
+      "theBreakthroughMoment": "In July 1930, 19-year-old Indian prodigy Subrahmanyan Chandrasekhar boarded a passenger ship from Bombay to England to study at Cambridge. During the long weeks at sea, armed with pen, paper, and special relativity, he combined quantum mechanics with relativistic kinematics. He calculated that as a star's core compresses, degenerate electrons approach the speed of light\u2014placing an absolute, unyielding mathematical ceiling on how much mass an electron-degenerate core can support: **1.44 solar masses**.",
+      "howItActuallyWorks": "When a star exceeds the **Chandrasekhar Limit** ($1.44 M_\\odot$), electron degeneracy pressure cannot resist gravity. The star must collapse: electrons are crushed into protons to create a city-sized neutron star, or collapse endlessly into a gravitational black hole. Meanwhile, his co-laureate William Fowler mapped stellar nucleosynthesis ($B^2FH$ theory), proving that all elements heavier than helium\u2014the iron in our blood, the calcium in our teeth, the gold in our rings\u2014were forged inside the thermonuclear furnaces of dying stars and blasted into space in supernovae.",
+      "lastingWonderAndLegacy": "Chandrasekhar was mocked for years by his Cambridge mentor Sir Arthur Eddington, but remained dignified and mathematically vindicated. His limit opened modern astrophysics to black holes, gravitational waves, and neutron stars. Fowler's work confirmed Carl Sagan's poetic truth: 'We are made of star-stuff.'",
+      "sortYear": 1983,
+      "yearDisplay": "1983"
     },
     {
       "year": 1993,
@@ -1652,7 +1892,17 @@ window.SCIENCE_DATA = {
         "Michael Smith"
       ],
       "country": "USA & Canada",
-      "citation": "Mullis for invention of the Polymerase Chain Reaction (PCR) method enabling exponential DNA replication."
+      "citation": "Mullis for invention of the Polymerase Chain Reaction (PCR) method enabling exponential DNA replication.",
+      "id": "nobel_1993_pcr",
+      "title": "PCR: The Molecular Photocopier of Genetic Code",
+      "eraLabel": "Modern Frontier (1976\u20131999)",
+      "periodGroup": "late_20th",
+      "theWorldBefore": "Until 1983, analyzing DNA required massive tissue samples. Finding a single mutated gene or detecting a trace virus was like looking for a single needle in a hayfield of three billion base pairs. Forensic criminal investigation relied on blood typing, and analyzing ancient fossils or tiny forensic blood drops was scientifically impossible.",
+      "theBreakthroughMoment": "On a moonlight drive along California's Pacific Coast Highway 128 through the redwood forests of Mendocino County, eccentric biochemist Kary Mullis was daydreaming about DNA sequencing. Suddenly, he pulled his car over to the shoulder of the road. In a flash of insight, he realized that using two oligonucleotide primers targeting opposite strands and thermal cycling could create an exponential molecular chain reaction.",
+      "howItActuallyWorks": "The **Polymerase Chain Reaction (PCR)** uses three simple thermal steps: (1) **Denaturation** (95\u00b0C): High heat unzips double-stranded DNA into single strands. (2) **Annealing** (55\u00b0C): Short synthetic DNA primers bind to the specific flanking target sequences. (3) **Extension** (72\u00b0C): A heat-stable DNA polymerase (such as *Taq* polymerase, isolated from thermophilic bacteria in Yellowstone hot springs) synthesizes new complementary strands. Because each cycle doubles the target DNA ($2^n$), 30 cycles produce over **one billion exact copies** in under two hours.",
+      "lastingWonderAndLegacy": "PCR became the foundational workhorse of biotechnology. It unlocked modern forensic DNA fingerprinting (solving cold cases and exonerating innocent prisoners), enabled the Human Genome Project, powers real-time viral diagnostics (like RT-PCR for COVID-19), and allowed scientists to extract and sequence ancient Neanderthal DNA.",
+      "sortYear": 1993,
+      "yearDisplay": "1993"
     },
     {
       "year": 2012,
@@ -1662,28 +1912,58 @@ window.SCIENCE_DATA = {
         "David J. Wineland"
       ],
       "country": "France & USA",
-      "citation": "For ground-breaking experimental methods that enable measuring and manipulation of individual quantum systems."
+      "citation": "For ground-breaking experimental methods that enable measuring and manipulation of individual quantum systems.",
+      "id": "nobel_2012_quantum_optics",
+      "title": "Catching Photons: Taming the Quantum Microcosm",
+      "eraLabel": "21st Century & AI (2000\u20132024)",
+      "periodGroup": "21st_century",
+      "theWorldBefore": "Since the founding fathers of quantum mechanics, physicists believed quantum phenomena could only be observed through statistical averages over billions of particles. Erwin Schr\u00f6dinger famously wrote: 'We never experiment with just one electron or atom or molecule. In thought-experiments we sometimes assume that we do; this invariably results in ridiculous consequences.'",
+      "theBreakthroughMoment": "Serge Haroche in Paris and David Wineland in Colorado achieved the impossible: observing individual quantum particles without destroying them. Wineland trapped single beryllium ions with electric fields and cooled them with lasers to absolute zero; Haroche built superconducting microwave cavities with mirrors so reflective that a single photon bounces back and forth between them for a tenth of a second\u2014traveling 40,000 kilometers\u2014while neutral atoms pass through to measure it nondestructively.",
+      "howItActuallyWorks": "By entangling individual atoms with trapped photons, Haroche and Wineland realized Schr\u00f6dinger's cat in the laboratory: placing individual particles into quantum superpositions of being simultaneously in two states, and directly observing the decoherence boundary where quantum superposition collapses into classical reality.",
+      "lastingWonderAndLegacy": "Their techniques transformed quantum optics from philosophical gedankenexperiments into physical engineering, laying the direct experimental foundations for modern **quantum computers**, optical atomic clocks that lose less than one second in 33 billion years, and quantum cryptography.",
+      "sortYear": 2012,
+      "yearDisplay": "2012"
     },
     {
       "year": 2013,
       "category": "Physics",
       "laureates": [
-        "François Englert",
+        "Fran\u00e7ois Englert",
         "Peter W. Higgs"
       ],
       "country": "Belgium & UK",
-      "citation": "For the theoretical discovery of a mechanism that contributes to our understanding of the origin of mass of subatomic particles (Higgs boson verified at CERN LHC)."
+      "citation": "For the theoretical discovery of a mechanism that contributes to our understanding of the origin of mass of subatomic particles (Higgs boson verified at CERN LHC).",
+      "id": "nobel_2013_higgs",
+      "title": "The Higgs Boson: The Cosmic Ocean That Grants Mass",
+      "eraLabel": "21st Century & AI (2000\u20132024)",
+      "periodGroup": "21st_century",
+      "theWorldBefore": "The Standard Model of particle physics was mathematically beautiful, but suffered from a fatal flaw: the basic equations required all elementary particles (quarks, leptons, W and Z bosons) to be completely massless, traveling forever at the speed of light. If particles had no mass, electrons would never bind to protons, atoms could never form, and the universe would be an empty flash of light.",
+      "theBreakthroughMoment": "In 1964, Scottish theorist Peter Higgs and Belgian physicists Fran\u00e7ois Englert and Robert Brout independently proposed an invisible, cosmic scalar field permeating all of space. Nearly fifty years later, on July 4, 2012, at CERN's 27-kilometer Large Hadron Collider beneath the Franco-Swiss border, physicists from the ATLAS and CMS collaborations announced they had discovered a new particle with a mass of 125 GeV/c\u00b2\u2014the **Higgs boson**. Peter Higgs, sitting in the auditorium, took off his glasses and wiped away tears, saying: 'It really is an incredible thing that it has happened in my lifetime.'",
+      "howItActuallyWorks": "The **Higgs Field** acts like a cosmic molasses permeating the entire universe. Massless photons pass through without interacting. But quarks and electrons constantly drag through the field via Yukawa interactions, acquiring inertia and effective rest mass. The Higgs boson is the localized quantum excitation (ripple) of this all-pervading field.",
+      "lastingWonderAndLegacy": "The discovery of the Higgs boson was the triumphant final cornerstone of the Standard Model, confirming how our universe acquired the physical mass necessary to form stars, planets, and living beings.",
+      "sortYear": 2013,
+      "yearDisplay": "2013"
     },
     {
       "year": 2015,
       "category": "Physiology or Medicine",
       "laureates": [
         "William C. Campbell",
-        "Satoshi Ōmura",
+        "Satoshi \u014cmura",
         "Tu Youyou"
       ],
       "country": "Ireland, Japan & China",
-      "citation": "Tu Youyou for discoveries concerning a novel therapy against Malaria (Artemisinin); Campbell and Ōmura for avermectin against roundworm parasites."
+      "citation": "Tu Youyou for discoveries concerning a novel therapy against Malaria (Artemisinin); Campbell and \u014cmura for avermectin against roundworm parasites.",
+      "id": "nobel_2015_artemisinin",
+      "title": "Artemisinin & Avermectin: Ancient Wisdom & Microscopic Parasite Killers",
+      "eraLabel": "21st Century & AI (2000\u20132024)",
+      "periodGroup": "21st_century",
+      "theWorldBefore": "Parasitic diseases devastated hundreds of millions in developing nations. Malaria killed hundreds of thousands of African and Asian children each year as malaria parasites evolved total resistance to chloroquine. Simultaneously, river blindness (*onchocerciasis*) and lymphatic filariasis blinded and disfigured millions across tropical continents.",
+      "theBreakthroughMoment": "In 1969, during the height of the Vietnam War, Chinese pharmacologist Tu Youyou was appointed head of classified Project 523 to discover an anti-malarial drug. Sifting through 2,000 ancient traditional Chinese medicine scrolls, she found a 1,600-year-old recipe by Ge Hong (340 CE): 'A handful of sweet wormwood immersed in two liters of water, wring out the juice and drink it.' Tu realized that boiling destroyed the active molecule; she extracted it using low-boiling-point ether at 35\u00b0C\u2014discovering **Artemisinin**. In a courageous act of dedication, she volunteered as the first human patient to test its safety. Simultaneously, William Campbell and Satoshi \u014cmura isolated soil bacteria *Streptomyces avermectinius* near a Japanese golf course, extracting **Avermectin**.",
+      "howItActuallyWorks": "Artemisinin possesses a unique sesquiterpene lactone structure with an **endoperoxide bridge**. When the malaria parasite (*Plasmodium falciparum*) consumes the host's hemoglobin, it releases free iron ($Fe^{2+}$). The iron reacts with the endoperoxide bridge, generating a violent burst of reactive oxygen free radicals that shred the parasite's internal proteins and membranes from within. Avermectin blocks glutamate-gated chloride channels in roundworm parasites, paralyzing and expelling them.",
+      "lastingWonderAndLegacy": "Artemisinin slashed malaria mortality in Asia and Africa by over 50%, saving an estimated 5 million human lives. Avermectin (Ivermectin) virtually eradicated river blindness in equatorial nations. Tu Youyou became China's first female Nobel laureate, bridging ancient botanical empirical lore with modern molecular pharmacology.",
+      "sortYear": 2015,
+      "yearDisplay": "2015"
     },
     {
       "year": 2017,
@@ -1694,7 +1974,17 @@ window.SCIENCE_DATA = {
         "Kip S. Thorne"
       ],
       "country": "USA",
-      "citation": "For decisive contributions to the LIGO detector and the first direct observation of gravitational waves from colliding black holes."
+      "citation": "For decisive contributions to the LIGO detector and the first direct observation of gravitational waves from colliding black holes.",
+      "id": "nobel_2017_ligo",
+      "title": "Gravitational Waves: Hearing the Cosmic Collisions of Spacetime",
+      "eraLabel": "21st Century & AI (2000\u20132024)",
+      "periodGroup": "21st_century",
+      "theWorldBefore": "In 1916, Albert Einstein deduced from his general relativity equations that accelerating massive bodies must radiate ripples in the fabric of spacetime traveling at the speed of light\u2014gravitational waves. But Einstein calculated that the waves would be so infinitesimally tiny that they could never be measured by human instruments.",
+      "theBreakthroughMoment": "Over four decades, Rainer Weiss, Kip Thorne, and Barry Barish led thousands of scientists to build **LIGO** (the Laser Interferometer Gravitational-Wave Observatory): two identical 4-kilometer L-shaped vacuum tunnels in Hanford, Washington, and Livingston, Louisiana. On September 14, 2015, at 09:50:45 UTC, a subtle chirp swept across both detectors\u2014the sound of two black holes (29 and 36 solar masses) colliding 1.3 billion light-years away, converting three suns' worth of pure mass into gravitational waves in a fraction of a second.",
+      "howItActuallyWorks": "As a gravitational wave passes through Earth, it momentarily stretches spacetime in one direction while compressing it in the perpendicular direction. LIGO bounces high-power laser beams between mirrors along its 4-kilometer arms thousands of times inside ultra-high vacuum. The detector measured a displacement of less than **$10^{-19}$ meters**\u2014one ten-thousandth the diameter of a single proton\u2014over four kilometers!",
+      "lastingWonderAndLegacy": "The detection of gravitational waves opened an entirely new sense for humanity: for 400 years since Galileo, astronomy had only *looked* at light; now humanity could *listen* to the unheralded vibrations of spacetime itself. It opened multi-messenger astrophysics and direct study of black holes and colliding neutron stars.",
+      "sortYear": 2017,
+      "yearDisplay": "2017"
     },
     {
       "year": 2020,
@@ -1706,7 +1996,17 @@ window.SCIENCE_DATA = {
       ],
       "country": "UK, Germany & USA",
       "citation": "Penrose for discovery that black hole formation is a robust prediction of general relativity; Genzel and Ghez for discovery of a supermassive compact object at galactic center (Sagittarius A*).",
-      "story": "Penrose proved mathematically that black holes are an inevitable consequence of general relativity; Genzel and Ghez proved a 4-million-solar-mass supermassive black hole sits at the center of the Milky Way."
+      "story": "Penrose proved mathematically that black holes are an inevitable consequence of general relativity; Genzel and Ghez proved a 4-million-solar-mass supermassive black hole sits at the center of the Milky Way.",
+      "id": "nobel_2020_penrose_blackholes",
+      "title": "Black Holes & The Supermassive Beast at the Galactic Core",
+      "eraLabel": "21st Century & AI (2000\u20132024)",
+      "periodGroup": "21st_century",
+      "theWorldBefore": "Even after Einstein formulated general relativity, he stubbornly believed black holes were mathematical fictions caused by artificial spherical symmetry, impossible in the messy real universe. Meanwhile, the dense core of our Milky Way was shrouded behind thick clouds of interstellar dust, hiding whether any supermassive object truly resided there.",
+      "theBreakthroughMoment": "In 1965, British mathematician Roger Penrose introduced topological 'trapped surfaces', proving mathematically that black holes are an inevitable, robust prediction of general relativity that cannot be avoided by asymmetries. Decades later, Reinhard Genzel (Max Planck Institute) and Andrea Ghez (UCLA) spent thirty years aiming adaptive-optics infrared telescopes at the center of the Milky Way, tracking individual stars (like star S2) orbiting an invisible point at speeds exceeding 7,000 kilometers per second!",
+      "howItActuallyWorks": "Penrose proved that once matter collapses within a trapped surface, all geodesics converge to an inescapable point of infinite density: a gravitational singularity. Genzel and Ghez applied Kepler's third law to the orbital period and distance of star S2, proving that an invisible, compact object packing **4 million times the mass of the Sun** is crammed into a region smaller than our Solar System: **Sagittarius A***.",
+      "lastingWonderAndLegacy": "Their work confirmed that black holes are not science fiction, but the most extreme gravitational engines in the universe, anchoring galaxies and shaping cosmic evolution.",
+      "sortYear": 2020,
+      "yearDisplay": "2020"
     },
     {
       "year": 2020,
@@ -1717,7 +2017,17 @@ window.SCIENCE_DATA = {
       ],
       "country": "France & USA",
       "citation": "For the development of a method for genome editing: CRISPR-Cas9 genetic scissors.",
-      "story": "Charpentier and Doudna became the first all-female team to win a science Nobel, repurposing a bacterial immune system into CRISPR-Cas9 molecular scissors to rewrite the code of life."
+      "story": "Charpentier and Doudna became the first all-female team to win a science Nobel, repurposing a bacterial immune system into CRISPR-Cas9 molecular scissors to rewrite the code of life.",
+      "id": "nobel_2020_crispr",
+      "title": "CRISPR-Cas9: The Molecular Word Processor of Life",
+      "eraLabel": "21st Century & AI (2000\u20132024)",
+      "periodGroup": "21st_century",
+      "theWorldBefore": "For decades, genetic engineering was blunt and imprecise: scientists used viruses to randomly insert DNA into genomes, often causing lethal mutations or cancer. Humanity could read the genetic code, but lacked the surgical precision to edit individual letters.",
+      "theBreakthroughMoment": "French microbiologist Emmanuelle Charpentier was studying *Streptococcus pyogenes* and noticed a mysterious bacterial immune system (CRISPR) with small non-coding tracrRNA molecules. In 2011, she met American structural biologist Jennifer Doudna at a cafe during a conference in Puerto Rico. They joined forces and asked: Could bacteria's primitive immune defense be repurposed into a programmable molecular scalpel?",
+      "howItActuallyWorks": "CRISPR-Cas9 uses a dual component system: a guide RNA (gRNA) matching a specific 20-letter sequence of target DNA, and the Cas9 endonuclease enzyme. When injected into a cell, the guide RNA unzips the DNA double helix to find the matching sequence; once verified, Cas9 acts as molecular scissors, making a clean double-stranded cut at that exact location. The cell's natural DNA repair machinery can then be directed to delete a defective gene or insert a corrected sequence with letter-perfect precision.",
+      "lastingWonderAndLegacy": "Charpentier and Doudna became the first all-female team to share a science Nobel. CRISPR has revolutionized biology: curing sickle cell anemia in human clinical trials, engineering climate-resilient drought-proof crops, and eradicating inherited genetic disorders.",
+      "sortYear": 2020,
+      "yearDisplay": "2020"
     },
     {
       "year": 2022,
@@ -1728,18 +2038,38 @@ window.SCIENCE_DATA = {
         "Anton Zeilinger"
       ],
       "country": "France, USA & Austria",
-      "citation": "For experiments with entangled photons, establishing the violation of Bell inequalities and pioneering quantum information science."
+      "citation": "For experiments with entangled photons, establishing the violation of Bell inequalities and pioneering quantum information science.",
+      "id": "nobel_2022_aspect_entanglement",
+      "title": "Quantum Entanglement: Proving Einstein's 'Spooky Action' is Real",
+      "eraLabel": "21st Century & AI (2000\u20132024)",
+      "periodGroup": "21st_century",
+      "theWorldBefore": "Albert Einstein vehemently rejected quantum entanglement, calling it 'spooky action at a distance' (*spukhafte Fernwirkung*). He argued that quantum mechanics was incomplete: two entangled particles must carry predetermined 'hidden variables' like a pair of matching shoes placed in separate boxes, preserving local realism.",
+      "theBreakthroughMoment": "In 1964, John Stewart Bell proved mathematically that if Einstein's local hidden variables existed, there was an upper limit on how correlated two distant particles could be (Bell's Inequality). John Clauser built the first practical experiment; Alain Aspect in Paris closed the communication loophole using ultrafast acoustic switches that changed detector polarizations while photons were in flight; and Anton Zeilinger demonstrated multi-particle entanglement and quantum teleportation.",
+      "howItActuallyWorks": "Aspect, Clauser, and Zeilinger proved experimentally that **Bell's inequalities are massively violated**. Two entangled photons do not possess predetermined states before measurement; measuring the polarization of one photon instantly determines the state of its partner miles away. Reality is non-local: the universe does not exist with fixed, local classical properties until observed.",
+      "lastingWonderAndLegacy": "Their experiments settled the century-long philosophical debate between Einstein and Bohr. It unlocked the 'Second Quantum Revolution'\u2014powering unhackable quantum key distribution (QKD), satellite quantum networks, and quantum supercomputers.",
+      "sortYear": 2022,
+      "yearDisplay": "2022"
     },
     {
       "year": 2023,
       "category": "Physiology or Medicine",
       "laureates": [
-        "Katalin Karikó",
+        "Katalin Karik\u00f3",
         "Drew Weissman"
       ],
       "country": "Hungary/USA & USA",
       "citation": "For discoveries concerning nucleoside base modifications that enabled development of effective mRNA vaccines against COVID-19.",
-      "story": "Karikó and Weissman's discovery that chemically modifying nucleosides prevented inflammatory reactions enabled the mRNA vaccines that saved an estimated 20 million lives during the COVID-19 pandemic."
+      "story": "Karik\u00f3 and Weissman's discovery that chemically modifying nucleosides prevented inflammatory reactions enabled the mRNA vaccines that saved an estimated 20 million lives during the COVID-19 pandemic.",
+      "id": "nobel_2023_mrna",
+      "title": "The Messenger: How Modified mRNA Defeated a Global Pandemic",
+      "eraLabel": "21st Century & AI (2000\u20132024)",
+      "periodGroup": "21st_century",
+      "theWorldBefore": "Traditional vaccines required months or years to grow weakened viruses in chicken eggs or mammalian cells. When new pandemics struck, vaccines arrived too late. Messenger RNA (mRNA)\u2014the intermediate molecule that carries genetic instructions from DNA to ribosomes\u2014held the promise of rapid, programmable vaccines. But every time scientists injected synthetic mRNA into animals, the immune system recognized it as a foreign invader and unleashed a lethal inflammatory storm, destroying the mRNA before it could produce protective antigens.",
+      "theBreakthroughMoment": "Hungarian biochemist Katalin Karik\u00f3 spent decades in academic obscurity at the University of Pennsylvania, suffering demotions, pay cuts, and grant rejections because she refused to give up on mRNA. In 1998, at a university copy machine, she struck up a conversation with immunologist Drew Weissman. Together, they made a historic discovery: natural transfer RNA (tRNA) in human cells contains chemically modified nucleosides (like pseudouridine) that prevent immune alarms. In 2005, they showed that swapping ordinary uridine with **pseudouridine** ($N^1\\text{-methylpseudouridine}$) allowed synthetic mRNA to slip into cells undetected, ramping up protein production a thousand-fold.",
+      "howItActuallyWorks": "When COVID-19 emerged in early 2020, scientists sequenced the viral genome in days. Instead of manufacturing the live virus, researchers synthesized an mRNA transcript encoding the viral spike protein, replacing uridine with pseudouridine and encasing it in protective lipid nanoparticles (LNPs). Once injected, human muscle cells read the mRNA like an instruction tape, temporarily manufacturing harmless spike proteins that train the immune system to produce neutralizing antibodies. The mRNA naturally degrades within hours without ever entering the cell nucleus or touching host DNA.",
+      "lastingWonderAndLegacy": "Karik\u00f3 and Weissman's modified mRNA enabled the creation, testing, and deployment of COVID-19 vaccines in less than a year\u2014the fastest vaccine development in human history\u2014saving an estimated **20 million human lives** in 2021 alone. Modified mRNA is now in clinical trials for personalized cancer vaccines, HIV, and cardiovascular regeneration.",
+      "sortYear": 2023,
+      "yearDisplay": "2023"
     },
     {
       "year": 2024,
@@ -1750,7 +2080,17 @@ window.SCIENCE_DATA = {
       ],
       "country": "USA & UK/Canada",
       "citation": "For foundational discoveries and inventions that enable machine learning with artificial neural networks using statistical physics concepts.",
-      "story": "Hopfield and Hinton were awarded the physics Nobel for foundational discoveries in statistical physics and artificial neural networks that enabled the modern deep learning revolution."
+      "story": "Hopfield and Hinton were awarded the physics Nobel for foundational discoveries in statistical physics and artificial neural networks that enabled the modern deep learning revolution.",
+      "id": "nobel_2024_neural_networks",
+      "title": "Artificial Neural Networks: Statistical Physics That Learned to Think",
+      "eraLabel": "21st Century & AI (2000\u20132024)",
+      "periodGroup": "21st_century",
+      "theWorldBefore": "For decades, classical computing followed John von Neumann's rigid architecture: a processor executing step-by-step symbolic algorithms. But classical computers were notoriously brittle: they could calculate pi to a million digits, yet could not recognize a handwritten number '3' or distinguish a cat from a dog. Traditional AI researchers believed human intelligence could be programmed with rigid formal logic rules, which repeatedly collapsed into the 'AI Winters.'",
+      "theBreakthroughMoment": "In the early 1980s, theoretical physicist John Hopfield applied the physics of magnetic spin glasses to associative memory. He realized that a network of interconnected binary nodes with symmetric weights has an energy function mathematically identical to the Ising model of atomic spins. Shortly after, cognitive scientist and computer scientist Geoffrey Hinton invented the **Boltzmann machine** and spearheaded the backpropagation algorithm, persisting through decades of skepticism when neural networks were out of favor.",
+      "howItActuallyWorks": "The **Hopfield Network** stores memories as low-energy attractor basins on a multidimensional energy landscape: $E = -\\frac{1}{2} \\sum_{i,j} w_{ij} s_i s_j$. When fed an incomplete or noisy image, the network dynamically cascades down the energy slope until it settles into the stored memory basin. Hinton used statistical mechanics (the Boltzmann distribution) to create deep architectures capable of learning hierarchical internal representations, enabling artificial neural networks to learn representations from raw data rather than human-coded rules.",
+      "lastingWonderAndLegacy": "Awarded the 2024 Nobel Prize in Physics, their foundational discoveries in physics and machine learning ignited the modern Deep Learning revolution\u2014powering large language models, autonomous robotics, climate modeling, and particle physics data analysis at the Large Hadron Collider.",
+      "sortYear": 2024,
+      "yearDisplay": "2024"
     },
     {
       "year": 2024,
@@ -1762,7 +2102,17 @@ window.SCIENCE_DATA = {
       ],
       "country": "USA & UK",
       "citation": "Baker for computational protein design; Hassabis and Jumper for AI protein structure prediction (AlphaFold).",
-      "story": "Baker, Hassabis, and Jumper cracked the 50-year-old grand challenge of biology by using artificial intelligence (AlphaFold) to predict the 3D structures of virtually all known proteins."
+      "story": "Baker, Hassabis, and Jumper cracked the 50-year-old grand challenge of biology by using artificial intelligence (AlphaFold) to predict the 3D structures of virtually all known proteins.",
+      "id": "nobel_2024_alphafold",
+      "title": "AlphaFold: Cracking the 50-Year Grand Challenge of Biology",
+      "eraLabel": "21st Century & AI (2000\u20132024)",
+      "periodGroup": "21st_century",
+      "theWorldBefore": "Proteins are the microscopic molecular nanomachines of all living things: enzymes that digest food, antibodies that fight viruses, hemoglobin that carries oxygen, and rhodopsin that senses light. Each protein begins as a linear chain of amino acids. Within milliseconds, this chain spontaneously folds into an intricate, three-dimensional origami shape that dictates its biological function. For fifty years, predicting a protein's 3D structure from its 1D amino acid sequence was biology's 'Grand Challenge.' Experimental determination (X-ray crystallography, cryo-EM) took a PhD student years per protein and cost tens of thousands of dollars.",
+      "theBreakthroughMoment": "In 2020 at the biannual CASP14 competition, Demis Hassabis and John M. Jumper of Google DeepMind unveiled **AlphaFold 2**. While competing algorithms struggled to achieve modest accuracy, AlphaFold achieved median GDT scores of 92.4 out of 100\u2014matching experimental accuracy across human and viral proteins. Simultaneously, David Baker at the University of Washington pioneered computational protein design (Rosetta), creating brand new synthetic proteins never before seen in nature.",
+      "howItActuallyWorks": "AlphaFold leverages an innovative neural network architecture combining spatial Evoformer attention blocks with invariant point coordinate transformers. It integrates two deep signals: physical geometric constraints and evolutionary co-mutation: if two amino acids are in close physical contact in a folded protein, a mutation in one residue during millions of years of evolution forces a compensatory mutation in the other. AlphaFold computes these inter-residue distances and orientations directly, iteratively refining a 3D atomic cloud into a final structure with atom-level precision in minutes.",
+      "lastingWonderAndLegacy": "DeepMind folded and released the 3D structures of **all 200 million proteins known to science**\u2014the entire protein universe\u2014freely available to every scientist on Earth. This single breakthrough compressed centuries of labor into seconds, accelerating plastic-eating enzyme design, targeted malaria and cancer therapeutics, and synthetic biology.",
+      "sortYear": 2024,
+      "yearDisplay": "2024"
     }
   ],
   "inventions": [
@@ -1856,7 +2206,7 @@ window.SCIENCE_DATA = {
       "name": "Steam Engine with Separate Condenser",
       "year": "1769",
       "inventor": "James Watt",
-      "significance": "Watt's Steam Engine with Separate Condenser (1769–1776, James Watt): Upgraded the inefficient Newcomen pump into a versatile rotary power engine that fueled factories, steamships, locomotives, and the Industrial Revolution.",
+      "significance": "Watt's Steam Engine with Separate Condenser (1769\u20131776, James Watt): Upgraded the inefficient Newcomen pump into a versatile rotary power engine that fueled factories, steamships, locomotives, and the Industrial Revolution.",
       "category": "Energy & Mechanics",
       "theWorldBefore": "Human industry was constrained by the physical muscle power of draft animals, erratic wind gusts, and seasonal river watermills.",
       "curiositySpark": "James Watt noticed Thomas Newcomen's atmospheric engine wasted immense energy repeatedly heating and cooling the same cylinder.",
@@ -1907,7 +2257,7 @@ window.SCIENCE_DATA = {
       "name": "Electrical Telegraph & Morse Code",
       "year": "1837 / 1844",
       "inventor": "Samuel Morse & Alfred Vail",
-      "significance": "Electric Telegraph & Morse Code (1837–1844, Samuel Morse & William Fothergill Cooke): Transmitted electrical pulses over wires to send instantaneous messages across continents and oceans, inaugurating the telecommunications age.",
+      "significance": "Electric Telegraph & Morse Code (1837\u20131844, Samuel Morse & William Fothergill Cooke): Transmitted electrical pulses over wires to send instantaneous messages across continents and oceans, inaugurating the telecommunications age.",
       "category": "Communication & Information",
       "theWorldBefore": "Messages could only travel at the speed of a galloping horse or a sailing ship, taking weeks or months to cross continents and oceans.",
       "curiositySpark": "Samuel Morse and Alfred Vail devised an electromagnetic sounder that clicked when receiving pulsed electrical signals over copper wire.",
@@ -1956,7 +2306,7 @@ window.SCIENCE_DATA = {
     {
       "id": "inv_radio",
       "name": "Wireless Radio Transmission",
-      "year": "1895 – 1901",
+      "year": "1895 \u2013 1901",
       "inventor": "Guglielmo Marconi & Nikola Tesla",
       "significance": "Conducted trans-Atlantic wireless communication, enabling mass media broadcast, navigation, and modern radar.",
       "category": "Communication & Waves",
@@ -1965,7 +2315,7 @@ window.SCIENCE_DATA = {
       "howItWorks": "High-frequency alternating electric currents in an antenna generate propagating electromagnetic waves that induce corresponding currents in a receiver.",
       "civilizationalLeap": "Enabled maritime distress signaling (saving Titanic survivors), mass audio broadcast, aviation navigation, radar, and Wi-Fi.",
       "sortYear": 1895,
-      "yearDisplay": "1895 – 1901",
+      "yearDisplay": "1895 \u2013 1901",
       "milestoneType": "invention",
       "badge": "Wireless",
       "creator": "Guglielmo Marconi & Nikola Tesla"
@@ -2024,7 +2374,7 @@ window.SCIENCE_DATA = {
     {
       "id": "inv_internet_www",
       "name": "The World Wide Web & TCP/IP",
-      "year": "1989 – 1991",
+      "year": "1989 \u2013 1991",
       "inventor": "Tim Berners-Lee (WWW) & Vint Cerf / Bob Kahn (TCP/IP)",
       "significance": "Created an open hyperlinked global network connecting billions of humans to collective knowledge instantly.",
       "category": "Computing & Networks",
@@ -2033,7 +2383,7 @@ window.SCIENCE_DATA = {
       "howItWorks": "Packet-switching protocols route digital data packets across decentralized global networks, rendered as hyperlinked web pages.",
       "civilizationalLeap": "Unified human knowledge, instant global communication, and commerce into an interconnected digital planetary nervous system.",
       "sortYear": 1989,
-      "yearDisplay": "1989 – 1991",
+      "yearDisplay": "1989 \u2013 1991",
       "milestoneType": "invention",
       "badge": "Computing",
       "creator": "Tim Berners-Lee (WWW) & Vint Cerf / Bob Kahn (TCP/IP)"
@@ -2077,9 +2427,9 @@ window.SCIENCE_DATA = {
     {
       "id": "disc_fire",
       "name": "Control of Fire",
-      "period": "c. 1,000,000 – 400,000 BCE",
+      "period": "c. 1,000,000 \u2013 400,000 BCE",
       "discoverer": "Early hominins (Homo erectus)",
-      "impact": "Control of Fire (c. 1,000,000 – 400,000 BCE): Pioneered by early hominins like Homo erectus. Cooked food pre-digested proteins and complex starches, shrinking human digestive tracts and fueling the rapid expansion of our energy-hungry brains. Fire also extended the day past sunset, provided warmth in glacial winters, repelled nocturnal predators, and laid the foundations for pottery and metallurgy.",
+      "impact": "Control of Fire (c. 1,000,000 \u2013 400,000 BCE): Pioneered by early hominins like Homo erectus. Cooked food pre-digested proteins and complex starches, shrinking human digestive tracts and fueling the rapid expansion of our energy-hungry brains. Fire also extended the day past sunset, provided warmth in glacial winters, repelled nocturnal predators, and laid the foundations for pottery and metallurgy.",
       "field": "Anthropology & Prehistory",
       "theWorldBefore": "For millions of years, ancestral hominins lived in cold vulnerability, huddled in pitch darkness when night fell, helpless against nocturnal predators, and chewing raw meat and fibrous roots for hours each day.",
       "curiositySpark": "Witnessing lightning strikes ignite bushfires, early Homo erectus conquered their primal fear of flames, approaching the blaze to collect embers and nurture hearths with dry wood.",
@@ -2130,11 +2480,11 @@ window.SCIENCE_DATA = {
       "name": "Discovery of Cells & Microbial Life",
       "period": "1665 / 1676",
       "discoverer": "Robert Hooke & Antonie van Leeuwenhoek",
-      "impact": "Discovery of Living Cells (1665–1674): Robert Hooke examined thin slices of cork through an early microscope, coining the word 'cell' after the barren rooms of monks. Antonie van Leeuwenhoek soon discovered living microorganisms, bacteria, and spermatozoa in a drop of water.",
+      "impact": "Discovery of Living Cells (1665\u20131674): Robert Hooke examined thin slices of cork through an early microscope, coining the word 'cell' after the barren rooms of monks. Antonie van Leeuwenhoek soon discovered living microorganisms, bacteria, and spermatozoa in a drop of water.",
       "field": "Biology",
       "theWorldBefore": "Living tissue was viewed as continuous organic matter infused with mystical humors and vital spirits, with spontaneous generation assumed for vermin and rot.",
       "curiositySpark": "Hooke examined thin slivers of cork under magnifying lenses; Leeuwenhoek inspected pond water and plaque with single-lens bead microscopes.",
-      "howItWorks": "All living organisms are composed of discrete microscopic membrane-bound units—cells—which replicate through division from pre-existing cells.",
+      "howItWorks": "All living organisms are composed of discrete microscopic membrane-bound units\u2014cells\u2014which replicate through division from pre-existing cells.",
       "civilizationalLeap": "Founded cell biology and microbiology, revealing the microscopic architecture of life and disproving spontaneous generation.",
       "sortYear": 1665,
       "yearDisplay": "1665 / 1676",
@@ -2147,7 +2497,7 @@ window.SCIENCE_DATA = {
       "name": "Discovery of Oxygen & Combustion Theory",
       "period": "1774",
       "discoverer": "Joseph Priestley & Antoine Lavoisier",
-      "impact": "Discovery of Oxygen & Chemistry of Combustion (1774–1777): Joseph Priestley and Antoine Lavoisier isolated pure oxygen, proving that fire is an active chemical combination with oxygen rather than the release of mysterious 'phlogiston', establishing modern quantitative chemistry.",
+      "impact": "Discovery of Oxygen & Chemistry of Combustion (1774\u20131777): Joseph Priestley and Antoine Lavoisier isolated pure oxygen, proving that fire is an active chemical combination with oxygen rather than the release of mysterious 'phlogiston', establishing modern quantitative chemistry.",
       "field": "Chemistry",
       "theWorldBefore": "Chemists believed combustion was the release of an imaginary, weightless fire-spirit called 'phlogiston', confusing chemical reactions with alchemy.",
       "curiositySpark": "Lavoisier carefully weighed sealed retorts during combustion, discovering that burned substances became heavier rather than lighter.",
@@ -2196,13 +2546,13 @@ window.SCIENCE_DATA = {
     {
       "id": "disc_germ_theory",
       "name": "Germ Theory of Disease",
-      "period": "1860s – 1880s",
+      "period": "1860s \u2013 1880s",
       "discoverer": "Louis Pasteur & Robert Koch",
-      "impact": "Germ Theory of Disease (1860s–1880s): Louis Pasteur and Robert Koch proved that infectious diseases are caused by microscopic pathogens rather than 'bad air' (miasma), giving birth to pasteurization, antiseptic surgery, and modern vaccines.",
+      "impact": "Germ Theory of Disease (1860s\u20131880s): Louis Pasteur and Robert Koch proved that infectious diseases are caused by microscopic pathogens rather than 'bad air' (miasma), giving birth to pasteurization, antiseptic surgery, and modern vaccines.",
       "field": "Medicine & Microbiology",
       "theWorldBefore": "Diseases were blamed on foul night air ('miasma'), imbalanced bodily humors, astrological alignments, or divine retribution.",
       "curiositySpark": "Pasteur proved yeast fermented wine and bacteria turned milk sour; Koch isolated the anthrax and tuberculosis bacillus under microscopes.",
-      "howItWorks": "Infectious illnesses are caused by specific microscopic living pathogens—bacteria, viruses, fungi, and parasites—invading host tissue.",
+      "howItWorks": "Infectious illnesses are caused by specific microscopic living pathogens\u2014bacteria, viruses, fungi, and parasites\u2014invading host tissue.",
       "civilizationalLeap": "Spawned antiseptic surgery, water chlorination, pasteurization, and antibiotic development, doubling human life expectancy.",
       "sortYear": 1865,
       "yearDisplay": "1860s",
@@ -2230,16 +2580,16 @@ window.SCIENCE_DATA = {
     {
       "id": "disc_radioactivity",
       "name": "Radioactivity, Polonium & Radium",
-      "period": "1896 – 1898",
+      "period": "1896 \u2013 1898",
       "discoverer": "Henri Becquerel, Marie & Pierre Curie",
-      "impact": "Discovery of Radioactivity (1896–1898): Henri Becquerel, Marie Curie, and Pierre Curie discovered that uranium, polonium, and radium spontaneously emit penetrating energetic rays from unstable atomic nuclei, overturning the concept of indivisible atoms.",
+      "impact": "Discovery of Radioactivity (1896\u20131898): Henri Becquerel, Marie Curie, and Pierre Curie discovered that uranium, polonium, and radium spontaneously emit penetrating energetic rays from unstable atomic nuclei, overturning the concept of indivisible atoms.",
       "field": "Nuclear Physics",
       "theWorldBefore": "Atoms were assumed to be solid, indestructible, unchanging billiard balls that lasted for eternity.",
       "curiositySpark": "Becquerel found uranium fogged photographic plates in a dark drawer; the Curies discovered pitchblende was vastly more active than pure uranium.",
       "howItWorks": "Unstable atomic nuclei undergo spontaneous radioactive decay, ejecting alpha particles, beta particles, or gamma radiation while transmuting into new elements.",
       "civilizationalLeap": "Shattered the concept of immutable atoms, opening the door to nuclear energy, atomic weapons, and radiological medicine.",
       "sortYear": 1896,
-      "yearDisplay": "1896 – 1898",
+      "yearDisplay": "1896 \u2013 1898",
       "milestoneType": "discovery",
       "badge": "Nuclear Physics",
       "creator": "Henri Becquerel, Marie & Pierre Curie"
@@ -2263,7 +2613,7 @@ window.SCIENCE_DATA = {
     },
     {
       "id": "disc_special_relativity",
-      "name": "Special Relativity & E = mc²",
+      "name": "Special Relativity & E = mc\u00b2",
       "period": "1905",
       "discoverer": "Albert Einstein",
       "impact": "Overturned absolute Newtonian space and time; proved light speed constancy in vacuum and mass-energy equivalence.",
@@ -2285,7 +2635,7 @@ window.SCIENCE_DATA = {
       "discoverer": "Ernest Rutherford",
       "impact": "Discovered that the atom's positive charge and nearly all its mass resides in a tiny, dense central nucleus.",
       "field": "Nuclear Physics",
-      "theWorldBefore": "Atoms were envisioned as 'plum puddings'—diffuse spheres of positive charge studded with electrons like raisins.",
+      "theWorldBefore": "Atoms were envisioned as 'plum puddings'\u2014diffuse spheres of positive charge studded with electrons like raisins.",
       "curiositySpark": "Rutherford instructed Marsden and Geiger to fire alpha particles at tissue-thin gold foil, expecting all particles to pass straight through.",
       "howItWorks": "Over 99.9% of alpha particles passed through unaffected, but 1 in 8,000 bounced straight back: all positive charge and mass is concentrated in a tiny central nucleus.",
       "civilizationalLeap": "Revealed that matter is 99.9999999% empty void, leading directly to Bohr's quantum atom and nuclear physics.",
@@ -2316,7 +2666,7 @@ window.SCIENCE_DATA = {
       "id": "disc_expanding_universe",
       "name": "Expanding Universe & Redshift",
       "period": "1929",
-      "discoverer": "Edwin Hubble & Georges Lemaître",
+      "discoverer": "Edwin Hubble & Georges Lema\u00eetre",
       "impact": "Proved galaxies are fleeing outward in all directions proportional to distance, providing bedrock evidence for the Big Bang.",
       "field": "Cosmology",
       "theWorldBefore": "Humanity assumed the universe was static, eternal, and confined solely to our Milky Way galaxy surrounded by an endless black void.",
@@ -2327,7 +2677,7 @@ window.SCIENCE_DATA = {
       "yearDisplay": "1929",
       "milestoneType": "discovery",
       "badge": "Cosmology",
-      "creator": "Edwin Hubble & Georges Lemaître"
+      "creator": "Edwin Hubble & Georges Lema\u00eetre"
     },
     {
       "id": "disc_dna_structure",
