@@ -10,73 +10,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          fontFamily: {
-            serif: ['Newsreader', 'Georgia', 'serif'],
-            sans: ['"Plus Jakarta Sans"', '-apple-system', 'sans-serif'],
-            mono: ['"JetBrains Mono"', 'monospace'],
-          },
-          colors: {
-            // Warm sepia paper palette (easy on eyes, zero glare)
-            paper: {
-              50: '#fdfbf7',
-              100: '#f7f3ea',
-              200: '#ede6d6',
-              300: '#ded4be',
-              700: '#524b3e',
-              800: '#3a3429',
-              900: '#231f18'
-            },
-            // Calm night paper (soft slate, not neon black)
-            night: {
-              950: '#131518',
-              900: '#181b20',
-              850: '#1e2229',
-              800: '#262c35',
-              200: '#d5d9e0',
-              300: '#9aa2b0'
-            }
-          }
-        }
-      }
-    }
-  </script>
+  <!-- Compiled Static Stylesheet (Zero runtime compilation, instant load, zero CORS/CDN dependencies) -->
+  <link rel="stylesheet" href="css/book.css">
 
-  <style>
-    [x-cloak] { display: none !important; }
-
-    /* Drop-cap styling for timeless literary feel */
-    .book-dropcap::first-letter {
-      float: left;
-      font-size: 3.4em;
-      line-height: 0.82;
-      margin-top: 0.08em;
-      margin-right: 0.14em;
-      font-family: 'Newsreader', Georgia, serif;
-      font-weight: 600;
-      color: currentColor;
-    }
-
-    /* Elegant quiet scrollbars */
-    ::-webkit-scrollbar {
-      width: 5px;
-    }
-    ::-webkit-scrollbar-thumb {
-      background: rgba(140, 130, 115, 0.25);
-      border-radius: 9999px;
-    }
-    ::-webkit-scrollbar-thumb:hover {
-      background: rgba(140, 130, 115, 0.5);
-    }
-  </style>
-
-  <!-- Preloaded Data Script (Instant offline & file:// execution) -->
+  <!-- Preloaded Data Scripts (Manifest + Chapter 1 for instant offline & file:// startup) -->
+  <script src="data/manifest.js"></script>
+  <script src="data/chapters/ch1.js"></script>
   <script src="data/science_data.js"></script>
 
   <!-- Application Logic -->
@@ -330,8 +269,15 @@
         </template>
       </div>
 
+      <!-- Chapter Loading State -->
+      <div x-show="isLoadingChapter" class="py-16 text-center">
+        <div class="inline-block animate-pulse font-mono text-sm tracking-wide opacity-60">
+          Gathering manuscripts & scrolls...
+        </div>
+      </div>
+
       <!-- Book Sections Reading Flow -->
-      <div class="space-y-16">
+      <div x-show="!isLoadingChapter" class="space-y-16">
         <template x-for="(sec, sIdx) in (currentChapter && currentChapter.bookSections ? currentChapter.bookSections : [])" :key="sec.id">
           <section class="space-y-6">
             
@@ -484,6 +430,9 @@
           </div>
 
           <input 
+            id="pioneer-search"
+            name="pioneerSearch"
+            aria-label="Search scientists by name or discovery"
             type="text" 
             x-model="searchQuery"
             placeholder="Search name, discovery..." 
@@ -495,6 +444,9 @@
             }">
 
           <select 
+            id="pioneer-field-filter"
+            name="pioneerFieldFilter"
+            aria-label="Filter scientists by scientific field"
             x-model="scientistFilter"
             class="px-3 py-1 rounded-lg border focus:outline-none"
             :class="{
@@ -810,6 +762,9 @@
           </div>
 
           <input 
+            id="milestone-search"
+            name="milestoneSearch"
+            aria-label="Search discoveries and inventions"
             type="text" 
             x-model="milestoneSearchQuery"
             placeholder="Search milestone or pioneer..." 

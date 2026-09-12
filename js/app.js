@@ -3,8 +3,10 @@ function scienceApp() {
     // Reading Theme: 'sepia' (warm book paper), 'light' (clean white), 'night' (calm dark slate)
     theme: localStorage.getItem('sc_book_theme') || 'sepia',
     
-    // Active chapter selection
+    // Active chapter selection & lazy loading cache
     selectedChapterId: 'ch1',
+    loadedChapters: {},
+    isLoadingChapter: false,
     
     // Visual views: 'book' (chapters), 'giants' (pioneers), 'nobel' (archive), 'inventions' (discoveries & tools)
     activeView: 'book',
@@ -31,25 +33,49 @@ function scienceApp() {
     milestoneViewMode: 'story', // 'story' (timeline + deep reading) or 'catalog' (compact list)
     milestoneSearchQuery: '',
     
-    // Data store loaded immediately from window.SCIENCE_DATA or fallback fetch
-    data: (window.SCIENCE_DATA && window.SCIENCE_DATA.chapters) ? window.SCIENCE_DATA : {
-      chapters: [],
-      scientists: [],
-      nobelPrizes: [],
-      inventions: [],
-      discoveries: [],
-      puzzles: []
+    // Data store loaded immediately from window.SCIENCE_MANIFEST / window.SCIENCE_DATA
+    data: {
+      chapters: (window.SCIENCE_MANIFEST && window.SCIENCE_MANIFEST.chapters) ? 
+        window.SCIENCE_MANIFEST.chapters : 
+        (window.SCIENCE_DATA && window.SCIENCE_DATA.chapters) ? window.SCIENCE_DATA.chapters : [],
+      scientists: (window.SCIENCE_DATA && window.SCIENCE_DATA.scientists) || [],
+      nobelPrizes: (window.SCIENCE_DATA && window.SCIENCE_DATA.nobelPrizes) || [],
+      inventions: (window.SCIENCE_DATA && window.SCIENCE_DATA.inventions) || [],
+      discoveries: (window.SCIENCE_DATA && window.SCIENCE_DATA.discoveries) || [],
+      puzzles: (window.SCIENCE_DATA && window.SCIENCE_DATA.puzzles) || []
     },
 
     async initApp() {
+      // Seed preloaded chapters if already in window (e.g. ch1 or monolithic fallback)
+      if (window.SCIENCE_CHAPTER_CH1) {
+        this.loadedChapters['ch1'] = window.SCIENCE_CHAPTER_CH1;
+      }
+      if (window.SCIENCE_DATA && window.SCIENCE_DATA.chapters) {
+        window.SCIENCE_DATA.chapters.forEach(ch => {
+          if (ch.bookSections && ch.bookSections.length > 0) {
+            this.loadedChapters[ch.id] = ch;
+          }
+        });
+      }
+
+      // Fetch fallback if running in server environment without preloaded global variables
       if (!this.data.chapters || this.data.chapters.length === 0) {
         try {
-          const res = await fetch('data/science_data.json');
-          if (res.ok) this.data = await res.json();
+          const res = await fetch('data/manifest.json');
+          if (res.ok) {
+            const manifest = await res.json();
+            this.data.chapters = manifest.chapters;
+          } else {
+            const dataRes = await fetch('data/science_data.json');
+            if (dataRes.ok) this.data = await dataRes.json();
+          }
         } catch (e) {
-          console.warn('Using fallback data:', e);
+          console.warn('Using fallback data fetch:', e);
         }
       }
+
+      // Ensure initial chapter is loaded
+      await this.loadChapter(this.selectedChapterId);
       this.initSpeech();
     },
 
@@ -67,8 +93,18 @@ function scienceApp() {
     },
 
     get currentChapter() {
-      if (!this.data.chapters || this.data.chapters.length === 0) return null;
-      return this.data.chapters.find(c => c.id === this.selectedChapterId) || this.data.chapters[0];
+      if (this.loadedChapters[this.selectedChapterId]) {
+        return this.loadedChapters[this.selectedChapterId];
+      }
+      const globalKey = 'SCIENCE_CHAPTER_' + this.selectedChapterId.toUpperCase();
+      if (window[globalKey]) {
+        this.loadedChapters[this.selectedChapterId] = window[globalKey];
+        return this.loadedChapters[this.selectedChapterId];
+      }
+      if (this.data.chapters && this.data.chapters.length > 0) {
+        return this.data.chapters.find(c => c.id === this.selectedChapterId) || this.data.chapters[0];
+      }
+      return null;
     },
 
     get previousChapter() {
@@ -83,11 +119,56 @@ function scienceApp() {
       return (idx >= 0 && idx < this.data.chapters.length - 1) ? this.data.chapters[idx + 1] : null;
     },
 
-    selectChapter(chapterId) {
+    async selectChapter(chapterId) {
       this.selectedChapterId = chapterId;
       this.activeView = 'book';
       this.drawerOpen = false;
       window.scrollTo({ top: 0, behavior: 'smooth' });
+      await this.loadChapter(chapterId);
+    },
+
+    async loadChapter(chapterId) {
+      if (this.loadedChapters[chapterId] && this.loadedChapters[chapterId].bookSections) {
+        return this.loadedChapters[chapterId];
+      }
+
+      const globalKey = 'SCIENCE_CHAPTER_' + chapterId.toUpperCase();
+      if (window[globalKey]) {
+        this.loadedChapters[chapterId] = window[globalKey];
+        return this.loadedChapters[chapterId];
+      }
+
+      this.isLoadingChapter = true;
+      try {
+        // Zero-CORS script injection pattern (works on file:/// protocols as well as GitHub Pages)
+        await new Promise((resolve) => {
+          const script = document.createElement('script');
+          script.src = `data/chapters/${chapterId}.js`;
+          script.onload = () => {
+            if (window[globalKey]) {
+              this.loadedChapters[chapterId] = window[globalKey];
+            }
+            resolve();
+          };
+          script.onerror = async () => {
+            // Fallback for HTTP environments using JSON fetch
+            try {
+              const res = await fetch(`data/chapters/${chapterId}.json`);
+              if (res.ok) {
+                this.loadedChapters[chapterId] = await res.json();
+              }
+            } catch (err) {
+              console.warn(`Could not load chapter ${chapterId}:`, err);
+            }
+            resolve();
+          };
+          document.head.appendChild(script);
+        });
+      } finally {
+        this.isLoadingChapter = false;
+      }
+
+      return this.loadedChapters[chapterId] || null;
     },
 
     // =========================================================================
