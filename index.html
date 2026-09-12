@@ -285,15 +285,15 @@
         <p class="text-base sm:text-xl italic font-serif opacity-75 max-w-3xl mx-auto leading-relaxed"
            x-text="currentChapter ? currentChapter.subtitle : 'The Philosophy of Science and the Scientific Method'"></p>
 
-        <!-- Chapter 1 Feynman Inscription -->
-        <template x-if="selectedChapterId === 'ch1'">
+        <!-- Chapter Inscription -->
+        <template x-if="currentChapter && currentChapter.quote">
           <div class="mt-8 max-w-2xl mx-auto pt-6 border-t border-dashed opacity-75"
                :class="theme === 'night' ? 'border-night-800' : 'border-paper-300'">
-            <blockquote class="italic text-sm sm:text-base font-serif leading-relaxed">
-              "I would rather have questions that can't be answered than answers that can't be questioned."
+            <blockquote class="italic text-sm sm:text-base font-serif leading-relaxed"
+                        x-text="'“' + currentChapter.quote.text + '”'">
             </blockquote>
-            <cite class="font-sans text-xs not-italic font-semibold tracking-wide uppercase opacity-75 block mt-2">
-              — Richard Feynman
+            <cite class="font-sans text-xs not-italic font-semibold tracking-wide uppercase opacity-75 block mt-2"
+                  x-text="'— ' + currentChapter.quote.author">
             </cite>
           </div>
         </template>
