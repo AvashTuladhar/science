@@ -385,6 +385,15 @@
               </template>
             </div>
 
+            <!-- Optional Black & White Vintage Engraving Illustration -->
+            <template x-if="sec.illustration">
+              <figure class="my-8 text-center p-6 border rounded-2xl max-w-2xl mx-auto transition-colors"
+                      :class="theme === 'night' ? 'border-night-800 bg-night-900/40' : 'border-paper-300 bg-paper-100/40'">
+                <div class="flex justify-center items-center py-2" x-html="sec.illustration.svg"></div>
+                <figcaption class="mt-4 font-serif text-xs sm:text-sm italic opacity-75" x-text="sec.illustration.caption"></figcaption>
+              </figure>
+            </template>
+
             <!-- Gentle Divider between sections -->
             <div class="flex items-center justify-center pt-8 opacity-30">
               <span class="text-sm tracking-widest">❦</span>
