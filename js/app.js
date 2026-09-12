@@ -40,6 +40,7 @@ function scienceApp() {
           console.warn('Using fallback data:', e);
         }
       }
+      this.initSpeech();
     },
 
     setTheme(newTheme) {
@@ -69,6 +70,153 @@ function scienceApp() {
 
     openScientist(s) {
       this.selectedScientist = s;
+    },
+
+    // ==========================================
+    // AUDIO VOICE OVER / NARRATOR (Web Speech API)
+    // ==========================================
+    isNarrating: false,
+    isPaused: false,
+    currentNarratingSection: null,
+    speechRate: 1.0, // 0.85, 1.0, 1.2
+    synth: ('speechSynthesis' in window) ? window.speechSynthesis : null,
+    availableVoices: [],
+    selectedVoice: null,
+
+    initSpeech() {
+      if (!this.synth) return;
+      const loadVoices = () => {
+        const voices = this.synth.getVoices();
+        if (voices.length > 0) {
+          this.availableVoices = voices.filter(v => v.lang.startsWith('en'));
+          // Prefer natural/enhanced English voices if available (e.g. Samantha, Daniel, Google, Natural)
+          this.selectedVoice = this.availableVoices.find(v => 
+            v.name.includes('Natural') || v.name.includes('Premium') || v.name.includes('Samantha') || v.name.includes('Daniel')
+          ) || this.availableVoices[0] || voices[0];
+        }
+      };
+      loadVoices();
+      if (this.synth.onvoiceschanged !== undefined) {
+        this.synth.onvoiceschanged = loadVoices;
+      }
+    },
+
+    toggleNarrateSection(sec) {
+      if (!this.synth) {
+        alert('Your browser does not support text-to-speech audio.');
+        return;
+      }
+
+      if (this.isNarrating && this.currentNarratingSection === sec.id) {
+        this.stopNarration();
+        return;
+      }
+
+      this.stopNarration();
+      this.currentNarratingSection = sec.id;
+      this.isNarrating = true;
+      this.isPaused = false;
+
+      // Clean text for natural reading flow
+      const textToRead = sec.title + '. ' + (sec.subtitle ? sec.subtitle + '. ' : '') + sec.paragraphs.join(' ');
+      const utterance = new SpeechSynthesisUtterance(textToRead);
+      if (this.selectedVoice) utterance.voice = this.selectedVoice;
+      utterance.rate = this.speechRate;
+      utterance.pitch = 1.0;
+
+      utterance.onend = () => {
+        this.isNarrating = false;
+        this.isPaused = false;
+        this.currentNarratingSection = null;
+      };
+
+      utterance.onerror = () => {
+        this.isNarrating = false;
+        this.isPaused = false;
+        this.currentNarratingSection = null;
+      };
+
+      this.synth.speak(utterance);
+    },
+
+    toggleNarrateChapter() {
+      if (!this.synth) {
+        alert('Your browser does not support text-to-speech audio.');
+        return;
+      }
+
+      if (this.isNarrating && this.currentNarratingSection === 'entire_chapter') {
+        this.stopNarration();
+        return;
+      }
+
+      this.stopNarration();
+      const ch = this.currentChapter;
+      if (!ch || !ch.bookSections) return;
+
+      this.currentNarratingSection = 'entire_chapter';
+      this.isNarrating = true;
+      this.isPaused = false;
+
+      let fullText = 'Chapter ' + ch.number + ': ' + ch.title + '. ' + (ch.subtitle || '') + '. ';
+      ch.bookSections.forEach(sec => {
+        fullText += sec.title + '. ' + sec.paragraphs.join(' ') + ' ';
+      });
+
+      const utterance = new SpeechSynthesisUtterance(fullText);
+      if (this.selectedVoice) utterance.voice = this.selectedVoice;
+      utterance.rate = this.speechRate;
+      utterance.pitch = 1.0;
+
+      utterance.onend = () => {
+        this.isNarrating = false;
+        this.isPaused = false;
+        this.currentNarratingSection = null;
+      };
+
+      utterance.onerror = () => {
+        this.isNarrating = false;
+        this.isPaused = false;
+        this.currentNarratingSection = null;
+      };
+
+      this.synth.speak(utterance);
+    },
+
+    pauseResumeNarration() {
+      if (!this.synth) return;
+      if (this.synth.paused) {
+        this.synth.resume();
+        this.isPaused = false;
+      } else if (this.synth.speaking) {
+        this.synth.pause();
+        this.isPaused = true;
+      }
+    },
+
+    stopNarration() {
+      if (this.synth) {
+        this.synth.cancel();
+      }
+      this.isNarrating = false;
+      this.isPaused = false;
+      this.currentNarratingSection = null;
+    },
+
+    cycleSpeechRate() {
+      const rates = [0.9, 1.0, 1.25];
+      const nextIdx = (rates.indexOf(this.speechRate) + 1) % rates.length;
+      this.speechRate = rates[nextIdx];
+      // If currently narrating, restart with new rate
+      if (this.isNarrating) {
+        const activeId = this.currentNarratingSection;
+        if (activeId === 'entire_chapter') {
+          this.toggleNarrateChapter();
+        } else {
+          const sec = (this.currentChapter?.bookSections || []).find(s => s.id === activeId);
+          if (sec) this.toggleNarrateSection(sec);
+        }
+      }
     },
 
     get filteredScientists() {

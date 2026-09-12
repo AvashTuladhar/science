@@ -158,8 +158,39 @@
         </button>
       </nav>
 
-      <!-- Reader Controls (Eye-care Themes & Font Size) -->
+      <!-- Reader Controls (Eye-care Themes, Font Size & Audio Voice-Over) -->
       <div class="flex items-center space-x-2 font-sans">
+
+        <!-- Voice Over / Audio Narrator Button -->
+        <div class="flex items-center space-x-1">
+          <button 
+            @click="toggleNarrateChapter()" 
+            class="px-3 py-1 text-xs font-semibold rounded-lg border transition-all flex items-center space-x-1.5"
+            :class="isNarrating && currentNarratingSection === 'entire_chapter' ? 'bg-amber-600 text-white border-amber-600 shadow-sm animate-pulse' : {
+              'border-paper-200 text-paper-800 hover:bg-paper-100': theme === 'sepia',
+              'border-neutral-200 text-neutral-800 hover:bg-neutral-100': theme === 'light',
+              'border-night-800 text-night-200 hover:bg-night-900': theme === 'night'
+            }"
+            title="Listen to Chapter (Audio Voice Over)">
+            <span x-text="isNarrating && currentNarratingSection === 'entire_chapter' ? '⏹' : '🎧'"></span>
+            <span class="hidden sm:inline" x-text="isNarrating && currentNarratingSection === 'entire_chapter' ? 'Stop Voice' : 'Listen'"></span>
+          </button>
+
+          <!-- Voice Speed Switcher (0.9x / 1.0x / 1.25x) -->
+          <button 
+            x-show="isNarrating"
+            @click="cycleSpeechRate()"
+            class="px-2 py-1 text-[10px] font-mono font-bold rounded-lg border transition-colors opacity-80 hover:opacity-100"
+            :class="{
+              'border-paper-200 text-paper-800': theme === 'sepia',
+              'border-neutral-200 text-neutral-800': theme === 'light',
+              'border-night-800 text-night-200': theme === 'night'
+            }"
+            title="Adjust reading speed"
+            x-text="speechRate + 'x'">
+          </button>
+        </div>
+
         <!-- Font Size Scaler -->
         <button 
           @click="cycleFontSize()" 
@@ -304,12 +335,27 @@
         <template x-for="(sec, sIdx) in (currentChapter && currentChapter.bookSections ? currentChapter.bookSections : [])" :key="sec.id">
           <section class="space-y-6">
             
-            <!-- Section Roman Numeral & Title -->
-            <div class="pt-4">
-              <div class="font-sans text-xs uppercase tracking-widest font-semibold opacity-50 mb-1"
-                   x-text="'§ ' + (sIdx + 1) + '. ' + sec.subtitle"></div>
-              <h2 class="text-2xl sm:text-3xl font-serif font-semibold tracking-tight"
-                  x-text="sec.title"></h2>
+            <!-- Section Roman Numeral & Title with Inline Read Aloud -->
+            <div class="pt-4 flex items-start justify-between">
+              <div>
+                <div class="font-sans text-xs uppercase tracking-widest font-semibold opacity-50 mb-1"
+                     x-text="'§ ' + (sIdx + 1) + '. ' + sec.subtitle"></div>
+                <h2 class="text-2xl sm:text-3xl font-serif font-semibold tracking-tight"
+                    x-text="sec.title"></h2>
+              </div>
+              
+              <!-- Per-section listen button -->
+              <button 
+                @click="toggleNarrateSection(sec)"
+                class="mt-1 p-2 rounded-xl border text-xs font-sans flex items-center space-x-1 transition-all opacity-60 hover:opacity-100"
+                :class="isNarrating && currentNarratingSection === sec.id ? 'opacity-100 bg-amber-600 text-white border-amber-600 shadow-sm animate-pulse' : {
+                  'border-paper-300 hover:bg-paper-100 text-paper-800': theme === 'sepia',
+                  'border-neutral-200 hover:bg-neutral-100 text-neutral-800': theme === 'light',
+                  'border-night-800 hover:bg-night-900 text-night-200': theme === 'night'
+                }"
+                :title="isNarrating && currentNarratingSection === sec.id ? 'Stop reading section' : 'Read this section aloud'">
+                <span x-text="isNarrating && currentNarratingSection === sec.id ? '⏹ Stop' : '🔊 Read'"></span>
+              </button>
             </div>
 
             <!-- Paragraphs with Literary Typesetting -->
