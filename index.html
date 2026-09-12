@@ -427,23 +427,67 @@
 
 
     <!-- ======================================================================= -->
-    <!-- VIEW 2: HALL OF GIANTS (Quiet Biographical Compendium) -->
+    <!-- VIEW 2: HALL OF GIANTS (Interactive Timeline & Deep Chronicles) -->
     <!-- ======================================================================= -->
     <div x-show="activeView === 'giants'" class="space-y-8">
       
+      <!-- Header & Philosophy -->
       <div class="border-b pb-6" :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
-        <h2 class="text-3xl font-serif font-medium tracking-tight mb-2">The Hall of Pioneers</h2>
-        <p class="font-serif text-base italic opacity-75">
-          "If I have seen further, it is by standing on the shoulders of giants." — Sir Isaac Newton
-        </p>
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+          <div>
+            <h2 class="text-3xl sm:text-4xl font-serif font-medium tracking-tight mb-2">The Hall of Pioneers</h2>
+            <p class="font-serif text-base italic opacity-75">
+              "If I have seen further, it is by standing on the shoulders of giants." — Sir Isaac Newton
+            </p>
+          </div>
 
-        <!-- Filter bar -->
-        <div class="mt-6 flex flex-wrap items-center gap-3 font-sans text-xs">
+          <!-- View Mode Toggle: Deep Story vs. Compact Gallery -->
+          <div class="flex items-center p-1 rounded-xl border self-start sm:self-auto font-sans text-xs"
+               :class="theme === 'night' ? 'border-night-800 bg-night-900/80' : 'border-paper-200 bg-paper-100/70'">
+            <button 
+              @click="pioneerViewMode = 'story'" 
+              class="px-3 py-1.5 rounded-lg transition-colors flex items-center space-x-1.5"
+              :class="pioneerViewMode === 'story' ? (theme === 'night' ? 'bg-night-800 text-white font-semibold shadow-sm' : 'bg-white text-paper-900 font-semibold shadow-sm') : 'opacity-70 hover:opacity-100'">
+              <span>📖</span>
+              <span>Timeline & Story</span>
+            </button>
+            <button 
+              @click="pioneerViewMode = 'gallery'" 
+              class="px-3 py-1.5 rounded-lg transition-colors flex items-center space-x-1.5"
+              :class="pioneerViewMode === 'gallery' ? (theme === 'night' ? 'bg-night-800 text-white font-semibold shadow-sm' : 'bg-white text-paper-900 font-semibold shadow-sm') : 'opacity-70 hover:opacity-100'">
+              <span>📑</span>
+              <span>All Pioneers (37)</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Filter bar (Search, Field, Era) -->
+        <div class="mt-6 flex flex-wrap items-center gap-2 font-sans text-xs">
+          <!-- Era Chips -->
+          <div class="flex flex-wrap items-center gap-1.5 mr-2">
+            <template x-for="era in [
+              { id: 'all', label: 'All Eras' },
+              { id: 'ancient', label: 'Antiquity' },
+              { id: 'medieval', label: 'Golden Age' },
+              { id: 'renaissance', label: 'Scientific Rev' },
+              { id: 'industrial', label: 'Industrial' },
+              { id: 'modern', label: '20th Century' },
+              { id: 'contemporary', label: '21st Century' }
+            ]" :key="era.id">
+              <button 
+                @click="pioneerTimelineFilter = era.id"
+                class="px-2.5 py-1 rounded-full border transition-colors text-[11px]"
+                :class="pioneerTimelineFilter === era.id ? (theme === 'night' ? 'bg-night-800 border-indigo-500 text-white font-semibold' : 'bg-paper-200 border-amber-600 text-paper-900 font-semibold') : (theme === 'night' ? 'border-night-800 text-night-300 hover:bg-night-900' : 'border-paper-200 text-paper-700 hover:bg-paper-100')">
+                <span x-text="era.label"></span>
+              </button>
+            </template>
+          </div>
+
           <input 
             type="text" 
             x-model="searchQuery"
-            placeholder="Filter by name or discovery..." 
-            class="px-3 py-1.5 rounded-lg border focus:outline-none"
+            placeholder="Search name, discovery..." 
+            class="px-3 py-1 rounded-lg border focus:outline-none flex-1 min-w-[140px]"
             :class="{
               'bg-paper-100 border-paper-300 text-paper-900': theme === 'sepia',
               'bg-white border-neutral-300 text-neutral-900': theme === 'light',
@@ -452,13 +496,13 @@
 
           <select 
             x-model="scientistFilter"
-            class="px-3 py-1.5 rounded-lg border focus:outline-none"
+            class="px-3 py-1 rounded-lg border focus:outline-none"
             :class="{
               'bg-paper-100 border-paper-300 text-paper-900': theme === 'sepia',
               'bg-white border-neutral-300 text-neutral-900': theme === 'light',
               'bg-night-900 border-night-800 text-night-200': theme === 'night'
             }">
-            <option value="all">All Scientific Fields</option>
+            <option value="all">All Fields</option>
             <option value="Physics">Physics</option>
             <option value="Chemistry">Chemistry</option>
             <option value="Astronomy">Astronomy</option>
@@ -468,33 +512,199 @@
         </div>
       </div>
 
-      <!-- Peaceful list of scientists -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10">
+      <!-- TOP INTERACTIVE TIMELINE SCROLLER -->
+      <div class="relative py-2">
+        <div class="flex items-center justify-between text-xs font-sans opacity-60 mb-2">
+          <span class="tracking-wide uppercase font-semibold text-[10px]">Interactive Chronological Timeline</span>
+          <span x-text="'Showing ' + filteredScientists.length + ' Pioneers'"></span>
+        </div>
+
+        <!-- Horizontal scroll timeline track -->
+        <div class="flex space-x-3 overflow-x-auto pb-4 pt-1 snap-x scrollbar-thin scroll-smooth"
+             :class="theme === 'night' ? 'scrollbar-thumb-night-800' : 'scrollbar-thumb-paper-300'">
+          <template x-for="s in filteredScientists" :key="s.id">
+            <button 
+              @click="selectScientist(s.id)"
+              class="flex-shrink-0 text-left p-3.5 rounded-xl border transition-all duration-200 w-56 snap-start flex flex-col justify-between"
+              :class="selectedScientistId === s.id ? (theme === 'night' ? 'bg-night-850 border-indigo-400 ring-2 ring-indigo-400/30' : 'bg-paper-100 border-amber-600 ring-2 ring-amber-600/30 shadow-sm') : (theme === 'night' ? 'border-night-800/80 hover:bg-night-900/60 bg-night-950/40' : 'border-paper-200 hover:bg-paper-100/60 bg-paper-50/50')">
+              
+              <div>
+                <div class="flex items-center justify-between text-[11px] font-sans opacity-70 mb-1">
+                  <span class="font-mono font-medium" x-text="s.yearDisplay || s.era"></span>
+                  <span x-show="s.nobelPrize" class="text-amber-600 dark:text-amber-400 font-bold" title="Nobel Laureate">★</span>
+                </div>
+                <div class="font-serif font-bold text-base leading-tight truncate" x-text="s.name"></div>
+                <div class="font-sans text-[11px] opacity-60 truncate mt-0.5" x-text="s.country"></div>
+              </div>
+
+              <div class="font-sans text-[10px] opacity-75 pt-2 border-t border-dashed mt-2 line-clamp-1"
+                   :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'"
+                   x-text="s.majorDiscovery"></div>
+            </button>
+          </template>
+        </div>
+      </div>
+
+      <!-- PIONEER VIEW MODE 1: FEATURED DEEP STORY READER -->
+      <div x-show="pioneerViewMode === 'story' && selectedScientist" id="pioneer-reader-anchor" class="pt-2">
+        <template x-if="selectedScientist">
+          <article class="p-6 sm:p-10 rounded-2xl border transition-colors relative space-y-8"
+                   :class="theme === 'night' ? 'bg-night-900/40 border-night-800' : 'bg-paper-100/40 border-paper-200'">
+            
+            <!-- Top Controls Bar -->
+            <div class="flex flex-wrap items-center justify-between gap-4 border-b pb-4"
+                 :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
+              
+              <div class="flex items-center space-x-2 font-sans text-xs">
+                <span class="px-2.5 py-0.5 rounded-full font-mono font-medium border"
+                      :class="theme === 'night' ? 'border-night-700 bg-night-800 text-night-200' : 'border-paper-300 bg-paper-200 text-paper-800'"
+                      x-text="selectedScientist.era"></span>
+                <span class="opacity-60" x-text="selectedScientist.country"></span>
+                <span x-show="selectedScientist.nobelPrize" class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/10 text-amber-600 dark:text-amber-400 border border-amber-500/30">
+                  Nobel Laureate
+                </span>
+              </div>
+
+              <!-- Audio Narration & Prev/Next -->
+              <div class="flex items-center space-x-2 font-sans text-xs">
+                <button 
+                  @click="toggleNarrateScientist(selectedScientist)"
+                  class="px-3 py-1.5 rounded-lg border font-semibold flex items-center space-x-1.5 transition-all"
+                  :class="isNarrating && currentNarratingSection === ('scientist_' + selectedScientist.id) ? 'bg-amber-600 text-white border-amber-600 shadow-sm animate-pulse' : (theme === 'night' ? 'border-night-700 text-night-200 hover:bg-night-800' : 'border-paper-300 text-paper-800 hover:bg-paper-200')">
+                  <span x-text="isNarrating && currentNarratingSection === ('scientist_' + selectedScientist.id) ? '⏹' : '🔊'"></span>
+                  <span x-text="isNarrating && currentNarratingSection === ('scientist_' + selectedScientist.id) ? 'Stop Voice' : 'Read Story'"></span>
+                </button>
+
+                <div class="flex items-center space-x-1">
+                  <button 
+                    @click="selectPreviousScientist()"
+                    class="p-1.5 rounded-lg border transition-colors hover:opacity-100 opacity-70"
+                    :class="theme === 'night' ? 'border-night-700 text-night-200 hover:bg-night-800' : 'border-paper-300 text-paper-800 hover:bg-paper-200'"
+                    title="Previous Pioneer">
+                    ←
+                  </button>
+                  <button 
+                    @click="selectNextScientist()"
+                    class="p-1.5 rounded-lg border transition-colors hover:opacity-100 opacity-70"
+                    :class="theme === 'night' ? 'border-night-700 text-night-200 hover:bg-night-800' : 'border-paper-300 text-paper-800 hover:bg-paper-200'"
+                    title="Next Pioneer">
+                    →
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Title & Quote -->
+            <div>
+              <h3 class="text-3xl sm:text-5xl font-serif font-bold tracking-tight mb-2" x-text="selectedScientist.name"></h3>
+              
+              <div class="flex flex-wrap gap-1.5 mb-4 font-sans text-[11px]">
+                <template x-for="f in (selectedScientist.fields || [])" :key="f">
+                  <span class="px-2 py-0.5 rounded border opacity-75"
+                        :class="theme === 'night' ? 'border-night-700 bg-night-800/60' : 'border-paper-300 bg-paper-100'"
+                        x-text="f"></span>
+                </template>
+              </div>
+
+              <blockquote class="font-serif italic text-lg sm:text-xl opacity-90 pl-5 border-l-4 my-6 py-1"
+                          :class="theme === 'night' ? 'border-indigo-400' : 'border-amber-600'"
+                          x-text="'“' + selectedScientist.famousQuote + '”'">
+              </blockquote>
+
+              <div class="p-4 rounded-xl border text-sm font-sans flex items-baseline space-x-2"
+                   :class="theme === 'night' ? 'border-night-800 bg-night-850/70' : 'border-paper-200 bg-paper-200/50'">
+                <strong class="font-semibold text-amber-700 dark:text-amber-400">Crown Discovery:</strong>
+                <span class="opacity-90 font-serif text-base" x-text="selectedScientist.majorDiscovery"></span>
+              </div>
+            </div>
+
+            <!-- Four Deep Narrative Chapters -->
+            <div class="space-y-8 font-serif leading-relaxed text-base sm:text-lg opacity-90">
+              
+              <div class="space-y-2">
+                <div class="flex items-center space-x-2 font-sans text-xs font-bold uppercase tracking-wider text-amber-700 dark:text-amber-400">
+                  <span>🌱</span>
+                  <span>The Wellspring of Curiosity & Upbringing</span>
+                </div>
+                <p class="pl-0 sm:pl-6 leading-[1.85]" x-text="selectedScientist.curiosityStory || selectedScientist.details"></p>
+              </div>
+
+              <div class="flex justify-center opacity-25 text-xs">❦</div>
+
+              <div class="space-y-2">
+                <div class="flex items-center space-x-2 font-sans text-xs font-bold uppercase tracking-wider text-amber-700 dark:text-amber-400">
+                  <span>💡</span>
+                  <span>The Moment of Inspiration & The Spark</span>
+                </div>
+                <p class="pl-0 sm:pl-6 leading-[1.85]" x-text="selectedScientist.inspirationMoment"></p>
+              </div>
+
+              <div class="flex justify-center opacity-25 text-xs">❦</div>
+
+              <div class="space-y-2">
+                <div class="flex items-center space-x-2 font-sans text-xs font-bold uppercase tracking-wider text-amber-700 dark:text-amber-400">
+                  <span>🔬</span>
+                  <span>How It Was Done: The Struggle, Apparatus & The Proof</span>
+                </div>
+                <p class="pl-0 sm:pl-6 leading-[1.85]" x-text="selectedScientist.howTheyDidIt"></p>
+              </div>
+
+              <div class="flex justify-center opacity-25 text-xs">❦</div>
+
+              <div class="space-y-2">
+                <div class="flex items-center space-x-2 font-sans text-xs font-bold uppercase tracking-wider text-amber-700 dark:text-amber-400">
+                  <span>✨</span>
+                  <span>The Lasting Wonder: Why It Fascinates Humanity</span>
+                </div>
+                <p class="pl-0 sm:pl-6 leading-[1.85]" x-text="selectedScientist.fascinatingImpact"></p>
+              </div>
+
+            </div>
+
+            <!-- Footer Navigation -->
+            <div class="pt-6 border-t flex items-center justify-between font-sans text-xs font-semibold"
+                 :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
+              <button 
+                @click="selectPreviousScientist()"
+                class="hover:underline flex items-center space-x-1 py-1">
+                <span>← Previous Pioneer</span>
+              </button>
+
+              <button 
+                @click="selectNextScientist()"
+                class="hover:underline flex items-center space-x-1 py-1">
+                <span>Next Pioneer →</span>
+              </button>
+            </div>
+
+          </article>
+        </template>
+      </div>
+
+      <!-- PIONEER VIEW MODE 2: ALL PIONEERS GALLERY GRID -->
+      <div x-show="pioneerViewMode === 'gallery'" class="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-8 pt-4">
         <template x-for="s in filteredScientists" :key="s.id">
-          <article class="border-b pb-8 transition-colors flex flex-col justify-between"
-                   :class="theme === 'night' ? 'border-night-800/80' : 'border-paper-200'">
+          <article 
+            @click="selectScientist(s.id)"
+            class="p-6 rounded-xl border transition-all cursor-pointer flex flex-col justify-between hover:shadow-md"
+            :class="theme === 'night' ? 'border-night-800/80 bg-night-900/30 hover:border-indigo-400/50' : 'border-paper-200 bg-paper-100/30 hover:border-amber-600/50'">
             
             <div>
               <div class="flex items-center justify-between font-sans text-xs opacity-60 mb-1.5">
-                <span x-text="s.era"></span>
+                <span class="font-mono font-medium" x-text="s.yearDisplay || s.era"></span>
                 <span x-show="s.nobelPrize" class="font-semibold text-amber-700 dark:text-amber-400">Nobel Laureate</span>
               </div>
 
-              <h3 class="text-2xl font-serif font-semibold mb-1" x-text="s.name"></h3>
+              <h3 class="text-2xl font-serif font-bold mb-1" x-text="s.name"></h3>
               <div class="font-sans text-xs opacity-75 mb-3" x-text="s.country"></div>
 
-              <!-- Famous quote -->
-              <blockquote class="font-serif italic text-sm sm:text-base opacity-85 my-3 pl-4 border-l-2"
-                          :class="theme === 'night' ? 'border-night-700' : 'border-paper-300'"
-                          x-text="'“' + s.famousQuote + '”'">
-              </blockquote>
-
-              <p class="font-serif text-sm sm:text-base leading-relaxed opacity-90 mb-4" x-text="s.details"></p>
+              <p class="font-serif text-sm leading-relaxed opacity-85 line-clamp-3 mb-4" x-text="s.curiosityStory || s.details"></p>
             </div>
 
-            <div class="font-sans text-xs opacity-80 pt-3 border-t border-dashed"
+            <div class="pt-3 border-t border-dashed flex items-center justify-between font-sans text-xs"
                  :class="theme === 'night' ? 'border-night-850' : 'border-paper-200'">
-              <strong>Crown Discovery:</strong> <span x-text="s.majorDiscovery"></span>
+              <span class="truncate opacity-75"><strong>Discovery:</strong> <span x-text="s.majorDiscovery"></span></span>
+              <span class="text-amber-700 dark:text-amber-400 font-semibold hover:underline flex-shrink-0 ml-2">Read Story →</span>
             </div>
           </article>
         </template>
@@ -502,8 +712,7 @@
 
     </div>
 
-
-    <!-- ======================================================================= -->
+<!-- ======================================================================= -->
     <!-- VIEW 3: NOBEL ARCHIVE -->
     <!-- ======================================================================= -->
     <div x-show="activeView === 'nobel'" class="space-y-8">
@@ -542,54 +751,264 @@
 
 
     <!-- ======================================================================= -->
-    <!-- VIEW 4: INVENTIONS & DISCOVERIES -->
+    <!-- VIEW 4: INVENTIONS & DISCOVERIES (Timeline & Deep Breakthroughs) -->
     <!-- ======================================================================= -->
     <div x-show="activeView === 'inventions'" class="space-y-8">
       
+      <!-- Header -->
       <div class="border-b pb-6" :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
-        <h2 class="text-3xl font-serif font-medium tracking-tight mb-2">Discoveries and Inventions</h2>
-        <p class="font-serif text-base italic opacity-75">
-          A quiet catalog of tools humanity invented and eternal laws of nature we uncovered.
-        </p>
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+          <div>
+            <h2 class="text-3xl sm:text-4xl font-serif font-medium tracking-tight mb-2">Discoveries and Tools</h2>
+            <p class="font-serif text-base italic opacity-75">
+              A chronological journey through the laws of nature humanity uncovered and the tools we forged.
+            </p>
+          </div>
+
+          <!-- View Mode Toggle -->
+          <div class="flex items-center p-1 rounded-xl border self-start sm:self-auto font-sans text-xs"
+               :class="theme === 'night' ? 'border-night-800 bg-night-900/80' : 'border-paper-200 bg-paper-100/70'">
+            <button 
+              @click="milestoneViewMode = 'story'" 
+              class="px-3 py-1.5 rounded-lg transition-colors flex items-center space-x-1.5"
+              :class="milestoneViewMode === 'story' ? (theme === 'night' ? 'bg-night-800 text-white font-semibold shadow-sm' : 'bg-white text-paper-900 font-semibold shadow-sm') : 'opacity-70 hover:opacity-100'">
+              <span>📖</span>
+              <span>Timeline & Story</span>
+            </button>
+            <button 
+              @click="milestoneViewMode = 'catalog'" 
+              class="px-3 py-1.5 rounded-lg transition-colors flex items-center space-x-1.5"
+              :class="milestoneViewMode === 'catalog' ? (theme === 'night' ? 'bg-night-800 text-white font-semibold shadow-sm' : 'bg-white text-paper-900 font-semibold shadow-sm') : 'opacity-70 hover:opacity-100'">
+              <span>📑</span>
+              <span>Full Catalog (38)</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Filter bar (Category, Search) -->
+        <div class="mt-6 flex flex-wrap items-center gap-3 font-sans text-xs">
+          <!-- Category Pills -->
+          <div class="flex items-center space-x-1.5">
+            <button 
+              @click="milestoneTimelineFilter = 'all'"
+              class="px-3 py-1 rounded-full border transition-colors text-[11px]"
+              :class="milestoneTimelineFilter === 'all' ? (theme === 'night' ? 'bg-night-800 border-indigo-500 text-white font-semibold' : 'bg-paper-200 border-amber-600 text-paper-900 font-semibold') : (theme === 'night' ? 'border-night-800 text-night-300' : 'border-paper-200 text-paper-700')">
+              All Milestones (38)
+            </button>
+            <button 
+              @click="milestoneTimelineFilter = 'discovery'"
+              class="px-3 py-1 rounded-full border transition-colors text-[11px]"
+              :class="milestoneTimelineFilter === 'discovery' ? (theme === 'night' ? 'bg-night-800 border-indigo-500 text-white font-semibold' : 'bg-paper-200 border-amber-600 text-paper-900 font-semibold') : (theme === 'night' ? 'border-night-800 text-night-300' : 'border-paper-200 text-paper-700')">
+              Fundamental Discoveries (20)
+            </button>
+            <button 
+              @click="milestoneTimelineFilter = 'invention'"
+              class="px-3 py-1 rounded-full border transition-colors text-[11px]"
+              :class="milestoneTimelineFilter === 'invention' ? (theme === 'night' ? 'bg-night-800 border-indigo-500 text-white font-semibold' : 'bg-paper-200 border-amber-600 text-paper-900 font-semibold') : (theme === 'night' ? 'border-night-800 text-night-300' : 'border-paper-200 text-paper-700')">
+              Epoch-Making Tools (18)
+            </button>
+          </div>
+
+          <input 
+            type="text" 
+            x-model="milestoneSearchQuery"
+            placeholder="Search milestone or pioneer..." 
+            class="px-3 py-1 rounded-lg border focus:outline-none flex-1 min-w-[140px]"
+            :class="{
+              'bg-paper-100 border-paper-300 text-paper-900': theme === 'sepia',
+              'bg-white border-neutral-300 text-neutral-900': theme === 'light',
+              'bg-night-900 border-night-800 text-night-200': theme === 'night'
+            }">
+        </div>
       </div>
 
-      <!-- Discoveries -->
-      <div>
-        <h3 class="font-sans text-xs font-bold uppercase tracking-wider opacity-60 mb-6">Fundamental Discoveries</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
-          <template x-for="d in (data.discoveries || [])" :key="d.id">
-            <div class="border-b pb-5 font-serif flex flex-col justify-between" :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
+      <!-- TOP INTERACTIVE MILESTONE TIMELINE SCROLLER -->
+      <div class="relative py-2">
+        <div class="flex items-center justify-between text-xs font-sans opacity-60 mb-2">
+          <span class="tracking-wide uppercase font-semibold text-[10px]">Chronological Milestone Track</span>
+          <span x-text="'Showing ' + filteredMilestones.length + ' Milestones'"></span>
+        </div>
+
+        <!-- Horizontal scroll milestone track -->
+        <div class="flex space-x-3 overflow-x-auto pb-4 pt-1 snap-x scrollbar-thin scroll-smooth"
+             :class="theme === 'night' ? 'scrollbar-thumb-night-800' : 'scrollbar-thumb-paper-300'">
+          <template x-for="m in filteredMilestones" :key="m.id">
+            <button 
+              @click="selectMilestone(m.id)"
+              class="flex-shrink-0 text-left p-3.5 rounded-xl border transition-all duration-200 w-56 snap-start flex flex-col justify-between"
+              :class="selectedMilestoneId === m.id ? (theme === 'night' ? 'bg-night-850 border-indigo-400 ring-2 ring-indigo-400/30' : 'bg-paper-100 border-amber-600 ring-2 ring-amber-600/30 shadow-sm') : (theme === 'night' ? 'border-night-800/80 hover:bg-night-900/60 bg-night-950/40' : 'border-paper-200 hover:bg-paper-100/60 bg-paper-50/50')">
+              
               <div>
-                <div class="font-sans text-xs opacity-60 mb-0.5" x-text="d.period + ' • ' + d.field"></div>
-                <h4 class="text-lg font-semibold mb-1" x-text="d.name"></h4>
-                <div class="font-sans text-xs opacity-75 mb-1.5">Pioneered by: <strong x-text="d.discoverer"></strong></div>
+                <div class="flex items-center justify-between text-[10px] font-sans opacity-70 mb-1">
+                  <span class="font-mono font-medium" x-text="m.yearDisplay || m.period || m.year"></span>
+                  <span class="px-1.5 py-0.5 rounded text-[9px] uppercase font-bold"
+                        :class="m.itemType === 'discovery' ? 'text-indigo-600 dark:text-indigo-400 bg-indigo-500/10' : 'text-amber-600 dark:text-amber-400 bg-amber-500/10'"
+                        x-text="m.itemType === 'discovery' ? 'Discovery' : 'Tool'"></span>
+                </div>
+                <div class="font-serif font-bold text-base leading-tight truncate" x-text="m.name"></div>
+                <div class="font-sans text-[11px] opacity-60 truncate mt-0.5" x-text="m.creator"></div>
               </div>
-              <p class="text-sm sm:text-base opacity-85 leading-relaxed mt-2" x-text="d.impact"></p>
-            </div>
+
+              <div class="font-sans text-[10px] opacity-75 pt-2 border-t border-dashed mt-2 line-clamp-1"
+                   :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'"
+                   x-text="m.badge || m.field || m.category"></div>
+            </button>
           </template>
         </div>
       </div>
 
-      <!-- Inventions -->
-      <div class="pt-8 border-t" :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
-        <h3 class="font-sans text-xs font-bold uppercase tracking-wider opacity-60 mb-6">Epoch-Making Inventions</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
-          <template x-for="inv in (data.inventions || [])" :key="inv.id">
-            <div class="border-b pb-5 font-serif flex flex-col justify-between" :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
-              <div>
-                <div class="font-sans text-xs opacity-60 mb-0.5" x-text="inv.year + ' • ' + inv.category"></div>
-                <h4 class="text-lg font-semibold mb-1" x-text="inv.name"></h4>
-                <div class="font-sans text-xs opacity-75 mb-1.5">Invented by: <strong x-text="inv.inventor"></strong></div>
+      <!-- MILESTONE VIEW MODE 1: FEATURED DEEP STORY READER -->
+      <div x-show="milestoneViewMode === 'story' && selectedMilestone" id="milestone-reader-anchor" class="pt-2">
+        <template x-if="selectedMilestone">
+          <article class="p-6 sm:p-10 rounded-2xl border transition-colors relative space-y-8"
+                   :class="theme === 'night' ? 'bg-night-900/40 border-night-800' : 'bg-paper-100/40 border-paper-200'">
+            
+            <!-- Top Controls Bar -->
+            <div class="flex flex-wrap items-center justify-between gap-4 border-b pb-4"
+                 :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
+              
+              <div class="flex items-center space-x-2 font-sans text-xs">
+                <span class="px-2.5 py-0.5 rounded-full font-mono font-medium border"
+                      :class="theme === 'night' ? 'border-night-700 bg-night-800 text-night-200' : 'border-paper-300 bg-paper-200 text-paper-800'"
+                      x-text="selectedMilestone.yearDisplay || selectedMilestone.period || selectedMilestone.year"></span>
+                <span class="px-2.5 py-0.5 rounded-full font-sans text-[10px] font-bold uppercase tracking-wider"
+                      :class="selectedMilestone.itemType === 'discovery' ? 'bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 border border-indigo-500/30' : 'bg-amber-500/10 text-amber-600 dark:text-amber-400 border border-amber-500/30'"
+                      x-text="selectedMilestone.typeLabel"></span>
+                <span class="opacity-60 font-sans" x-text="'Pioneered by ' + selectedMilestone.creator"></span>
               </div>
-              <p class="text-sm sm:text-base opacity-85 leading-relaxed mt-2" x-text="inv.significance"></p>
+
+              <!-- Audio Narration & Prev/Next -->
+              <div class="flex items-center space-x-2 font-sans text-xs">
+                <button 
+                  @click="toggleNarrateMilestone(selectedMilestone)"
+                  class="px-3 py-1.5 rounded-lg border font-semibold flex items-center space-x-1.5 transition-all"
+                  :class="isNarrating && currentNarratingSection === ('milestone_' + selectedMilestone.id) ? 'bg-amber-600 text-white border-amber-600 shadow-sm animate-pulse' : (theme === 'night' ? 'border-night-700 text-night-200 hover:bg-night-800' : 'border-paper-300 text-paper-800 hover:bg-paper-200')">
+                  <span x-text="isNarrating && currentNarratingSection === ('milestone_' + selectedMilestone.id) ? '⏹' : '🔊'"></span>
+                  <span x-text="isNarrating && currentNarratingSection === ('milestone_' + selectedMilestone.id) ? 'Stop Voice' : 'Read Milestone'"></span>
+                </button>
+
+                <div class="flex items-center space-x-1">
+                  <button 
+                    @click="selectPreviousMilestone()"
+                    class="p-1.5 rounded-lg border transition-colors hover:opacity-100 opacity-70"
+                    :class="theme === 'night' ? 'border-night-700 text-night-200 hover:bg-night-800' : 'border-paper-300 text-paper-800 hover:bg-paper-200'"
+                    title="Previous Milestone">
+                    ←
+                  </button>
+                  <button 
+                    @click="selectNextMilestone()"
+                    class="p-1.5 rounded-lg border transition-colors hover:opacity-100 opacity-70"
+                    :class="theme === 'night' ? 'border-night-700 text-night-200 hover:bg-night-800' : 'border-paper-300 text-paper-800 hover:bg-paper-200'"
+                    title="Next Milestone">
+                    →
+                  </button>
+                </div>
+              </div>
             </div>
-          </template>
-        </div>
+
+            <!-- Title -->
+            <div>
+              <h3 class="text-3xl sm:text-5xl font-serif font-bold tracking-tight mb-2" x-text="selectedMilestone.name"></h3>
+              <div class="font-sans text-sm opacity-75" x-text="(selectedMilestone.field || selectedMilestone.category) + ' • ' + selectedMilestone.creator"></div>
+            </div>
+
+            <!-- Four Deep Narrative Stages -->
+            <div class="space-y-8 font-serif leading-relaxed text-base sm:text-lg opacity-90">
+              
+              <div class="space-y-2">
+                <div class="flex items-center space-x-2 font-sans text-xs font-bold uppercase tracking-wider text-amber-700 dark:text-amber-400">
+                  <span>🌑</span>
+                  <span>The World Before: The Ancient Predicament</span>
+                </div>
+                <p class="pl-0 sm:pl-6 leading-[1.85]" x-text="selectedMilestone.theWorldBefore"></p>
+              </div>
+
+              <div class="flex justify-center opacity-25 text-xs">❦</div>
+
+              <div class="space-y-2">
+                <div class="flex items-center space-x-2 font-sans text-xs font-bold uppercase tracking-wider text-amber-700 dark:text-amber-400">
+                  <span>⚡</span>
+                  <span>The Curious Spark & The Breakthrough Moment</span>
+                </div>
+                <p class="pl-0 sm:pl-6 leading-[1.85]" x-text="selectedMilestone.curiositySpark"></p>
+              </div>
+
+              <div class="flex justify-center opacity-25 text-xs">❦</div>
+
+              <div class="space-y-2">
+                <div class="flex items-center space-x-2 font-sans text-xs font-bold uppercase tracking-wider text-amber-700 dark:text-amber-400">
+                  <span>⚙️</span>
+                  <span>How It Actually Works: First Principles</span>
+                </div>
+                <p class="pl-0 sm:pl-6 leading-[1.85]" x-text="selectedMilestone.howItWorks"></p>
+              </div>
+
+              <div class="flex justify-center opacity-25 text-xs">❦</div>
+
+              <div class="space-y-2">
+                <div class="flex items-center space-x-2 font-sans text-xs font-bold uppercase tracking-wider text-amber-700 dark:text-amber-400">
+                  <span>🚀</span>
+                  <span>The Civilizational Leap: Eternal Human Legacy</span>
+                </div>
+                <p class="pl-0 sm:pl-6 leading-[1.85]" x-text="selectedMilestone.civilizationalLeap || selectedMilestone.impact || selectedMilestone.significance"></p>
+              </div>
+
+            </div>
+
+            <!-- Footer Navigation -->
+            <div class="pt-6 border-t flex items-center justify-between font-sans text-xs font-semibold"
+                 :class="theme === 'night' ? 'border-night-800' : 'border-paper-200'">
+              <button 
+                @click="selectPreviousMilestone()"
+                class="hover:underline flex items-center space-x-1 py-1">
+                <span>← Previous Milestone</span>
+              </button>
+
+              <button 
+                @click="selectNextMilestone()"
+                class="hover:underline flex items-center space-x-1 py-1">
+                <span>Next Milestone →</span>
+              </button>
+            </div>
+
+          </article>
+        </template>
+      </div>
+
+      <!-- MILESTONE VIEW MODE 2: ALL MILESTONES CATALOG -->
+      <div x-show="milestoneViewMode === 'catalog'" class="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-8 pt-4">
+        <template x-for="m in filteredMilestones" :key="m.id">
+          <article 
+            @click="selectMilestone(m.id)"
+            class="p-6 rounded-xl border transition-all cursor-pointer flex flex-col justify-between hover:shadow-md"
+            :class="theme === 'night' ? 'border-night-800/80 bg-night-900/30 hover:border-indigo-400/50' : 'border-paper-200 bg-paper-100/30 hover:border-amber-600/50'">
+            
+            <div>
+              <div class="flex items-center justify-between font-sans text-xs opacity-60 mb-1.5">
+                <span class="font-mono font-medium" x-text="m.yearDisplay || m.period || m.year"></span>
+                <span class="px-2 py-0.5 rounded text-[10px] uppercase font-bold"
+                      :class="m.itemType === 'discovery' ? 'text-indigo-600 dark:text-indigo-400 bg-indigo-500/10' : 'text-amber-600 dark:text-amber-400 bg-amber-500/10'"
+                      x-text="m.itemType === 'discovery' ? 'Discovery' : 'Tool'"></span>
+              </div>
+
+              <h4 class="text-xl font-serif font-bold mb-1" x-text="m.name"></h4>
+              <div class="font-sans text-xs opacity-75 mb-3" x-text="'Pioneered by: ' + m.creator"></div>
+
+              <p class="font-serif text-sm leading-relaxed opacity-85 line-clamp-3 mb-4" x-text="m.curiositySpark || m.impact || m.significance"></p>
+            </div>
+
+            <div class="pt-3 border-t border-dashed flex items-center justify-between font-sans text-xs"
+                 :class="theme === 'night' ? 'border-night-850' : 'border-paper-200'">
+              <span class="opacity-75" x-text="m.badge || m.field || m.category"></span>
+              <span class="text-amber-700 dark:text-amber-400 font-semibold hover:underline">Read Story →</span>
+            </div>
+          </article>
+        </template>
       </div>
 
     </div>
 
-  </main>
+</main>
 
   <!-- Quiet Literary Footer -->
   <footer class="border-t py-12 transition-colors font-serif text-center text-xs opacity-60 mt-auto"

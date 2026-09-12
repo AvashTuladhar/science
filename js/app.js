@@ -6,20 +6,30 @@ function scienceApp() {
     // Active chapter selection
     selectedChapterId: 'ch1',
     
-    // Visual toggles for distraction-free reading
-    activeView: 'book', // 'book', 'giants', 'nobel', 'inventions', 'quiz'
+    // Visual views: 'book' (chapters), 'giants' (pioneers), 'nobel' (archive), 'inventions' (discoveries & tools)
+    activeView: 'book',
     fontSizeIndex: 1, // 0: standard, 1: comfortable (19px), 2: large book (22px)
     fontSizes: ['text-base leading-relaxed', 'text-[19px] leading-[1.85]', 'text-[22px] leading-[1.95]'],
     
     // Chapter sidebar drawer
     drawerOpen: false,
     
-    // Modal state for scientist biography
-    selectedScientist: null,
-    
-    // Search / Filter inside compendium
+    // =========================================================================
+    // PIONEERS TIMELINE & DEEP READER STATE
+    // =========================================================================
+    selectedScientistId: 'archimedes',
+    pioneerTimelineFilter: 'all', // 'all', 'ancient', 'medieval', 'renaissance', 'enlightenment', 'industrial', 'modern', 'contemporary'
+    pioneerViewMode: 'story', // 'story' (timeline + deep reading) or 'gallery' (compact cards index)
     searchQuery: '',
     scientistFilter: 'all',
+
+    // =========================================================================
+    // DISCOVERIES & INVENTIONS TIMELINE STATE
+    // =========================================================================
+    selectedMilestoneId: 'disc_fire',
+    milestoneTimelineFilter: 'all', // 'all', 'discovery', 'invention'
+    milestoneViewMode: 'story', // 'story' (timeline + deep reading) or 'catalog' (compact list)
+    milestoneSearchQuery: '',
     
     // Data store loaded immediately from window.SCIENCE_DATA or fallback fetch
     data: (window.SCIENCE_DATA && window.SCIENCE_DATA.chapters) ? window.SCIENCE_DATA : {
@@ -80,17 +90,138 @@ function scienceApp() {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     },
 
-    openScientist(s) {
-      this.selectedScientist = s;
+    // =========================================================================
+    // PIONEERS LOGIC & COMPUTED PROPERTIES
+    // =========================================================================
+    get pioneerTimelineList() {
+      const list = (this.data.scientists || []).slice();
+      return list.sort((a, b) => (a.sortYear || 0) - (b.sortYear || 0));
     },
 
-    // ==========================================
+    get filteredScientists() {
+      let list = this.pioneerTimelineList;
+      const q = this.searchQuery.toLowerCase().trim();
+      if (q) {
+        list = list.filter(s =>
+          s.name.toLowerCase().includes(q) ||
+          (s.country && s.country.toLowerCase().includes(q)) ||
+          (s.majorDiscovery && s.majorDiscovery.toLowerCase().includes(q)) ||
+          (s.fields && s.fields.some(f => f.toLowerCase().includes(q)))
+        );
+      }
+      if (this.scientistFilter !== 'all') {
+        list = list.filter(s => s.fields && s.fields.some(f => f.toLowerCase().includes(this.scientistFilter.toLowerCase())));
+      }
+      if (this.pioneerTimelineFilter !== 'all') {
+        list = list.filter(s => s.periodGroup === this.pioneerTimelineFilter);
+      }
+      return list;
+    },
+
+    get selectedScientist() {
+      const scientists = this.data.scientists || [];
+      if (scientists.length === 0) return null;
+      const found = scientists.find(s => s.id === this.selectedScientistId);
+      return found || scientists[0];
+    },
+
+    selectScientist(id) {
+      this.selectedScientistId = id;
+      this.pioneerViewMode = 'story';
+      const el = document.getElementById('pioneer-reader-anchor');
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    },
+
+    selectPreviousScientist() {
+      const list = this.pioneerTimelineList;
+      const idx = list.findIndex(s => s.id === this.selectedScientistId);
+      if (idx > 0) {
+        this.selectScientist(list[idx - 1].id);
+      }
+    },
+
+    selectNextScientist() {
+      const list = this.pioneerTimelineList;
+      const idx = list.findIndex(s => s.id === this.selectedScientistId);
+      if (idx >= 0 && idx < list.length - 1) {
+        this.selectScientist(list[idx + 1].id);
+      }
+    },
+
+    // =========================================================================
+    // DISCOVERIES & INVENTIONS LOGIC
+    // =========================================================================
+    get allMilestones() {
+      const discs = (this.data.discoveries || []).map(d => ({
+        ...d,
+        itemType: 'discovery',
+        typeLabel: 'Fundamental Discovery'
+      }));
+      const invs = (this.data.inventions || []).map(i => ({
+        ...i,
+        itemType: 'invention',
+        typeLabel: 'Epoch-Making Tool'
+      }));
+      const combined = [...discs, ...invs];
+      return combined.sort((a, b) => (a.sortYear || 0) - (b.sortYear || 0));
+    },
+
+    get filteredMilestones() {
+      let list = this.allMilestones;
+      if (this.milestoneTimelineFilter === 'discovery') {
+        list = list.filter(m => m.itemType === 'discovery');
+      } else if (this.milestoneTimelineFilter === 'invention') {
+        list = list.filter(m => m.itemType === 'invention');
+      }
+      const q = this.milestoneSearchQuery.toLowerCase().trim();
+      if (q) {
+        list = list.filter(m =>
+          m.name.toLowerCase().includes(q) ||
+          (m.creator && m.creator.toLowerCase().includes(q)) ||
+          (m.field && m.field.toLowerCase().includes(q)) ||
+          (m.category && m.category.toLowerCase().includes(q))
+        );
+      }
+      return list;
+    },
+
+    get selectedMilestone() {
+      const list = this.allMilestones;
+      if (list.length === 0) return null;
+      const found = list.find(m => m.id === this.selectedMilestoneId);
+      return found || list[0];
+    },
+
+    selectMilestone(id) {
+      this.selectedMilestoneId = id;
+      this.milestoneViewMode = 'story';
+      const el = document.getElementById('milestone-reader-anchor');
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    },
+
+    selectPreviousMilestone() {
+      const list = this.allMilestones;
+      const idx = list.findIndex(m => m.id === this.selectedMilestoneId);
+      if (idx > 0) {
+        this.selectMilestone(list[idx - 1].id);
+      }
+    },
+
+    selectNextMilestone() {
+      const list = this.allMilestones;
+      const idx = list.findIndex(m => m.id === this.selectedMilestoneId);
+      if (idx >= 0 && idx < list.length - 1) {
+        this.selectMilestone(list[idx + 1].id);
+      }
+    },
+
+    // =========================================================================
     // AUDIO VOICE OVER / NARRATOR (Web Speech API)
-    // ==========================================
+    // =========================================================================
     isNarrating: false,
     isPaused: false,
     currentNarratingSection: null,
-    speechRate: 1.0, // 0.85, 1.0, 1.2
+    speechRate: 1.0,
     synth: ('speechSynthesis' in window) ? window.speechSynthesis : null,
     availableVoices: [],
     selectedVoice: null,
@@ -101,7 +232,6 @@ function scienceApp() {
         const voices = this.synth.getVoices();
         if (voices.length > 0) {
           this.availableVoices = voices.filter(v => v.lang.startsWith('en'));
-          // Prefer natural/enhanced English voices if available (e.g. Samantha, Daniel, Google, Natural)
           this.selectedVoice = this.availableVoices.find(v => 
             v.name.includes('Natural') || v.name.includes('Premium') || v.name.includes('Samantha') || v.name.includes('Daniel')
           ) || this.availableVoices[0] || voices[0];
@@ -129,7 +259,6 @@ function scienceApp() {
       this.isNarrating = true;
       this.isPaused = false;
 
-      // Clean text for natural reading flow
       const textToRead = sec.title + '. ' + (sec.subtitle ? sec.subtitle + '. ' : '') + sec.paragraphs.join(' ');
       const utterance = new SpeechSynthesisUtterance(textToRead);
       if (this.selectedVoice) utterance.voice = this.selectedVoice;
@@ -195,15 +324,90 @@ function scienceApp() {
       this.synth.speak(utterance);
     },
 
-    pauseResumeNarration() {
-      if (!this.synth) return;
-      if (this.synth.paused) {
-        this.synth.resume();
-        this.isPaused = false;
-      } else if (this.synth.speaking) {
-        this.synth.pause();
-        this.isPaused = true;
+    toggleNarrateScientist(s) {
+      if (!this.synth) {
+        alert('Your browser does not support text-to-speech audio.');
+        return;
       }
+
+      const key = 'scientist_' + s.id;
+      if (this.isNarrating && this.currentNarratingSection === key) {
+        this.stopNarration();
+        return;
+      }
+
+      this.stopNarration();
+      this.currentNarratingSection = key;
+      this.isNarrating = true;
+      this.isPaused = false;
+
+      const storyText = s.name + ', ' + s.era + '. ' +
+        'The Wellspring of Curiosity: ' + (s.curiosityStory || s.details) + ' ' +
+        'The Moment of Inspiration: ' + (s.inspirationMoment || '') + ' ' +
+        'How It Was Done: ' + (s.howTheyDidIt || '') + ' ' +
+        'The Lasting Wonder: ' + (s.fascinatingImpact || '');
+
+      const utterance = new SpeechSynthesisUtterance(storyText);
+      if (this.selectedVoice) utterance.voice = this.selectedVoice;
+      utterance.rate = this.speechRate;
+      utterance.pitch = 1.0;
+
+      utterance.onend = () => {
+        this.isNarrating = false;
+        this.isPaused = false;
+        this.currentNarratingSection = null;
+      };
+
+      utterance.onerror = () => {
+        this.isNarrating = false;
+        this.isPaused = false;
+        this.currentNarratingSection = null;
+      };
+
+      this.synth.speak(utterance);
+    },
+
+    toggleNarrateMilestone(m) {
+      if (!this.synth) {
+        alert('Your browser does not support text-to-speech audio.');
+        return;
+      }
+
+      const key = 'milestone_' + m.id;
+      if (this.isNarrating && this.currentNarratingSection === key) {
+        this.stopNarration();
+        return;
+      }
+
+      this.stopNarration();
+      this.currentNarratingSection = key;
+      this.isNarrating = true;
+      this.isPaused = false;
+
+      const textToRead = m.name + ', ' + (m.yearDisplay || m.period || m.year) + '. ' +
+        'The World Before: ' + (m.theWorldBefore || '') + ' ' +
+        'The Curious Spark: ' + (m.curiositySpark || '') + ' ' +
+        'How It Works: ' + (m.howItWorks || '') + ' ' +
+        'The Civilizational Leap: ' + (m.civilizationalLeap || m.impact || m.significance || '');
+
+      const utterance = new SpeechSynthesisUtterance(textToRead);
+      if (this.selectedVoice) utterance.voice = this.selectedVoice;
+      utterance.rate = this.speechRate;
+      utterance.pitch = 1.0;
+
+      utterance.onend = () => {
+        this.isNarrating = false;
+        this.isPaused = false;
+        this.currentNarratingSection = null;
+      };
+
+      utterance.onerror = () => {
+        this.isNarrating = false;
+        this.isPaused = false;
+        this.currentNarratingSection = null;
+      };
+
+      this.synth.speak(utterance);
     },
 
     stopNarration() {
@@ -219,33 +423,19 @@ function scienceApp() {
       const rates = [0.9, 1.0, 1.25];
       const nextIdx = (rates.indexOf(this.speechRate) + 1) % rates.length;
       this.speechRate = rates[nextIdx];
-      // If currently narrating, restart with new rate
       if (this.isNarrating) {
         const activeId = this.currentNarratingSection;
         if (activeId === 'entire_chapter') {
           this.toggleNarrateChapter();
+        } else if (activeId && activeId.startsWith('scientist_')) {
+          if (this.selectedScientist) this.toggleNarrateScientist(this.selectedScientist);
+        } else if (activeId && activeId.startsWith('milestone_')) {
+          if (this.selectedMilestone) this.toggleNarrateMilestone(this.selectedMilestone);
         } else {
           const sec = (this.currentChapter?.bookSections || []).find(s => s.id === activeId);
           if (sec) this.toggleNarrateSection(sec);
         }
       }
-    },
-
-    get filteredScientists() {
-      let list = this.data.scientists || [];
-      const q = this.searchQuery.toLowerCase().trim();
-      if (q) {
-        list = list.filter(s =>
-          s.name.toLowerCase().includes(q) ||
-          s.country.toLowerCase().includes(q) ||
-          s.majorDiscovery.toLowerCase().includes(q) ||
-          (s.fields && s.fields.some(f => f.toLowerCase().includes(q)))
-        );
-      }
-      if (this.scientistFilter !== 'all') {
-        list = list.filter(s => s.fields && s.fields.some(f => f.toLowerCase().includes(this.scientistFilter.toLowerCase())));
-      }
-      return list;
     }
   };
 }

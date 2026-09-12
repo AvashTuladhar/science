@@ -570,7 +570,13 @@
       "famousQuote": "Give me a lever long enough and a fulcrum on which to place it, and I shall move the world.",
       "nobelPrize": null,
       "majorDiscovery": "Hydrostatic buoyancy ('Eureka!'), geometrical calculus foundations, lever mechanics",
-      "details": "The greatest mathematician and mechanical engineer of antiquity. When King Hiero II of Syracuse suspected a goldsmith had stolen gold from a votive crown and replaced it with cheaper silver, he asked Archimedes to prove it without damaging the crown. While stepping into a brimful public bath, Archimedes noticed water sloshing over the sides. He realized that an object displaces its exact volume of water—enabling him to measure the crown's density against pure gold. He famously leaped out and ran naked through Syracuse shouting 'Eureka!' ('I have found it!'). He proved the law of the lever ('Give me a lever long enough, and I will move the world'), calculated pi with polygons, and built defensive siege cranes that lifted Roman warships out of the sea."
+      "details": "The greatest mathematician and mechanical engineer of antiquity. When King Hiero II of Syracuse suspected a goldsmith had stolen gold from a votive crown and replaced it with cheaper silver, he asked Archimedes to prove it without damaging the crown. While stepping into a brimful public bath, Archimedes noticed water sloshing over the sides. He realized that an object displaces its exact volume of water—enabling him to measure the crown's density against pure gold. He famously leaped out and ran naked through Syracuse shouting 'Eureka!' ('I have found it!'). He proved the law of the lever ('Give me a lever long enough, and I will move the world'), calculated pi with polygons, and built defensive siege cranes that lifted Roman warships out of the sea.",
+      "curiosityStory": "Growing up in Syracuse, Sicily, Archimedes was so captivated by geometry that he would forget to eat or bathe for days. Legend says he would trace circles with a stick in the fireplace ashes and draw geometric proofs on his olive-oil-anointed skin with his fingernails. He possessed a relentless instinct to test whether nature's physical laws could be pinned down with absolute mathematical certainty.",
+      "inspirationMoment": "King Hiero II had provided a goldsmith with a weighed lump of pure gold to forge a votive crown for the gods. Suspecting the artisan had secretly pocketed gold and substituted cheaper silver, the king challenged Archimedes to detect the fraud without damaging the crown. The dilemma seemed insoluble until Archimedes stepped into a brimful public bath and noticed water sloshing over the stone rim. In a flash of sublime clarity, he realized that his submerged body displaced a volume of water exactly equal to its own bulk.",
+      "howTheyDidIt": "Screaming 'Eureka!' ('I have found it!'), he sprinted home naked through the streets of Syracuse. Archimedes submerged an equal weight of pure gold and measured the displaced water, then repeated the test with pure silver (which, being less dense, displaced more water). When he immersed King Hiero's crown, it displaced more water than pure gold—conclusively exposing the goldsmith's crime. He went on to formulate the mathematical law of buoyancy, the mechanics of the lever ('Give me a lever long enough and a fulcrum on which to place it, and I shall move the world'), and calculated pi using 96-sided inscribed polygons.",
+      "fascinatingImpact": "Archimedes showed that nature does not negotiate: its materials possess fixed physical densities and mathematical laws that cannot be forged by kings or artisans. His work laid the foundations for hydrostatics, calculus, and engineering 1,800 years before Newton.",
+      "sortYear": -250,
+      "yearDisplay": "c. 250 BCE"
     },
     {
       "id": "eratosthenes",
@@ -587,7 +593,13 @@
       "famousQuote": "Curiosity and geometry together can measure a world.",
       "nobelPrize": null,
       "majorDiscovery": "Circumference and tilt of the Earth using sun shadows",
-      "details": "Chief librarian of the Great Library of Alexandria, mathematician, and geographer. Known to his peers as 'Beta' because he was second best in the world at almost everything. Hearing that sunlight shone directly down to the bottom of a deep water well in Syene (Aswan) on the summer solstice, he wondered what happened in Alexandria hundreds of miles to the north. Planting a simple vertical stick (gnomon), he measured a 7.2-degree shadow angle. Deducing that the Earth must be curved, he hired surveyors to pace the distance and calculated the planet's circumference to within 1% of modern satellite measurements—2,200 years before humanity entered space."
+      "details": "Chief librarian of the Great Library of Alexandria, mathematician, and geographer. Known to his peers as 'Beta' because he was second best in the world at almost everything. Hearing that sunlight shone directly down to the bottom of a deep water well in Syene (Aswan) on the summer solstice, he wondered what happened in Alexandria hundreds of miles to the north. Planting a simple vertical stick (gnomon), he measured a 7.2-degree shadow angle. Deducing that the Earth must be curved, he hired surveyors to pace the distance and calculated the planet's circumference to within 1% of modern satellite measurements—2,200 years before humanity entered space.",
+      "curiosityStory": "Serving as the third chief librarian of the Great Library of Alexandria, Eratosthenes had the entire recorded knowledge of the ancient Mediterranean at his fingertips. His peers called him 'Beta' (the second letter of the Greek alphabet) because he was second-best in the world at almost everything: astronomy, mathematics, poetry, geography, and philosophy. But his polymathic curiosity allowed him to connect dots that specialists missed.",
+      "inspirationMoment": "While reading a papyrus scroll, he encountered a curious report from the southern outpost of Syene (modern Aswan): on the summer solstice at high noon, the sun shone straight down into the deepest water well without casting a shadow, and vertical pillars cast zero shade. Eratosthenes asked a deceptively simple question: If the sun is directly overhead in Syene, what happens at the exact same moment in Alexandria, 800 kilometers to the north?",
+      "howTheyDidIt": "On the next summer solstice at solar noon, he planted a simple vertical wooden stick (gnomon) in the ground in Alexandria. The stick cast a distinct shadow. Measuring the angle between the stick and the sun's rays, he found it was 7.2 degrees—exactly 1/50th of a complete 360-degree circle. Eratosthenes realized that if the Earth were flat, both sticks would cast identical shadows; the shadow difference proved the planet's surface was curved! He hired professional pacers (bematists) to measure the distance between Syene and Alexandria (approx. 5,000 stadia). Multiplying by 50, he calculated Earth's circumference to within 1% of modern satellite measurements—2,200 years before human spaceflight.",
+      "fascinatingImpact": "With nothing more than a stick, a shadow, a camel pace count, and elementary high school geometry, a thinker in sandals measured the scale of an entire planet. It stands as one of the most stunning triumphs of pure human intellect in history.",
+      "sortYear": -240,
+      "yearDisplay": "c. 240 BCE"
     },
     {
       "id": "zhang_heng",
@@ -605,7 +617,13 @@
       "famousQuote": "The sky is like a hen's egg, and the earth is like the yolk.",
       "nobelPrize": null,
       "majorDiscovery": "Invention of the seismoscope (Houfeng Didong Yi) detecting earthquakes hundreds of kilometers away",
-      "details": "Han Dynasty polymath, astronomer, and chief astrologer. In 132 CE, Zhang Heng invented the Houfeng Didong Yi—the world's first seismometer. The bronze urn was decorated with eight dragons holding bronze balls in their mouths, facing the eight compass directions. When an earthquake occurred hundreds of miles away, an internal pendulum tripped a lever, dropping a bronze ball into the mouth of a bronze toad below with a loud clang. Once, when a ball dropped with no felt shaking in the capital, courtiers scoffed; days later, an exhausted rider arrived reporting an earthquake 400 miles away in Gansu."
+      "details": "Han Dynasty polymath, astronomer, and chief astrologer. In 132 CE, Zhang Heng invented the Houfeng Didong Yi—the world's first seismometer. The bronze urn was decorated with eight dragons holding bronze balls in their mouths, facing the eight compass directions. When an earthquake occurred hundreds of miles away, an internal pendulum tripped a lever, dropping a bronze ball into the mouth of a bronze toad below with a loud clang. Once, when a ball dropped with no felt shaking in the capital, courtiers scoffed; days later, an exhausted rider arrived reporting an earthquake 400 miles away in Gansu.",
+      "curiosityStory": "A court astronomer, mathematician, and poet of the Eastern Han Dynasty, Zhang Heng possessed an engineering mind that sought mechanical order in heaven and earth. In an era when courtiers attributed natural disasters to the displeasure of ancestors or spirits, Zhang Heng observed earthquakes with cold, analytical objectivity, determined to map their physical origin.",
+      "inspirationMoment": "China was plagued by devastating earthquakes that flattened distant provinces, but news traveled by horseback messengers taking weeks to reach the imperial capital in Luoyang. Zhang Heng wondered if the earth tremor itself could be harnessed to trigger an instant mechanical warning device before any human messenger could saddle a horse.",
+      "howTheyDidIt": "In 132 CE, he invented the Houfeng Didong Yi ('instrument for measuring seasonal winds and earth tremors'). The device was a colossal bronze urn eight feet across, adorned with eight outward-facing dragons holding bronze balls in their jaws, positioned above eight bronze toads with open mouths. Inside the urn hung an inverted pendulum connected to eight internal levers. When an earthquake struck hundreds of miles away, the shockwave swung the pendulum, tripping a delicate lever that caused the corresponding dragon to drop its bronze ball into the toad's mouth with a loud clang! In 138 CE, a dragon dropped its ball facing west, though no one in the capital felt shaking. Days later, a courier arrived confirming a major earthquake in Longxi (modern Gansu), 500 kilometers away.",
+      "fascinatingImpact": "Zhang Heng created the world's first seismograph 1,600 years before modern European instruments. He demonstrated that invisible energy propagates through solid rock and can be captured by human ingenuity.",
+      "sortYear": 132,
+      "yearDisplay": "132 CE"
     },
     {
       "id": "aryabhata",
@@ -621,7 +639,13 @@
       "famousQuote": "Just as a man in a boat going forward sees motionless objects moving backward, so people see the stars moving west.",
       "nobelPrize": null,
       "majorDiscovery": "Earth's diurnal rotation, correct astronomical mechanics of solar and lunar eclipses",
-      "details": "Master mathematician and astronomer of India's Golden Age in Patliputra (Patna). At just 23, he composed the Aryabhatiya. Centuries before Copernicus, Aryabhata deduced that the Earth is spherical and rotates on its axis daily, explaining that the apparent westward drift of constellations is an optical illusion, much like trees seeming to rush backward when traveling on a riverboat. He explained solar and lunar eclipses as shadows cast by the Earth and Moon, computed pi to four decimal places (3.1416), and introduced trigonometry foundations that spread across the Islamic world to Europe."
+      "details": "Master mathematician and astronomer of India's Golden Age in Patliputra (Patna). At just 23, he composed the Aryabhatiya. Centuries before Copernicus, Aryabhata deduced that the Earth is spherical and rotates on its axis daily, explaining that the apparent westward drift of constellations is an optical illusion, much like trees seeming to rush backward when traveling on a riverboat. He explained solar and lunar eclipses as shadows cast by the Earth and Moon, computed pi to four decimal places (3.1416), and introduced trigonometry foundations that spread across the Islamic world to Europe.",
+      "curiosityStory": "Living in Kusumapura (modern Patna, India), Aryabhata composed his monumental treatise Aryabhatiya in 499 CE when he was just 23 years old. He possessed a fearless mathematical clarity, refusing to accept mythological stories that eclipses were caused by the demon Rahu swallowing the Sun and Moon.",
+      "inspirationMoment": "While traveling on a boat along the Ganges River, Aryabhata observed the riverbank with sharp awareness. He noted that as the boat moved smoothly forward, the stationary trees and hills appeared to be gliding backward in the opposite direction. He asked: Could the apparent rotation of the starry night sky be identical?",
+      "howTheyDidIt": "He boldly postulated that the Earth is a sphere that rotates daily on its own axis from west to east, creating the optical illusion that the heavens revolve around us. He calculated the Earth's circumference as 39,968 km (within 0.2% of modern value: 40,075 km), approximated pi to four decimal places (3.1416), formulated sine tables, and proved that solar and lunar eclipses are simply shadows cast by the Earth and Moon.",
+      "fascinatingImpact": "Over a millennium before Copernicus and Galileo, Aryabhata used relativity of motion on a riverboat to deduce that our planet spins through space, transforming Indian astronomy into a predictive, rational science.",
+      "sortYear": 499,
+      "yearDisplay": "499 CE"
     },
     {
       "id": "al_khwarizmi",
@@ -638,7 +662,13 @@
       "famousQuote": "Numbers are the keys to open the locks of the universe.",
       "nobelPrize": null,
       "majorDiscovery": "Systematic algebraic equation solving and algorithm foundations",
-      "details": "Persian polymath and chief astronomer at the House of Wisdom in 9th-century Baghdad. He synthesized Indian and Greek mathematics, introducing Hindu-Arabic numerals (0–9) to the Western world. His masterwork 'Al-Kitāb al-mukhtaṣar fī ḥisāb al-jabr wal-muqābala' gave humanity the word 'Algebra' (al-jabr, meaning 'reunion of broken parts'). His latinized name gave us the word 'Algorithm'. Without his systematization of symbolic calculation and zero, modern computing and physics would be impossible."
+      "details": "Persian polymath and chief astronomer at the House of Wisdom in 9th-century Baghdad. He synthesized Indian and Greek mathematics, introducing Hindu-Arabic numerals (0–9) to the Western world. His masterwork 'Al-Kitāb al-mukhtaṣar fī ḥisāb al-jabr wal-muqābala' gave humanity the word 'Algebra' (al-jabr, meaning 'reunion of broken parts'). His latinized name gave us the word 'Algorithm'. Without his systematization of symbolic calculation and zero, modern computing and physics would be impossible.",
+      "curiosityStory": "Working in the grand House of Wisdom (Bayt al-Hikma) in Baghdad under Caliph Al-Ma'mun, Al-Khwarizmi was surrounded by ancient Greek, Persian, and Sanskrit manuscripts. His driving passion was practical mathematics: how to resolve messy real-world dilemmas like Islamic inheritance shares, trade profits, land surveying, and canal construction without endless arithmetic confusion.",
+      "inspirationMoment": "He realized that all verbal math problems—no matter how tangled—could be treated as balance scales. If you have an unknown quantity, you can add or subtract equal amounts to both sides until the unknown stands alone in crystalline simplicity.",
+      "howTheyDidIt": "He wrote 'Kitab al-Jabr wa-l-Muqabala' ('The Compendious Book on Calculation by Completion and Balancing'). The Arabic term 'al-jabr' (reunion of broken parts) gave humanity the word 'Algebra.' Furthermore, his Latinized name 'Algoritmi' gave us the word 'Algorithm.' He introduced the Hindu decimal numeral system (0 through 9) to the Islamic world and Europe, showing that zero wasn't just 'nothing', but a revolutionary placeholder that made complex calculation effortless.",
+      "fascinatingImpact": "Al-Khwarizmi laid the structural foundation of modern symbolic mathematics and computer code. Every calculation performed by every smartphone, satellite, and supercomputer today traces directly back to his algorithms.",
+      "sortYear": 820,
+      "yearDisplay": "c. 820 CE"
     },
     {
       "id": "alhazen",
@@ -656,7 +686,13 @@
       "famousQuote": "The duty of the man who investigates the writings of scientists, if learning the truth is his goal, is to make himself an enemy of all that he reads, and attack it from every side.",
       "nobelPrize": null,
       "majorDiscovery": "Ray theory of vision, laws of reflection and refraction, empirical scientific method",
-      "details": "Abu Ali al-Hasan ibn al-Haytham of Basra, pioneer of optics and father of the experimental method. Under house arrest in Cairo for a decade after feigning madness to escape a tyrannical Caliph, he darkened his room and cut a pinhole in the shutter (camera obscura). He proved through rigorous ray-tracing that light reflects off objects into our eyes, overturning the 1,500-year Greek dogma of emission theory. He declared that a true scientist must question all ancient writings and submit every hypothesis to physical experiment."
+      "details": "Abu Ali al-Hasan ibn al-Haytham of Basra, pioneer of optics and father of the experimental method. Under house arrest in Cairo for a decade after feigning madness to escape a tyrannical Caliph, he darkened his room and cut a pinhole in the shutter (camera obscura). He proved through rigorous ray-tracing that light reflects off objects into our eyes, overturning the 1,500-year Greek dogma of emission theory. He declared that a true scientist must question all ancient writings and submit every hypothesis to physical experiment.",
+      "curiosityStory": "Born in Basra, Ibn al-Haytham was a brilliant mathematician who boasted to the Fatimid Caliph Al-Hakim that he could build a dam across the Nile River to control its seasonal floods. Upon surveying the cataracts of Aswan, he realized the task was impossible with available technology. Terrified of the Caliph's wrath, he feigned madness to escape execution and was placed under house arrest in Cairo for a full decade.",
+      "inspirationMoment": "Locked in a pitch-black room with only his thoughts, he noticed a tiny pinhole of sunlight passing through a crack in the shutter. On the opposite white wall, he was astonished to see an upside-down image of the brightly lit street outside: passing people, carts, and trees. He realized that the eye itself must work exactly like this dark room (camera obscura).",
+      "howTheyDidIt": "In his masterpiece 'Kitab al-Manazir' ('Book of Optics'), he dismantled the 1,500-year-old Greek dogma that eyes shoot out invisible rays to 'feel' objects. He pointed out that if you look directly at the Sun, your retinas burn—proving light enters the eye from the outside world! He devised meticulous experiments with light boxes, mirrors, spherical glass lenses, and water flasks, establishing the empirical scientific method: formulating hypotheses, constructing controlled experiments, and recording mathematical data.",
+      "fascinatingImpact": "Ibn al-Haytham is the true father of modern optics and the pioneer of empirical experimental science, establishing that truth in nature must be verified through sensory experiment rather than philosophical debate.",
+      "sortYear": 1021,
+      "yearDisplay": "c. 1021 CE"
     },
     {
       "id": "ibn_sina",
@@ -674,7 +710,13 @@
       "famousQuote": "The world is divided into men who have wit and no religion and men who have religion and no wit.",
       "nobelPrize": null,
       "majorDiscovery": "Clinical pharmacology rules, infectious disease contagion mechanisms, early inertia theories",
-      "details": "Avicenna, the legendary Persian polymath and philosopher of the Islamic Golden Age. A prodigy who memorized the Quran by age 10 and practiced medicine by 16, he authored 'The Canon of Medicine' (Al-Qanun fi al-Tibb), which remained the standard medical textbook across Europe and the Islamic world for over 500 years. He was among the first to propose that infectious diseases are carried by microscopic airborne contagion, pioneered quarantine procedures, and described surgical treatments and pharmacology."
+      "details": "Avicenna, the legendary Persian polymath and philosopher of the Islamic Golden Age. A prodigy who memorized the Quran by age 10 and practiced medicine by 16, he authored 'The Canon of Medicine' (Al-Qanun fi al-Tibb), which remained the standard medical textbook across Europe and the Islamic world for over 500 years. He was among the first to propose that infectious diseases are carried by microscopic airborne contagion, pioneered quarantine procedures, and described surgical treatments and pharmacology.",
+      "curiosityStory": "Growing up in Bukhara (modern Uzbekistan), Ibn Sina was a prodigy of staggering intellect who had memorized the entire Quran by age 10. By 16, he was treating patients, stating that medicine was 'not a difficult science like mathematics and metaphysics.' He read Aristotle's Metaphysics forty times until the words were etched into his memory, staying awake through freezing nights fueled by tea and sheer curiosity.",
+      "inspirationMoment": "Appalled by the superstitious folklore, bloodletting, and guesswork that dominated medieval healing, Ibn Sina realized that the human body is an interconnected biological system that must be studied through empirical anatomy, clinical trial protocols, and pharmacological rigor.",
+      "howTheyDidIt": "He authored the monumental 'Al-Qanun fi al-Tibb' ('The Canon of Medicine'), a five-volume encyclopedia that synthesized Greco-Roman, Persian, and Indian medical knowledge. He established the first rules for controlled clinical drug trials (testing remedies on animals first, using uncontaminated substances, observing repeated consistency), identified the contagious nature of airborne tuberculosis, documented psychiatric links to physical illness, and described surgical techniques.",
+      "fascinatingImpact": "The Canon became the definitive medical textbook across Europe and the Islamic world for over 600 years, bridging ancient wisdom with the dawn of modern evidence-based clinical medicine.",
+      "sortYear": 1025,
+      "yearDisplay": "c. 1025 CE"
     },
     {
       "id": "copernicus",
@@ -690,7 +732,13 @@
       "famousQuote": "To know that we know what we know, and to know that we do not know what we do not know, that is true knowledge.",
       "nobelPrize": null,
       "majorDiscovery": "Heliocentric model of the Solar System",
-      "details": "Polish astronomer and canon of Warmia who dared to dislodge Earth from the center of the universe. In 'De revolutionibus orbium coelestium', published on his deathbed in 1543, he argued mathematically that the Sun, not the Earth, sits at the center of the planetary orbits (Heliocentrism). This broke the two-thousand-year Ptolemaic dogma and ignited the Scientific Revolution, teaching humanity cosmic humility."
+      "details": "Polish astronomer and canon of Warmia who dared to dislodge Earth from the center of the universe. In 'De revolutionibus orbium coelestium', published on his deathbed in 1543, he argued mathematically that the Sun, not the Earth, sits at the center of the planetary orbits (Heliocentrism). This broke the two-thousand-year Ptolemaic dogma and ignited the Scientific Revolution, teaching humanity cosmic humility.",
+      "curiosityStory": "A canon at Frombork Cathedral on the freezing Baltic coast of Poland, Copernicus spent his days administering church lands, treating the sick as a physician, and reforming currency. But his nights were devoted to the heavens from an observation tower. He was deeply troubled by the Ptolemaic geocentric model: to make the planets fit around a stationary Earth, astronomers had invented an ugly patchwork of 80 eccentric circles, epicycles, and equants.",
+      "inspirationMoment": "Copernicus observed that planets like Mars occasionally appeared to slow down, stop, and travel backward in loops across the constellations ('retrograde motion'). He realized that if you are on a fast train overtaking a slower train on an adjacent track, the slower train appears to move backward. What if Earth is simply a fast inner planet orbiting the Sun?",
+      "howTheyDidIt": "Working in secret for thirty years without a telescope, he calculated the geometry of planetary orbits centered on the Sun. With the Sun at the center, the complicated epicycles vanished like morning mist: retrograde motion was exposed as a natural optical illusion of perspective! Fearing religious persecution and mathematical ridicule, he withheld publication until his deathbed in 1543, touching the printed pages of 'De revolutionibus orbium coelestium' on the day he died.",
+      "fascinatingImpact": "Copernicus removed humanity from the physical throne of the cosmos, sparking the Scientific Revolution and teaching our species the profound humility of cosmic perspective.",
+      "sortYear": 1543,
+      "yearDisplay": "1543"
     },
     {
       "id": "galileo",
@@ -708,7 +756,13 @@
       "famousQuote": "Eppur si muove (And yet it moves).",
       "nobelPrize": null,
       "majorDiscovery": "Moons of Jupiter, law of uniform acceleration of falling bodies, phases of Venus",
-      "details": "Tuscan physicist, mathematician, and the father of modern observational astronomy. Hearing reports of a Dutch spyglass in 1609, Galileo ground his own lenses, pointed his telescope upward, and discovered craters on the Moon, four moons orbiting Jupiter, and the phases of Venus. His demonstration that objects of different weights fall with identical acceleration dismantled Aristotle's physics. Forced by the Roman Inquisition to recant heliocentrism, he lived his final years under house arrest, reportedly muttering 'Eppur si muove' ('And yet it moves')."
+      "details": "Tuscan physicist, mathematician, and the father of modern observational astronomy. Hearing reports of a Dutch spyglass in 1609, Galileo ground his own lenses, pointed his telescope upward, and discovered craters on the Moon, four moons orbiting Jupiter, and the phases of Venus. His demonstration that objects of different weights fall with identical acceleration dismantled Aristotle's physics. Forced by the Roman Inquisition to recant heliocentrism, he lived his final years under house arrest, reportedly muttering 'Eppur si muove' ('And yet it moves').",
+      "curiosityStory": "Born in Pisa, Galileo was a rebellious student who dropped out of university medicine to study mechanics. While sitting in Pisa Cathedral, he noticed an altar chandelier swinging in the draft; using his pulse as a stopwatch, he discovered that whether the swing was wide or narrow, the time taken for each cycle was identical (isochronism of the pendulum). He refused to accept Aristotle's assertions without hands-on proof.",
+      "inspirationMoment": "In 1609, he heard rumors of a Dutch toy that made distant objects appear close. Without ever seeing one, he figured out the optical geometry, ground his own convex and concave lenses, and built a 30x magnification spyglass. Instead of selling it for military conquest, he pointed it at the night sky.",
+      "howTheyDidIt": "What he saw dismantled ancient cosmology in weeks. He saw that the Moon was not a smooth heavenly orb, but scarred with rugged craters and mountains like Earth. He saw sunspots creeping across the face of the Sun. Most dramatically, on January 7, 1610, he saw four tiny points of light dancing around Jupiter—moons orbiting another celestial world! He dropped unequal weights from heights to prove all bodies fall with equal acceleration regardless of mass. When hauled before the Roman Inquisition for defending Copernicanism, he was forced to recant, but legend says he muttered under his breath: 'Eppur si muove' ('And yet it moves').",
+      "fascinatingImpact": "Galileo created modern observational astronomy and experimental physics, proving that human eyes aided by instruments could reveal secrets hidden from antiquity.",
+      "sortYear": 1610,
+      "yearDisplay": "1610"
     },
     {
       "id": "kepler",
@@ -725,7 +779,13 @@
       "famousQuote": "I was measuring the heavens, now I measure the shadows of Earth.",
       "nobelPrize": null,
       "majorDiscovery": "Elliptical orbits of planets and mathematical laws of orbital periods",
-      "details": "German astronomer and mathematician who replaced the ancient idea of circular planetary orbits with ellipses. Working as assistant to Tycho Brahe, Kepler inherited decades of painstakingly accurate planetary observations. Over eight agonizing years of calculations, he discovered that Mars travels not in a circle, but in an ellipse with the Sun at one focus. His Three Laws of Planetary Motion provided the mathematical foundation that enabled Isaac Newton to formulate universal gravitation."
+      "details": "German astronomer and mathematician who replaced the ancient idea of circular planetary orbits with ellipses. Working as assistant to Tycho Brahe, Kepler inherited decades of painstakingly accurate planetary observations. Over eight agonizing years of calculations, he discovered that Mars travels not in a circle, but in an ellipse with the Sun at one focus. His Three Laws of Planetary Motion provided the mathematical foundation that enabled Isaac Newton to formulate universal gravitation.",
+      "curiosityStory": "Born premature and sickly in southwest Germany, Kepler suffered from smallpox that crippled his hands and left his vision permanently impaired. Unable to be an observational astronomer, he turned his mind inward to mathematical mysticism, convinced that God had constructed the universe according to geometric harmonies.",
+      "inspirationMoment": "Kepler became assistant to the Danish nobleman Tycho Brahe, who possessed the world's most precise astronomical logs of Mars' positions. When Tycho died, Kepler spent eight agonizing years attempting to fit Tycho's Mars observations into perfect circles. He came within eight arcminutes (a tiny sliver of a degree) of perfection, but Tycho's measurements were too accurate to allow even that small error.",
+      "howTheyDidIt": "Rather than fudge the data or ignore the 8-arcminute discrepancy ('If I had believed that we could ignore these eight minutes, I would have patched up my hypothesis'), Kepler made a radical intellectual leap: he discarded the sacred circle that had dominated astronomy for 2,000 years! He discovered that planets orbit the Sun in ellipses with the Sun at one focus (First Law), sweep out equal areas in equal times (Second Law), and that the square of their orbital period is proportional to the cube of their distance (Third Law).",
+      "fascinatingImpact": "Kepler replaced mystical circular perfection with mathematical reality, establishing celestial mechanics and handing Newton the blueprint for universal gravity.",
+      "sortYear": 1609,
+      "yearDisplay": "1609"
     },
     {
       "id": "newton",
@@ -743,7 +803,13 @@
       "famousQuote": "If I have seen further, it is by standing on the shoulders of giants.",
       "nobelPrize": null,
       "majorDiscovery": "Universal Gravitation, Three Laws of Classical Mechanics, Calculus, Optical prism dispersion",
-      "details": "The colossal architect of modern physics and mathematics. During the Great Plague of London (1665–1666), isolated at Woolsthorpe Manor, 23-year-old Newton invented calculus, decomposed white light into colors with glass prisms, and wondered if the force pulling an apple down reached all the way to the Moon. In his 1687 masterpiece 'Philosophiæ Naturalis Principia Mathematica', he unified heaven and Earth with his Three Laws of Motion and the Universal Law of Gravitation."
+      "details": "The colossal architect of modern physics and mathematics. During the Great Plague of London (1665–1666), isolated at Woolsthorpe Manor, 23-year-old Newton invented calculus, decomposed white light into colors with glass prisms, and wondered if the force pulling an apple down reached all the way to the Moon. In his 1687 masterpiece 'Philosophiæ Naturalis Principia Mathematica', he unified heaven and Earth with his Three Laws of Motion and the Universal Law of Gravitation.",
+      "curiosityStory": "Born premature on Christmas Day in 1642, Newton grew up a quiet, solitary farm boy in Lincolnshire who built intricate wooden watermills, kites carrying lanterns to scare neighbors, and sundials. At Cambridge, he lived modestly as a sizar, filling notebooks with questions about light, color, and motion.",
+      "inspirationMoment": "In 1665, the bubonic plague struck England, shutting down Cambridge University. Quarantined for eighteen months at his mother's farm in Woolsthorpe, Newton entered his 'Annus Mirabilis' (miraculous year). While sitting in the orchard, he watched an apple fall straight from a tree branch to the grass. He wondered: Does the gravitational pull of the Earth stop at the treetops, or does it reach all the way to the Moon?",
+      "howTheyDidIt": "During that solitary quarantine, Newton invented the infinitesimal calculus, proved with glass prisms that white light is a compound of all spectral colors, and formulated his Three Laws of Motion. He calculated that the force pulling the apple down is the exact same mathematical force holding the Moon in orbit around the Earth, governed by the Inverse-Square Law. In 1687, encouraged by Edmond Halley, he published 'Philosophiae Naturalis Principia Mathematica', uniting heaven and earth under universal mathematical laws.",
+      "fascinatingImpact": "Newton gave humanity the clockwork universe, proving that the cosmos is orderly, predictable, and fully decipherable by human reason.",
+      "sortYear": 1687,
+      "yearDisplay": "1687"
     },
     {
       "id": "leeuwenhoek",
@@ -760,7 +826,13 @@
       "famousQuote": "My work was not pursued in order to gain the praise I now enjoy, but chiefly from a craving after knowledge.",
       "nobelPrize": null,
       "majorDiscovery": "Discovery of microscopic single-celled life ('animalcules' / bacteria and protozoa)",
-      "details": "A Dutch draper who ground over 500 microscopic glass lenses of unbelievable magnification. Peering at drops of stagnant pond water, rainwater, and scrapings from his own teeth, he discovered an entire invisible universe teeming with microscopic life, which he affectionately named 'animalcules' (bacteria and protozoa). His letters to the Royal Society in London opened the door to the microscopic foundations of biology and disease."
+      "details": "A Dutch draper who ground over 500 microscopic glass lenses of unbelievable magnification. Peering at drops of stagnant pond water, rainwater, and scrapings from his own teeth, he discovered an entire invisible universe teeming with microscopic life, which he affectionately named 'animalcules' (bacteria and protozoa). His letters to the Royal Society in London opened the door to the microscopic foundations of biology and disease.",
+      "curiosityStory": "A draper and city official in Delft with no university degree and no knowledge of Latin, Leeuwenhoek had a single, all-consuming passion: grinding tiny glass beads to inspect the quality of woven fabrics. He was driven by an unquenchable curiosity to see what lay beyond the threshold of human vision.",
+      "inspirationMoment": "In 1674, while examining a vial of green, murky lake water from a Delft marsh with one of his handmade silver-mounted lenses, he was thunderstruck. Swimming in the clear water were thousands of tiny, translucent creatures darting and turning with purposeful vigor.",
+      "howTheyDidIt": "He hand-ground over 500 microscopic lenses, some smaller than a mustard seed, achieving magnifications up to 275x with extraordinary optical clarity. He scraped plaque from his own teeth ('there were many very little living animalcules, very prettily a-moving'), examined saliva, human blood (discovering red blood cells), semen (discovering spermatozoa), and muscle fibers. He wrote hundreds of detailed letters in colloquial Dutch to the Royal Society in London, who initially scoffed in disbelief before sending observers to confirm his findings.",
+      "fascinatingImpact": "Leeuwenhoek revealed an entire invisible universe teeming in a single drop of water, giving birth to microbiology and forever changing our perception of living matter.",
+      "sortYear": 1676,
+      "yearDisplay": "1676"
     },
     {
       "id": "lavoisier",
@@ -776,7 +848,13 @@
       "famousQuote": "Nothing is lost, nothing is created, everything is transformed.",
       "nobelPrize": null,
       "majorDiscovery": "Law of Conservation of Mass, combustion role of oxygen, chemical elements naming",
-      "details": "French chemist who transformed chemistry from alchemy into a quantitative science. He discovered and named Oxygen and Hydrogen, demolished the phlogiston theory of combustion, and formulated the Law of Conservation of Mass ('Matter is neither created nor destroyed, only transformed'). He created the modern chemical nomenclature. Tragically guillotined during the French Reign of Terror in 1794, the mathematician Lagrange mourned: 'It took them only an instant to cut off this head, and a hundred years might not suffice to produce another like it.'"
+      "details": "French chemist who transformed chemistry from alchemy into a quantitative science. He discovered and named Oxygen and Hydrogen, demolished the phlogiston theory of combustion, and formulated the Law of Conservation of Mass ('Matter is neither created nor destroyed, only transformed'). He created the modern chemical nomenclature. Tragically guillotined during the French Reign of Terror in 1794, the mathematician Lagrange mourned: 'It took them only an instant to cut off this head, and a hundred years might not suffice to produce another like it.'",
+      "curiosityStory": "A wealthy Parisian aristocrat and tax collector, Lavoisier spent his fortune building the most sophisticated chemistry laboratory in Europe, equipped with custom analytical balances that could detect differences as small as a milligram. He detested the vague, qualitative jargon of medieval alchemy.",
+      "inspirationMoment": "For over a century, chemists believed that combustible materials contained an elusive fire-substance called 'phlogiston' that escaped into the air when burned. But Lavoisier weighed pieces of phosphorus and sulfur, sealed them in glass retorts, ignited them with focused sunlight, and discovered they actually gained weight when burned! How could something lose 'phlogiston' yet become heavier?",
+      "howTheyDidIt": "He realized that burning objects were absorbing a component of air. In 1777, working with Marie-Anne Paulze (his brilliant wife and scientific partner), he isolated this gas, showed it sustained respiration and combustion, and named it 'Oxygen' ('acid-former'). He proved that water was not an element, but a compound of oxygen and hydrogen. Most importantly, he established the Law of Conservation of Mass: in any chemical transformation, matter is neither created nor destroyed. Tragically, he was guillotined during the French Reign of Terror in 1794, prompting Lagrange to remark: 'It took them only an instant to cut off that head, and a hundred years may not produce another like it.'",
+      "fascinatingImpact": "Lavoisier transformed chemistry from mystical alchemy into a rigorous, quantitative balance-sheet science, establishing the modern periodic vocabulary.",
+      "sortYear": 1777,
+      "yearDisplay": "1777"
     },
     {
       "id": "faraday",
@@ -793,7 +871,13 @@
       "famousQuote": "Nothing is too wonderful to be true if it be consistent with the laws of nature.",
       "nobelPrize": null,
       "majorDiscovery": "Electromagnetic induction (generation of electric currents by moving magnetic fields)",
-      "details": "Self-taught English blacksmith's son who rose from bookbinder apprentice to one of the greatest experimental physicists in history. With minimal formal mathematics, Faraday visualized invisible 'magnetic lines of force'. In 1831, he discovered electromagnetic induction: moving a magnet through a coil of copper wire generated an electric current. This discovery created the electric motor, the generator, and the entire modern electrical grid."
+      "details": "Self-taught English blacksmith's son who rose from bookbinder apprentice to one of the greatest experimental physicists in history. With minimal formal mathematics, Faraday visualized invisible 'magnetic lines of force'. In 1831, he discovered electromagnetic induction: moving a magnet through a coil of copper wire generated an electric current. This discovery created the electric motor, the generator, and the entire modern electrical grid.",
+      "curiosityStory": "The son of an impoverished blacksmith in London, Michael Faraday received only the most rudimentary grammar school education. At 14, he was apprenticed to a local bookbinder. For seven years, while binding volumes of the Encyclopaedia Britannica and Jane Marcet's Conversations on Chemistry, Faraday devoured every book that passed through his hands, teaching himself electricity and chemistry.",
+      "inspirationMoment": "In 1812, a generous shop customer gifted him tickets to attend Sir Humphry Davy's lectures at the Royal Institution. Faraday took 300 pages of meticulous notes, bound them in leather, and sent them to Davy asking for a job. Davy hired him as a bottle washer. Years later, when Oersted discovered that an electric wire could twitch a magnetic compass needle, Faraday asked the reverse question: If electricity could produce magnetism, could magnetism produce electricity?",
+      "howTheyDidIt": "Lacking formal mathematical training, Faraday visualized forces as invisible curved 'lines of magnetic force' filling space. In 1831, he wrapped two insulated coils of wire around an iron ring. When he connected one coil to a battery, a galvanometer on the second coil jumped for a fraction of a second! He discovered electromagnetic induction: moving a magnet through a coil of wire generates an electric current. He constructed the world's first electric generator (dynamo), the electric motor, and discovered the laws of electrolysis.",
+      "fascinatingImpact": "Faraday turned electricity from a parlor trick into the lifeblood of human civilization, powering every electrical grid, turbine, and motor on Earth.",
+      "sortYear": 1831,
+      "yearDisplay": "1831"
     },
     {
       "id": "darwin",
@@ -810,7 +894,13 @@
       "famousQuote": "There is grandeur in this view of life... that whilst this planet has gone cycling on according to the fixed law of gravity, from so simple a beginning endless forms most beautiful and most wonderful have been, and are being, evolved.",
       "nobelPrize": null,
       "majorDiscovery": "Evolution of all biological life on Earth by Natural Selection",
-      "details": "English naturalist who revolutionized humanity's understanding of our place in nature. During a five-year voyage on the HMS Beagle, observing finches, tortoises, and fossils across the Galápagos Islands and South America, Darwin gathered evidence that all living species descend from common ancestors. In 1859, he published 'On the Origin of Species', introducing Natural Selection: the blind, beautiful mechanism by which life adapts to its environment."
+      "details": "English naturalist who revolutionized humanity's understanding of our place in nature. During a five-year voyage on the HMS Beagle, observing finches, tortoises, and fossils across the Galápagos Islands and South America, Darwin gathered evidence that all living species descend from common ancestors. In 1859, he published 'On the Origin of Species', introducing Natural Selection: the blind, beautiful mechanism by which life adapts to its environment.",
+      "curiosityStory": "As a boy in Shrewsbury, Charles Darwin was an obsessive beetle collector and bird watcher whose physician father scolded him: 'You care for nothing but shooting, dogs, and rat-catching, and you will be a disgrace to yourself and all your family.' At 22, he jumped at an unpaid invitation to sail as companion naturalist aboard the HMS Beagle on a five-year voyage around the globe.",
+      "inspirationMoment": "In the isolated volcanic Galápagos Islands in 1835, Darwin noticed that mockingbirds and giant tortoises varied slightly from one island to the next, adapted to their specific local environments. Back in England, reading Thomas Malthus' essay on human population growth and scarcity, a flash of insight struck him: In nature, more organisms are born than can survive; individuals with favorable variations are more likely to survive and reproduce, passing those traits to their offspring.",
+      "howTheyDidIt": "For twenty years, plagued by chronic illness, Darwin amassed overwhelming evidence in quiet secrecy at Down House: breeding fancy pigeons, dissecting barnacles, studying orchid fertilization, and corresponding with farmers worldwide. In 1858, a letter arrived from young naturalist Alfred Russel Wallace in Malaysia outlining the exact same theory! Galvanized, Darwin published 'On the Origin of Species' in 1859, laying out the mechanism of Evolution by Natural Selection.",
+      "fascinatingImpact": "Darwin provided the grand unifying framework of the life sciences: all living creatures on Earth are branches of a single evolutionary family tree, sculpted over deep time.",
+      "sortYear": 1859,
+      "yearDisplay": "1859"
     },
     {
       "id": "maxwell",
@@ -827,7 +917,13 @@
       "famousQuote": "The special character of the modern world is that it is shaped by physics.",
       "nobelPrize": null,
       "majorDiscovery": "Maxwell's Equations & unification of electricity, magnetism, and light as electromagnetic radiation",
-      "details": "Scottish mathematical physicist who unified electricity, magnetism, and optics into four elegant equations. Maxwell's Equations demonstrated that electric and magnetic fields travel through space as waves at the speed of light, revealing that light itself is an electromagnetic wave. His work paved the way for radio, radar, television, and Einstein's theory of relativity."
+      "details": "Scottish mathematical physicist who unified electricity, magnetism, and optics into four elegant equations. Maxwell's Equations demonstrated that electric and magnetic fields travel through space as waves at the speed of light, revealing that light itself is an electromagnetic wave. His work paved the way for radio, radar, television, and Einstein's theory of relativity.",
+      "curiosityStory": "Born in Edinburgh, young James Clerk Maxwell had an insatiable desire to understand mechanisms, famously asking his parents 'What's the go o' that?' and demanding 'What's the particular go of it?' By age 14, he had written a mathematical paper on oval curves that was read before the Royal Society of Edinburgh.",
+      "inspirationMoment": "Maxwell was deeply inspired by Michael Faraday's experiments. While mathematicians dismissed Faraday's qualitative 'lines of force' as mere mental crutches, Maxwell recognized that Faraday's physical intuition held the secret to a grand physical law. He set out to translate Faraday's invisible lines into rigorous mathematical calculus.",
+      "howTheyDidIt": "Between 1861 and 1865, Maxwell distilled all known electrical and magnetic behaviors into four elegant partial differential equations (Maxwell's Equations). When calculating the speed at which electromagnetic waves would ripple through space, he calculated a value of approximately 310,000 km/s—virtually identical to the measured speed of light! In an awe-inspiring moment of realization, Maxwell wrote: 'We can scarcely avoid the conclusion that light consists in the transverse undulations of the same medium which is the cause of electric and magnetic phenomena.'",
+      "fascinatingImpact": "Maxwell achieved the second great unification in physics after Newton, proving that electricity, magnetism, and light are manifestations of the same force and paving the way for radio, radar, and relativity.",
+      "sortYear": 1865,
+      "yearDisplay": "1865"
     },
     {
       "id": "mendeleev",
@@ -843,7 +939,13 @@
       "famousQuote": "I saw in a dream a table where all the elements fell into place as required. Awakening, I immediately wrote it down on a piece of paper.",
       "nobelPrize": null,
       "majorDiscovery": "Periodic Table of Elements based on recurring atomic properties",
-      "details": "Siberian chemist who organized the 63 known elements into the Periodic Table in 1869. Playing 'chemical solitaire' on trains with index cards, he noticed properties recurring in cycles. His stroke of genius was leaving blank spaces for undiscovered elements and predicting their precise atomic weights and physical properties (Gallium, Germanium, Scandium). When discovered years later, they matched his predictions down to the decimal point."
+      "details": "Siberian chemist who organized the 63 known elements into the Periodic Table in 1869. Playing 'chemical solitaire' on trains with index cards, he noticed properties recurring in cycles. His stroke of genius was leaving blank spaces for undiscovered elements and predicting their precise atomic weights and physical properties (Gallium, Germanium, Scandium). When discovered years later, they matched his predictions down to the decimal point.",
+      "curiosityStory": "Born in remote Tobolsk, Siberia, the youngest of up to 17 children, Mendeleev faced immense hardship. After his father went blind, his mother managed a glass factory to support the family. When it burned down, she rode horseback thousands of miles across the Ural mountains with teenage Dmitri to enroll him in a St. Petersburg university, dying shortly after. Mendeleev carried an unyielding devotion to honor her sacrifice.",
+      "inspirationMoment": "In 1869, while writing a chemistry textbook, Mendeleev struggled to find a logical structure for the 63 known chemical elements. He wrote each element's name, atomic weight, and chemical properties on index cards and carried them everywhere, playing 'chemical solitaire' on train journeys across Russia.",
+      "howTheyDidIt": "After three sleepless days of shuffling cards, Mendeleev collapsed at his desk in February 1869 and fell into a deep slumber. 'I saw in a dream a table where all the elements fell into place as required. Awakening, I immediately wrote it down on a piece of paper.' When arranging elements by increasing atomic weight, their properties repeated in rhythmic intervals (periods). Where gaps appeared in the pattern, Mendeleev boldly predicted the existence and properties of undiscovered elements—such as Gallium, Germanium, and Scandium—specifying their weights, densities, and boiling points to the decimal place. Within two decades, all were discovered matching his exact predictions.",
+      "fascinatingImpact": "Mendeleev uncovered the fundamental periodic alphabet of matter, organizing the universe's building blocks into an eternal tabular masterpiece.",
+      "sortYear": 1869,
+      "yearDisplay": "1869"
     },
     {
       "id": "curie_marie",
@@ -860,7 +962,13 @@
       "famousQuote": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
       "nobelPrize": "Nobel Prize in Physics (1903) & Nobel Prize in Chemistry (1911) — Only person in history to win in two distinct scientific fields",
       "majorDiscovery": "Discovery of Polonium and Radium, nature and measurement of radioactivity",
-      "details": "Extracted milligrams of radium chloride from tons of uranium pitchblende in an unheated shed. First female professor at Sorbonne and supreme pioneer of nuclear physics."
+      "details": "Extracted milligrams of radium chloride from tons of uranium pitchblende in an unheated shed. First female professor at Sorbonne and supreme pioneer of nuclear physics.",
+      "curiosityStory": "Born Maria Skłodowska in Warsaw under oppressive Russian imperial rule, her family was stripped of property and women were forbidden from attending university. Undeterred, Maria attended the underground 'Flying University' with changing secret locations. She worked six grueling years as a governess to finance her older sister's medical education in Paris, surviving on bread and tea in a drafty garret while mastering physics at the Sorbonne.",
+      "inspirationMoment": "In 1896, Henri Becquerel discovered that uranium emitted mysterious rays without exposure to sunlight. While others ignored the finding, Marie chose it for her doctoral thesis. She measured various minerals with an electrometer built by her husband Pierre, and was shocked to find that pitchblende ore was four times more radioactive than pure uranium! She hypothesized that the ore must contain an undiscovered, intensely active element.",
+      "howTheyDidIt": "Working in an abandoned, leaky wooden shed in Paris that had formerly been a medical dissection room, Marie and Pierre hand-processed tons of toxic pitchblende residue. For four years, Marie stirred 20-kilogram cauldrons of boiling chemical slurry with a heavy iron rod, breathing acrid fumes. In 1898, they discovered Polonium (named after her beloved Poland) and Radium. At night, they would return to the dark shed to gaze in wonder at test tubes glowing softly with luminescent green fairy light. Marie coined the term 'radioactivity', became the first woman to win a Nobel Prize, and remains the only person to win Nobel Prizes in two different scientific fields (Physics and Chemistry).",
+      "fascinatingImpact": "Marie Curie shattered the belief that atoms were indivisible, ushered in nuclear physics, and pioneered medical radiation therapies, giving her life to scientific discovery.",
+      "sortYear": 1898,
+      "yearDisplay": "1898"
     },
     {
       "id": "einstein",
@@ -875,7 +983,13 @@
       "famousQuote": "Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world.",
       "nobelPrize": "Nobel Prize in Physics (1921) for explanation of the Photoelectric Effect",
       "majorDiscovery": "General and Special Relativity, light quantum (photon), mass-energy equivalence E=mc²",
-      "details": "The gentle patent clerk who reimagined the cosmos. In his 1905 'miracle year' (Annus Mirabilis), working as an examiner in Bern, 26-year-old Einstein published four papers that changed human history: explaining the photoelectric effect (proving light is quantized into photons), proving the existence of atoms via Brownian motion, creating Special Relativity (unifying space and time), and deriving E=mc². In 1915, he added General Relativity, showing that gravity is the geometric warping of spacetime by matter."
+      "details": "The gentle patent clerk who reimagined the cosmos. In his 1905 'miracle year' (Annus Mirabilis), working as an examiner in Bern, 26-year-old Einstein published four papers that changed human history: explaining the photoelectric effect (proving light is quantized into photons), proving the existence of atoms via Brownian motion, creating Special Relativity (unifying space and time), and deriving E=mc². In 1915, he added General Relativity, showing that gravity is the geometric warping of spacetime by matter.",
+      "curiosityStory": "As a boy in Munich, Einstein was slow to speak, leading teachers to fear he was dull. When his father gave him a pocket compass at age five, young Albert was mesmerized by the needle's steadfast pull toward the north, sensing that 'something deeply hidden had to be behind things.' At 16, he engaged in a famous thought experiment: What would happen if you could run alongside a beam of light at the speed of light?",
+      "inspirationMoment": "In 1905, while working as a third-class patent clerk in Bern, Switzerland, Einstein realized that Maxwell's equations proved light always travels at the same speed (approx. 300,000 km/s) regardless of how fast its source is moving. If the speed of light is absolute, then time and space themselves cannot be absolute—they must bend and dilate depending on the observer's motion!",
+      "howTheyDidIt": "In his 1905 'miracle year', Einstein published four papers that revolutionized physics: explaining the photoelectric effect (quanta of light, earning his Nobel), proving the physical existence of atoms via Brownian motion, formulating Special Relativity, and deriving the world's most famous equation: E = mc². Ten years later, in 1915, he completed General Relativity, imagining a person falling freely who feels no weight; he realized gravity is not an invisible pulling force, but the geometrical curvature of four-dimensional spacetime warped by mass and energy.",
+      "fascinatingImpact": "Einstein fundamentally rebuilt our understanding of reality, showing that space and time are dynamic fabrics, predicting gravitational lensing, black holes, and gravitational waves.",
+      "sortYear": 1905,
+      "yearDisplay": "1905"
     },
     {
       "id": "bohr",
@@ -891,7 +1005,13 @@
       "famousQuote": "Those who are not shocked when they first come across quantum theory cannot possibly have understood it.",
       "nobelPrize": "Nobel Prize in Physics (1922) for investigations into atomic structure and radiation",
       "majorDiscovery": "Quantized electronic shells in atoms and quantum jumps",
-      "details": "Danish physicist who created the quantum model of the atom in 1913. Bohr realized that electrons do not orbit like planets in arbitrary paths, but are restricted to discrete, quantized energy levels. When an electron jumps between levels, it emits or absorbs a photon of light at an exact frequency. He led the Copenhagen interpretation of quantum mechanics and engaged in legendary philosophical debates with Einstein over quantum indeterminacy."
+      "details": "Danish physicist who created the quantum model of the atom in 1913. Bohr realized that electrons do not orbit like planets in arbitrary paths, but are restricted to discrete, quantized energy levels. When an electron jumps between levels, it emits or absorbs a photon of light at an exact frequency. He led the Copenhagen interpretation of quantum mechanics and engaged in legendary philosophical debates with Einstein over quantum indeterminacy.",
+      "curiosityStory": "Growing up in Copenhagen, Niels Bohr was an athletic soccer goalkeeper and deep thinker who spent hours debating philosophy with his brother Harald. He was legendary for his halting, thoughtful speech and an insistence on examining paradoxes from every possible vantage point, once remarking: 'How wonderful that we have met with a paradox. Now we have some hope of making progress.'",
+      "inspirationMoment": "Working in Manchester with Ernest Rutherford, Bohr confronted a catastrophic flaw in Rutherford's planetary model of the atom: classical physics dictated that an orbiting electron should continuously radiate energy and spiral into the nucleus in a fraction of a second, collapsing all matter. Why didn't atoms collapse?",
+      "howTheyDidIt": "In 1913, Bohr combined Rutherford's nucleus with Max Planck's quantum hypothesis. He proposed that electrons inhabit discrete, stationary orbits and can never reside between them. Electrons jump between energy levels by emitting or absorbing a single photon of light with an exact frequency corresponding to the energy gap ($E = h\nu$). His model precisely predicted the Balmer spectral emission lines of hydrogen. He went on to establish the Copenhagen Interpretation of quantum mechanics and formulated the Principle of Complementarity.",
+      "fascinatingImpact": "Bohr unlocked the quantum architecture of the atom, transforming atomic theory and nurturing the generation of physicists that built the modern world.",
+      "sortYear": 1913,
+      "yearDisplay": "1913"
     },
     {
       "id": "planck",
@@ -907,7 +1027,13 @@
       "famousQuote": "Science cannot solve the ultimate mystery of nature. And that is because, in the last analysis, we ourselves are a part of the mystery that we are trying to solve.",
       "nobelPrize": "Nobel Prize in Physics (1918) in recognition of his role in the advancement of physics by his discovery of energy quanta",
       "majorDiscovery": "Energy quantization (quanta) and Planck's constant",
-      "details": "Solved the 'ultraviolet catastrophe' of classical physics by assuming radiant heat and light are emitted and absorbed in discrete packets called quanta."
+      "details": "Solved the 'ultraviolet catastrophe' of classical physics by assuming radiant heat and light are emitted and absorbed in discrete packets called quanta.",
+      "curiosityStory": "A deeply conservative, musically gifted scholar in Munich, Max Planck was advised by his physics professor Philipp von Jolly in 1874 not to go into physics because 'almost everything is already discovered, and all that remains is to fill a few unimportant holes.' Planck replied that he did not wish to discover new things, only to understand the fundamental foundations of the discipline.",
+      "inspirationMoment": "In 1900, German lighting companies tasked Planck with calculating how to make lightbulbs produce maximum light with minimum heat. Physicists faced the 'ultraviolet catastrophe': classical electromagnetic theory predicted that an idealized blackbody furnace should emit infinite radiation at high frequencies, which was physically absurd.",
+      "howTheyDidIt": "In late 1900, in what he termed an 'act of despair,' Planck introduced a mathematical trick: what if energy is not absorbed or emitted continuously like water flowing from a tap, but rather in tiny discrete packets—'quanta'? He wrote the equation $E = h\nu$, where $h$ is a tiny fundamental constant of nature (Planck's constant: $6.626 \times 10^{-34}$ J·s). To Planck's amazement, the formula matched experimental blackbody radiation curves with flawless accuracy.",
+      "fascinatingImpact": "Though Planck initially regarded his quantum as a temporary mathematical fudge, it ignited the quantum revolution, permanently overturning classical deterministic physics.",
+      "sortYear": 1900,
+      "yearDisplay": "1900"
     },
     {
       "id": "heisenberg",
@@ -923,7 +1049,13 @@
       "famousQuote": "What we observe is not nature itself, but nature exposed to our method of questioning.",
       "nobelPrize": "Nobel Prize in Physics (1932) for the creation of quantum mechanics",
       "majorDiscovery": "Uncertainty Principle and matrix quantum mechanics",
-      "details": "German theoretical physicist who formulated quantum mechanics using matrix algebra at age 23. In 1927, he unveiled the Heisenberg Uncertainty Principle: it is physically impossible to simultaneously measure both the exact position and exact momentum of a subatomic particle. The more precisely you pin down where an electron is, the less you know about where it is going—proving that nature at the microscopic scale is fundamentally probabilistic."
+      "details": "German theoretical physicist who formulated quantum mechanics using matrix algebra at age 23. In 1927, he unveiled the Heisenberg Uncertainty Principle: it is physically impossible to simultaneously measure both the exact position and exact momentum of a subatomic particle. The more precisely you pin down where an electron is, the less you know about where it is going—proving that nature at the microscopic scale is fundamentally probabilistic.",
+      "curiosityStory": "A brilliant young German prodigy and avid hiker in the Bavarian mountains, Heisenberg was captivated by theoretical physics while studying under Sommerfeld and Bohr. In June 1925, suffering from an excruciating attack of hay fever that swelled his face, he fled to Helgoland—a barren, rocky, pollen-free island in the North Sea.",
+      "inspirationMoment": "Alone on the windswept cliffs of Helgoland, Heisenberg resolved to discard all unobservable visual models of electron orbits, focusing solely on observable quantities: the frequencies and intensities of light emitted by atoms.",
+      "howTheyDidIt": "Working through the night until 3 AM, he invented Matrix Mechanics. Two years later, in 1927, he formulated the Uncertainty Principle ($\\Delta x \\cdot \\Delta p \\ge \\hbar / 2$): you cannot simultaneously know both the precise position and precise momentum of a quantum particle. The more accurately you pin down where an electron is, the less you know about where it is going. Heisenberg proved that at the subatomic level, the observer inevitably interacts with and alters the observed reality.",
+      "fascinatingImpact": "Heisenberg eradicated Newtonian clockwork certainty from physics, revealing that nature's deepest fabric is governed by intrinsic quantum probability.",
+      "sortYear": 1927,
+      "yearDisplay": "1927"
     },
     {
       "id": "schrodinger",
@@ -939,7 +1071,13 @@
       "famousQuote": "The task is not so much to see what no one has yet seen; but to think what nobody has yet thought, about that which everybody sees.",
       "nobelPrize": "Nobel Prize in Physics (1933) with Paul Dirac for discovery of new productive forms of atomic theory",
       "majorDiscovery": "Wave equation governing quantum particle dynamics",
-      "details": "Austrian theoretical physicist who developed wave mechanics in 1926. His famous Schrödinger wave equation describes how the quantum wave function of a particle evolves over time. To illustrate the bizarre implications of quantum superposition, he formulated the famous thought experiment of 'Schrödinger's Cat'—a cat sealed in a box that is simultaneously alive and dead until an observer opens the box to look."
+      "details": "Austrian theoretical physicist who developed wave mechanics in 1926. His famous Schrödinger wave equation describes how the quantum wave function of a particle evolves over time. To illustrate the bizarre implications of quantum superposition, he formulated the famous thought experiment of 'Schrödinger's Cat'—a cat sealed in a box that is simultaneously alive and dead until an observer opens the box to look.",
+      "curiosityStory": "A cultured Viennese polymath with passions for Italian art, ancient Greek philosophy, Eastern Vedanta metaphysics, and poetry, Erwin Schrödinger was captivated by Louis de Broglie's hypothesis that particles of matter could behave like waves.",
+      "inspirationMoment": "While spending a snowy Christmas holiday at a remote alpine villa in Arosa, Switzerland, in 1925, Schrödinger set out to find a proper wave equation that could describe the quantum behavior of electrons in the same way Maxwell's equations described light waves.",
+      "howTheyDidIt": "Over two intense weeks, he derived the Schrödinger Wave Equation ($i\\hbar \frac{\\partial \\psi}{\\partial t} = \\hat{H}\\psi$). In this equation, an electron is represented by a wave function ($\\psi$), whose squared amplitude describes the probability of finding the particle at any given coordinate in space. In 1935, to illustrate the mind-bending implications of quantum superposition, he formulated the famous 'Schrödinger's Cat' paradox—where an unobserved feline in a box is simultaneously alive and dead until the box is opened.",
+      "fascinatingImpact": "Schrödinger's equation became the foundational working equation of modern quantum chemistry, semiconductor electronics, and materials science.",
+      "sortYear": 1926,
+      "yearDisplay": "1926"
     },
     {
       "id": "dirac",
@@ -955,7 +1093,13 @@
       "famousQuote": "A physical law must possess mathematical beauty.",
       "nobelPrize": "Nobel Prize in Physics (1933) with Erwin Schrödinger",
       "majorDiscovery": "Relativistic quantum wave equation and mathematical prediction of antimatter",
-      "details": "His relativistic wave equation for the electron naturally produced negative energy solutions, leading to the theoretical prediction of antimatter (discovered experimentally in 1932 by Anderson)."
+      "details": "His relativistic wave equation for the electron naturally produced negative energy solutions, leading to the theoretical prediction of antimatter (discovered experimentally in 1932 by Anderson).",
+      "curiosityStory": "Raised in Bristol by a stern Swiss father who insisted on speaking only French at dinner, Paul Dirac grew up pathologically silent, speaking only when spoken to. Trained as an electrical engineer, he developed a profound aesthetic belief that theoretical physics must be guided by pure mathematical elegance: 'It is more important to have beauty in one's equations than to have them fit experiment.'",
+      "inspirationMoment": "By 1928, quantum mechanics and Einstein's Special Relativity were at war: Schrödinger's wave equation worked beautifully for slow particles, but broke down when particles approached the speed of light. Dirac sought a single, mathematically pure equation that could harmonize both worlds.",
+      "howTheyDidIt": "Using $4 \times 4$ matrices, he formulated the relativistic Dirac Equation for the electron. When solving the equation, it yielded two sets of energy solutions: positive energy for normal electrons, and mysterious negative energy states. Rather than discard the negative roots as mathematical artifacts, Dirac boldly postulated that space is an ocean of negative-energy states and that a hole in this ocean would act like an anti-electron: a particle with the mass of an electron but a positive charge! In 1932, Carl Anderson discovered this particle in cosmic rays: the Positron. Dirac had predicted Antimatter purely from mathematical symmetry.",
+      "fascinatingImpact": "Dirac revealed that for every particle of matter in the universe, an identical anti-particle exists, co-founding quantum field theory.",
+      "sortYear": 1928,
+      "yearDisplay": "1928"
     },
     {
       "id": "fermi",
@@ -971,7 +1115,13 @@
       "famousQuote": "There are two possible outcomes: if the result confirms the hypothesis, then you've made a measurement. If the result is contrary to the hypothesis, then you've made a discovery.",
       "nobelPrize": "Nobel Prize in Physics (1938) for demonstrations of existence of new radioactive elements produced by neutron irradiation",
       "majorDiscovery": "First controlled artificial nuclear chain reaction and neutron-induced radioactivity",
-      "details": "Italian-American theoretical and experimental physicist known as the 'architect of the nuclear age'. Fermi had the unique ability to solve complex physics problems using simple back-of-the-envelope estimates. In 1942, beneath the abandoned football stands at the University of Chicago, he built Chicago Pile-1 and achieved the world's first self-sustaining, controlled nuclear chain reaction, ushering in nuclear power."
+      "details": "Italian-American theoretical and experimental physicist known as the 'architect of the nuclear age'. Fermi had the unique ability to solve complex physics problems using simple back-of-the-envelope estimates. In 1942, beneath the abandoned football stands at the University of Chicago, he built Chicago Pile-1 and achieved the world's first self-sustaining, controlled nuclear chain reaction, ushering in nuclear power.",
+      "curiosityStory": "A self-taught boy in Rome who scoured flea markets for 19th-century Latin mathematics treatises, Enrico Fermi possessed an extraordinary dual mastery of theoretical intuition and experimental precision. His peers called him 'The Pope' because his physical deductions were deemed infallible.",
+      "inspirationMoment": "In 1934, following the discovery of the neutron, Fermi realized that while alpha particles are repelled by the positive charge of an atomic nucleus, uncharged neutrons could penetrate deep into the heart of any heavy nucleus without electrical resistance.",
+      "howTheyDidIt": "He bombarded element after element with neutrons. In a famous flash of intuition, he placed blocks of paraffin wax in front of the neutron source: the hydrogen atoms in the wax slowed the neutrons down, increasing their chances of nuclear capture by hundreds of times! Fleeing fascist Italy in 1938 after receiving his Nobel Prize (his wife Laura was Jewish), Fermi arrived in America. In December 1942, beneath the West Stands of Stagg Field at the University of Chicago, Fermi directed the construction of Chicago Pile-1—a 20-foot stack of graphite blocks and uranium. On December 2, Fermi withdrew the cadmium control rods and achieved humanity's first artificial, self-sustaining nuclear chain reaction.",
+      "fascinatingImpact": "Fermi opened the Atomic Age, demonstrating how atomic nuclei could be split to unleash unimaginable energy for power or destruction.",
+      "sortYear": 1942,
+      "yearDisplay": "1942"
     },
     {
       "id": "feynman",
@@ -988,7 +1138,13 @@
       "famousQuote": "I would rather have questions that can't be answered than answers that can't be questioned.",
       "nobelPrize": "Nobel Prize in Physics (1965) with Schwinger and Tomonaga for fundamental work in quantum electrodynamics",
       "majorDiscovery": "Quantum Electrodynamics (QED) and intuitive Feynman diagrams",
-      "details": "Legendary American theoretical physicist celebrated for his infectious curiosity, bongo playing, and lock-picking escapades at Los Alamos. Feynman shared the 1965 Nobel Prize for Quantum Electrodynamics (QED), inventing 'Feynman Diagrams'—visual shorthand that transformed how physicists calculate particle interactions. He cracked the mystery of the Challenger space shuttle disaster by dropping an O-ring into ice water during a live television broadcast."
+      "details": "Legendary American theoretical physicist celebrated for his infectious curiosity, bongo playing, and lock-picking escapades at Los Alamos. Feynman shared the 1965 Nobel Prize for Quantum Electrodynamics (QED), inventing 'Feynman Diagrams'—visual shorthand that transformed how physicists calculate particle interactions. He cracked the mystery of the Challenger space shuttle disaster by dropping an O-ring into ice water during a live television broadcast.",
+      "curiosityStory": "Growing up in Far Rockaway, Queens, Richard Feynman was encouraged by his father to question everything and take apart mechanical clocks and radios. He was irreverent, mischievous, and possessed a legendary refusal to accept authority, learning safe-cracking at Los Alamos while working on the Manhattan Project.",
+      "inspirationMoment": "While sitting in the Cornell University cafeteria in 1947, a student tossed a dinner plate into the air. Feynman noticed that the Cornell red emblem on the rim spun around while the plate wobbled, and that the wobble frequency was twice the spin rate. Rather than dismissing it as trivial, Feynman decided to calculate the equations of wobbling just for the pure joy of it, leading him directly into quantum electrodynamics.",
+      "howTheyDidIt": "Quantum Electrodynamics (QED) was plagued by mathematical infinities. Feynman abandoned traditional algebraic thickets and invented visual diagrams—'Feynman Diagrams'—representing electron and photon interactions as simple intuitive trajectories. His path integral formulation showed that a quantum particle takes every possible path simultaneously. In 1986, serving on the Rogers Commission investigating the Challenger space shuttle disaster, he submerged an O-ring in a glass of ice water during a live televised hearing, proving rubber lost its elasticity in cold weather.",
+      "fascinatingImpact": "Feynman made quantum electrodynamics calculable, envisioned quantum computing and nanotechnology, and inspired generations with his boundless joy for physics.",
+      "sortYear": 1948,
+      "yearDisplay": "1948"
     },
     {
       "id": "franklin_rosalind",
@@ -1005,7 +1161,13 @@
       "famousQuote": "Science and everyday life cannot and should not be separated.",
       "nobelPrize": null,
       "majorDiscovery": "Photo 51 and experimental X-ray diffraction parameters of the DNA double helix",
-      "details": "Her peerless mastery of X-ray diffraction at King's College London produced Photo 51, providing the critical geometric dimensions (helical pitch, helical diameter) essential for Watson and Crick's DNA model."
+      "details": "Her peerless mastery of X-ray diffraction at King's College London produced Photo 51, providing the critical geometric dimensions (helical pitch, helical diameter) essential for Watson and Crick's DNA model.",
+      "curiosityStory": "Born in London to an influential Anglo-Jewish family, Rosalind Franklin decided at age 15 that she wanted to be a scientist. She was fiercely determined, possessing laser-sharp experimental rigor. During WWII, she studied the microscopic structure of coal and graphite, publishing foundational papers that helped design industrial carbon materials and gas masks.",
+      "inspirationMoment": "In Paris, she mastered the art of X-ray crystallography—firing X-rays at crystallized molecules and deducing their 3D shape from the diffracted pattern of spots. Recruited to King's College London in 1951, she applied her skills to the enigmatic, fragile fibers of DNA.",
+      "howTheyDidIt": "Franklin realized earlier DNA samples were disordered mixtures. She meticulously built a micro-camera that controlled the relative humidity of the fiber chamber, discovering that DNA existed in two distinct structural states: the dry 'A' form and the hydrated 'B' form. In May 1952, after exposing a hair-thin B-form DNA fiber to an X-ray beam for over 100 continuous hours, she captured 'Photo 51.' The photograph displayed a striking cross of dark spots with an empty fourth diamond layer, providing unambiguous mathematical proof of a helical structure with the phosphate backbone located on the exterior. Her photo was shown to James Watson without her knowledge or consent, unlocking their double helix model.",
+      "fascinatingImpact": "Franklin's meticulous experimental mastery provided the decisive physical evidence that unlocked the secret of life, though she died of ovarian cancer at age 37 before her contributions were fully acknowledged.",
+      "sortYear": 1952,
+      "yearDisplay": "1952"
     },
     {
       "id": "watson_crick",
@@ -1021,7 +1183,13 @@
       "famousQuote": "We have discovered the secret of life!",
       "nobelPrize": "Nobel Prize in Physiology or Medicine (1962) with Maurice Wilkins",
       "majorDiscovery": "Molecular 3D double helix model of DNA with base pairing",
-      "details": "American biologist James Watson and English physicist Francis Crick, working at Cambridge University's Cavendish Laboratory. In 1953, using key structural clues from Rosalind Franklin's Photo 51 and Erwin Chargaff's base-pairing rules, they assembled a physical cardboard and metal model of the DNA Double Helix, demonstrating how genetic information can replicate itself through complementary base pairs."
+      "details": "American biologist James Watson and English physicist Francis Crick, working at Cambridge University's Cavendish Laboratory. In 1953, using key structural clues from Rosalind Franklin's Photo 51 and Erwin Chargaff's base-pairing rules, they assembled a physical cardboard and metal model of the DNA Double Helix, demonstrating how genetic information can replicate itself through complementary base pairs.",
+      "curiosityStory": "In 1951, a 23-year-old American bird-watching wunderkind, James Watson, met 35-year-old British biophysicist Francis Crick at the Cavendish Laboratory in Cambridge. Neither was an experimental crystallographer, but both shared an unyielding obsession: they believed that discovering the 3D structure of DNA was the single greatest prize in biology.",
+      "inspirationMoment": "In early 1953, Watson was shown Rosalind Franklin's Photo 51 by Maurice Wilkins. 'The instant I saw the picture my mouth fell open and my pulse began to race,' Watson later wrote. The clear X-shaped diffraction pattern screamed 'helix' with specific dimensions.",
+      "howTheyDidIt": "Rather than conducting wet lab experiments, Watson and Crick built 3D physical models using brass wire, tin plates, and cardboard cutouts. Watson realized that adenine (A) must pair specifically with thymine (T) via two hydrogen bonds, and guanine (G) with cytosine (C) via three hydrogen bonds. The purine-pyrimidine base pairs had identical geometric widths, allowing the sugar-phosphate backbones to wind smoothly into an antiparallel double helix. On April 25, 1953, they published a one-page paper in Nature containing the immortal line: 'It has not escaped our notice that the specific pairing we have postulated immediately suggests a possible copying mechanism for the genetic material.'",
+      "fascinatingImpact": "Watson and Crick unveiled the digital architecture of biology: how genetic information is stored, replicated, and transmitted across generations.",
+      "sortYear": 1953,
+      "yearDisplay": "1953"
     },
     {
       "id": "turing",
@@ -1039,7 +1207,13 @@
       "famousQuote": "Sometimes it is the people no one can imagine anything of who do the things no one can imagine.",
       "nobelPrize": null,
       "majorDiscovery": "Concept of universal computation (Turing Machine) and AI intelligence criteria (Turing Test)",
-      "details": "British mathematician, logician, and the father of computer science and artificial intelligence. In 1936, he invented the theoretical concept of the Universal Turing Machine—the blueprint for all programmable computers. During WWII at Bletchley Park, Turing designed the electromechanical 'Bombe' machine that broke Nazi Germany's Enigma ciphers, saving an estimated 14 million lives. Later, he pioneered mathematical biology (morphogenesis) and the 'Turing Test' for machine intelligence."
+      "details": "British mathematician, logician, and the father of computer science and artificial intelligence. In 1936, he invented the theoretical concept of the Universal Turing Machine—the blueprint for all programmable computers. During WWII at Bletchley Park, Turing designed the electromechanical 'Bombe' machine that broke Nazi Germany's Enigma ciphers, saving an estimated 14 million lives. Later, he pioneered mathematical biology (morphogenesis) and the 'Turing Test' for machine intelligence.",
+      "curiosityStory": "A brilliant, socially unconventional English schoolboy who ran marathons and tinkered with chemical concoctions, Alan Turing questioned whether human thought could be reduced to formal mathematical operations.",
+      "inspirationMoment": "In 1936, wrestling with David Hilbert's 'Entscheidungsproblem' (whether an algorithm could determine if any mathematical assertion is provable), Turing imagined an idealized machine with an infinite strip of paper tape divided into squares and a read/write head scanning one symbol at a time.",
+      "howTheyDidIt": "He proved that this simple machine—the 'Universal Turing Machine'—could simulate any algorithmic calculation imaginable, laying the theoretical foundation of modern programmable computers. During WWII, at Bletchley Park, Turing designed the electromechanical 'Bombe' machine, breaking the German Enigma cipher and saving millions of lives. In 1950, he proposed the 'Turing Test' for machine intelligence. Tragically persecuted for his homosexuality by British authorities, he died by cyanide poisoning in 1954 at age 41.",
+      "fascinatingImpact": "Turing is the father of computer science and artificial intelligence, showing that logic and physical machines could calculate the universe.",
+      "sortYear": 1936,
+      "yearDisplay": "1936"
     },
     {
       "id": "chandrasekhar",
@@ -1055,7 +1229,13 @@
       "famousQuote": "The simple is the seal of the true.",
       "nobelPrize": "Nobel Prize in Physics (1983) for theoretical studies of the physical processes of importance to the structure and evolution of the stars",
       "majorDiscovery": "Chandrasekhar limit for white dwarf stars and stellar collapse mechanics",
-      "details": "Derived the limit at age 19 while travelling by ship from India to Cambridge. Defied skepticism from Arthur Eddington, ultimately validated by the discovery of black holes and pulsars."
+      "details": "Derived the limit at age 19 while travelling by ship from India to Cambridge. Defied skepticism from Arthur Eddington, ultimately validated by the discovery of black holes and pulsars.",
+      "curiosityStory": "Born in Lahore and raised in Madras, Subrahmanyan Chandrasekhar ('Chandra') was the nephew of Nobel laureate C.V. Raman. At age 19, after winning a scholarship, he boarded the steamship Pilsna bound for Cambridge University to pursue astrophysics.",
+      "inspirationMoment": "During the long 18-day voyage across the Arabian Sea in 1930, Chandra sat on deck with pencil and paper. He asked: When a massive star exhausts its nuclear fuel, what keeps it from collapsing under its own colossal gravity?",
+      "howTheyDidIt": "Astronomers believed white dwarf stars were halted by quantum electron degeneracy pressure. But Chandra combined quantum mechanics with Einstein's Special Relativity. He discovered that as a star's core compresses, electrons approach the speed of light. Because nothing can exceed light speed, degeneracy pressure has a hard mathematical ceiling: if a dying star's core exceeds 1.44 times the mass of the Sun (the Chandrasekhar Limit), gravity crushes the electrons into the protons, causing the star to collapse catastrophically into a neutron star or black hole. Sir Arthur Eddington publicly mocked his theory, but Chandra was completely vindicated, winning the 1983 Nobel Prize.",
+      "fascinatingImpact": "Chandra revealed the dramatic cosmic fate of dying stars, proving that nature's most colossal objects are governed by quantum physics and relativity.",
+      "sortYear": 1930,
+      "yearDisplay": "1930"
     },
     {
       "id": "tu_youyou",
@@ -1071,7 +1251,13 @@
       "famousQuote": "Every scientist dreams of doing something that can help the world.",
       "nobelPrize": "Nobel Prize in Physiology or Medicine (2015) for discoveries concerning a novel therapy against Malaria",
       "majorDiscovery": "Artemisinin extraction for antimalarial therapy saving millions of human lives",
-      "details": "Chinese pharmaceutical chemist who saved millions of human lives. During the Vietnam War, malaria was devastating troops and communities. Tu combed through ancient Chinese medical texts, finding a 1,600-year-old recipe by Ge Hong recommending sweet wormwood (Artemisia annua) soaked in cold water. Realizing that boiling heat destroyed the active compound, she designed a low-temperature ether extraction to isolate artemisinin. She boldly tested the drug on herself first, demonstrating its safety before saving millions across the globe."
+      "details": "Chinese pharmaceutical chemist who saved millions of human lives. During the Vietnam War, malaria was devastating troops and communities. Tu combed through ancient Chinese medical texts, finding a 1,600-year-old recipe by Ge Hong recommending sweet wormwood (Artemisia annua) soaked in cold water. Realizing that boiling heat destroyed the active compound, she designed a low-temperature ether extraction to isolate artemisinin. She boldly tested the drug on herself first, demonstrating its safety before saving millions across the globe.",
+      "curiosityStory": "Born in Ningbo, China, Tu Youyou studied pharmacognosy at Beijing Medical University, developing an expertise that bridged Western pharmaceutical chemistry with the deep herbal traditions of Chinese medicine.",
+      "inspirationMoment": "In 1969, during the Vietnam War, malaria was killing more soldiers than battlefield combat, and the parasite had developed resistance to chloroquine. Mao Zedong launched secret military 'Project 523' to find a cure. Tu Youyou was appointed head of research, methodically screening over 2,000 herbal recipes from ancient texts without success.",
+      "howTheyDidIt": "Re-reading a 1,600-year-old manual by 4th-century Taoist physician Ge Hong, she noticed a cryptic line: 'A handful of qinghao (sweet wormwood) immersed in two sheng of water, wring out the juice and drink it all.' Tu realized that boiling herbs in traditional water decoctions destroyed the fragile active molecule! She switched to a low-temperature ether extraction, successfully isolating Artemisinin in 1972. To ensure its safety, she volunteered as the first human test subject, taking the compound herself before clinical trials.",
+      "fascinatingImpact": "Tu Youyou's discovery of Artemisinin has saved millions of lives, especially children suffering from malaria across Africa and Asia, earning her the 2015 Nobel Prize.",
+      "sortYear": 1972,
+      "yearDisplay": "1972"
     },
     {
       "id": "hawking",
@@ -1088,7 +1274,13 @@
       "famousQuote": "Remember to look up at the stars and not down at your feet. Be curious. However difficult life may seem, there is always something you can do and succeed at.",
       "nobelPrize": null,
       "majorDiscovery": "Hawking Radiation and black hole thermodynamics",
-      "details": "British theoretical physicist who unraveled the deepest secrets of gravity, spacetime, and black holes. Diagnosed with ALS at age 21 and given just two years to live, Hawking defied medical expectations for over half a century. In 1974, he proved that black holes are not completely black: quantum fluctuations at the event horizon cause them to emit thermal radiation ('Hawking Radiation') and slowly evaporate. His book 'A Brief History of Time' became an international sensation."
+      "details": "British theoretical physicist who unraveled the deepest secrets of gravity, spacetime, and black holes. Diagnosed with ALS at age 21 and given just two years to live, Hawking defied medical expectations for over half a century. In 1974, he proved that black holes are not completely black: quantum fluctuations at the event horizon cause them to emit thermal radiation ('Hawking Radiation') and slowly evaporate. His book 'A Brief History of Time' became an international sensation.",
+      "curiosityStory": "As an undergraduate at Oxford, Stephen Hawking was an easygoing young man who rowed on the college crew and did barely an hour of study per day. But at age 21, while starting his PhD at Cambridge, he was diagnosed with amyotrophic lateral sclerosis (ALS) and given just two years to live.",
+      "inspirationMoment": "Confronting his mortality, Hawking found fierce purpose: 'Before my condition was diagnosed, I had been very bored with life. Now, every new day became a bonus.' He turned his mind to the greatest mystery in cosmology: black holes.",
+      "howTheyDidIt": "With Roger Penrose, Hawking proved that general relativity requires the universe to have begun in a gravitational singularity at the Big Bang. In 1974, he applied quantum field theory to the edge of a black hole's event horizon. He discovered that virtual particle pairs spontaneously pop into existence near the horizon; occasionally, one particle falls into the black hole while the other escapes into deep space! This meant black holes are not completely black—they radiate thermal energy ('Hawking Radiation') and will eventually evaporate over cosmic epochs. Despite losing speech and mobility, he authored 'A Brief History of Time', inspiring millions worldwide.",
+      "fascinatingImpact": "Hawking forged the first theoretical bridge uniting general relativity, quantum mechanics, and thermodynamics at the edge of the cosmic abyss.",
+      "sortYear": 1974,
+      "yearDisplay": "1974"
     },
     {
       "id": "doudna_charpentier",
@@ -1105,7 +1297,13 @@
       "famousQuote": "We have entered an era where human beings can rewrite the code of life itself.",
       "nobelPrize": "Nobel Prize in Chemistry (2020) for the development of a method for genome editing",
       "majorDiscovery": "CRISPR-Cas9 targeted genome editing tool",
-      "details": "Biochemists Jennifer Doudna (USA) and Emmanuelle Charpentier (France) who adapted a bacterial immune defense system into CRISPR-Cas9—a programmable molecular scissor capable of editing genes in living organisms with pinpoint precision. Their discovery won the 2020 Nobel Prize in Chemistry and has revolutionized medicine, agriculture, and gene therapy for genetic disorders."
+      "details": "Biochemists Jennifer Doudna (USA) and Emmanuelle Charpentier (France) who adapted a bacterial immune defense system into CRISPR-Cas9—a programmable molecular scissor capable of editing genes in living organisms with pinpoint precision. Their discovery won the 2020 Nobel Prize in Chemistry and has revolutionized medicine, agriculture, and gene therapy for genetic disorders.",
+      "curiosityStory": "Growing up in Hilo, Hawaii, Jennifer Doudna was mesmerized by island flora and James Watson's book The Double Helix. In France, Emmanuelle Charpentier was a microbiologist fascinated by how single-celled bacteria survive relentless viral attacks.",
+      "inspirationMoment": "In 2011, while attending a microbiology conference in San Juan, Puerto Rico, Doudna and Charpentier met during a walk through Old San Juan. Charpentier had discovered that Streptococcus bacteria possessed an adaptive immune system called CRISPR-Cas9, and the two scientists decided to join forces.",
+      "howTheyDidIt": "They unraveled how bacteria record snippets of invading viral DNA between repetitive genetic spacers, using them to guide a molecular scissor protein (Cas9) to snip viral genomes. In 2012, Doudna and Charpentier engineered a single guide RNA (sgRNA) that could be programmed to target and cut any exact DNA sequence in any living organism. It turned genetic editing from a clumsy, million-dollar guessing game into a precise molecular word processor.",
+      "fascinatingImpact": "CRISPR-Cas9 won the 2020 Nobel Prize in Chemistry, empowering humanity to cure genetic disorders, engineer resilient crops, and rewrite the biological code.",
+      "sortYear": 2012,
+      "yearDisplay": "2012"
     },
     {
       "id": "penrose",
@@ -1122,7 +1320,13 @@
       "famousQuote": "Physical reality is fundamentally non-computational at quantum scales.",
       "nobelPrize": "Nobel Prize in Physics (2020) for the discovery that black hole formation is a robust prediction of the general theory of relativity",
       "majorDiscovery": "Mathematical proof that gravitational singularities (black holes) inevitably form in general relativity",
-      "details": "Provided mathematical proof in 1965 showing that once an object collapses past an event horizon, a gravitational singularity where physics ceases is inevitable."
+      "details": "Provided mathematical proof in 1965 showing that once an object collapses past an event horizon, a gravitational singularity where physics ceases is inevitable.",
+      "curiosityStory": "Born into a gifted British artistic and scientific family, Roger Penrose had an extraordinary geometric imagination, co-inventing the famous 'impossible staircase' and 'Penrose triangle' that inspired artist M.C. Escher, as well as discovering aperiodic Penrose tiling.",
+      "inspirationMoment": "In the 1960s, physicists debated whether Einstein's black holes were merely mathematical artifacts of idealized spherical symmetry. Penrose asked: If a star collapses asymmetrically, can it avoid forming a singularity?",
+      "howTheyDidIt": "In 1964, while walking through London with an acquaintance, conversation paused as they crossed the street. In that brief silence, the topological concept of a 'trapped surface' crystallized in Penrose's mind. Using global differential topology, Penrose proved his Singularity Theorem: once a collapsing star forms a trapped surface, no physical force in the universe can prevent it from collapsing into a gravitational singularity of infinite density. He won the 2020 Nobel Prize in Physics.",
+      "fascinatingImpact": "Penrose proved that black holes are inevitable physical realities of general relativity, transforming them from bizarre thought experiments into astronomical facts.",
+      "sortYear": 1965,
+      "yearDisplay": "1965"
     },
     {
       "id": "kariko_weissman",
@@ -1139,7 +1343,13 @@
       "famousQuote": "When you believe in your science, you never stop even when the funding runs dry.",
       "nobelPrize": "Nobel Prize in Physiology or Medicine (2023) for discoveries concerning nucleoside base modifications that enabled the development of effective mRNA vaccines against COVID-19",
       "majorDiscovery": "Modified nucleosides enabling therapeutic and prophylactic mRNA translation without lethal immune attack",
-      "details": "Overcame decades of institutional skepticism and demotions, demonstrating that substituting pseudouridine into mRNA stops innate immune destruction."
+      "details": "Overcame decades of institutional skepticism and demotions, demonstrating that substituting pseudouridine into mRNA stops innate immune destruction.",
+      "curiosityStory": "The daughter of a butcher in post-war communist Hungary, Katalin Karikó grew up in a one-room adobe house without running water. In 1985, after losing her university research post, she moved to America with her husband and two-year-old daughter, sewing their life savings of £900 inside a teddy bear. For decades at the University of Pennsylvania, she faced grant rejections, salary cuts, and demotions for persisting with a molecule everyone deemed a dead end: mRNA.",
+      "inspirationMoment": "In 1997, Karikó met immunologist Drew Weissman by chance while waiting in line at an office photocopy machine. They began talking about using messenger RNA to instruct human cells to manufacture therapeutic proteins, but ran into a deadly hurdle: synthetic mRNA triggered catastrophic immune storms in laboratory mice.",
+      "howTheyDidIt": "Karikó noticed that natural transfer RNA (tRNA) in human cells did not trigger inflammation. In 2005, after painstaking biochemical experiments, Karikó and Weissman discovered the secret: substituting a single nucleoside base—replacing uridine with pseudouridine ($\\Psi$)—allowed synthetic mRNA to slip past mammalian immune sensors undetected and produce target antigens safely. In 2020, when the COVID-19 pandemic struck, their technology enabled Pfizer-BioNTech and Moderna to develop vaccines in record time, saving tens of millions of lives and winning the 2023 Nobel Prize in Medicine.",
+      "fascinatingImpact": "Karikó and Weissman proved that stubborn persistence in basic science can rescue civilization, launching the era of programmable mRNA therapeutics for cancer, malaria, and autoimmune diseases.",
+      "sortYear": 2005,
+      "yearDisplay": "2005"
     },
     {
       "id": "hopfield_hinton",
@@ -1156,7 +1366,13 @@
       "famousQuote": "We now have machines that can learn from statistical regularities just as brain networks do.",
       "nobelPrize": "Nobel Prize in Physics (2024) for foundational discoveries and inventions that enable machine learning with artificial neural networks",
       "majorDiscovery": "Physics-grounded neural architectures using statistical mechanics and energy minimisation",
-      "details": "Transformed artificial neural networks by translating ideas from condensed matter physics (spin glasses and statistical physics) into trainable models."
+      "details": "Transformed artificial neural networks by translating ideas from condensed matter physics (spin glasses and statistical physics) into trainable models.",
+      "curiosityStory": "John Hopfield was a Princeton biophysicist interested in how complex memory arises from simple physical networks. Geoffrey Hinton, the great-great-grandson of mathematician George Boole, was a British psychologist and computer scientist who spent decades defending neural networks when the rest of the AI community abandoned them during the cold 'AI winters.'",
+      "inspirationMoment": "In 1982, Hopfield recognized that the energy landscape of magnetic spin glasses in statistical physics could describe how associative human memory retrieves complete images from distorted fragments. Hinton wondered: Could statistical mechanics enable a layered neural network to discover its own internal representations of the world?",
+      "howTheyDidIt": "Hopfield developed the Hopfield Network with dynamic energy minimization. Hinton co-invented the backpropagation algorithm for multi-layer neural networks, developed Boltzmann machines, and championed deep learning. In 2012, Hinton's team built AlexNet, crushing the ImageNet computer vision competition and sparking the modern deep learning revolution. In 2024, Hopfield and Hinton were awarded the Nobel Prize in Physics.",
+      "fascinatingImpact": "Hopfield and Hinton bridged statistical physics and artificial intelligence, laying the architectural foundations of modern artificial neural networks, computer vision, and large language models.",
+      "sortYear": 1982,
+      "yearDisplay": "1982"
     },
     {
       "id": "hassabis_jumper_baker",
@@ -1173,7 +1389,13 @@
       "famousQuote": "AI has given biology the lens to see all 200 million proteins of known life.",
       "nobelPrize": "Nobel Prize in Chemistry (2024) — Baker for computational protein design; Hassabis and Jumper for protein structure prediction",
       "majorDiscovery": "Computational prediction of 3D protein structures from amino acid sequences using deep learning",
-      "details": "Predicted atomic-level 3D conformations for virtually every known protein sequence, unleashing leaps in drug design, enzyme engineering, and synthetic biology."
+      "details": "Predicted atomic-level 3D conformations for virtually every known protein sequence, unleashing leaps in drug design, enzyme engineering, and synthetic biology.",
+      "curiosityStory": "Demis Hassabis was a child chess prodigy and computer game designer who co-founded DeepMind with the vision of solving intelligence to solve everything else. John Jumper was a theoretical biophysicist, and David Baker was an American biochemist at the University of Washington who dedicated decades to computational protein design.",
+      "inspirationMoment": "For 50 years, structural biology was paralyzed by the 'protein folding problem': Christian Anfinsen had proven that a protein's 1D amino acid sequence dictates its 3D shape, but calculating that shape required astronomical permutations. Determining a single protein structure in the lab took years of grueling crystallography.",
+      "howTheyDidIt": "In 2020, Jumper and Hassabis engineered AlphaFold 2, combining attention neural networks with evolutionary co-variance to predict 3D protein structures with atomic accuracy within minutes. DeepMind mapped virtually all 200 million known proteins across the tree of life. Meanwhile, David Baker created Rosetta and Topiary, pioneering 'de novo' protein design—crafting synthetic proteins never before seen in nature to neutralize toxins and fight disease. In 2024, they were awarded the Nobel Prize in Chemistry.",
+      "fascinatingImpact": "By conquering the protein folding problem with AI, they ignited a revolution in molecular biology, drug discovery, plastic-eating enzyme design, and synthetic medicine.",
+      "sortYear": 2020,
+      "yearDisplay": "2020"
     }
   ],
   "nobelPrizes": [
@@ -1549,7 +1771,16 @@
       "year": "c. 3500 BCE",
       "inventor": "Mesopotamian civilization",
       "significance": "The Wheel & Axle (c. 3500 BCE, Mesopotamia): Originally developed for pottery wheels, its adaptation for wheeled transport revolutionized trade, agriculture, military chariots, and mechanical gears, unlocking land mobility.",
-      "category": "Mechanical & Transportation"
+      "category": "Mechanical & Transportation",
+      "theWorldBefore": "Human beings dragged heavy loads on wooden sleds or carried them on their backs, limiting transport, trade distance, and agricultural efficiency.",
+      "curiositySpark": "Mesopotamian potters first invented rotating turntables to shape clay; artisans realized that rolling round logs under heavy stone slabs reduced friction.",
+      "howItWorks": "A circular component rotating on an axle bearing reduces rolling resistance and friction, translating rotary force into linear motion.",
+      "civilizationalLeap": "Unlocked global land transport, irrigation water wheels, grain milling, chariots, clocks, and mechanical gear trains.",
+      "sortYear": -3500,
+      "yearDisplay": "c. 3500 BCE",
+      "milestoneType": "invention",
+      "badge": "Mechanics",
+      "creator": "Mesopotamian civilization"
     },
     {
       "id": "inv_paper",
@@ -1557,7 +1788,16 @@
       "year": "c. 105 CE",
       "inventor": "Cai Lun (Han Dynasty, China)",
       "significance": "Replaced bulky bamboo strips and costly silk with lightweight plant fibers, catalyzing literacy and global administrative records.",
-      "category": "Communication & Knowledge"
+      "category": "Communication & Knowledge",
+      "theWorldBefore": "Writing was recorded on heavy clay tablets, expensive calfskin vellum, brittle Egyptian papyrus, or bulky tied bamboo strips.",
+      "curiositySpark": "Cai Lun in Han Dynasty China observed wasps building paper nests from chewed wood fibers, realizing plant fibers could be pulped into sheets.",
+      "howItWorks": "Macerated plant fibers (mulberry bark, hemp, rags) are suspended in water, drained through a fine mesh screen, pressed, and dried into uniform sheets.",
+      "civilizationalLeap": "Democratized literacy, catalyzed administrative governance, preserved literature, and paved the way for mass printing.",
+      "sortYear": 105,
+      "yearDisplay": "c. 105 CE",
+      "milestoneType": "invention",
+      "badge": "Communication",
+      "creator": "Cai Lun (Han Dynasty, China)"
     },
     {
       "id": "inv_printing_press",
@@ -1565,7 +1805,16 @@
       "year": "c. 1440",
       "inventor": "Johannes Gutenberg",
       "significance": "Movable Type Printing Press (1440, Johannes Gutenberg, Germany): Gutenberg combined metal alloy punch-cut type, oil-based ink, and a wooden screw press, slashing the cost of books and sparking the Renaissance, Reformation, and Scientific Revolution.",
-      "category": "Communication & Knowledge"
+      "category": "Communication & Knowledge",
+      "theWorldBefore": "Every book was hand-copied by monks over months or years; a single Bible cost as much as a vineyard, leaving 95% of humanity illiterate.",
+      "curiositySpark": "Gutenberg combined his goldsmithing craft of casting durable lead-tin alloy type with oil-based ink and an adapted wooden wine press.",
+      "howItWorks": "Individual reusable metal letter sorts are arranged into words and lines, inked, and mechanically pressed against paper in repeated cycles.",
+      "civilizationalLeap": "Slashed the cost of books by 99%, triggering the Renaissance, Protestant Reformation, and the global spread of scientific inquiry.",
+      "sortYear": 1440,
+      "yearDisplay": "1440",
+      "milestoneType": "invention",
+      "badge": "Knowledge",
+      "creator": "Johannes Gutenberg"
     },
     {
       "id": "inv_microscope",
@@ -1573,7 +1822,16 @@
       "year": "c. 1590",
       "inventor": "Zacharias Janssen / Hans Lippershey",
       "significance": "The Compound Optical Microscope (c. 1590, Zacharias Janssen & Antonie van Leeuwenhoek): Enabled humanity to peer beneath the threshold of human vision into cells, bacteria, red blood cells, and micro-structures.",
-      "category": "Scientific Instrumentation"
+      "category": "Scientific Instrumentation",
+      "theWorldBefore": "Human vision was limited to macroscopic scales; disease, bodily tissue, and insect anatomy remained shrouded in theological speculation.",
+      "curiositySpark": "Dutch spectacle makers Janssen and Lippershey experimented with combining concave and convex lenses inside brass tubes.",
+      "howItWorks": "An objective lens produces an enlarged real image of a specimen, which is further magnified by an ocular eyepiece lens.",
+      "civilizationalLeap": "Revealed the cellular and bacterial universe, creating modern microbiology, histopathology, and materials science.",
+      "sortYear": 1590,
+      "yearDisplay": "c. 1590",
+      "milestoneType": "invention",
+      "badge": "Optics",
+      "creator": "Zacharias Janssen / Hans Lippershey"
     },
     {
       "id": "inv_telescope",
@@ -1581,7 +1839,16 @@
       "year": "1608 / 1609",
       "inventor": "Hans Lippershey & Galileo Galilei",
       "significance": "The Astronomical Telescope (1608, Hans Lippershey & Galileo Galilei): Allowed Galileo to see moons orbiting Jupiter, craters on our Moon, and millions of stars in the Milky Way, shattering Earth-centric dogma.",
-      "category": "Scientific Instrumentation"
+      "category": "Scientific Instrumentation",
+      "theWorldBefore": "The night sky was a flat celestial dome of twinkling points, with planets and stars interpreted as mystical astrological omens.",
+      "curiositySpark": "Galileo ground superior glass lenses and pointed his 30x optical instrument toward the heavens instead of coastal harbors.",
+      "howItWorks": "Curved glass lenses or parabolic mirrors gather and focus faint starlight, magnifying distant angular sizes.",
+      "civilizationalLeap": "Shattered geocentric dogma, revealed moons orbiting Jupiter, and allowed humanity to explore deep cosmic time.",
+      "sortYear": 1609,
+      "yearDisplay": "1608 / 1609",
+      "milestoneType": "invention",
+      "badge": "Optics",
+      "creator": "Hans Lippershey & Galileo Galilei"
     },
     {
       "id": "inv_steam_engine",
@@ -1589,7 +1856,16 @@
       "year": "1769",
       "inventor": "James Watt",
       "significance": "Watt's Steam Engine with Separate Condenser (1769–1776, James Watt): Upgraded the inefficient Newcomen pump into a versatile rotary power engine that fueled factories, steamships, locomotives, and the Industrial Revolution.",
-      "category": "Energy & Mechanics"
+      "category": "Energy & Mechanics",
+      "theWorldBefore": "Human industry was constrained by the physical muscle power of draft animals, erratic wind gusts, and seasonal river watermills.",
+      "curiositySpark": "James Watt noticed Thomas Newcomen's atmospheric engine wasted immense energy repeatedly heating and cooling the same cylinder.",
+      "howItWorks": "Burning coal boils water into high-pressure steam, which expands into a cylinder with a separate condenser, driving a piston and flywheel.",
+      "civilizationalLeap": "Unleashed the Industrial Revolution, powering factories, steamships, and transcontinental railroads.",
+      "sortYear": 1769,
+      "yearDisplay": "1769",
+      "milestoneType": "invention",
+      "badge": "Industrial",
+      "creator": "James Watt"
     },
     {
       "id": "inv_battery",
@@ -1597,7 +1873,16 @@
       "year": "1800",
       "inventor": "Alessandro Volta",
       "significance": "First continuous source of electric current, paving the way for electrochemistry, electromagnetism, and telegraphy.",
-      "category": "Energy & Electricity"
+      "category": "Energy & Electricity",
+      "theWorldBefore": "Electricity was known only as fleeting, uncontrollable static sparks from amber, lightning, or Leyden jars.",
+      "curiositySpark": "Alessandro Volta disproved Galvani's 'animal electricity' by showing that two dissimilar metals produced electric currents when separated by moist brine.",
+      "howItWorks": "Alternating discs of copper and zinc separated by brine-soaked cardboard create continuous electrochemical potential through oxidation-reduction reactions.",
+      "civilizationalLeap": "Provided the world's first steady direct electric current, enabling electrochemistry, electric telegraphy, and mobile electronics.",
+      "sortYear": 1800,
+      "yearDisplay": "1800",
+      "milestoneType": "invention",
+      "badge": "Electricity",
+      "creator": "Alessandro Volta"
     },
     {
       "id": "inv_electric_motor",
@@ -1605,7 +1890,16 @@
       "year": "1821 / 1831",
       "inventor": "Michael Faraday",
       "significance": "Converted electrical energy into continuous mechanical motion and vice versa, providing the backbone of modern global industry.",
-      "category": "Energy & Electricity"
+      "category": "Energy & Electricity",
+      "theWorldBefore": "Mechanical rotation required steam boilers, coal fires, or running rivers, tying manufacturing to fuel depots and waterways.",
+      "curiositySpark": "Faraday suspended a magnetic wire in a pool of liquid mercury surrounding a permanent magnet and ran an electric current through it.",
+      "howItWorks": "The Lorentz force exerted by a magnetic field on an electric current causes a continuous electromagnetic torque that rotates a central armature.",
+      "civilizationalLeap": "Transformed factories, public transport (subways, trams), household appliances, and electric vehicles, powering modern industry.",
+      "sortYear": 1821,
+      "yearDisplay": "1821 / 1831",
+      "milestoneType": "invention",
+      "badge": "Electricity",
+      "creator": "Michael Faraday"
     },
     {
       "id": "inv_telegraph",
@@ -1613,7 +1907,16 @@
       "year": "1837 / 1844",
       "inventor": "Samuel Morse & Alfred Vail",
       "significance": "Electric Telegraph & Morse Code (1837–1844, Samuel Morse & William Fothergill Cooke): Transmitted electrical pulses over wires to send instantaneous messages across continents and oceans, inaugurating the telecommunications age.",
-      "category": "Communication & Information"
+      "category": "Communication & Information",
+      "theWorldBefore": "Messages could only travel at the speed of a galloping horse or a sailing ship, taking weeks or months to cross continents and oceans.",
+      "curiositySpark": "Samuel Morse and Alfred Vail devised an electromagnetic sounder that clicked when receiving pulsed electrical signals over copper wire.",
+      "howItWorks": "Electrical current pulses transmitted through insulated wires energize an electromagnet that actuates an acoustic sounder in Morse code rhythms.",
+      "civilizationalLeap": "Decoupled communication from physical transportation for the first time, inaugurating the telecommunications age.",
+      "sortYear": 1837,
+      "yearDisplay": "1837 / 1844",
+      "milestoneType": "invention",
+      "badge": "Telecomm",
+      "creator": "Samuel Morse & Alfred Vail"
     },
     {
       "id": "inv_telephone",
@@ -1621,7 +1924,16 @@
       "year": "1876",
       "inventor": "Alexander Graham Bell & Elisha Gray",
       "significance": "Transmitted human acoustic speech over electrical cables, unifying distant cities into synchronized networks.",
-      "category": "Communication & Information"
+      "category": "Communication & Information",
+      "theWorldBefore": "Long-distance communication was limited to coded dots and dashes that required specialized telegraph operators to decode and deliver on paper.",
+      "curiositySpark": "Alexander Graham Bell experimented with harmonic telegraphy and vibrating diaphragms to help deaf students visualize speech.",
+      "howItWorks": "A flexible diaphragm vibrates in response to human acoustic sound waves, modulating electrical resistance and sending fluctuating currents to an audio receiver.",
+      "civilizationalLeap": "Allowed immediate, natural voice conversation across thousands of miles, tying families, businesses, and governments together.",
+      "sortYear": 1876,
+      "yearDisplay": "1876",
+      "milestoneType": "invention",
+      "badge": "Acoustics",
+      "creator": "Alexander Graham Bell & Elisha Gray"
     },
     {
       "id": "inv_lightbulb",
@@ -1629,7 +1941,16 @@
       "year": "1879",
       "inventor": "Thomas Edison & Joseph Swan",
       "significance": "Commercial Incandescent Electric Light (1879, Thomas Edison & Joseph Swan): Carbonized filament vacuum bulbs allowed human society to illuminate homes, factories, and streets safely through the night.",
-      "category": "Energy & Electricity"
+      "category": "Energy & Electricity",
+      "theWorldBefore": "Night was illuminated by smoky, flickering tallow candles, whale oil lamps, or volatile gas fixtures that caused devastating urban fires.",
+      "curiositySpark": "Edison and Swan tested thousands of organic filaments in high-vacuum glass envelopes to find a material that would glow without burning out.",
+      "howItWorks": "Electric current passes through a high-resistance carbonized bamboo or tungsten filament inside an evacuated bulb, heating it to white-hot incandescence.",
+      "civilizationalLeap": "Extended active human waking hours, eliminated fire hazards from open flames, and reshaped urban nightlife and industry.",
+      "sortYear": 1879,
+      "yearDisplay": "1879",
+      "milestoneType": "invention",
+      "badge": "Electricity",
+      "creator": "Thomas Edison & Joseph Swan"
     },
     {
       "id": "inv_radio",
@@ -1637,7 +1958,16 @@
       "year": "1895 – 1901",
       "inventor": "Guglielmo Marconi & Nikola Tesla",
       "significance": "Conducted trans-Atlantic wireless communication, enabling mass media broadcast, navigation, and modern radar.",
-      "category": "Communication & Waves"
+      "category": "Communication & Waves",
+      "theWorldBefore": "Long-distance telecommunication required expensive copper cables strung across poles or laid along treacherous ocean floors.",
+      "curiositySpark": "Marconi and Tesla recognized that Heinrich Hertz's invisible electromagnetic waves could transmit Morse code and audio through thin air.",
+      "howItWorks": "High-frequency alternating electric currents in an antenna generate propagating electromagnetic waves that induce corresponding currents in a receiver.",
+      "civilizationalLeap": "Enabled maritime distress signaling (saving Titanic survivors), mass audio broadcast, aviation navigation, radar, and Wi-Fi.",
+      "sortYear": 1895,
+      "yearDisplay": "1895 – 1901",
+      "milestoneType": "invention",
+      "badge": "Wireless",
+      "creator": "Guglielmo Marconi & Nikola Tesla"
     },
     {
       "id": "inv_airplane",
@@ -1645,7 +1975,16 @@
       "year": "1903",
       "inventor": "Wilbur & Orville Wright",
       "significance": "Controlled Powered Heavier-Than-Air Flight (1903, Orville & Wilbur Wright, USA): Built upon wind tunnel aeronautical testing, custom propellers, and three-axis aerodynamic controls, launching modern aviation.",
-      "category": "Mechanical & Transportation"
+      "category": "Mechanical & Transportation",
+      "theWorldBefore": "Humans were forever bound to the earth's surface, watching birds in the sky and regarding heavier-than-air flight as a physical impossibility.",
+      "curiositySpark": "The Wright brothers studied bird flight, built a miniature bicycle-shop wind tunnel, and developed three-axis aerodynamic flight control.",
+      "howItWorks": "Cambered wings generate aerodynamic lift via pressure differentials, while an engine-driven propeller produces thrust to overcome drag.",
+      "civilizationalLeap": "Shrank the globe from months of sea travel to hours of flight, revolutionizing commerce, warfare, and cultural exchange.",
+      "sortYear": 1903,
+      "yearDisplay": "1903",
+      "milestoneType": "invention",
+      "badge": "Aviation",
+      "creator": "Wilbur & Orville Wright"
     },
     {
       "id": "inv_transistor",
@@ -1653,7 +1992,16 @@
       "year": "1947",
       "inventor": "John Bardeen, Walter Brattain, William Shockley",
       "significance": "The Solid-State Transistor (1947, John Bardeen, Walter Brattain & William Shockley at Bell Labs): Replaced fragile vacuum tubes with semiconductor silicon switches, enabling microprocessors, computers, smartphones, and the digital era.",
-      "category": "Computing & Electronics"
+      "category": "Computing & Electronics",
+      "theWorldBefore": "Computers and radios relied on fragile, hot, power-hungry glass vacuum tubes that constantly burned out and filled entire rooms.",
+      "curiositySpark": "Bardeen, Brattain, and Shockley at Bell Labs investigated semiconductor physics to replace mechanical relays and vacuum tubes.",
+      "howItWorks": "Applying a small electrical voltage to the gate of a solid-state semiconductor (silicon) modulates a larger current flowing between source and drain.",
+      "civilizationalLeap": "The building block of the digital universe: billions of microscopic transistors now fit on a fingernail-sized computer chip.",
+      "sortYear": 1947,
+      "yearDisplay": "1947",
+      "milestoneType": "invention",
+      "badge": "Computing",
+      "creator": "John Bardeen, Walter Brattain, William Shockley"
     },
     {
       "id": "inv_laser",
@@ -1661,7 +2009,16 @@
       "year": "1960",
       "inventor": "Theodore Maiman",
       "significance": "The Laser (Light Amplification by Stimulated Emission of Radiation, 1960, Theodore Maiman): Generated coherent, single-wavelength light beams now used in fiber-optic internet, barcode scanners, eye surgery, and precision manufacturing.",
-      "category": "Optics & Photonics"
+      "category": "Optics & Photonics",
+      "theWorldBefore": "Light was incoherent, chaotic, and dispersed in all colors and directions, unable to deliver concentrated energy or pure frequency.",
+      "curiositySpark": "Theodore Maiman applied Einstein's 1917 theory of stimulated emission to a synthetic ruby rod pumped with high-intensity flashlamps.",
+      "howItWorks": "Excited atoms release photons that stimulate identical in-phase photons between parallel mirrors, producing a coherent, monochromatic beam.",
+      "civilizationalLeap": "Enables global fiber-optic internet cables, barcode scanners, laser eye surgery, precision manufacturing, and fusion energy research.",
+      "sortYear": 1960,
+      "yearDisplay": "1960",
+      "milestoneType": "invention",
+      "badge": "Optics",
+      "creator": "Theodore Maiman"
     },
     {
       "id": "inv_internet_www",
@@ -1669,7 +2026,16 @@
       "year": "1989 – 1991",
       "inventor": "Tim Berners-Lee (WWW) & Vint Cerf / Bob Kahn (TCP/IP)",
       "significance": "Created an open hyperlinked global network connecting billions of humans to collective knowledge instantly.",
-      "category": "Computing & Networks"
+      "category": "Computing & Networks",
+      "theWorldBefore": "Knowledge was locked in physical libraries, paper encyclopedias, and isolated mainframe computers that could not communicate.",
+      "curiositySpark": "Cerf and Kahn designed TCP/IP for military resilience; Tim Berners-Lee created HTTP and HTML at CERN to link research documents.",
+      "howItWorks": "Packet-switching protocols route digital data packets across decentralized global networks, rendered as hyperlinked web pages.",
+      "civilizationalLeap": "Unified human knowledge, instant global communication, and commerce into an interconnected digital planetary nervous system.",
+      "sortYear": 1989,
+      "yearDisplay": "1989 – 1991",
+      "milestoneType": "invention",
+      "badge": "Computing",
+      "creator": "Tim Berners-Lee (WWW) & Vint Cerf / Bob Kahn (TCP/IP)"
     },
     {
       "id": "inv_crispr",
@@ -1677,7 +2043,16 @@
       "year": "2012",
       "inventor": "Jennifer Doudna & Emmanuelle Charpentier",
       "significance": "CRISPR-Cas9 Gene Editing System (2012, Jennifer Doudna & Emmanuelle Charpentier): A programmable bacterial immune mechanism repurposed as molecular scissors to cut, edit, and repair DNA sequences in living cells.",
-      "category": "Biotechnology & Medicine"
+      "category": "Biotechnology & Medicine",
+      "theWorldBefore": "Genetic engineering was crude, slow, and expensive, relying on random insertions or clumsy, tailored protein scissors.",
+      "curiositySpark": "Doudna and Charpentier unraveled an ancient bacterial immune defense system against viruses, reprogramming it for molecular gene editing.",
+      "howItWorks": "A custom synthetic guide RNA directs the Cas9 endonuclease enzyme to an exact sequence of DNA, making a clean, double-strand cut for editing.",
+      "civilizationalLeap": "Empowered humanity to edit the genetic code of any living organism with word-processor precision, revolutionizing medicine and agriculture.",
+      "sortYear": 2012,
+      "yearDisplay": "2012",
+      "milestoneType": "invention",
+      "badge": "Biotech",
+      "creator": "Jennifer Doudna & Emmanuelle Charpentier"
     },
     {
       "id": "inv_transformer_llm",
@@ -1685,7 +2060,16 @@
       "year": "2017",
       "inventor": "Vaswani et al. (Google Brain / Research)",
       "significance": "Attention mechanism powering contemporary generative artificial intelligence, large language models, and AI scientific discoveries.",
-      "category": "Artificial Intelligence & Computing"
+      "category": "Artificial Intelligence & Computing",
+      "theWorldBefore": "Natural language processing was brittle and sequential, unable to grasp distant context or generate coherent human prose.",
+      "curiositySpark": "Vaswani and researchers at Google realized that self-attention mechanisms could process entire sentences simultaneously without recurrent loops.",
+      "howItWorks": "Multi-head self-attention dynamically weighs the contextual relationship between every word in a sequence, learning language representations.",
+      "civilizationalLeap": "Catalyzed the generative artificial intelligence era, enabling conversational AI, automated coding, and scientific problem-solving.",
+      "sortYear": 2017,
+      "yearDisplay": "2017",
+      "milestoneType": "invention",
+      "badge": "AI & Deep Learning",
+      "creator": "Vaswani et al. (Google Brain / Research)"
     }
   ],
   "discoveries": [
@@ -1695,7 +2079,16 @@
       "period": "c. 1,000,000 – 400,000 BCE",
       "discoverer": "Early hominins (Homo erectus)",
       "impact": "Control of Fire (c. 1,000,000 – 400,000 BCE): Pioneered by early hominins like Homo erectus. Cooked food pre-digested proteins and complex starches, shrinking human digestive tracts and fueling the rapid expansion of our energy-hungry brains. Fire also extended the day past sunset, provided warmth in glacial winters, repelled nocturnal predators, and laid the foundations for pottery and metallurgy.",
-      "field": "Anthropology & Prehistory"
+      "field": "Anthropology & Prehistory",
+      "theWorldBefore": "For millions of years, ancestral hominins lived in cold vulnerability, huddled in pitch darkness when night fell, helpless against nocturnal predators, and chewing raw meat and fibrous roots for hours each day.",
+      "curiositySpark": "Witnessing lightning strikes ignite bushfires, early Homo erectus conquered their primal fear of flames, approaching the blaze to collect embers and nurture hearths with dry wood.",
+      "howItWorks": "Rapid chemical oxidation of combustible organic matter releasing intense heat and light. Cooking tenderizes tough fibers and denatures proteins, reducing the metabolic energy required for digestion.",
+      "civilizationalLeap": "Cooked food fueled a dramatic metabolic expansion of the human brain, extended waking hours around campfires, catalyzed language through oral storytelling, and unlocked metallurgy and pottery.",
+      "sortYear": -1000000,
+      "yearDisplay": "1,000,000 BCE",
+      "milestoneType": "discovery",
+      "badge": "Prehistory",
+      "creator": "Early hominins (Homo erectus)"
     },
     {
       "id": "disc_helio",
@@ -1703,7 +2096,16 @@
       "period": "1543",
       "discoverer": "Nicolaus Copernicus",
       "impact": "Dethroned Earth from the center of celestial mechanics, placing the Sun at the center of the solar orbits.",
-      "field": "Astronomy"
+      "field": "Astronomy",
+      "theWorldBefore": "Humanity believed Earth was the immobile, divine center of the universe, surrounded by crystal celestial spheres that required convoluted epicycles to explain irregular planetary motions.",
+      "curiositySpark": "Copernicus observed that planetary retrograde loops could be explained effortlessly if planets were viewed from an Earth that is itself orbiting the Sun.",
+      "howItWorks": "The Sun sits at the gravitational focus of the solar system; Earth and planets orbit it along elliptical paths governed by gravity.",
+      "civilizationalLeap": "Dethroned humanity from cosmic self-importance, sparking the Scientific Revolution and inaugurating empirical astronomy.",
+      "sortYear": 1543,
+      "yearDisplay": "1543",
+      "milestoneType": "discovery",
+      "badge": "Astronomy",
+      "creator": "Nicolaus Copernicus"
     },
     {
       "id": "disc_gravity",
@@ -1711,7 +2113,16 @@
       "period": "1687",
       "discoverer": "Sir Isaac Newton",
       "impact": "Newton's Universal Law of Gravitation (1687): Isaac Newton realized that the force causing an apple to fall from a tree is the exact same gravitational force that keeps the Moon in orbit around Earth and planets orbiting the Sun, unifying earthly and celestial physics.",
-      "field": "Physics"
+      "field": "Physics",
+      "theWorldBefore": "Scholars believed the earthly realm was governed by decay and imperfect physics, while the heavenly spheres operated under separate, mystical divine laws.",
+      "curiositySpark": "Newton quarantined in Woolsthorpe observed an apple fall straight down, asking if the force pulling the apple reached all the way to the Moon.",
+      "howItWorks": "Every mass in the universe attracts every other mass with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between them ($F = G \\frac{m_1 m_2}{r^2}$).",
+      "civilizationalLeap": "Unified heaven and Earth into a single mathematical clockwork system, enabling space exploration and modern engineering.",
+      "sortYear": 1687,
+      "yearDisplay": "1687",
+      "milestoneType": "discovery",
+      "badge": "Physics",
+      "creator": "Sir Isaac Newton"
     },
     {
       "id": "disc_cells",
@@ -1719,7 +2130,16 @@
       "period": "1665 / 1676",
       "discoverer": "Robert Hooke & Antonie van Leeuwenhoek",
       "impact": "Discovery of Living Cells (1665–1674): Robert Hooke examined thin slices of cork through an early microscope, coining the word 'cell' after the barren rooms of monks. Antonie van Leeuwenhoek soon discovered living microorganisms, bacteria, and spermatozoa in a drop of water.",
-      "field": "Biology"
+      "field": "Biology",
+      "theWorldBefore": "Living tissue was viewed as continuous organic matter infused with mystical humors and vital spirits, with spontaneous generation assumed for vermin and rot.",
+      "curiositySpark": "Hooke examined thin slivers of cork under magnifying lenses; Leeuwenhoek inspected pond water and plaque with single-lens bead microscopes.",
+      "howItWorks": "All living organisms are composed of discrete microscopic membrane-bound units—cells—which replicate through division from pre-existing cells.",
+      "civilizationalLeap": "Founded cell biology and microbiology, revealing the microscopic architecture of life and disproving spontaneous generation.",
+      "sortYear": 1665,
+      "yearDisplay": "1665 / 1676",
+      "milestoneType": "discovery",
+      "badge": "Microbiology",
+      "creator": "Robert Hooke & Antonie van Leeuwenhoek"
     },
     {
       "id": "disc_oxygen",
@@ -1727,7 +2147,16 @@
       "period": "1774",
       "discoverer": "Joseph Priestley & Antoine Lavoisier",
       "impact": "Discovery of Oxygen & Chemistry of Combustion (1774–1777): Joseph Priestley and Antoine Lavoisier isolated pure oxygen, proving that fire is an active chemical combination with oxygen rather than the release of mysterious 'phlogiston', establishing modern quantitative chemistry.",
-      "field": "Chemistry"
+      "field": "Chemistry",
+      "theWorldBefore": "Chemists believed combustion was the release of an imaginary, weightless fire-spirit called 'phlogiston', confusing chemical reactions with alchemy.",
+      "curiositySpark": "Lavoisier carefully weighed sealed retorts during combustion, discovering that burned substances became heavier rather than lighter.",
+      "howItWorks": "Combustion and cellular respiration are chemical oxidation reactions combining combustible fuel with atmospheric oxygen gas.",
+      "civilizationalLeap": "Established the Law of Conservation of Mass and codified modern chemical nomenclature, transforming alchemy into quantitative science.",
+      "sortYear": 1774,
+      "yearDisplay": "1774",
+      "milestoneType": "discovery",
+      "badge": "Chemistry",
+      "creator": "Joseph Priestley & Antoine Lavoisier"
     },
     {
       "id": "disc_vaccination",
@@ -1735,7 +2164,16 @@
       "period": "1796",
       "discoverer": "Edward Jenner",
       "impact": "Used cowpox fluid to immunize against smallpox, initiating modern immunological prophylaxis and eradicating smallpox.",
-      "field": "Medicine & Immunology"
+      "field": "Medicine & Immunology",
+      "theWorldBefore": "Smallpox ravaged human civilization for millennia, scarring, blinding, and killing up to 400,000 Europeans annually without mercy.",
+      "curiositySpark": "Edward Jenner noted English country folklore: dairymaids who contracted mild cowpox from cows never caught the deadly smallpox.",
+      "howItWorks": "Exposure to a benign or attenuated pathogen trains adaptive immune memory cells to produce antibodies that neutralize lethal viruses upon future exposure.",
+      "civilizationalLeap": "Eradicated smallpox completely from the planet and founded modern immunology, saving hundreds of millions of lives.",
+      "sortYear": 1796,
+      "yearDisplay": "1796",
+      "milestoneType": "discovery",
+      "badge": "Immunology",
+      "creator": "Edward Jenner"
     },
     {
       "id": "disc_evolution",
@@ -1743,7 +2181,16 @@
       "period": "1859",
       "discoverer": "Charles Darwin & Alfred Russel Wallace",
       "impact": "Evolution by Natural Selection (1859): Charles Darwin and Alfred Russel Wallace discovered the mechanism driving biological diversity. Organisms with heritable variations best suited to their environment are more likely to survive and reproduce, shaping all living species.",
-      "field": "Evolutionary Biology"
+      "field": "Evolutionary Biology",
+      "theWorldBefore": "Living species were believed to be immutable, permanent creations dropped onto Earth in their modern forms a few thousand years ago.",
+      "curiositySpark": "Darwin's observations of island finches and fossils on the HMS Beagle voyage, combined with Malthus' insights on population pressure.",
+      "howItWorks": "Random genetic variations occur in offspring; traits conferring superior survival and reproductive success in a given environment are passed down across generations.",
+      "civilizationalLeap": "Unified all life into an interconnected, evolving family tree, becoming the foundational paradigm of all modern biology.",
+      "sortYear": 1859,
+      "yearDisplay": "1859",
+      "milestoneType": "discovery",
+      "badge": "Biology",
+      "creator": "Charles Darwin & Alfred Russel Wallace"
     },
     {
       "id": "disc_germ_theory",
@@ -1751,7 +2198,16 @@
       "period": "1860s – 1880s",
       "discoverer": "Louis Pasteur & Robert Koch",
       "impact": "Germ Theory of Disease (1860s–1880s): Louis Pasteur and Robert Koch proved that infectious diseases are caused by microscopic pathogens rather than 'bad air' (miasma), giving birth to pasteurization, antiseptic surgery, and modern vaccines.",
-      "field": "Medicine & Microbiology"
+      "field": "Medicine & Microbiology",
+      "theWorldBefore": "Diseases were blamed on foul night air ('miasma'), imbalanced bodily humors, astrological alignments, or divine retribution.",
+      "curiositySpark": "Pasteur proved yeast fermented wine and bacteria turned milk sour; Koch isolated the anthrax and tuberculosis bacillus under microscopes.",
+      "howItWorks": "Infectious illnesses are caused by specific microscopic living pathogens—bacteria, viruses, fungi, and parasites—invading host tissue.",
+      "civilizationalLeap": "Spawned antiseptic surgery, water chlorination, pasteurization, and antibiotic development, doubling human life expectancy.",
+      "sortYear": 1865,
+      "yearDisplay": "1860s",
+      "milestoneType": "discovery",
+      "badge": "Microbiology",
+      "creator": "Louis Pasteur & Robert Koch"
     },
     {
       "id": "disc_periodic_table",
@@ -1759,7 +2215,16 @@
       "period": "1869",
       "discoverer": "Dmitri Mendeleev",
       "impact": "The Periodic Law of Chemical Elements (1869): Dmitri Mendeleev organized elements by atomic mass and recurring chemical properties, predicting the existence and properties of unknown elements (Gallium, Germanium) and unlocking atomic structure.",
-      "field": "Chemistry"
+      "field": "Chemistry",
+      "theWorldBefore": "Known chemical elements were an unorganized catalog of arbitrary atomic weights, melting points, and unexplained chemical reactions.",
+      "curiositySpark": "Mendeleev played 'chemical solitaire' on Russian trains, seeking a hidden symmetry in nature's fundamental ingredients.",
+      "howItWorks": "Elements arranged by atomic number exhibit periodic repeating patterns of valence electrons and chemical reactivity across periods and groups.",
+      "civilizationalLeap": "Allowed chemists to predict unknown elements and their properties before discovery, unifying all matter into a predictive tabular code.",
+      "sortYear": 1869,
+      "yearDisplay": "1869",
+      "milestoneType": "discovery",
+      "badge": "Chemistry",
+      "creator": "Dmitri Mendeleev"
     },
     {
       "id": "disc_radioactivity",
@@ -1767,7 +2232,16 @@
       "period": "1896 – 1898",
       "discoverer": "Henri Becquerel, Marie & Pierre Curie",
       "impact": "Discovery of Radioactivity (1896–1898): Henri Becquerel, Marie Curie, and Pierre Curie discovered that uranium, polonium, and radium spontaneously emit penetrating energetic rays from unstable atomic nuclei, overturning the concept of indivisible atoms.",
-      "field": "Nuclear Physics"
+      "field": "Nuclear Physics",
+      "theWorldBefore": "Atoms were assumed to be solid, indestructible, unchanging billiard balls that lasted for eternity.",
+      "curiositySpark": "Becquerel found uranium fogged photographic plates in a dark drawer; the Curies discovered pitchblende was vastly more active than pure uranium.",
+      "howItWorks": "Unstable atomic nuclei undergo spontaneous radioactive decay, ejecting alpha particles, beta particles, or gamma radiation while transmuting into new elements.",
+      "civilizationalLeap": "Shattered the concept of immutable atoms, opening the door to nuclear energy, atomic weapons, and radiological medicine.",
+      "sortYear": 1896,
+      "yearDisplay": "1896 – 1898",
+      "milestoneType": "discovery",
+      "badge": "Nuclear Physics",
+      "creator": "Henri Becquerel, Marie & Pierre Curie"
     },
     {
       "id": "disc_electron",
@@ -1775,7 +2249,16 @@
       "period": "1897",
       "discoverer": "J.J. Thomson",
       "impact": "Discovery of the Subatomic Electron (1897): J.J. Thomson measured the charge-to-mass ratio of cathode rays, proving they were subatomic particles over 1,000 times lighter than a hydrogen atom, inaugurating subatomic physics.",
-      "field": "Physics"
+      "field": "Physics",
+      "theWorldBefore": "The atom was considered the ultimate indivisible particle of nature, with nothing smaller existing in the physical cosmos.",
+      "curiositySpark": "J.J. Thomson manipulated glowing cathode rays in vacuum tubes with electric and magnetic fields, calculating the mass-to-charge ratio.",
+      "howItWorks": "The electron is a subatomic elementary particle with negative electric charge, having approximately 1/1,836th the mass of a hydrogen atom.",
+      "civilizationalLeap": "Proved atoms possess internal structure, inaugurating subatomic particle physics and modern electronics.",
+      "sortYear": 1897,
+      "yearDisplay": "1897",
+      "milestoneType": "discovery",
+      "badge": "Subatomic",
+      "creator": "J.J. Thomson"
     },
     {
       "id": "disc_special_relativity",
@@ -1783,7 +2266,16 @@
       "period": "1905",
       "discoverer": "Albert Einstein",
       "impact": "Overturned absolute Newtonian space and time; proved light speed constancy in vacuum and mass-energy equivalence.",
-      "field": "Theoretical Physics"
+      "field": "Theoretical Physics",
+      "theWorldBefore": "Time was assumed to flow at a universal, absolute rate everywhere, with space existing as a rigid, unyielding three-dimensional stage.",
+      "curiositySpark": "Einstein asked what a light wave would look like if you ran alongside it, recognizing that the speed of light must be invariant for all observers.",
+      "howItWorks": "Space and time are intertwined into four-dimensional spacetime; clocks run slower and lengths contract for moving observers, with mass and energy linked via $E = mc^2$.",
+      "civilizationalLeap": "Overthrew Newtonian absolute space and time, laying the theoretical foundation for nuclear energy and modern astrophysics.",
+      "sortYear": 1905,
+      "yearDisplay": "1905",
+      "milestoneType": "discovery",
+      "badge": "Physics",
+      "creator": "Albert Einstein"
     },
     {
       "id": "disc_atomic_nucleus",
@@ -1791,7 +2283,16 @@
       "period": "1911",
       "discoverer": "Ernest Rutherford",
       "impact": "Discovered that the atom's positive charge and nearly all its mass resides in a tiny, dense central nucleus.",
-      "field": "Nuclear Physics"
+      "field": "Nuclear Physics",
+      "theWorldBefore": "Atoms were envisioned as 'plum puddings'—diffuse spheres of positive charge studded with electrons like raisins.",
+      "curiositySpark": "Rutherford instructed Marsden and Geiger to fire alpha particles at tissue-thin gold foil, expecting all particles to pass straight through.",
+      "howItWorks": "Over 99.9% of alpha particles passed through unaffected, but 1 in 8,000 bounced straight back: all positive charge and mass is concentrated in a tiny central nucleus.",
+      "civilizationalLeap": "Revealed that matter is 99.9999999% empty void, leading directly to Bohr's quantum atom and nuclear physics.",
+      "sortYear": 1911,
+      "yearDisplay": "1911",
+      "milestoneType": "discovery",
+      "badge": "Nuclear Physics",
+      "creator": "Ernest Rutherford"
     },
     {
       "id": "disc_penicillin",
@@ -1799,7 +2300,16 @@
       "period": "1928",
       "discoverer": "Alexander Fleming (purified by Florey & Chain)",
       "impact": "Discovery of Penicillin (1928): Alexander Fleming returned from vacation to find a stray Penicillium notatum mold contaminating a staphylococcus petri dish, noticing a bacteria-free zone around the mold. It launched the antibiotic era, saving hundreds of millions of lives.",
-      "field": "Medicine & Pharmacology"
+      "field": "Medicine & Pharmacology",
+      "theWorldBefore": "A simple scratch, scrape, or tooth infection could easily lead to septicemia and death, with battlefield wounds almost universally fatal.",
+      "curiositySpark": "Alexander Fleming returned from a vacation in 1928 to find a contaminated Petri dish where Penicillium mold had dissolved surrounding staphylococcus colonies.",
+      "howItWorks": "Penicillin inhibits bacterial cell wall synthesis by blocking peptidoglycan cross-linking, causing bacterial cells to rupture and die without harming human cells.",
+      "civilizationalLeap": "Launched the antibiotic era, transforming previously lethal bacterial infections into easily treatable conditions and saving over 200 million lives.",
+      "sortYear": 1928,
+      "yearDisplay": "1928",
+      "milestoneType": "discovery",
+      "badge": "Medicine",
+      "creator": "Alexander Fleming (purified by Florey & Chain)"
     },
     {
       "id": "disc_expanding_universe",
@@ -1807,7 +2317,16 @@
       "period": "1929",
       "discoverer": "Edwin Hubble & Georges Lemaître",
       "impact": "Proved galaxies are fleeing outward in all directions proportional to distance, providing bedrock evidence for the Big Bang.",
-      "field": "Cosmology"
+      "field": "Cosmology",
+      "theWorldBefore": "Humanity assumed the universe was static, eternal, and confined solely to our Milky Way galaxy surrounded by an endless black void.",
+      "curiositySpark": "Hubble measured redshift in Cepheid variable stars in distant nebulae using the 100-inch Hooker telescope, discovering that distant galaxies were fleeing from us.",
+      "howItWorks": "The fabric of space itself is expanding in all directions; the farther away a galaxy is, the faster it recedes, shifting its light toward longer (red) wavelengths.",
+      "civilizationalLeap": "Proved the cosmos had a temporal origin (the Big Bang) 13.8 billion years ago, giving humanity a cosmic narrative of creation and evolution.",
+      "sortYear": 1929,
+      "yearDisplay": "1929",
+      "milestoneType": "discovery",
+      "badge": "Cosmology",
+      "creator": "Edwin Hubble & Georges Lemaître"
     },
     {
       "id": "disc_dna_structure",
@@ -1815,7 +2334,16 @@
       "period": "1953",
       "discoverer": "Rosalind Franklin, James Watson, Francis Crick, Maurice Wilkins",
       "impact": "Decoded the physical double-helical architecture of genetic information, launching modern molecular biology and genetic engineering.",
-      "field": "Molecular Genetics"
+      "field": "Molecular Genetics",
+      "theWorldBefore": "Biologists debated whether proteins or nucleic acids carried the hereditary blueprint of life, with no mechanism known for genetic replication.",
+      "curiositySpark": "Franklin's Photo 51 revealed distinct helical diffraction crosses, prompting Watson and Crick to construct scale cardboard and metal base-pairing models.",
+      "howItWorks": "Two antiparallel sugar-phosphate backbones form a right-handed double helix, with interior nucleotide bases pairing specifically (A-T and G-C) via hydrogen bonds.",
+      "civilizationalLeap": "Decoded the physical language of heredity, launching molecular genetics, recombinant DNA, biotechnology, and the genomic revolution.",
+      "sortYear": 1953,
+      "yearDisplay": "1953",
+      "milestoneType": "discovery",
+      "badge": "Genetics",
+      "creator": "Rosalind Franklin, James Watson, Francis Crick, Maurice Wilkins"
     },
     {
       "id": "disc_plate_tectonics",
@@ -1823,7 +2351,16 @@
       "period": "1912 / 1960s",
       "discoverer": "Alfred Wegener, Harry Hess, Marie Tharp",
       "impact": "Unifying paradigm of geosciences: Earth's crust is divided into moving lithospheric plates causing earthquakes, volcanoes, and mountain chains.",
-      "field": "Geology & Geophysics"
+      "field": "Geology & Geophysics",
+      "theWorldBefore": "Geologists assumed Earth's continents were fixed, rigid masses that had remained immobile since the planet's cooling.",
+      "curiositySpark": "Wegener noticed the puzzle-piece fit of South America and Africa; Marie Tharp mapped mid-ocean ridges revealing continuous rift valleys.",
+      "howItWorks": "Earth's lithosphere is fractured into rigid plates that float and glide over the semi-fluid asthenosphere, driven by mantle convection currents.",
+      "civilizationalLeap": "Provided the unifying theory of earth science, explaining earthquakes, volcanic chains, mountain formation, and fossil distributions.",
+      "sortYear": 1912,
+      "yearDisplay": "1912 / 1960s",
+      "milestoneType": "discovery",
+      "badge": "Geophysics",
+      "creator": "Alfred Wegener, Harry Hess, Marie Tharp"
     },
     {
       "id": "disc_cmb",
@@ -1831,7 +2368,16 @@
       "period": "1964",
       "discoverer": "Arno Penzias & Robert Wilson",
       "impact": "Detected relic thermal radiation from 380,000 years after the Big Bang, confirming our cosmic origins.",
-      "field": "Cosmology & Astrophysics"
+      "field": "Cosmology & Astrophysics",
+      "theWorldBefore": "Cosmologists debated whether the universe had exploded into being in a hot Big Bang or existed forever in a 'Steady State' of continuous creation.",
+      "curiositySpark": "Penzias and Wilson cleaned pigeon droppings from their Holmdel horn antenna, but an isotropic microwave hiss persisted equally in every direction.",
+      "howItWorks": "The relic thermal radiation released 380,000 years after the Big Bang when neutral atoms formed and light decoupled, now cooled by cosmic expansion to 2.725 Kelvin.",
+      "civilizationalLeap": "Conclusively proved the Big Bang theory, offering a baby picture of our universe when it was a uniform soup of hot plasma.",
+      "sortYear": 1964,
+      "yearDisplay": "1964",
+      "milestoneType": "discovery",
+      "badge": "Cosmology",
+      "creator": "Arno Penzias & Robert Wilson"
     },
     {
       "id": "disc_grav_waves",
@@ -1839,7 +2385,16 @@
       "period": "2015",
       "discoverer": "LIGO & Virgo Scientific Collaborations",
       "impact": "Observed ripples in spacetime produced by the merger of two black holes 1.3 billion years ago, confirming Einstein's 1916 prediction.",
-      "field": "Astrophysics & Relativity"
+      "field": "Astrophysics & Relativity",
+      "theWorldBefore": "Astronomers could only observe the universe through electromagnetic radiation (visible light, radio, X-rays), blind to invisible violent cosmic events.",
+      "curiositySpark": "Einstein predicted gravitational waves in 1916; LIGO physicists built laser interferometers capable of measuring shifts 1/10,000th the width of a proton.",
+      "howItWorks": "Accelerating massive celestial bodies (like colliding black holes) warp and ripple the fabric of spacetime, propagating outward at the speed of light.",
+      "civilizationalLeap": "Opened a revolutionary new sensory window onto the universe: gravitational wave astronomy, allowing us to 'hear' colliding black holes and neutron stars.",
+      "sortYear": 2015,
+      "yearDisplay": "2015",
+      "milestoneType": "discovery",
+      "badge": "Astrophysics",
+      "creator": "LIGO & Virgo Scientific Collaborations"
     },
     {
       "id": "disc_black_hole_shadow",
@@ -1847,7 +2402,16 @@
       "period": "2019",
       "discoverer": "Event Horizon Telescope (EHT) Collaboration",
       "impact": "Captured direct sub-millimeter radio image of the supermassive black hole event horizon in galaxy M87*.",
-      "field": "Astrophysics"
+      "field": "Astrophysics",
+      "theWorldBefore": "Black holes were purely mathematical concepts from general relativity, unphotographed and hidden by intense gravitational singularity horizons.",
+      "curiositySpark": "The Event Horizon Telescope linked radio observatories across Antarctica, Hawaii, Chile, and Europe into a planet-sized virtual radio dish.",
+      "howItWorks": "Supermassive black holes bend surrounding light rays from glowing accretion disks, casting a dark central shadow encircled by a photon ring.",
+      "civilizationalLeap": "Captured the first direct image of the supermassive black hole in galaxy M87, confirming Einstein's extreme gravity equations under the harshest cosmic conditions.",
+      "sortYear": 2019,
+      "yearDisplay": "2019",
+      "milestoneType": "discovery",
+      "badge": "Astrophysics",
+      "creator": "Event Horizon Telescope (EHT) Collaboration"
     }
   ],
   "puzzles": [
